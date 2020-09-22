@@ -18,6 +18,19 @@ body {
   margin: 25px; 
 }
 
+.github-link {
+  color: $blue;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding-bottom: 0.2rem;
+  transition: all 0.25s;
+}
+
+.github-link:hover {
+  color: black;
+  font-size: 2.5rem;
+}
+
 .links {
   margin-bottom: 2rem;
 }

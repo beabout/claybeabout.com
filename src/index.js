@@ -100,7 +100,7 @@ class Projects extends React.Component {
           <div>
             <h2>
               {project}
-              <a href='https://github.com/Cbeeb121/MovieCannon'>
+              <a className="github-link" href='https://github.com/Cbeeb121/MovieCannon'>
                 <FaGithub />
               </a>
             </h2>
