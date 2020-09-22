@@ -74,7 +74,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="homepage">
-          <FadeIn><h1 style={{color:"#8cb9bd"}}>hello,</h1></FadeIn>
+          <FadeIn><h1 style={{color:"#8cb9bd"}}>hello.</h1></FadeIn>
           <FadeIn><h1>clay beabout.</h1></FadeIn>
           <div className="links">
             <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class }>bio</div>
