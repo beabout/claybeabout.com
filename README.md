@@ -3,7 +3,6 @@
 - Located at claybeabout.com (obv)
 
 ### Devops 
-1. When updating run `npm run build` to place all new changes into the `build` directory. 
-2. Firebase will reference the `build` directory for deployment
-3. Deploy all changes via `firebase deploy` 
-4. Dance 
+- Firebase will reference the `build` directory for deployment
+- When updating run `npm run build` to place all new changes into the `build` directory. Followed by `firebase deploy` to submit changes to firebase.
+- Dance whenever possible
