@@ -126,9 +126,17 @@ class Bio extends React.Component {
   render() {
     return (
       <FadeIn>
-        <p>
-          Maybe put links up top here? Linkedin, Github. 
-        </p>
+        <div>
+          <a href="https://github.com/Cbeeb121">
+            <div className={btn_class}>github</div>
+          </a>
+          <a href="https://www.linkedin.com/in/clayton-beabout/">
+            <div className={btn_class}>linkedin</div>
+          </a>
+          <a href="https://douglascounty.younglife.org/about-2/">
+            <div className={btn_class}>young life</div>
+          </a>
+        </div>
         <p>
           Something about Young Life. Lawrence, KS. Marriage.
         </p>
@@ -144,14 +152,33 @@ class Resume extends React.Component {
   render() { 
     return (
       <FadeIn>
-        <h2>Work Experience.</h2>
+        <h2 className="header">education.</h2>
+        <p>Computer Science Undergraduate - University of Kansas</p>
+        <h2 className="header">work experience.</h2>
+        <h3>Brand New Box (2018-Today)</h3>
+        <p>details.</p>
+        <h2 className="header">volunteer work.</h2>
+        <h3>Young Life (2016-Today)</h3>
+        <p>details.</p>
+        <h3>Association for Computing Machinery.</h3>
+        <p>Public Relations Chair (2018-2019)</p>
         <p>some details below here.</p>
-        <h2>Volunteer Work.</h2>
+        <h2 className="header">hobbies.</h2>
+        <ul>
+          <li>Banjo</li>
+          <li>Coding</li>
+          <li>Film</li>
+        </ul>
+        <h2 className="header">programming abilities.</h2>
         <p>some details below here.</p>
-        <h2>Hobbies.</h2>
-        <p>some details below here.</p>
-        <h2>Programming Abilities.</h2>
-        <p>some details below here.</p>
+        <ul>
+          <li>proficient: C++, Ruby, HTML, CSS</li>
+          <li>Familiar: Python, Javascript, Haskell, Java</li>
+          <li>Frameworks & Tools: React, Rails, Docker, Redis, SQL, MySQL, GraphQL, Django?</li>
+          <li></li>
+        </ul>
+
+        <div className={btn_class}>download resumé</div>
       </FadeIn>
     ) 
   }
