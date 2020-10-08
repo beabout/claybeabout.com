@@ -7,8 +7,13 @@ import {
   Link
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
-import { FaTwitter, FaGithub, FaThemeisle } from 'react-icons/fa';
+import { Button, Badge } from 'react-bootstrap';
+import { 
+  FaTwitter, 
+  FaGithub, 
+  FaLinkedin,
+  FaThemeisle 
+} from 'react-icons/fa';
 import './index.scss';
 import WebFont from 'webfontloader';
 import FadeIn from 'react-fade-in';
@@ -21,7 +26,53 @@ WebFont.load({
 
 /* Macro variables */
 const links = ['projects', 'films', 'catalog', 'resumé'];
-const projects = ['MovieCannon', 'mlem2'];
+const projects = [
+  [
+    'MovieCannon',
+    'MovieCannon',
+    'Film cataloging application with dynamic searching and categorization capabilities.'
+  ], 
+  [
+    'mlem2',
+    'mlem2',
+    'A Ruby implementation of the popular mlem2 data mining algorithm.'
+  ],
+  [
+    'docoyounglifesale.com',
+    'docoyounglifesale',
+    'Showcasing and event-based application granting visitors access to fundraiser details, local vendors and sale products.'
+  ],
+  [
+    'Tuun',
+    'https://github.com/mleong25/tuun',
+    'Collaborative music application for users to combine their music interests into a single playlist.'
+  ],
+  [
+    'Sudoku Solver',
+    'SudokuSolver',
+    'Takes in a sudoku puzzle and spits it back out completed.'
+  ],
+  [
+    'Mine Sweeper',
+    'minesweeper',
+    'Unity-based minesweeper application.'
+  ]
+]
+
+const programming_abilities = [
+  'C++',
+  'Ruby on Rails',
+  'Compiler Construction',
+  'Python',
+  'Javascript',
+  'Haskell',
+  'React',
+  'Rails',
+  'Docker',
+  'Redis',
+  'SQL',
+  'MySQL'
+]
 const btn_class = "btn btn-primary";
 
 class App extends React.Component { 
@@ -74,11 +125,11 @@ class App extends React.Component {
     return (
       <div>
         <div className="homepage">
-          <FadeIn><h1 style={{color:"#8cb9bd"}}>hello.</h1></FadeIn>
+          <FadeIn><h1 style={{color:"#8cb9bd"}}>hello,</h1></FadeIn>
           <FadeIn><h1>clay beabout.</h1></FadeIn>
           <div className="links">
             <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class }>bio</div>
-            <div onClick={this.showCatalogState} className={this.state.showCatalog ? btn_class + " clicked" : btn_class }>catalog</div>
+            {/* <div onClick={this.showCatalogState} className={this.state.showCatalog ? btn_class + " clicked" : btn_class }>catalog</div> */}
             <div onClick={this.showProjectsState} className={this.state.showProjects ? btn_class + " clicked" : btn_class }>projects</div> 
             <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class }>resumé</div>
           </div>
@@ -99,12 +150,12 @@ class Projects extends React.Component {
         {projects.map(project => (
           <div>
             <h2>
-              {project}
-              <a className="github-link" href='https://github.com/Cbeeb121/MovieCannon'>
+              {project[0]}
+              <a className="fa-link" href={'https://github.com/Cbeeb121/' + project[1]}>
                 <FaGithub />
               </a>
             </h2>
-            <p>Cataloging site for film enthusiasts.</p>
+            <p>{project[2]}</p>
           </div>
         ))}
       </FadeIn>
@@ -127,22 +178,13 @@ class Bio extends React.Component {
     return (
       <FadeIn>
         <div>
-          <a href="https://github.com/Cbeeb121">
-            <div className={btn_class}>github</div>
+          <a className="fa-link" href='https://github.com/Cbeeb121/MovieCannon'>
+            <FaGithub></FaGithub>
           </a>
-          <a href="https://www.linkedin.com/in/clayton-beabout/">
-            <div className={btn_class}>linkedin</div>
-          </a>
-          <a href="https://douglascounty.younglife.org/about-2/">
-            <div className={btn_class}>young life</div>
+          <a className="fa-link" href="https://www.linkedin.com/in/clayton-beabout/">
+            <FaLinkedin></FaLinkedin>
           </a>
         </div>
-        <p>
-          Something about Young Life. Lawrence, KS. Marriage.
-        </p>
-        <p>
-          Make very Blog-esc
-        </p>
       </FadeIn>
     ) 
   }
@@ -152,33 +194,22 @@ class Resume extends React.Component {
   render() { 
     return (
       <FadeIn>
+        <h2 className="header">programming abilities.</h2>
+        {programming_abilities.map(ability => (
+          <p>{ability}</p>
+        ))}
         <h2 className="header">education.</h2>
-        <p>Computer Science Undergraduate - University of Kansas</p>
+        <p>BSc. Computer Science - University of Kansas</p>
         <h2 className="header">work experience.</h2>
         <h3>Brand New Box (2018-Today)</h3>
-        <p>details.</p>
+        <p>Software Developer</p>
         <h2 className="header">volunteer work.</h2>
         <h3>Young Life (2016-Today)</h3>
-        <p>details.</p>
+        <p>Young Life Senior Leader</p>
         <h3>Association for Computing Machinery.</h3>
         <p>Public Relations Chair (2018-2019)</p>
-        <p>some details below here.</p>
-        <h2 className="header">hobbies.</h2>
-        <ul>
-          <li>Banjo</li>
-          <li>Coding</li>
-          <li>Film</li>
-        </ul>
-        <h2 className="header">programming abilities.</h2>
-        <p>some details below here.</p>
-        <ul>
-          <li>proficient: C++, Ruby, HTML, CSS</li>
-          <li>Familiar: Python, Javascript, Haskell, Java</li>
-          <li>Frameworks & Tools: React, Rails, Docker, Redis, SQL, MySQL, GraphQL, Django?</li>
-          <li></li>
-        </ul>
 
-        <div className={btn_class}>download resumé</div>
+        {/* <div className={btn_class}>download resumé</div> */}
       </FadeIn>
     ) 
   }
