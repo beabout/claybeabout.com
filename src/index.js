@@ -38,7 +38,7 @@ const projects = [
     'A Ruby implementation of the popular mlem2 data mining algorithm.'
   ],
   [
-    'docoyounglifesale.com',
+    'docoylsale.com',
     'docoyounglifesale',
     'Showcasing and event-based application granting visitors access to fundraiser details, local vendors and sale products.'
   ],
