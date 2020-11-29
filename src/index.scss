@@ -22,9 +22,10 @@ h3 {
 
 body {
   font-family: $font;
-  background-color: $white;
+  background-color: $secondary-color;
   font: 24px "Century Gothic", Futura, sans-serif;
-  margin: 25px; 
+  margin: 25px;
+  color: $white;
 }
 
 .fa-link {
@@ -84,11 +85,11 @@ h2 {
 .btn-primary {
   font-size: 20px;
   margin: 0.25rem;
-  background-color: $white;
+  background-color: $secondary-color;
   border-radius: 0rem;
-  border-color: black;
+  border-color:$blue;
   padding: 0rem 1rem 0rem 1rem;
-  color: black;
+  color: $white;
   transition: all 0.5s;
 }
 
