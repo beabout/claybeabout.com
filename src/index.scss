@@ -2,7 +2,8 @@
 $font: 'Martel', serif;
 
 /* COLOR THEMES */
-$white: #fff;
+// $white: #fff;
+$white: #e0e0e0;
 $primary-color: $white;
 $secondary-color: black;
 $blue: #8cb9bd;
@@ -37,7 +38,7 @@ body {
 }
 
 .fa-link:hover {
-  color: black;
+  color: $white;
   font-size: 2.5rem;
 }
 
@@ -61,7 +62,7 @@ h2 {
   border-color: $blue !important;
   padding-right: 25px !important;
   padding-left: 25px !important;
-  color: $white !important;
+  color: $secondary-color !important;
 }
 
 .fadeOut{
@@ -96,11 +97,12 @@ h2 {
 .btn-primary:hover {
   background-color: $blue;
   border-color: $blue;
+  color: $secondary-color;
   padding-right: 25px;
   padding-left: 25px;
 }
 
-.btn-primary:active { 
+.btn-primary:active {
   border-style: outset;
 }
 
@@ -138,6 +140,7 @@ ol, ul {
 }
 
 .progress-bar {
+  color: $secondary-color;
   padding-left: 0.25rem;
   background-color: $blue;
   text-align: left;
