@@ -60,18 +60,15 @@ const projects = [
 ]
 
 const programming_abilities = [
-  'C++',
-  'Ruby on Rails',
-  'Compiler Construction',
-  'Python',
-  'Javascript',
-  'Haskell',
-  'React',
-  'Rails',
-  'Docker',
-  'Redis',
-  'SQL',
-  'MySQL'
+  { name: 'C++', rank: 10 },
+  { name: 'Ruby on Rails', rank: 10 },
+  { name: 'Docker', rank: 8 },
+  { name: 'Python', rank: 8 },
+  { name: 'React (Javascript)', rank: 8 },
+  { name: 'Databases (SQL, Postgres)', rank: 8 },
+  { name: 'Compiler Construction', rank: 8 },
+  { name: 'Debugging', rank: 8 },
+  { name: 'Functional Development (Haskell)', rank: 8 }
 ]
 const btn_class = "btn btn-primary";
 
@@ -196,20 +193,27 @@ class Resume extends React.Component {
       <FadeIn>
         <h2 className="header">programming abilities.</h2>
         {programming_abilities.map(ability => (
-          <p>{ability}</p>
+          <div class="row">
+            <div class="col-6">
+              <div class="progress pull-left">
+                <div class="progress-bar" role="progressbar" style={{ width: (ability.rank*10) + "%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{ability.name}</div>
+              </div>
+            </div>
+          </div>
         ))}
         <h2 className="header">education.</h2>
         <p>BSc. Computer Science - University of Kansas</p>
         <h2 className="header">work experience.</h2>
-        <h3>Brand New Box (2018-Today)</h3>
+        <h3>Garmin International (Jan '21 - Today)</h3>
+        <p>Software Engineer</p>
+        <h3>Brand New Box (Jan '18 - Dec '20)</h3>
         <p>Software Developer</p>
         <h2 className="header">volunteer work.</h2>
         <h3>Young Life (2016-Today)</h3>
         <p>Young Life Senior Leader</p>
         <h3>Association for Computing Machinery.</h3>
         <p>Public Relations Chair (2018-2019)</p>
-
-        {/* <div className={btn_class}>download resumé</div> */}
+        <a href='/ClaytonBeabout.pdf' className={btn_class} download>download resumé</a>
       </FadeIn>
     ) 
   }
