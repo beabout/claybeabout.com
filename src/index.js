@@ -12,6 +12,7 @@ import {
   FaTwitter, 
   FaGithub, 
   FaLinkedin,
+  FaGoogle,
   FaThemeisle 
 } from 'react-icons/fa';
 import './index.scss';
@@ -126,7 +127,6 @@ class App extends React.Component {
           <FadeIn><h1>clay beabout.</h1></FadeIn>
           <div className="links">
             <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class }>bio</div>
-            {/* <div onClick={this.showCatalogState} className={this.state.showCatalog ? btn_class + " clicked" : btn_class }>catalog</div> */}
             <div onClick={this.showProjectsState} className={this.state.showProjects ? btn_class + " clicked" : btn_class }>projects</div> 
             <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class }>resumé</div>
           </div>
@@ -145,7 +145,7 @@ class Projects extends React.Component {
     return (
       <FadeIn>
         {projects.map(project => (
-          <div>
+          <div class="jumbotron">
             <h2>
               {project[0]}
               <a className="fa-link" href={'https://github.com/Cbeeb121/' + project[1]}>
@@ -178,6 +178,9 @@ class Bio extends React.Component {
           <a className="fa-link" href='https://github.com/Cbeeb121'>
             <FaGithub></FaGithub>
           </a>
+          <a className="fa-link" href='mailto:beaboutclayton@gmail.com'>
+            <FaGoogle></FaGoogle>
+          </a>
           <a className="fa-link" href="https://www.linkedin.com/in/clayton-beabout/">
             <FaLinkedin></FaLinkedin>
           </a>
@@ -191,28 +194,39 @@ class Resume extends React.Component {
   render() { 
     return (
       <FadeIn>
-        <h2 className="header">programming abilities.</h2>
-        {programming_abilities.map(ability => (
-          <div class="row">
-            <div class="col-6">
-              <div class="progress pull-left">
-                <div class="progress-bar" role="progressbar" style={{ width: (ability.rank*10) + "%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{ability.name}</div>
-              </div>
+        <div className="jumbotron">
+          <h2 className="header">programming abilities.</h2>
+          <div className="row">
+            <div className="col-12.col-md-6">
+              {programming_abilities.map(ability => (
+                <div class="progress pull-left">
+                  <div class="progress-bar" role="progressbar" style={{ width: (ability.rank*10) + "%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{ability.name}</div>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
-        <h2 className="header">education.</h2>
-        <p>BSc. Computer Science - University of Kansas</p>
-        <h2 className="header">work experience.</h2>
-        <h3>Garmin International (Jan '21 - Today)</h3>
-        <p>Software Engineer</p>
-        <h3>Brand New Box (Jan '18 - Dec '20)</h3>
-        <p>Software Developer</p>
-        <h2 className="header">volunteer work.</h2>
-        <h3>Young Life (2016-Today)</h3>
-        <p>Young Life Senior Leader</p>
-        <h3>Association for Computing Machinery.</h3>
-        <p>Public Relations Chair (2018-2019)</p>
+        </div>
+        <hr></hr>
+        <div className="jumbotron">
+          <h2 className="header">education.</h2>
+          <p>BSc. Computer Science - University of Kansas</p>
+        </div>
+        <hr></hr>
+        <div className="jumbotron">
+          <h2 className="header">work experience.</h2>
+          <h3>Garmin International (Jan '21 - Today)</h3>
+          <p>Software Engineer</p>
+          <h3>Brand New Box (Jan '18 - Dec '20)</h3>
+          <p>Software Developer</p>
+        </div>
+        <hr></hr>
+        <div className="jumbotron">
+          <h2 className="header">volunteer work.</h2>
+          <h3>Young Life (2016-Today)</h3>
+          <p>Young Life Senior Leader</p>
+          <h3>Association for Computing Machinery.</h3>
+          <p>Public Relations Chair (2018-2019)</p>
+        </div>
         <a href='/ClaytonBeabout.pdf' className={btn_class} download>download resumé</a>
       </FadeIn>
     ) 
