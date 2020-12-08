@@ -1,5 +1,7 @@
 import React from 'react';
-// import './Index.scss';
+import { withStyles } from '@material-ui/core/styles';
+import './Index.scss';
+import { Button, LinearProgress } from "@material-ui/core";
 import FadeIn from 'react-fade-in';
 
 const programming_abilities = [
@@ -13,25 +15,50 @@ const programming_abilities = [
   { name: 'Haskell', rank: 8 }
 ]
 
-const btn_class = "btn btn-primary";
+const BorderLinearProgress = withStyles((theme) => ({
+  root: {
+    height: 15,
+    borderRadius: 5,
+    width: "50%",
+  },
+  colorPrimary: {
+    backgroundColor: theme.palette.grey[theme.palette.type === 'light' ? 200 : 700],
+  },
+  bar: {
+    borderRadius: 5,
+    backgroundColor: '#4ec7d0',
+  },
+}))(LinearProgress);
+
+const StyledButton = withStyles((theme) => ({
+  outlined: {
+    borderColor: '#4ec7d0',
+    color: '#4ec7d0',
+    fontFamily: 'Barlow, sans-serif',
+  }
+}))(Button);
 
 class Resume extends React.Component {
   render() {
     return (
       <FadeIn>
         <div className="jumbotron">
+          <StyledButton variant="outlined" href='/ClaytonBeabout.pdf' download>download resumé</StyledButton>
           <h2 className="header">programming abilities.</h2>
+          <br />
           <div className="row">
             <div className="col-12.col-md-6">
               {programming_abilities.map(ability => (
-                <div class="progress pull-left">
-                  <div class="progress-bar" role="progressbar" style={{ width: (ability.rank * 10) + "%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">{ability.name}</div>
+                <div>
+                  {ability.name}
+                  <BorderLinearProgress variant="determinate" value={(ability.rank * 10)} />
+                  <br />
                 </div>
               ))}
             </div>
           </div>
         </div>
-        <hr></hr>
+        <hr />
         <div className="jumbotron">
           <h2 className="header">education.</h2>
           <p>BSc. Computer Science - University of Kansas</p>
@@ -44,7 +71,7 @@ class Resume extends React.Component {
           <h3>Brand New Box (Jan '18 - Dec '20)</h3>
           <p>Software Developer</p>
         </div>
-        <hr></hr>
+        <hr />
         <div className="jumbotron">
           <h2 className="header">volunteer work.</h2>
           <h3>Young Life (2016-Today)</h3>
@@ -52,7 +79,6 @@ class Resume extends React.Component {
           <h3>Association for Computing Machinery.</h3>
           <p>Public Relations Chair (2018-2019)</p>
         </div>
-        <a href='/ClaytonBeabout.pdf' className={btn_class} download>download resumé</a>
       </FadeIn>
     )
   }

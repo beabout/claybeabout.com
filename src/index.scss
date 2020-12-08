@@ -97,13 +97,14 @@ h2 {
 }
 
 .btn-primary {
-  font-size: 20px;
-  margin: 0.25rem;
+  width: 25%;
+  font-size: 25px;
   background-color: $secondary-color;
-  border-radius: 0rem;
-  border-color:$blue;
-  padding: 0rem 1rem 0rem 1rem;
+  border-color: $blue;
   color: $white;
+  margin: 0.25rem;
+  border-radius: 0rem;
+  padding: 0rem 1rem 0rem 1rem;
   transition: all 0.5s;
 }
 
@@ -158,7 +159,6 @@ ol, ul {
   padding-left: 0.25rem;
   background-color: $blue;
   text-align: left;
-  // padding-top: 1rem;
 }
 
 .jumbotron {
@@ -171,4 +171,19 @@ ol, ul {
 
 hr {
   border-color: $blue; 
+}
+
+.sidebar {
+  width: 100px;
+}
+
+.resume-btn {
+  background-color: $blue;
+  border-radius: 1rem;
+}
+
+.resume-btn:hover {
+  background-color: $secondary-color;
+  border-color: $blue;
+  color: $blue;
 }
