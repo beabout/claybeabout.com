@@ -38,13 +38,23 @@ const StyledButton = withStyles((theme) => ({
   }
 }))(Button);
 
+const DateRangeBtn = withStyles({
+  contained: {
+    marginLeft: '1rem',
+    color: 'white',
+    fontWeight: 500,
+    padding: '0.25rem 0.25rem', 
+    backgroundColor: 'black',
+    fontFamily: 'Barlow, sans-serif',
+  }
+})(Button);
+
 class Resume extends React.Component {
   render() {
     return (
       <FadeIn>
         <div className="jumbotron">
-          <StyledButton variant="outlined" href='/ClaytonBeabout.pdf' download>download resumé</StyledButton>
-          <h2 className="header">programming abilities.</h2>
+          <h2 className="header">abilities.</h2>
           <br />
           <div className="row">
             <div className="col-12.col-md-6">
@@ -60,25 +70,33 @@ class Resume extends React.Component {
         </div>
         <hr />
         <div className="jumbotron">
-          <h2 className="header">education.</h2>
-          <p>BSc. Computer Science - University of Kansas</p>
-        </div>
-        <hr></hr>
-        <div className="jumbotron">
-          <h2 className="header">work experience.</h2>
-          <h3>Garmin International (Jan '21 - Today)</h3>
+          <h2 className="header">experience.</h2>
+          <h3>
+            <a href="https://www.garmin.com/en-US/">Garmin International</a>
+            <DateRangeBtn variant="contained">Jan '21 - Today</DateRangeBtn>
+          </h3>
           <p>Software Engineer</p>
-          <h3>Brand New Box (Jan '18 - Dec '20)</h3>
+          <h3>
+            <a href="https://brandnewbox.com/">Brand New Box</a>
+            <DateRangeBtn variant="contained">Jan '18 - Dec '20</DateRangeBtn>
+          </h3>
           <p>Software Developer</p>
         </div>
         <hr />
         <div className="jumbotron">
-          <h2 className="header">volunteer work.</h2>
-          <h3>Young Life (2016-Today)</h3>
+          <h2 className="header">extras.</h2>
+          <h3>
+            Young Life
+            <DateRangeBtn variant="contained">2016 - Today</DateRangeBtn>
+          </h3>
           <p>Young Life Senior Leader</p>
-          <h3>Association for Computing Machinery.</h3>
-          <p>Public Relations Chair (2018-2019)</p>
+          <h3>
+            Association for Computing Machinery
+            <DateRangeBtn variant="contained">2018 - 2019</DateRangeBtn>
+          </h3>
+          <p>Public Relations Chair</p>
         </div>
+        <StyledButton variant="outlined" href='/ClaytonBeabout.pdf' download>download resumé</StyledButton>
       </FadeIn>
     )
   }

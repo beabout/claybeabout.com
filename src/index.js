@@ -61,22 +61,18 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="homepage">
-          {/* <SwipeableTemporaryDrawer /> */}
-          <FadeIn><h1 className="blue">hello,</h1></FadeIn>
-          <FadeIn><h1>clay beabout.</h1></FadeIn>
-          <br/>
-          <div className="links">
-            <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class}>bio</div>
-            <div onClick={this.showProjectsState} className={this.state.showProjects ? btn_class + " clicked" : btn_class}>projects</div>
-            <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class}>resumé</div>
-          </div>
-          {this.state.showProjects && <Projects />}
-          {this.state.showBio && <Bio />}
-          {this.state.showCatalog && <Catalog />}
-          {this.state.showResume && <Resume />}
+      <div className="homepage">
+        <FadeIn><h1 className="blue">hello,</h1><h1>clay beabout.</h1></FadeIn>
+        <br/>
+        <div className="links">
+          <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class}>bio</div>
+          <div onClick={this.showProjectsState} className={this.state.showProjects ? btn_class + " clicked" : btn_class}>projects</div>
+          <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class}>resumé</div>
         </div>
+        {this.state.showProjects && <Projects />}
+        {this.state.showBio && <Bio />}
+        {this.state.showCatalog && <Catalog />}
+        {this.state.showResume && <Resume />}
       </div>
     );
   };

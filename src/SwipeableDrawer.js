@@ -1,7 +1,7 @@
 import React from "react";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import { Button, Divider, List, ListItem, ListItemText } from "@material-ui/core";
+import { Drawer, Button, Divider, List, ListItem, ListItemText } from "@material-ui/core";
 import { FaBars } from 'react-icons/fa';
 import './Index.scss';
 
@@ -37,7 +37,7 @@ export default function SwipeableTemporaryDrawer() {
 
     setState({ ...state, [anchor]: open });
   };
-  
+
   return (
     <div>
       <React.Fragment key={'right'}>
