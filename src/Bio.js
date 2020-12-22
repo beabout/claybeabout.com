@@ -8,7 +8,7 @@ class Bio extends React.Component {
     return (
       <FadeIn>
         <div>
-          <a className="fa-link" href='https://github.com/Cbeeb121'>
+          <a className="fa-link" href='https://github.com/beabout'>
             <FaGithub></FaGithub>
           </a>
           <a className="fa-link" href='mailto:beaboutclayton@gmail.com'>

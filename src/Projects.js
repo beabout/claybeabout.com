@@ -13,9 +13,6 @@ const projects = [
   [ 'docoylsale.com', 'docoyounglifesale',
     'Showcasing and event-based application granting visitors access to fundraiser details, local vendors and sale products.'
   ],
-  [ 'Tuun', 'https://github.com/mleong25/tuun',
-    'Collaborative music application for users to combine their music interests into a single playlist.'
-  ],
   [ 'Sudoku Solver', 'SudokuSolver',
     'Takes in a sudoku puzzle and spits it back out completed.'
   ],
@@ -32,13 +29,22 @@ class Projects extends React.Component {
           <div class="jumbotron">
             <h2>
               {project[0]}
-              <a className="fa-link" href={'https://github.com/Cbeeb121/' + project[1]}>
+              <a className="fa-link" href={'https://github.com/beabout/' + project[1]}>
                 <FaGithub />
               </a>
             </h2>
             <p>{project[2]}</p>
           </div>
         ))}
+        <div class="jumbotron">
+          <h2>
+            Tuun
+            <a className="fa-link" href={'https://github.com/mleong25/tuun'}>
+              <FaGithub />
+            </a>
+          </h2>
+          <p>Collaborative music application for users to combine their music interests into a single playlist.</p>
+        </div>
       </FadeIn>
     )
   }
