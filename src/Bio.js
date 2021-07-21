@@ -1,5 +1,5 @@
 import React from 'react';
-import './Index.scss';
+import './index.scss';
 import { FaGithub, FaGoogle, FaLinkedin } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
 

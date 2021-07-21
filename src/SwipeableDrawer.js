@@ -3,7 +3,7 @@ import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import { Drawer, Button, Divider, List, ListItem, ListItemText } from "@material-ui/core";
 import { FaBars } from 'react-icons/fa';
-import './Index.scss';
+import './index.scss';
 
 const useStyles = makeStyles({
   list: {
