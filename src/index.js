@@ -83,13 +83,13 @@ class App extends React.Component {
         <div className="links">
           <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class}>bio</div>
           <div onClick={this.showProjectsState} className={this.state.showProjects ? btn_class + " clicked" : btn_class}>projects</div>
-          <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class}>resumé</div>
+          {/* <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class}>resumé</div> */}
           <div onClick={this.showReadsState} className={this.state.showReads ? btn_class + " clicked" : btn_class}>reads</div>
         </div>
         {this.state.showProjects && <Projects />}
         {this.state.showBio && <Bio />}
         {this.state.showCatalog && <Catalog />}
-        {this.state.showResume && <Resume />}
+        {/* {this.state.showResume && <Resume />} */}
         {this.state.showReads && <Reads />}
       </div>
     );
