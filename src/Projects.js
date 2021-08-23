@@ -2,6 +2,27 @@ import React from 'react';
 import './index.scss';
 import { FaGithub } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
+import { Card,
+  CardActions,
+  CardContent,
+  makeStyles,
+  Grid,
+  Paper
+} from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  card: {
+    backgroundColor: "black",
+    color: "white",
+    padding: 0,
+  },
+  content: {
+    paddingLeft: 0,
+  }
+}));
 
 const projects = [
   [ 'MovieCannon', 'MovieCannon',
@@ -21,33 +42,29 @@ const projects = [
   ]
 ]
 
-class Projects extends React.Component {
-  render() {
+export default function Projects() {
+    const classes = useStyles();
     return (
-      <FadeIn>
-        {projects.map(project => (
-          <div class="jumbotron">
-            <h2>
-              {project[0]}
-              <a className="fa-link" href={'https://github.com/beabout/' + project[1]}>
-                <FaGithub />
-              </a>
-            </h2>
-            <p>{project[2]}</p>
-          </div>
-        ))}
-        <div class="jumbotron">
-          <h2>
-            Tuun
-            <a className="fa-link" href={'https://github.com/mleong25/tuun'}>
-              <FaGithub />
-            </a>
-          </h2>
-          <p>Collaborative music application for users to combine their music interests into a single playlist.</p>
-        </div>
+      <FadeIn className={classes.root}>
+        <Grid container spacing={2}>
+          {projects.map(project => (
+            <Grid item s={12} md={6}>
+              <Card className={classes.card}>
+                <CardContent className={classes.content}>
+                  <h3>
+                    <a className="fa-link" href={'https://github.com/beabout/' + project[1]}>
+                      <FaGithub />
+                    </a>
+                    {project[0]}
+                  </h3>
+                  <p>{project[2]}</p>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
       </FadeIn>
     )
-  }
 }
 
-export default Projects;
+// export default Projects;

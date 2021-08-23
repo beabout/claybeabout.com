@@ -1,97 +1,87 @@
 import React from 'react';
 import './index.scss';
-import FadeIn from 'react-fade-in';
 import ReactDOM from 'react-dom';
+import FadeIn from 'react-fade-in';
+
+import { FaRegFolder, 
+  FaAngleDoubleLeft 
+} from 'react-icons/fa';
 
 /* Components */
 import Projects from './Projects'
-import Bio from './Bio'
 import Catalog from './Catalog'
-import Resume from './Resume'
 import Reads from './Reads'
-import SwipeableTemporaryDrawer from './SwipeableDrawer'
+import Thoughts from './Thoughts'
+import Resume from './Resume'
+import Albums from './Albums'
 
-/* Macro variables */
-const btn_class = "btn btn-primary";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+const links = [
+  // { subUrl: "thoughts", },
+  { subUrl: "reads" },
+  { subUrl: "projects"},
+  { subUrl: "resume" },
+  { subUrl: "discography" }
+]
 
 class App extends React.Component { 
   constructor(props) {
     super(props)
-    this.state = { showBio: true }
-  }
-
-  showProjectsState = () => {
-    this.setState({
-      ...this.state, 
-      showProjects: true, 
-      showBio: false, 
-      showCatalog: false, 
-      showResume: false,
-      showReads: false
-    })
-  }
-
-  showBioState = () => {
-    this.setState({
-      ...this.state,
-      showProjects: false,
-      showBio: true,
-      showCatalog: false,
-      showResume: false,
-      showReads: false
-    })
-  }
-
-  showCatalogState = () => {
-    this.setState({
-      ...this.state,
-      showProjects: false,
-      showBio: false,
-      showCatalog: true,
-      showResume: false,
-      showReads: false
-    })
-  }
-
-  showResumeState = () => {
-    this.setState({
-      ...this.state,
-      showProjects: false,
-      showBio: false,
-      showCatalog: false,
-      showResume: true,
-      showReads: false
-    })
-  }
-
-  showReadsState = () => {
-    this.setState({
-      ...this.state,
-      showProjects: false,
-      showBio: false,
-      showCatalog: false,
-      showResume: false, 
-      showReads: true
-    })
+    this.state = { atHome: true }
   }
 
   render() {
     return (
-      <div className="homepage">
-        <FadeIn><h1 className="blue">hello,</h1><h1>clay beabout.</h1></FadeIn>
-        <br/>
-        <div className="links">
-          <div onClick={this.showBioState} className={this.state.showBio ? btn_class + " clicked" : btn_class}>bio</div>
-          <div onClick={this.showProjectsState} className={this.state.showProjects ? btn_class + " clicked" : btn_class}>projects</div>
-          {/* <div onClick={this.showResumeState} className={this.state.showResume ? btn_class + " clicked" : btn_class}>resumé</div> */}
-          <div onClick={this.showReadsState} className={this.state.showReads ? btn_class + " clicked" : btn_class}>reads</div>
-        </div>
-        {this.state.showProjects && <Projects />}
-        {this.state.showBio && <Bio />}
-        {this.state.showCatalog && <Catalog />}
-        {/* {this.state.showResume && <Resume />} */}
-        {this.state.showReads && <Reads />}
-      </div>
+      <Router>
+        { this.state.atHome ?
+          <FadeIn className="container">
+            {links.map(link => (
+              <Link 
+                onClick={() => this.setState({atHome: false })} 
+                className="fa-link" 
+                to={'/' + link["subUrl"]}
+              >
+                <FaRegFolder />
+              </Link>
+            ))
+            }
+          </FadeIn>
+          :
+          <Link 
+            className="fa-link" 
+            to="/" 
+            onClick={() => this.setState({ atHome: true })}
+          >
+            <FaAngleDoubleLeft />
+          </Link>
+        }
+        <Switch>
+          <Route path="/thoughts">
+            <Thoughts />
+          </Route>
+          <Route path="/reads">
+            <Reads />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/catalog">
+            <Catalog />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/discography">
+            <Albums />
+          </Route>
+        </Switch>
+      </Router>
     );
   };
 }
