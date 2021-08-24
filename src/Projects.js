@@ -7,8 +7,10 @@ import { Card,
   CardContent,
   makeStyles,
   Grid,
-  Paper
 } from '@material-ui/core';
+import {
+  projects
+} from './Data'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,24 +26,6 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const projects = [
-  [ 'MovieCannon', 'MovieCannon',
-    'Film cataloging application with dynamic searching and categorization capabilities.'
-  ],
-  [ 'mlem2', 'mlem2',
-    'A Ruby implementation of the popular mlem2 data mining algorithm.'
-  ],
-  [ 'docoylsale.com', 'docoyounglifesale',
-    'Showcasing and event-based application granting visitors access to fundraiser details, local vendors and sale products.'
-  ],
-  [ 'Sudoku Solver', 'SudokuSolver',
-    'Takes in a sudoku puzzle and spits it back out completed.'
-  ],
-  [ 'Mine Sweeper', 'minesweeper',
-    'Unity-based minesweeper application.'
-  ]
-]
-
 export default function Projects() {
     const classes = useStyles();
     return (
@@ -51,13 +35,13 @@ export default function Projects() {
             <Grid item s={12} md={6}>
               <Card className={classes.card}>
                 <CardContent className={classes.content}>
-                  <h3>
-                    <a className="fa-link" href={'https://github.com/beabout/' + project[1]}>
+                  <h4 className="blue">
+                    <a className="fa-link" href={'https://github.com/beabout/' + project.url}>
                       <FaGithub />
                     </a>
-                    {project[0]}
-                  </h3>
-                  <p>{project[2]}</p>
+                    { project.title }. 
+                  </h4>
+                  <p>{ project.desc }</p>
                 </CardContent>
               </Card>
             </Grid>

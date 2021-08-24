@@ -23,10 +23,8 @@ import {
 } from "react-router-dom";
 
 const links = [
-  // { subUrl: "thoughts", },
   { subUrl: "reads" },
   { subUrl: "projects"},
-  { subUrl: "resume" },
   { subUrl: "discography" }
 ]
 
@@ -40,17 +38,24 @@ class App extends React.Component {
     return (
       <Router>
         { this.state.atHome ?
-          <FadeIn className="container">
-            {links.map(link => (
-              <Link 
-                onClick={() => this.setState({atHome: false })} 
-                className="fa-link" 
-                to={'/' + link["subUrl"]}
-              >
-                <FaRegFolder />
-              </Link>
-            ))
-            }
+          <FadeIn>
+            <h4 style={{ width: '100%' }}>
+              my 
+              <span className="blue"> stuff</span>
+              , below.
+            </h4>
+            <div className="container">
+              {links.map(link => (
+                  <Link 
+                  onClick={() => this.setState({atHome: false })} 
+                  className="fa-link" 
+                  to={'/' + link["subUrl"]}
+                  >
+                    <FaRegFolder />
+                  </Link>
+                ))
+              }
+            </div>
           </FadeIn>
           :
           <Link 
@@ -73,9 +78,6 @@ class App extends React.Component {
           </Route>
           <Route path="/catalog">
             <Catalog />
-          </Route>
-          <Route path="/resume">
-            <Resume />
           </Route>
           <Route path="/discography">
             <Albums />
