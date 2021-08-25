@@ -19,23 +19,23 @@ export const reads = [
 
 export const projects = [
     { 'title':'MovieCannon', 
-      'url':'MovieCannon',
+      'url':'https://github.com/beabout/MovieCannon',
       'desc':'Film cataloging application with dynamic searching and categorization capabilities.'
     },
     { 'title':'mlem2', 
-      'url':'mlem2',
+      'url':'https://github.com/beabout/mlem2',
       'desc':'A Ruby implementation of the popular mlem2 data mining algorithm.'
     },
     { 'title':'docoylsale.com', 
-      'url':'docoyounglifesale',
+      'url':'https://github.com/beabout/docoyounglifesale',
       'desc':'Showcasing and event-based application granting visitors access to fundraiser details, local vendors and sale products.'
     },
     { 'title':'Sudoku Solver', 
-      'url':'SudokuSolver',
+      'url':'https://github.com/beabout/SudokuSolver',
       'desc':'Takes in a sudoku puzzle and spits it back out completed.'
     },
     { 'title':'Mine Sweeper', 
-      'url':'minesweeper',
+      'url':'https://github.com/beabout/minesweeper',
       'desc':'Unity-based minesweeper application.'
     }
   ]

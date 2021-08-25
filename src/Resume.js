@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import './index.scss';
 import { Button, LinearProgress } from "@material-ui/core";
+
 import FadeIn from 'react-fade-in';
 
 const programming_abilities = [

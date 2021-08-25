@@ -36,7 +36,7 @@ export default function Projects() {
               <Card className={classes.card}>
                 <CardContent className={classes.content}>
                   <h4 className="blue">
-                    <a className="fa-link" href={'https://github.com/beabout/' + project.url}>
+                    <a className="fa-link" href={ project.url }>
                       <FaGithub />
                     </a>
                     { project.title }. 

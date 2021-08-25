@@ -12,7 +12,7 @@ import Projects from './Projects'
 import Catalog from './Catalog'
 import Reads from './Reads'
 import Thoughts from './Thoughts'
-import Resume from './Resume'
+import Spotify from './Spotify'
 import Albums from './Albums'
 
 import {
@@ -40,9 +40,10 @@ class App extends React.Component {
         { this.state.atHome ?
           <FadeIn>
             <h4 style={{ width: '100%' }}>
-              my 
-              <span className="blue"> stuff</span>
-              , below.
+              the 
+              <span className="blue"> goods </span>
+              can be found 
+              <span className="blue"> below. </span>
             </h4>
             <div className="container">
               {links.map(link => (
