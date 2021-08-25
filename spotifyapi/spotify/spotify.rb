@@ -3,8 +3,8 @@ require './spotify'
 
 class Spotify
   def initialize
-    id     = "fed1c759d0d140f591fddf0ba2689b1b"
-    secret = "f6f6949144314e42922272839a6370fb"
+    id     = ""
+    secret = ""
     RSpotify::authenticate(id, secret)
   end
 
