@@ -1,13 +1,15 @@
 import React, { Component } from "react";
+import { FaSpotify } from 'react-icons/fa';
 // import hash from "./hash";
 import "./index.scss";
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "";
+const clientId = "fed1c759d0d140f591fddf0ba2689b1b";
 const redirectUri = "http://localhost:3001";
+const user_albums_url = "https://api.spotify.com/v1/me/albums";
+
 const scopes = [
-  "user-read-currently-playing",
-  "user-read-playback-state",
+  "user-library-read",
 ];
 
 // Get the hash of the url
@@ -21,8 +23,40 @@ const hash = window.location.hash
     }
     return initial;
   }, {});
+
 window.location.hash = "";
-class Spotify extends Component {
+
+class Spotify extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { 
+      token: null,
+    item: {
+      album: {
+        images: [{ url: "" }]
+      },
+    }
+    }
+  }
+
+  getUserAlbums(token) {
+    // Make a call using the token
+    $.ajax({
+      url: user_albums_url,
+      type: "GET",
+      beforeSend: (xhr) => {
+        xhr.setRequestHeader("Authorization", "Bearer " + token);
+      },
+      success: (data) => {
+        this.setState({
+          item: data.item,
+          is_playing: data.is_playing,
+          progress_ms: data.progress_ms,
+        });
+      }
+    });
+  }
+
   componentDidMount() {
     // Set token
     let _token = hash.access_token;
@@ -34,6 +68,7 @@ class Spotify extends Component {
       });
     }
   }
+
   render() {
     return (
       <div className="App">
@@ -41,13 +76,13 @@ class Spotify extends Component {
           {!this.state.token && (
             <a
               className="btn btn--loginApp-link"
-              href={`${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+              href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
             >
-              Login to Spotify
+              Login to <FaSpotify />
             </a>
           )}
           {this.state.token && (
-            <div>hey</div>
+            <div>show me something</div>
           )}
         </header>
       </div>

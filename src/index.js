@@ -81,7 +81,7 @@ class App extends React.Component {
             <Catalog />
           </Route>
           <Route path="/discography">
-            <Albums />
+            <Spotify />
           </Route>
         </Switch>
       </Router>
