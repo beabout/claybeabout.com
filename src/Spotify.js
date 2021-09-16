@@ -2,10 +2,16 @@ import React, { Component } from "react";
 import { FaSpotify } from 'react-icons/fa';
 // import hash from "./hash";
 import "./index.scss";
+import $ from "jquery";
+
+// const { JSDOM } = require("jsdom");
+// const { window } = new JSDOM("");
+// const $ = require("jquery")(window);
+
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "fed1c759d0d140f591fddf0ba2689b1b";
-const redirectUri = "http://localhost:3001";
+const clientId = 0;// load from file
+const redirectUri = "http://localhost:3001/discography";
 const user_albums_url = "https://api.spotify.com/v1/me/albums";
 
 const scopes = [
