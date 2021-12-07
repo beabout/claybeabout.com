@@ -1,16 +1,12 @@
+import { data } from "jquery";
 import React, { Component } from "react";
 import { FaSpotify } from 'react-icons/fa';
-// import hash from "./hash";
 import "./index.scss";
 import $ from "jquery";
 
-// const { JSDOM } = require("jsdom");
-// const { window } = new JSDOM("");
-// const $ = require("jquery")(window);
-
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = 0;// load from file
+const clientId = 0; // load from file
 const redirectUri = "http://localhost:3001/discography";
 const user_albums_url = "https://api.spotify.com/v1/me/albums";
 
@@ -37,29 +33,32 @@ class Spotify extends React.Component {
     super(props)
     this.state = { 
       token: null,
-    item: {
-      album: {
-        images: [{ url: "" }]
-      },
+      item: []
     }
-    }
+    this.getUserAlbums = this.getUserAlbums.bind(this);
   }
 
-  getUserAlbums(token) {
-    // Make a call using the token
+  setItem = (res, _token) => {
+    this.setState({
+      token: _token,
+      item: res.items.map(i => i.album.images[0].url)
+    });
+  }
+
+  getUserAlbums = (token) => {
+    this.setState({ item: "Bang bang bih"})
     $.ajax({
       url: user_albums_url,
-      type: "GET",
-      beforeSend: (xhr) => {
-        xhr.setRequestHeader("Authorization", "Bearer " + token);
+      type: 'GET',
+      headers: {
+        'Authorization': 'Bearer ' + token
       },
-      success: (data) => {
-        this.setState({
-          item: data.item,
-          is_playing: data.is_playing,
-          progress_ms: data.progress_ms,
-        });
-      }
+      success: function (res) {
+        if(res){
+          console.log(res);
+          this.setItem(res, token);
+        }
+      }.bind(this)
     });
   }
 
@@ -70,7 +69,8 @@ class Spotify extends React.Component {
     if (_token) {
       // Set token
       this.setState({
-        token: _token
+        token: _token,
+        item: this.getUserAlbums(_token)
       });
     }
   }
@@ -88,7 +88,10 @@ class Spotify extends React.Component {
             </a>
           )}
           {this.state.token && (
-            <div>show me something</div>
+            <div>
+              <div> Token: { this.state.token }</div>
+              <div> item: { this.state.item }</div>
+            </div>
           )}
         </header>
       </div>
