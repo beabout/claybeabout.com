@@ -23,7 +23,7 @@ import {
 } from "react-router-dom";
 
 const links = [
-  { subUrl: "reads" },
+  // { subUrl: "reads" },
   { subUrl: "projects"},
   { subUrl: "discography" }
 ]
@@ -48,7 +48,7 @@ class App extends React.Component {
             <div className="container">
               {links.map(link => (
                   <Link 
-                  onClick={() => this.setState({atHome: false })} 
+                  onClick={() => this.setState({ atHome: false })} 
                   className="fa-link" 
                   to={'/' + link["subUrl"]}
                   >

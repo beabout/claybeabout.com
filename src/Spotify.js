@@ -60,7 +60,6 @@ class Spotify extends React.Component {
         'Authorization': 'Bearer ' + token
       },
       success: function (res) {
-        console.log(res)
         if(res.items.length > 0){
           this.updateItem(res);
           this.getUserAlbums(token, offset+50)
@@ -87,7 +86,7 @@ class Spotify extends React.Component {
         {!this.state.token && (
           <a
             className="btn btn--loginApp-link"
-            href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+            href={`${authEndpoint}?client_id=${process.env.REACT_APP_SPOFITY_CLIENT_ID}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
           >
             Login to <FaSpotify />
           </a>

@@ -19,6 +19,7 @@
 .env.production.local
 
 .spotifyinfo
+.env
 
 npm-debug.log*
 yarn-debug.log*

@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
 import { Card,
   CardActions,
+  Button,
   CardContent,
   makeStyles,
   Grid,
@@ -32,14 +33,14 @@ export default function Projects() {
       <FadeIn className={classes.root}>
         <Grid container spacing={2}>
           {projects.map(project => (
-            <Grid item s={12} md={6}>
+            <Grid item s={12} md={12}>
               <Card className={classes.card}>
                 <CardContent className={classes.content}>
                   <h4 className="blue">
                     <a className="fa-link" href={ project.url }>
                       <FaGithub />
                     </a>
-                    { project.title }. 
+                    { project.title }.
                   </h4>
                   <p>{ project.desc }</p>
                 </CardContent>

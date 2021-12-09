@@ -20,11 +20,12 @@ export const reads = [
 export const projects = [
     { 'title':'MovieCannon', 
       'url':'https://github.com/beabout/MovieCannon',
+      'site':'https://moviecannon-1.herokuapp.com',
       'desc':'Film cataloging application with dynamic searching and categorization capabilities.'
     },
     { 'title':'mlem2', 
       'url':'https://github.com/beabout/mlem2',
-      'desc':'A Ruby implementation of the popular mlem2 data mining algorithm.'
+      'desc':'A Ruby implementation of the mlem2 data mining algorithm.'
     },
     { 'title':'docoylsale.com', 
       'url':'https://github.com/beabout/docoyounglifesale',
