@@ -112,8 +112,8 @@ h2 {
 .btn-primary {
   width: 25%;
   font-size: 25px;
-  background-color: $secondary-color;
-  border-color: $blue;
+  background-color: $blue;
+  border-color: $primary-color;
   color: $primary-color;
   margin: 0.25rem;
   border-radius: 0rem;
@@ -199,4 +199,13 @@ hr {
   background-color: $secondary-color;
   border-color: $blue;
   color: $blue;
+}
+
+/* SPOTIFY PAGE */
+.p-100 {
+  padding: 100px;
+}
+
+.album:hover {
+  background-color:$blue;
 }

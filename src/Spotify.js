@@ -1,14 +1,14 @@
-import { data } from "jquery";
-import React, { Component } from "react";
+
+import React from "react";
 import { FaSpotify } from 'react-icons/fa';
 import "./index.scss";
+import { Grid } from '@material-ui/core';
 import $ from "jquery";
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
-// Replace with your app's client ID, redirect URI and desired scopes
-const clientId = 0; // load from file
+const clientId = "";
 const redirectUri = "http://localhost:3001/discography";
-const user_albums_url = "https://api.spotify.com/v1/me/albums";
+const user_albums_url = "https://api.spotify.com/v1/me/albums?limit=50&";
 
 const scopes = [
   "user-library-read",
@@ -38,40 +38,44 @@ class Spotify extends React.Component {
     this.getUserAlbums = this.getUserAlbums.bind(this);
   }
 
-  setItem = (res, _token) => {
+  updateItem = (res) => {
+    res.items.forEach(elem => {
+      this.state.item.push({
+        art: elem.album.images[0].url,
+        artists: elem.album.artists,
+        name: elem.album.name,
+        url: elem.album.external_urls.spotify
+      })
+    });
     this.setState({
-      token: _token,
-      item: res.items.map(i => i.album.images[0].url)
+      item: this.state.item
     });
   }
 
-  getUserAlbums = (token) => {
-    this.setState({ item: "Bang bang bih"})
+  getUserAlbums = (token, offset) => {
     $.ajax({
-      url: user_albums_url,
+      url: user_albums_url+'offset='+offset,
       type: 'GET',
       headers: {
         'Authorization': 'Bearer ' + token
       },
       success: function (res) {
-        if(res){
-          console.log(res);
-          this.setItem(res, token);
+        console.log(res)
+        if(res.items.length > 0){
+          this.updateItem(res);
+          this.getUserAlbums(token, offset+50)
         }
       }.bind(this)
     });
   }
 
   componentDidMount() {
-    // Set token
     let _token = hash.access_token;
-  
     if (_token) {
-      // Set token
       this.setState({
-        token: _token,
-        item: this.getUserAlbums(_token)
+        token: _token
       });
+      this.getUserAlbums(_token, 0)
     }
   }
 
@@ -79,21 +83,26 @@ class Spotify extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          {!this.state.token && (
-            <a
-              className="btn btn--loginApp-link"
-              href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
-            >
-              Login to <FaSpotify />
-            </a>
-          )}
-          {this.state.token && (
-            <div>
-              <div> Token: { this.state.token }</div>
-              <div> item: { this.state.item }</div>
-            </div>
-          )}
         </header>
+        {!this.state.token && (
+          <a
+            className="btn btn--loginApp-link"
+            href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+          >
+            Login to <FaSpotify />
+          </a>
+        )}
+        {this.state.item.length > 0 && (
+          <Grid className='p-100' container spacing={2}>
+              { this.state.item.map(album => (
+                <Grid className='album' item sm={6} md={3}>
+                  <a href={album.url}>
+                    <img src={album.art} style={{width:'100%'}} />
+                  </a>
+                </Grid>
+              ))}
+          </Grid>
+        )}
       </div>
     );
   }
