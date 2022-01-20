@@ -18,8 +18,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   card: {
-    backgroundColor: "black",
-    color: "white",
     padding: 0,
   },
   content: {
@@ -33,7 +31,7 @@ export default function Projects() {
       <FadeIn className={classes.root}>
         <Grid container spacing={2}>
           {projects.map(project => (
-            <Grid item s={12} md={12}>
+            <Grid item s={12}>
               <Card className={classes.card}>
                 <CardContent className={classes.content}>
                   <h4 className="blue">
