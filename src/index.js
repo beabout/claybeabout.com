@@ -13,8 +13,8 @@ import Spotify from './Spotify'
 import { FaGithub, FaSpotify } from 'react-icons/fa';
 
 import {
-  BrowserRouter as Router,
-  Switch,
+  BrowserRouter,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -40,7 +40,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         { atHomepage() ?
           <FadeIn>
             <div className="container">
@@ -65,15 +65,14 @@ class App extends React.Component {
             <FaAngleDoubleLeft />
           </Link>
         }
-        <Switch>
-          <Route path="/catalog">
-            <Catalog />
+        <Routes>
+          <Route path="/">
+            
           </Route>
-          <Route path="/discography">
-            <Spotify />
-          </Route>
-        </Switch>
-      </Router>
+          <Route path="/catalog" element={<Catalog />} />
+          <Route path="/discography" element={<Spotify />} />
+        </Routes>
+      </BrowserRouter>
     );
   };
 }

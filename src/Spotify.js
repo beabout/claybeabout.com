@@ -29,6 +29,15 @@ const hash = window.location.hash
 
 window.location.hash = "";
 
+function getClientID(){
+  if (process.env.NODE_ENV === "development"){
+    return process.env.REACT_APP_SPOFITY_CLIENT_ID;
+  } else {
+    return process.env.spotify_client_id;
+  }
+}
+
+
 class Spotify extends React.Component {
   constructor(props) {
     super(props)
@@ -126,7 +135,7 @@ class Spotify extends React.Component {
         {!this.state.token && (
           <a
             className="btn btn--loginApp-link"
-            href={`${authEndpoint}?client_id=${process.env.REACT_APP_SPOFITY_CLIENT_ID}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+            href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
           >
             Login to <FaSpotify />
           </a>
