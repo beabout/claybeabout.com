@@ -8,12 +8,9 @@ import { FaRegFolder,
 } from 'react-icons/fa';
 
 /* Components */
-import Projects from './Projects'
 import Catalog from './Catalog'
-import Reads from './Reads'
-import Thoughts from './Thoughts'
 import Spotify from './Spotify'
-import Albums from './Albums'
+import { FaGithub, FaSpotify } from 'react-icons/fa';
 
 import {
   BrowserRouter as Router,
@@ -23,39 +20,40 @@ import {
 } from "react-router-dom";
 
 const links = [
-  // { subUrl: "reads" },
-  { subUrl: "projects"},
-  { subUrl: "discography" }
+  { "subUrl": "projects" },
+  { "subUrl": "discography" }
 ]
+
+function atHomepage(){
+  if (window.location.pathname === "/") {
+    return true
+  } else {
+    return false
+  }
+}
 
 class App extends React.Component { 
   constructor(props) {
     super(props)
-    this.state = { atHome: true }
+    this.state = { atHome: atHomepage() }
   }
 
   render() {
     return (
       <Router>
-        { this.state.atHome ?
+        { atHomepage() ?
           <FadeIn>
-            <h4 style={{ width: '100%' }}>
-              the 
-              <span className="blue"> goods </span>
-              can be found 
-              <span className="blue"> below. </span>
-            </h4>
             <div className="container">
-              {links.map(link => (
-                  <Link 
-                  onClick={() => this.setState({ atHome: false })} 
-                  className="fa-link" 
-                  to={'/' + link["subUrl"]}
-                  >
-                    <FaRegFolder />
-                  </Link>
-                ))
-              }
+              <a className="fa-link" href="https://github.com/beabout">
+                <FaGithub />
+              </a>
+              <Link
+                className="fa-link"
+                to="/discography"
+                onClick={() => this.setState({ atHome: true })}
+              >
+                <FaSpotify />
+              </Link>
             </div>
           </FadeIn>
           :
@@ -68,15 +66,6 @@ class App extends React.Component {
           </Link>
         }
         <Switch>
-          <Route path="/thoughts">
-            <Thoughts />
-          </Route>
-          <Route path="/reads">
-            <Reads />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
           <Route path="/catalog">
             <Catalog />
           </Route>
