@@ -1,12 +1,12 @@
 
 import React from "react";
-import { FaSpotify } from 'react-icons/fa';
 import "./index.scss";
-import { Grid } from '@material-ui/core';
+import { Grid, Button } from '@material-ui/core';
+import FadeIn from 'react-fade-in';
 import $ from "jquery";
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
-const redirectUri = "http://localhost:3001/discography";
+const redirectUri = "https://claybeabout.com/discography";
 const sp_api_url = "https://api.spotify.com/v1"
 const get_user_albums = `${sp_api_url}/me/albums?limit=50&`;
 const get_user_playlists = `${sp_api_url}/users/cbeeb121/playlists?limit=20&`;
@@ -30,13 +30,8 @@ const hash = window.location.hash
 window.location.hash = "";
 
 function getClientID(){
-  if (process.env.NODE_ENV === "development"){
-    return process.env.REACT_APP_SPOFITY_CLIENT_ID;
-  } else {
-    return process.env.spotify_client_id;
-  }
+  return "fed1c759d0d140f591fddf0ba2689b1b";
 }
-
 
 class Spotify extends React.Component {
   constructor(props) {
@@ -130,49 +125,58 @@ class Spotify extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-        </header>
-        {!this.state.token && (
-          <a
-            className="btn btn--loginApp-link"
-            href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
-          >
-            Login to <FaSpotify />
-          </a>
-        )}
-        {this.state.albums.length > 0 && (
-          <div>
-            <div className="heading1">
-              <h2>Your Collection</h2>
+        <FadeIn>
+          <header className="App-header">
+          </header>
+          {!this.state.token && (
+            <div>
+              <div className="left-exposed">
+                <p>
+                  Login to see your spotify record collection
+                  <Button 
+                    className="btn-primary"
+                    href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+                    >
+                    Login to Spotify
+                  </Button>
+                </p>
+              </div>
             </div>
+          )}
+          {this.state.albums.length > 0 && (
+            <div>
+              <div className="heading1">
+                <h2>Your Collection</h2>
+              </div>
+              <Grid className='p-100' container spacing={2}>
+                { this.state.albums.map(album => (
+                  <Grid className='album' item sm={4} md={2}>
+                    <a href={album.url}>
+                      <img src={album.art} style={{width:'100%'}} />
+                    </a>
+                  </Grid>
+                ))}
+              </Grid>
+            </div>
+          )}
+          {/* {this.state.playlists.length > 0 && (
             <Grid className='p-100' container spacing={2}>
-              { this.state.albums.map(album => (
-                <Grid className='album' item sm={4} md={2}>
-                  <a href={album.url}>
-                    <img src={album.art} style={{width:'100%'}} />
-                  </a>
-                </Grid>
-              ))}
-            </Grid>
-          </div>
-        )}
-        {/* {this.state.playlists.length > 0 && (
-          <Grid className='p-100' container spacing={2}>
             { this.state.playlists.map(playlist => (
               <Grid className='playlist' container spacing={2}>
-                <Grid item sm={4} md={4}>
-                  <a href={playlist.url}>
-                    <img src={playlist.art} style={{ width: '100%' }} />
-                  </a>
-                </Grid>
-                <Grid item sm={8} md={8}>
-                  <h2>{playlist.name}</h2>
-                  <h4>{playlist.desc}</h4>
-                </Grid>
+              <Grid item sm={4} md={4}>
+              <a href={playlist.url}>
+              <img src={playlist.art} style={{ width: '100%' }} />
+              </a>
               </Grid>
-            ))}
-          </Grid>
-        )} */}
+              <Grid item sm={8} md={8}>
+              <h2>{playlist.name}</h2>
+              <h4>{playlist.desc}</h4>
+              </Grid>
+              </Grid>
+              ))}
+              </Grid>
+            )} */}
+        </FadeIn>
       </div>
     );
   }
