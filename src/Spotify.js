@@ -151,7 +151,7 @@ class Spotify extends React.Component {
               <Grid className='p-100' container spacing={2}>
                 { this.state.albums.map(album => (
                   <Grid className='album' item sm={4} md={2}>
-                    <a href={album.url}>
+                    <a href={album.url} target="_blank">
                       <img src={album.art} style={{width:'100%'}} />
                     </a>
                   </Grid>

@@ -44,7 +44,7 @@ class App extends React.Component {
         { atHomepage() ?
           <FadeIn>
             <div className="container">
-              <a className="fa-link" href="https://github.com/beabout">
+              <a className="fa-link" href="https://github.com/beabout" target="_blank">
                 <FaGithub />
               </a>
               <Link
