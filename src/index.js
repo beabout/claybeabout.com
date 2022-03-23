@@ -65,6 +65,7 @@ class App extends React.Component {
             <FaAngleDoubleLeft />
           </Link>
         }
+        <div class="revision">revision: 932c963</div>
         <Routes>
           <Route path="/">
             
