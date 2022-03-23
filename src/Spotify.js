@@ -133,12 +133,12 @@ class Spotify extends React.Component {
               <div className="left-exposed">
                 <p>
                   Login to see your spotify record collection
-                  <Button 
+                  <a 
                     className="btn-primary"
                     href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
-                    >
-                    Login to Spotify
-                  </Button>
+                  >
+                    Login
+                  </a>
                 </p>
               </div>
             </div>
@@ -159,7 +159,7 @@ class Spotify extends React.Component {
               </Grid>
             </div>
           )}
-          {/* {this.state.playlists.length > 0 && (
+          {this.state.playlists.length > 0 && (
             <Grid className='p-100' container spacing={2}>
             { this.state.playlists.map(playlist => (
               <Grid className='playlist' container spacing={2}>
@@ -175,7 +175,7 @@ class Spotify extends React.Component {
               </Grid>
               ))}
               </Grid>
-            )} */}
+            )}
         </FadeIn>
       </div>
     );
