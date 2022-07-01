@@ -3,14 +3,18 @@ import './index.scss';
 import ReactDOM from 'react-dom';
 import FadeIn from 'react-fade-in';
 
-import { FaRegFolder, 
-  FaAngleDoubleLeft 
-} from 'react-icons/fa';
-
 /* Components */
 import Catalog from './Catalog'
 import Spotify from './Spotify'
-import { FaGithub, FaSpotify } from 'react-icons/fa';
+import Notes from './Notes'
+
+/* fa icons */
+import { 
+  FaGithub, 
+  FaSpotify, 
+  FaRegFolder, 
+  FaAngleDoubleLeft 
+} from 'react-icons/fa';
 
 import {
   BrowserRouter,
@@ -54,6 +58,13 @@ class App extends React.Component {
               >
                 <FaSpotify />
               </Link>
+              {/* <Link
+                className="fa-link"
+                to="/notes"
+                onClick={() => this.setState({ atHome: true })}
+              >
+                <FaRegFolder />
+              </Link> */}
             </div>
           </FadeIn>
           :
@@ -65,13 +76,14 @@ class App extends React.Component {
             <FaAngleDoubleLeft />
           </Link>
         }
-        <div className="revision">revision: 4a6b40f</div>
+        <div className="revision">www.claybeabout.com | revision: 4a6b40f</div>
         <Routes>
           <Route path="/">
             
           </Route>
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/discography" element={<Spotify />} />
+          <Route path="/notes" element={<Notes />} />
         </Routes>
       </BrowserRouter>
     );

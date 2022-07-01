@@ -130,17 +130,15 @@ class Spotify extends React.Component {
           </header>
           {!this.state.token && (
             <div>
-              <div className="left-exposed">
-                <p>
-                  Login to see your spotify record collection
-                  <a 
-                    className="btn-primary"
-                    href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
-                  >
-                    Login
-                  </a>
-                </p>
-              </div>
+              <p>
+                login to see your spotify record collection
+                <a 
+                  className="btn-primary"
+                  href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+                >
+                  login
+                </a>
+              </p>
             </div>
           )}
           {this.state.albums.length > 0 && (
