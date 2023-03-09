@@ -130,8 +130,11 @@ class Spotify extends React.Component {
           </header>
           {!this.state.token && (
             <div>
+              <h2 style={{ marginTop: '3rem' }}>discography.</h2>
               <p>
                 login to see your spotify record collection
+              </p>
+              <p>
                 <a 
                   className="btn-primary"
                   href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
