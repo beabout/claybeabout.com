@@ -13,7 +13,7 @@ import {
   FaGithub, 
   FaSpotify, 
   FaRegFolder, 
-  FaAngleDoubleLeft 
+  FaAngleDoubleLeft
 } from 'react-icons/fa';
 
 import {
@@ -58,13 +58,13 @@ class App extends React.Component {
               >
                 <FaSpotify />
               </Link>
-              {/* <Link
+              <Link
                 className="fa-link"
                 to="/notes"
                 onClick={() => this.setState({ atHome: true })}
               >
                 <FaRegFolder />
-              </Link> */}
+              </Link>
             </div>
           </FadeIn>
           :
