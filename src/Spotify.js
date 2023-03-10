@@ -124,61 +124,38 @@ class Spotify extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <FadeIn>
-          <header className="App-header">
-          </header>
-          {!this.state.token && (
-            <div>
-              <h2 style={{ marginTop: '3rem' }}>discography.</h2>
-              <p>
-                login to see your spotify record collection
-              </p>
-              <p>
-                <a 
-                  className="btn-primary"
-                  href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
-                >
-                  login
-                </a>
-              </p>
-            </div>
-          )}
-          {this.state.albums.length > 0 && (
-            <div>
-              <div className="heading1">
-                <h2>Your Collection</h2>
-              </div>
-              <Grid className='p-100' container spacing={2}>
-                { this.state.albums.map(album => (
-                  <Grid className='album' item sm={4} md={2}>
-                    <a href={album.url} target="_blank">
-                      <img src={album.art} style={{width:'100%'}} />
-                    </a>
-                  </Grid>
-                ))}
-              </Grid>
-            </div>
-          )}
-          {this.state.playlists.length > 0 && (
-            <Grid className='p-100' container spacing={2}>
-            { this.state.playlists.map(playlist => (
-              <Grid className='playlist' container spacing={2}>
-              <Grid item sm={4} md={4}>
-              <a href={playlist.url}>
-              <img src={playlist.art} style={{ width: '100%' }} />
+      <FadeIn>
+        {!this.state.token && (
+          <div>
+            <h2 style={{ marginTop: '3rem' }}>discography.</h2>
+            <p>
+              login to see your spotify record collection
+            </p>
+            <p>
+              <a 
+                className="btn-primary"
+                href={`${authEndpoint}?client_id=${getClientID()}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
+              >
+                login
               </a>
-              </Grid>
-              <Grid item sm={8} md={8}>
-              <h2>{playlist.name}</h2>
-              <h4>{playlist.desc}</h4>
-              </Grid>
-              </Grid>
+            </p>
+          </div>
+        )}
+        {this.state.albums.length > 0 && (
+          <div>
+            <h2 style={{ marginTop: '3rem' }}>your collection.</h2>
+            <Grid className='p-100' container spacing={2}>
+              { this.state.albums.map(album => (
+                <Grid className='album' item sm={6} md={4}>
+                  <a href={album.url} target="_blank">
+                    <img src={album.art} style={{width:'100%'}} />
+                  </a>
+                </Grid>
               ))}
-              </Grid>
-            )}
-        </FadeIn>
-      </div>
+            </Grid>
+          </div>
+        )}
+      </FadeIn>
     );
   }
 }
