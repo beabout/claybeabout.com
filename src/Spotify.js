@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./index.scss";
 import { Grid, Button } from '@material-ui/core';
@@ -45,6 +44,7 @@ class Spotify extends React.Component {
   }
 
   updateAlbums = (res) => {
+    console.log(res.items);
     res.items.forEach(elem => {
       this.state.albums.push({
         art: elem.album.images[0].url,
