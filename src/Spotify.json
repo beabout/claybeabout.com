@@ -1,0 +1,2778 @@
+{
+  "albums": [
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273661d019f34569f79eae9e985",
+      "artists": [
+        [
+          {
+            "name": "Gorillaz",
+            "href": "https://api.spotify.com/v1/artists/3AA28KZvwAUcZuOKwyblJQ"
+          }
+        ]
+      ],
+      "name": "Plastic Beach",
+      "url": "https://open.spotify.com/album/2dIGnmEIy1WZIcZCFSj6i8"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273cfc824b65a3b1755d98a7e23",
+      "artists": [
+        [
+          {
+            "name": "Dominic Fike",
+            "href": "https://api.spotify.com/v1/artists/6USv9qhCn6zfxlBQIYJ9qs"
+          }
+        ]
+      ],
+      "name": "What Could Possibly Go Wrong",
+      "url": "https://open.spotify.com/album/1BubKJqf6Uc4fNae5kLJJ7"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736e486118f503aefa1d00273b",
+      "artists": [
+        [
+          {
+            "name": "The Dip",
+            "href": "https://api.spotify.com/v1/artists/2qFOYqFxPaIwEnffVhJhEn"
+          }
+        ]
+      ],
+      "name": "Sticking With It",
+      "url": "https://open.spotify.com/album/4lcsKKAPES2jYFmtSyRH95"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fda3d35cd6d88c35f82a492e",
+      "artists": [
+        [
+          {
+            "name": "Morgan Wallen",
+            "href": "https://api.spotify.com/v1/artists/4oUHIQIBe0LHzYfvXNW4QM"
+          }
+        ]
+      ],
+      "name": "One Thing At A Time",
+      "url": "https://open.spotify.com/album/6i7mF7whyRJuLJ4ogbH2wh"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d2e39ea289f5cdc3a2c1ae13",
+      "artists": [
+        [
+          {
+            "name": "Inhaler",
+            "href": "https://api.spotify.com/v1/artists/6lyMYewq2SuTFIXgiv7OxH"
+          }
+        ]
+      ],
+      "name": "Cuts & Bruises",
+      "url": "https://open.spotify.com/album/2qZd7lp0lLRjeFe0O9Ou6S"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d7f5afe93dd997671be4fa25",
+      "artists": [
+        [
+          {
+            "name": "Bon Iver",
+            "href": "https://api.spotify.com/v1/artists/4LEiUm1SRbFMgfqnQTwUbQ"
+          }
+        ]
+      ],
+      "name": "22, A Million",
+      "url": "https://open.spotify.com/album/4bJCKmpKgti10f3ltz6LLl"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27394e5237ce925531dbb38e75f",
+      "artists": [
+        [
+          {
+            "name": "RAYE",
+            "href": "https://api.spotify.com/v1/artists/5KKpBU5eC2tJDzf0wmlRp2"
+          }
+        ]
+      ],
+      "name": "My 21st Century Blues",
+      "url": "https://open.spotify.com/album/3U8n8LzBx2o9gYXvvNq4uH"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736f578b21bce56056473da7e6",
+      "artists": [
+        [
+          {
+            "name": "Lil Yachty",
+            "href": "https://api.spotify.com/v1/artists/6icQOAFXDZKsumw3YXyusw"
+          }
+        ]
+      ],
+      "name": "Let’s Start Here.",
+      "url": "https://open.spotify.com/album/6Per97deaWqrJlKQNX8RGK"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d0bbd3ea2ec554f17a6603cc",
+      "artists": [
+        [
+          {
+            "name": "Bruno Mars",
+            "href": "https://api.spotify.com/v1/artists/0du5cEVh5yTK9QJze8zA0C"
+          },
+          {
+            "name": "Anderson .Paak",
+            "href": "https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa"
+          },
+          {
+            "name": "Silk Sonic",
+            "href": "https://api.spotify.com/v1/artists/6PvvGcCY2XtUcSRld1Wilr"
+          }
+        ]
+      ],
+      "name": "An Evening With Silk Sonic",
+      "url": "https://open.spotify.com/album/4VZ7jhV0wHpoNPCB7Vmiml"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2731e816be3575d007cc77bac94",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "TM",
+      "url": "https://open.spotify.com/album/0EICXG4UBIAUOKVlfBGipA"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27370dbc9f47669d120ad874ec1",
+      "artists": [
+        [
+          {
+            "name": "SZA",
+            "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP"
+          }
+        ]
+      ],
+      "name": "SOS",
+      "url": "https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2731106bbfbbc49692e49f3b580",
+      "artists": [
+        [
+          {
+            "name": "Peach Pit",
+            "href": "https://api.spotify.com/v1/artists/6fC2AcsQtd9h4BWELbbire"
+          }
+        ]
+      ],
+      "name": "From 2 to 3",
+      "url": "https://open.spotify.com/album/291A3Ud0sbMSfmG48k6GQY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273397d02cfe1aab2923f9d1697",
+      "artists": [
+        [
+          {
+            "name": "The Strokes",
+            "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V"
+          }
+        ]
+      ],
+      "name": "Angles",
+      "url": "https://open.spotify.com/album/6Jx4cGhWHewTcfKDJKguBQ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273c7ac1add53a5ee2db3dd82f0",
+      "artists": [
+        [
+          {
+            "name": "Truant Kids",
+            "href": "https://api.spotify.com/v1/artists/3o7r6jarLt48LzwesRhRy1"
+          }
+        ]
+      ],
+      "name": "Truant Kids",
+      "url": "https://open.spotify.com/album/2ez75ui9stE3bwpkRbCkXo"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d6a05bd7c15919e93d242470",
+      "artists": [
+        [
+          {
+            "name": "Ray LaMontagne",
+            "href": "https://api.spotify.com/v1/artists/6DoH7ywD5BcQvjloe9OcIj"
+          }
+        ]
+      ],
+      "name": "Trouble",
+      "url": "https://open.spotify.com/album/2DQHgaOMVOs2OKLaksiMx9"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27387ae229f3c65b0269edad20d",
+      "artists": [
+        [
+          {
+            "name": "Whitney",
+            "href": "https://api.spotify.com/v1/artists/32aUoW94mJ7xTJI7fG0V1G"
+          }
+        ]
+      ],
+      "name": "Forever Turned Around",
+      "url": "https://open.spotify.com/album/7dfINEAt70CVc3kaPvgoyQ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d4e46ef9147bec9ead14f744",
+      "artists": [
+        [
+          {
+            "name": "Whitney",
+            "href": "https://api.spotify.com/v1/artists/32aUoW94mJ7xTJI7fG0V1G"
+          }
+        ]
+      ],
+      "name": "SPARK",
+      "url": "https://open.spotify.com/album/5FgDFLMa4LM50AlBypheGs"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273da27026597de2d0d940990d2",
+      "artists": [
+        [
+          {
+            "name": "Djo",
+            "href": "https://api.spotify.com/v1/artists/5p9HO3XC5P3BLxJs5Mtrhm"
+          }
+        ]
+      ],
+      "name": "DECIDE",
+      "url": "https://open.spotify.com/album/5rJBH4rmxpqXaDf8E1Mgse"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e0e1939607a3854a59433f5f",
+      "artists": [
+        [
+          {
+            "name": "Young the Giant",
+            "href": "https://api.spotify.com/v1/artists/4j56EQDQu5XnL7R3E9iFJT"
+          }
+        ]
+      ],
+      "name": "Young The Giant (10th Anniversary Edition)",
+      "url": "https://open.spotify.com/album/5pH2nJh7Y7dl0EkubHaTLv"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a56bda1098863685bb1abb5b",
+      "artists": [
+        [
+          {
+            "name": "Zac Brown Band",
+            "href": "https://api.spotify.com/v1/artists/6yJCxee7QumYr820xdIsjo"
+          }
+        ]
+      ],
+      "name": "Uncaged",
+      "url": "https://open.spotify.com/album/50JEs25Ca52Q8lcAkuttuP"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736de37e432e720323f4e31edc",
+      "artists": [
+        [
+          {
+            "name": "JID",
+            "href": "https://api.spotify.com/v1/artists/6U3ybJ9UHNKEdsH7ktGBZ7"
+          }
+        ]
+      ],
+      "name": "The Forever Story",
+      "url": "https://open.spotify.com/album/3QVjpIxcksDkJmOnvlOJjg"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f313291eef1f1dcc2479253a",
+      "artists": [
+        [
+          {
+            "name": "Chet Atkins",
+            "href": "https://api.spotify.com/v1/artists/4dZrt8Ong5t7YYpvbfp0RU"
+          }
+        ]
+      ],
+      "name": "Chet Atkins - The Master And His Music",
+      "url": "https://open.spotify.com/album/03lctP6j9W30JKVqTivD79"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d4373865956d291ac6b80684",
+      "artists": [
+        [
+          {
+            "name": "Willie Nelson",
+            "href": "https://api.spotify.com/v1/artists/5W5bDNCqJ1jbCgTxDD0Cb3"
+          }
+        ]
+      ],
+      "name": "The Early Years",
+      "url": "https://open.spotify.com/album/7MkF2dJmosyoG2yQePH2F7"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273cb57c16a53bc04cf85a41226",
+      "artists": [
+        [
+          {
+            "name": "Blaze Foley",
+            "href": "https://api.spotify.com/v1/artists/1TlScGwN8MmIZ7kIYGjSZA"
+          }
+        ]
+      ],
+      "name": "Sittin' by the Road",
+      "url": "https://open.spotify.com/album/3nyszXBcbHA92HAB5NPsRL"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a416cfd0ca61b79fb93d789b",
+      "artists": [
+        [
+          {
+            "name": "Eric Church",
+            "href": "https://api.spotify.com/v1/artists/2IvkS5MXK0vPGnwyJsrEyV"
+          }
+        ]
+      ],
+      "name": "&",
+      "url": "https://open.spotify.com/album/3QFQRHFIQtlPKxzmBXNoyF"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a0bb93884823982d57cb2004",
+      "artists": [
+        [
+          {
+            "name": "New Order",
+            "href": "https://api.spotify.com/v1/artists/0yNLKJebCb8Aueb54LYya3"
+          }
+        ]
+      ],
+      "name": "Power Corruption and Lies",
+      "url": "https://open.spotify.com/album/6NTrwu1XJ56jBPx7HMksbZ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27334708df3636189370a12e6c1",
+      "artists": [
+        [
+          {
+            "name": "Billie Holiday",
+            "href": "https://api.spotify.com/v1/artists/1YzCsTRb22dQkh9lghPIrp"
+          }
+        ]
+      ],
+      "name": "Solitude",
+      "url": "https://open.spotify.com/album/4izD3SCRElbkO06i8yf4Zp"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f56213eede5f2e6a6065fb6d",
+      "artists": [
+        [
+          {
+            "name": "MF DOOM",
+            "href": "https://api.spotify.com/v1/artists/2pAWfrd7WFF3XhVt9GooDL"
+          }
+        ]
+      ],
+      "name": "Operation: Doomsday (Complete)",
+      "url": "https://open.spotify.com/album/4UG3kz6qoHtNI1glQ2wdon"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273109214e5315398b15c9b34c9",
+      "artists": [
+        [
+          {
+            "name": "Steffany Gretzinger",
+            "href": "https://api.spotify.com/v1/artists/2akNRvGNB400IDDUMr1PHW"
+          }
+        ]
+      ],
+      "name": "Forever Amen",
+      "url": "https://open.spotify.com/album/4INKppNLM2RZwGmggvpMvY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e598ddc6735ed933b07edb83",
+      "artists": [
+        [
+          {
+            "name": "Maverick City Music",
+            "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV"
+          }
+        ]
+      ],
+      "name": "Maverick City, Vol. 2",
+      "url": "https://open.spotify.com/album/5knnLqGsFigRxNqFsj3XN1"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273300dd939c3081ff12fa69284",
+      "artists": [
+        [
+          {
+            "name": "Zac Brown Band",
+            "href": "https://api.spotify.com/v1/artists/6yJCxee7QumYr820xdIsjo"
+          }
+        ]
+      ],
+      "name": "You Get What You Give",
+      "url": "https://open.spotify.com/album/7xnimikDuIBDpLeLrjptb8"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273aacc3ddf3bfa01f4bd44cacc",
+      "artists": [
+        [
+          {
+            "name": "Joey Bada$$",
+            "href": "https://api.spotify.com/v1/artists/2P5sC9cVZDToPxyomzF1UH"
+          }
+        ]
+      ],
+      "name": "2000",
+      "url": "https://open.spotify.com/album/261LWEVYViMXijB95mAty3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27398b612c6f72561e6b6ff5393",
+      "artists": [
+        [
+          {
+            "name": "John Denver",
+            "href": "https://api.spotify.com/v1/artists/7EK1bQADBoqbYXnT4Cqv9w"
+          }
+        ]
+      ],
+      "name": "John Denver Sings",
+      "url": "https://open.spotify.com/album/4zaZhVcoHvbxNEm6CgPRS0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2733f9850a94794de2420fb5191",
+      "artists": [
+        [
+          {
+            "name": "Mumford & Sons",
+            "href": "https://api.spotify.com/v1/artists/3gd8FJtBJtkRxdfbTu19U2"
+          }
+        ]
+      ],
+      "name": "Wilder Mind (Deluxe)",
+      "url": "https://open.spotify.com/album/41wPd5bIqMP3BVTz23wxxP"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273b0b3bd1a5f3967705579e6f1",
+      "artists": [
+        [
+          {
+            "name": "The Avalanches",
+            "href": "https://api.spotify.com/v1/artists/3C8RpaI3Go0yFF9whvKoED"
+          }
+        ]
+      ],
+      "name": "We Will Always Love You",
+      "url": "https://open.spotify.com/album/755yBlrk0Sz8tIgMMTgyr1"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a4dfa7122ec07fe3a1af22e7",
+      "artists": [
+        [
+          {
+            "name": "Drake",
+            "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4"
+          }
+        ]
+      ],
+      "name": "Nothing Was The Same (Deluxe)",
+      "url": "https://open.spotify.com/album/5mz0mJxb80gqJIcRf9LGHJ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273cedbebad659352468aab8d8e",
+      "artists": [
+        [
+          {
+            "name": "Subtle Orange",
+            "href": "https://api.spotify.com/v1/artists/60LsU7GzzmpYrDCLOUZOv4"
+          }
+        ]
+      ],
+      "name": "Lacy's Place",
+      "url": "https://open.spotify.com/album/7CC4kxfFCHNN6OrSv1QXZK"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2731d65b13c3badde0a271957a6",
+      "artists": [
+        [
+          {
+            "name": "Djo",
+            "href": "https://api.spotify.com/v1/artists/5p9HO3XC5P3BLxJs5Mtrhm"
+          }
+        ]
+      ],
+      "name": "Twenty Twenty",
+      "url": "https://open.spotify.com/album/4v3LUnHL01HzJC6Jol6FCv"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732daf65e17a11a2f235d8b66a",
+      "artists": [
+        [
+          {
+            "name": "Keith Whitley",
+            "href": "https://api.spotify.com/v1/artists/0bc7dhY6YXL35m1G0jVwuW"
+          }
+        ]
+      ],
+      "name": "L.A. to Miami",
+      "url": "https://open.spotify.com/album/2KtKTDPHET53VNgccwlYvj"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e8f427e22592b343cd3108a6",
+      "artists": [
+        [
+          {
+            "name": "Mt. Joy",
+            "href": "https://api.spotify.com/v1/artists/69tiO1fG8VWduDl3ji2qhI"
+          }
+        ]
+      ],
+      "name": "Orange Blood",
+      "url": "https://open.spotify.com/album/3EP2uvI3t1m5UCCSA1iTtV"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27371bfd57bd4ab6db0e7a70772",
+      "artists": [
+        [
+          {
+            "name": "Kid Bloom",
+            "href": "https://api.spotify.com/v1/artists/5CXdWANGwYYRPClH6hhC0P"
+          }
+        ]
+      ],
+      "name": "Highway",
+      "url": "https://open.spotify.com/album/0HBa1OFWRAcDhpZ1CrodtB"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736ae0631d36fc51b963780650",
+      "artists": [
+        [
+          {
+            "name": "Remi Wolf",
+            "href": "https://api.spotify.com/v1/artists/0NB5HROxc8dDBXpkIi1v3d"
+          }
+        ]
+      ],
+      "name": "Juno (Deluxe)",
+      "url": "https://open.spotify.com/album/7dMtse1hCWqbfFGMLW2clA"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2735b924aa009b61b6b9d831eec",
+      "artists": [
+        [
+          {
+            "name": "Denzel Curry",
+            "href": "https://api.spotify.com/v1/artists/6fxyWrfmjcbj5d12gXeiNV"
+          }
+        ]
+      ],
+      "name": "Melt My Eyez See Your Future",
+      "url": "https://open.spotify.com/album/7KtyUeiJidoZO0ybxBXw0Q"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2730e3f2257764059b7b450aac6",
+      "artists": [
+        [
+          {
+            "name": "LOONY",
+            "href": "https://api.spotify.com/v1/artists/0xSfdfhcXN6T8M5gt7VwK0"
+          }
+        ]
+      ],
+      "name": "soft thing",
+      "url": "https://open.spotify.com/album/1iBeLmJBT417B8XHmIuctN"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2735b656d32ea6b0b9c54c2d2e0",
+      "artists": [
+        [
+          {
+            "name": "Rex Orange County",
+            "href": "https://api.spotify.com/v1/artists/7pbDxGE6nQSZVfiFdq9lOL"
+          }
+        ]
+      ],
+      "name": "WHO CARES?",
+      "url": "https://open.spotify.com/album/2yI4m5Yu2tl8v0It5P9WVz"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fcf75ead8a32ac0020d2ce86",
+      "artists": [
+        [
+          {
+            "name": "Bruno Mars",
+            "href": "https://api.spotify.com/v1/artists/0du5cEVh5yTK9QJze8zA0C"
+          },
+          {
+            "name": "Anderson .Paak",
+            "href": "https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa"
+          },
+          {
+            "name": "Silk Sonic",
+            "href": "https://api.spotify.com/v1/artists/6PvvGcCY2XtUcSRld1Wilr"
+          }
+        ]
+      ],
+      "name": "An Evening With Silk Sonic",
+      "url": "https://open.spotify.com/album/1YgekJJTEueWDaMr7BYqPk"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737591908439ba71735c087e4a",
+      "artists": [
+        [
+          {
+            "name": "Stephen Day",
+            "href": "https://api.spotify.com/v1/artists/4cnFw4bkIWVGKUBsr93OS5"
+          }
+        ]
+      ],
+      "name": "Undergrad Romance and the Moses in Me",
+      "url": "https://open.spotify.com/album/3BKFrChX5Exd28VX3Yq4Kb"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273b103a69ed742a7735a2ba7e8",
+      "artists": [
+        [
+          {
+            "name": "Japanese Breakfast",
+            "href": "https://api.spotify.com/v1/artists/7MoIc5s9KXolCBH1fy9kkw"
+          }
+        ]
+      ],
+      "name": "Jubilee",
+      "url": "https://open.spotify.com/album/1uD1kdwTWH1DZQZqGKz6rY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732f53f2525478edbbdb02b7f7",
+      "artists": [
+        [
+          {
+            "name": "Liam Kazar",
+            "href": "https://api.spotify.com/v1/artists/0wovYvR7eYIDf61MWmxjX9"
+          }
+        ]
+      ],
+      "name": "Due North",
+      "url": "https://open.spotify.com/album/76tlE2bLEsZmJq4SgZYbQt"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273569daae5f48de37e42abed06",
+      "artists": [
+        [
+          {
+            "name": "MICHELLE",
+            "href": "https://api.spotify.com/v1/artists/4yYvor6Rq4fG82J1L47DYp"
+          }
+        ]
+      ],
+      "name": "AFTER DINNER WE TALK DREAMS",
+      "url": "https://open.spotify.com/album/0DNz0XsG6B1Vz1CcbuIsov"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f2b52822fe54084cf07bfe02",
+      "artists": [
+        [
+          {
+            "name": "Brian Eno",
+            "href": "https://api.spotify.com/v1/artists/7MSUfLeTdDEoZiJPDSBXgi"
+          }
+        ]
+      ],
+      "name": "Apollo",
+      "url": "https://open.spotify.com/album/1Z2jkEtW5Sc9wWVxUgyG0E"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d1b21bb8cc93afab88e27147",
+      "artists": [
+        [
+          {
+            "name": "Brian Green",
+            "href": "https://api.spotify.com/v1/artists/3tUWjCgBpCvOfNSLIAEh4p"
+          }
+        ]
+      ],
+      "name": "Music For Home",
+      "url": "https://open.spotify.com/album/1g1e9oe10lk4MXI7TKJSU2"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ecd1e6fe12d12402318d747d",
+      "artists": [
+        [
+          {
+            "name": "Paul Simon",
+            "href": "https://api.spotify.com/v1/artists/2CvCyf1gEVhI0mX6aFXmVI"
+          }
+        ]
+      ],
+      "name": "Graceland",
+      "url": "https://open.spotify.com/album/4WoQ94qzwQj28n3nlSOVLB"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273870989364c1ea402616950fe",
+      "artists": [
+        [
+          {
+            "name": "Penny and Sparrow",
+            "href": "https://api.spotify.com/v1/artists/65o6y7GtoXzchyiJB3r9Ur"
+          }
+        ]
+      ],
+      "name": "Olly Olly",
+      "url": "https://open.spotify.com/album/6898mgjdVWLEBf9gCQpCAS"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d85110a9ebf998f8bb9417ac",
+      "artists": [
+        [
+          {
+            "name": "Big Red Machine",
+            "href": "https://api.spotify.com/v1/artists/7gXy60xRcwYujBFoYHnR2O"
+          }
+        ]
+      ],
+      "name": "Big Red Machine",
+      "url": "https://open.spotify.com/album/1c3dz3iboMl5gWpLfTi6D2"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732ff15f4b88295ac0ced2aa86",
+      "artists": [
+        [
+          {
+            "name": "Eli Young Band",
+            "href": "https://api.spotify.com/v1/artists/6eKWqnckwdIlSnjaYgIyxv"
+          }
+        ]
+      ],
+      "name": "Life At Best",
+      "url": "https://open.spotify.com/album/3IJ836KoTkjdFoMGZEnGjb"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273287cf46590a781b8a03e174e",
+      "artists": [
+        [
+          {
+            "name": "Faces",
+            "href": "https://api.spotify.com/v1/artists/3v4feUQnU3VEUqFrjmtekL"
+          }
+        ]
+      ],
+      "name": "A Nod Is as Good as a Wink... to a Blind Horse",
+      "url": "https://open.spotify.com/album/3mvdHEE56sgj1NtTnTF8qK"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2734908c0ea9f3884cee21e85c1",
+      "artists": [
+        [
+          {
+            "name": "Fleet Foxes",
+            "href": "https://api.spotify.com/v1/artists/4EVpmkEwrLYEg6jIsiPMIb"
+          }
+        ]
+      ],
+      "name": "Shore",
+      "url": "https://open.spotify.com/album/0lmjCPEcec2k6L7ysNIcd3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ad29a40953b33e52530e399e",
+      "artists": [
+        [
+          {
+            "name": "Maverick City Music",
+            "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV"
+          },
+          {
+            "name": "UPPERROOM",
+            "href": "https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63"
+          }
+        ]
+      ],
+      "name": "Move Your Heart",
+      "url": "https://open.spotify.com/album/5cqTGnTR7shuPCA2FqyFtR"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27316a6cb93e32bf2ae66b1f5b2",
+      "artists": [
+        [
+          {
+            "name": "Remi Wolf",
+            "href": "https://api.spotify.com/v1/artists/0NB5HROxc8dDBXpkIi1v3d"
+          }
+        ]
+      ],
+      "name": "Juno",
+      "url": "https://open.spotify.com/album/7tJ8Wtej161vR0uCbGDiDR"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273962378eb5a05ef5951e98058",
+      "artists": [
+        [
+          {
+            "name": "Henry Jamison",
+            "href": "https://api.spotify.com/v1/artists/2XdtmipGVPmA62ptDgX8QC"
+          }
+        ]
+      ],
+      "name": "The Wilds",
+      "url": "https://open.spotify.com/album/6mG8sVZlEsKwNZeSq8sMpA"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273cd6660cb55c09a195ed326ac",
+      "artists": [
+        [
+          {
+            "name": "Tierra Whack",
+            "href": "https://api.spotify.com/v1/artists/4lPl9gqgox3JDiaJ1yklKh"
+          }
+        ]
+      ],
+      "name": "R&B?",
+      "url": "https://open.spotify.com/album/1OTZupPjEaLRA8mbO4qvKz"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e6d6d392a66a7f9172fe57c8",
+      "artists": [
+        [
+          {
+            "name": "Cordae",
+            "href": "https://api.spotify.com/v1/artists/0huGjMyP507tBCARyzSkrv"
+          }
+        ]
+      ],
+      "name": "The Lost Boy",
+      "url": "https://open.spotify.com/album/6Pb7PMZtW0fuEM1lCGvCDu"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27321b999d57c62a5f362633a48",
+      "artists": [
+        [
+          {
+            "name": "The Cast of Netflix's Film tick, tick... BOOM!",
+            "href": "https://api.spotify.com/v1/artists/5lveWTbqXuBYfwswNPsGWL"
+          }
+        ]
+      ],
+      "name": "tick, tick... BOOM! (Soundtrack from the Netflix Film)",
+      "url": "https://open.spotify.com/album/4d1XaejoQ5r4jdkV8k5SNJ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2734ca68d59a4a29c856a4a39c2",
+      "artists": [
+        [
+          {
+            "name": "Hozier",
+            "href": "https://api.spotify.com/v1/artists/2FXC3k01G6Gw61bmprjgqS"
+          }
+        ]
+      ],
+      "name": "Hozier (Expanded Edition)",
+      "url": "https://open.spotify.com/album/4Pv7m8D82A1Xun7xNCKZjJ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d634d387e120edd2cd62db68",
+      "artists": [
+        [
+          {
+            "name": "Joey Dosik",
+            "href": "https://api.spotify.com/v1/artists/3kANxNTLNOhxpOPoCbGq9E"
+          }
+        ]
+      ],
+      "name": "Inside Voice",
+      "url": "https://open.spotify.com/album/1dozAAM6CMyL2FAEUcHJKu"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27398078d325c25a5ac4081cfba",
+      "artists": [
+        [
+          {
+            "name": "Jim Croce",
+            "href": "https://api.spotify.com/v1/artists/1R6Hx1tJ2VOUyodEpC12xM"
+          }
+        ]
+      ],
+      "name": "You Don't Mess Around With Jim",
+      "url": "https://open.spotify.com/album/3L9sVl5T7UpFK6tNeEiXdy"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2735e120d8f16a5e396c9f78b5f",
+      "artists": [
+        [
+          {
+            "name": "Johnnyswim",
+            "href": "https://api.spotify.com/v1/artists/4igDSX1kgfWbVTDCywcBGm"
+          },
+          {
+            "name": "Drew Holcomb & The Neighbors",
+            "href": "https://api.spotify.com/v1/artists/4RwbDag6jWIYJnEGH6Wte9"
+          }
+        ]
+      ],
+      "name": "Goodbye Road",
+      "url": "https://open.spotify.com/album/0UqwIANNoLiVXshg60MWh9"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273734f899a2036c0ef2a504107",
+      "artists": [
+        [
+          {
+            "name": "Drew Holcomb & The Neighbors",
+            "href": "https://api.spotify.com/v1/artists/4RwbDag6jWIYJnEGH6Wte9"
+          }
+        ]
+      ],
+      "name": "Medicine",
+      "url": "https://open.spotify.com/album/68iLB1QuhpthFGPqjmjdKm"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e5d3f32e37004060183a5fc5",
+      "artists": [
+        [
+          {
+            "name": "Mumford & Sons",
+            "href": "https://api.spotify.com/v1/artists/3gd8FJtBJtkRxdfbTu19U2"
+          }
+        ]
+      ],
+      "name": "Babel (Deluxe Version)",
+      "url": "https://open.spotify.com/album/4Blt0T4LKGdWreILkYZre3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273bf7c317a63c4f128b8823406",
+      "artists": [
+        [
+          {
+            "name": "Bon Iver",
+            "href": "https://api.spotify.com/v1/artists/4LEiUm1SRbFMgfqnQTwUbQ"
+          }
+        ]
+      ],
+      "name": "For Emma, Forever Ago",
+      "url": "https://open.spotify.com/album/7EJ0OT5ZqybXxcYRa6mccM"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ed801e58a9ababdea6ac7ce4",
+      "artists": [
+        [
+          {
+            "name": "The Beatles",
+            "href": "https://api.spotify.com/v1/artists/3WrFJ7ztbogyGnTHbHJFl2"
+          }
+        ]
+      ],
+      "name": "Rubber Soul (Remastered)",
+      "url": "https://open.spotify.com/album/50o7kf2wLwVmOTVYJOTplm"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27357b8818e53f6f3644dfc9b0c",
+      "artists": [
+        [
+          {
+            "name": "Ted Hawkins",
+            "href": "https://api.spotify.com/v1/artists/1clAnI6PODaoVlbzlUPOfU"
+          }
+        ]
+      ],
+      "name": "Watch Your Step",
+      "url": "https://open.spotify.com/album/3XnHTwogsnLUFhC7nZ983d"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fa7d2b8b9bcff40f39e161b9",
+      "artists": [
+        [
+          {
+            "name": "Remi Wolf",
+            "href": "https://api.spotify.com/v1/artists/0NB5HROxc8dDBXpkIi1v3d"
+          }
+        ]
+      ],
+      "name": "Juno",
+      "url": "https://open.spotify.com/album/0moiQdj0mVrDwEu83iCTxY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fbab613f887083f7ee11a1de",
+      "artists": [
+        [
+          {
+            "name": "Big Red Machine",
+            "href": "https://api.spotify.com/v1/artists/7gXy60xRcwYujBFoYHnR2O"
+          }
+        ]
+      ],
+      "name": "How Long Do You Think It's Gonna Last?",
+      "url": "https://open.spotify.com/album/3YbMxdapL6mvSQjosFkc0T"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d65c698f7b03031930a2a570",
+      "artists": [
+        [
+          {
+            "name": "Hippo Campus",
+            "href": "https://api.spotify.com/v1/artists/1btWGBz4Uu1HozTwb2Lm8A"
+          }
+        ]
+      ],
+      "name": "Landmark",
+      "url": "https://open.spotify.com/album/0vb1g018puu47StlIi9wxC"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d18fa8f63707115cb1b38f65",
+      "artists": [
+        [
+          {
+            "name": "Mac DeMarco",
+            "href": "https://api.spotify.com/v1/artists/3Sz7ZnJQBIHsXLUSo0OQtM"
+          }
+        ]
+      ],
+      "name": "This Old Dog",
+      "url": "https://open.spotify.com/album/4NNq2vwTapv4fSJcrZbPH7"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27337d3019d982df14d70bb76f4",
+      "artists": [
+        [
+          {
+            "name": "Wilderado",
+            "href": "https://api.spotify.com/v1/artists/1Tp7C6LzxZe9Mix6rn4zbI"
+          }
+        ]
+      ],
+      "name": "Wilderado",
+      "url": "https://open.spotify.com/album/27PS3oqiVzOqqAT04Ku6at"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27335b8ffe3f53547ca01e1d630",
+      "artists": [
+        [
+          {
+            "name": "Wilderado",
+            "href": "https://api.spotify.com/v1/artists/1Tp7C6LzxZe9Mix6rn4zbI"
+          }
+        ]
+      ],
+      "name": "Favors",
+      "url": "https://open.spotify.com/album/1FjiFYA6ETaW2vXcnqkbjF"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27306b42768ebe736eec21336ea",
+      "artists": [
+        [
+          {
+            "name": "Jack Johnson",
+            "href": "https://api.spotify.com/v1/artists/3GBPw9NK25X1Wt2OUvOwY3"
+          }
+        ]
+      ],
+      "name": "In Between Dreams",
+      "url": "https://open.spotify.com/album/7tTc46dNdE6GGuiQsssWxo"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a181a1b7cfa51375ae7b2a97",
+      "artists": [
+        [
+          {
+            "name": "Robert Plant",
+            "href": "https://api.spotify.com/v1/artists/1OwarW4LEHnoep20ixRA0y"
+          },
+          {
+            "name": "Alison Krauss",
+            "href": "https://api.spotify.com/v1/artists/5J6L7N6B4nI1M5cwa29mQG"
+          }
+        ]
+      ],
+      "name": "Raising Sand",
+      "url": "https://open.spotify.com/album/54GfJ3ZEY2b6PKmvETmj1n"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27351729fae66d02122c4951153",
+      "artists": [
+        [
+          {
+            "name": "Young the Giant",
+            "href": "https://api.spotify.com/v1/artists/4j56EQDQu5XnL7R3E9iFJT"
+          }
+        ]
+      ],
+      "name": "Young The Giant (Special Edition)",
+      "url": "https://open.spotify.com/album/2ww7MYrkExsljnKhcINDse"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273af1a1b0b88102fc9b500c07b",
+      "artists": [
+        [
+          {
+            "name": "Birdtalker",
+            "href": "https://api.spotify.com/v1/artists/2sNHl4oXsU0DVTy9u1otGt"
+          }
+        ]
+      ],
+      "name": "Birdtalker",
+      "url": "https://open.spotify.com/album/4nGfaiyuZRujKnApMPFBj6"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d0673d1dd6938dad8530823b",
+      "artists": [
+        [
+          {
+            "name": "Nas",
+            "href": "https://api.spotify.com/v1/artists/20qISvAhX20dpIbOOzGK3q"
+          }
+        ]
+      ],
+      "name": "King's Disease II",
+      "url": "https://open.spotify.com/album/6CM5qhYBvpgYNek5kYwuOJ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f9f70cafd39abcbb59a6d508",
+      "artists": [
+        [
+          {
+            "name": "The Avett Brothers",
+            "href": "https://api.spotify.com/v1/artists/196lKsA13K3keVXMDFK66q"
+          }
+        ]
+      ],
+      "name": "The Second Gleam",
+      "url": "https://open.spotify.com/album/4qnTzXaGBJnb11UMPAILO0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273580cf044e12fa1ee398f0158",
+      "artists": [
+        [
+          {
+            "name": "Jelani Aryeh",
+            "href": "https://api.spotify.com/v1/artists/7A47sEe0ih6WpKmNCRMu86"
+          }
+        ]
+      ],
+      "name": "I've Got Some Living To Do",
+      "url": "https://open.spotify.com/album/73ct5rK9qShCYdzBR8C8PX"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+      "artists": [
+        [
+          {
+            "name": "Frank Ocean",
+            "href": "https://api.spotify.com/v1/artists/2h93pZq0e7k5yf4dywlkpM"
+          }
+        ]
+      ],
+      "name": "Blonde",
+      "url": "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2734c8974d1d37295694d7d4e8f",
+      "artists": [
+        [
+          {
+            "name": "Childish Gambino",
+            "href": "https://api.spotify.com/v1/artists/73sIBHcqh3Z3NyqHKZ7FOL"
+          }
+        ]
+      ],
+      "name": "3.15.20",
+      "url": "https://open.spotify.com/album/600ClrWRsAr7jZ0qjaBLHz"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27388405a46f6564caac57105e8",
+      "artists": [
+        [
+          {
+            "name": "Zac Brown Band",
+            "href": "https://api.spotify.com/v1/artists/6yJCxee7QumYr820xdIsjo"
+          }
+        ]
+      ],
+      "name": "Uncaged",
+      "url": "https://open.spotify.com/album/1s8rmXFgIuXVpUach3s2V7"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736383f3d57f21108771c05323",
+      "artists": [
+        [
+          {
+            "name": "The Lumineers",
+            "href": "https://api.spotify.com/v1/artists/16oZKvXb6WkQlVAjwo2Wbg"
+          }
+        ]
+      ],
+      "name": "III",
+      "url": "https://open.spotify.com/album/0cGGGHvqwMD2J7bNz8TG3s"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273120ba5947ebc67fb4eb2e2aa",
+      "artists": [
+        [
+          {
+            "name": "The Story So Far",
+            "href": "https://api.spotify.com/v1/artists/6meTcQ79DrfkIuSLPZkpBg"
+          }
+        ]
+      ],
+      "name": "Proper Dose",
+      "url": "https://open.spotify.com/album/2go3nVQ6oxBB5UERsGUUz0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273201ae994b1a3f01802d65c2d",
+      "artists": [
+        [
+          {
+            "name": "J Dilla",
+            "href": "https://api.spotify.com/v1/artists/0IVcLMMbm05VIjnzPkGCyp"
+          }
+        ]
+      ],
+      "name": "The Shining",
+      "url": "https://open.spotify.com/album/6hXXKsVVTfDbRTEuHaInI5"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+      "artists": [
+        [
+          {
+            "name": "Tyler, The Creator",
+            "href": "https://api.spotify.com/v1/artists/4V8LLVI7PbaPR0K2TGSxFF"
+          }
+        ]
+      ],
+      "name": "Flower Boy",
+      "url": "https://open.spotify.com/album/2nkto6YNI4rUYTLqEwWJ3o"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57",
+      "artists": [
+        [
+          {
+            "name": "Tyler, The Creator",
+            "href": "https://api.spotify.com/v1/artists/4V8LLVI7PbaPR0K2TGSxFF"
+          }
+        ]
+      ],
+      "name": "IGOR",
+      "url": "https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+      "artists": [
+        [
+          {
+            "name": "Dominic Fike",
+            "href": "https://api.spotify.com/v1/artists/6USv9qhCn6zfxlBQIYJ9qs"
+          }
+        ]
+      ],
+      "name": "Don't Forget About Me, Demos",
+      "url": "https://open.spotify.com/album/05jbNkYoEQdjVDHEHtg1gY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26",
+      "artists": [
+        [
+          {
+            "name": "Nas",
+            "href": "https://api.spotify.com/v1/artists/20qISvAhX20dpIbOOzGK3q"
+          }
+        ]
+      ],
+      "name": "Illmatic",
+      "url": "https://open.spotify.com/album/3kEtdS2pH6hKcMU9Wioob1"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273b9d520d3d51f4fd1d00b4645",
+      "artists": [
+        [
+          {
+            "name": "Big K.R.I.T.",
+            "href": "https://api.spotify.com/v1/artists/0CKa42Jqrc9fSFbDjePaXP"
+          }
+        ]
+      ],
+      "name": "4Eva N A Day",
+      "url": "https://open.spotify.com/album/6UQ7Ld8NuXlpGBoD4VQGE3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732fbffba1f6cce197ece58ea6",
+      "artists": [
+        [
+          {
+            "name": "Dierks Bentley",
+            "href": "https://api.spotify.com/v1/artists/7x8nK0m0cP2ksQf0mjWdPS"
+          }
+        ]
+      ],
+      "name": "RISER",
+      "url": "https://open.spotify.com/album/5FoxaIGIRuXsbhZhwdfknU"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e572359074e5da958a922987",
+      "artists": [
+        [
+          {
+            "name": "Big Sean",
+            "href": "https://api.spotify.com/v1/artists/0c173mlxpT3dSFRgMO8XPh"
+          }
+        ]
+      ],
+      "name": "I Decided.",
+      "url": "https://open.spotify.com/album/0XAIjjN5qxViVS0Y5fYkar"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736c1e31e10c7a5b2ed2258e29",
+      "artists": [
+        [
+          {
+            "name": "Common",
+            "href": "https://api.spotify.com/v1/artists/2GHclqNVjqGuiE5mA7BEoc"
+          }
+        ]
+      ],
+      "name": "Be",
+      "url": "https://open.spotify.com/album/2UuvBxV56QWWj2uviGS0up"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273421f72b3abfd54e580d277f8",
+      "artists": [
+        [
+          {
+            "name": "The Lumineers",
+            "href": "https://api.spotify.com/v1/artists/16oZKvXb6WkQlVAjwo2Wbg"
+          }
+        ]
+      ],
+      "name": "Cleopatra (Deluxe)",
+      "url": "https://open.spotify.com/album/5fY8mYgYGkyaJ9XvVOzVQA"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2735f70ba558fdf4a78c737a794",
+      "artists": [
+        [
+          {
+            "name": "Rayland Baxter",
+            "href": "https://api.spotify.com/v1/artists/251UrhgNbMr15NLzQ2KyKq"
+          }
+        ]
+      ],
+      "name": "Feathers & Fishhooks",
+      "url": "https://open.spotify.com/album/2kyzu2gZ1SlkrzW6l4b7dD"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273c1bb124f993488cf21b269fc",
+      "artists": [
+        [
+          {
+            "name": "J. Cole",
+            "href": "https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5"
+          }
+        ]
+      ],
+      "name": "Born Sinner (Deluxe Version)",
+      "url": "https://open.spotify.com/album/5FP9keIJnlSCKnkdVOf623"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736aca031ccc27d2e4dd829d14",
+      "artists": [
+        [
+          {
+            "name": "J. Cole",
+            "href": "https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5"
+          }
+        ]
+      ],
+      "name": "2014 Forest Hills Drive",
+      "url": "https://open.spotify.com/album/7viNUmZZ8ztn2UB4XB3jIL"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fbdec8696ff05ae19265dfa0",
+      "artists": [
+        [
+          {
+            "name": "Isaiah Rashad",
+            "href": "https://api.spotify.com/v1/artists/6aaMZ3fcfLv4tEbmY7bjRM"
+          }
+        ]
+      ],
+      "name": "The Sun's Tirade",
+      "url": "https://open.spotify.com/album/6jjX8mGrsWtrpYpFhGMrg1"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fb22c7162d3867dc3c2af466",
+      "artists": [
+        [
+          {
+            "name": "Tierra Whack",
+            "href": "https://api.spotify.com/v1/artists/4lPl9gqgox3JDiaJ1yklKh"
+          }
+        ]
+      ],
+      "name": "Whack World",
+      "url": "https://open.spotify.com/album/3ogNAkUhvQy0cFOfLoR6Y8"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738880312891033e27f0e4341b",
+      "artists": [
+        [
+          {
+            "name": "Little Simz",
+            "href": "https://api.spotify.com/v1/artists/6eXZu6O7nAUA5z6vLV8NKI"
+          }
+        ]
+      ],
+      "name": "Sometimes I Might Be Introvert",
+      "url": "https://open.spotify.com/album/0DBoWQ52XUHtrZQdfAqOVj"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273b426fafff2e01d988495c215",
+      "artists": [
+        [
+          {
+            "name": "Jim-E Stack",
+            "href": "https://api.spotify.com/v1/artists/4GmataFSHOSQWxuuUX57Bh"
+          }
+        ]
+      ],
+      "name": "EPHEMERA",
+      "url": "https://open.spotify.com/album/0elpfsW5SObWj2BmXLpOwo"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736d35d75bff0d19c77f69c793",
+      "artists": [
+        [
+          {
+            "name": "Eric Church",
+            "href": "https://api.spotify.com/v1/artists/2IvkS5MXK0vPGnwyJsrEyV"
+          }
+        ]
+      ],
+      "name": "Mr. Misunderstood",
+      "url": "https://open.spotify.com/album/1QIZsTZrZdQwQ9QJnFoFao"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273df169fbe45f0e633cb725462",
+      "artists": [
+        [
+          {
+            "name": "Kacey Musgraves",
+            "href": "https://api.spotify.com/v1/artists/70kkdajctXSbqSMJbQO424"
+          }
+        ]
+      ],
+      "name": "star-crossed",
+      "url": "https://open.spotify.com/album/6y9LbrjY2TpaLvtbE7FTkc"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273fce23dadb51975ebf2e9d75c",
+      "artists": [
+        [
+          {
+            "name": "Childish Gambino",
+            "href": "https://api.spotify.com/v1/artists/73sIBHcqh3Z3NyqHKZ7FOL"
+          }
+        ]
+      ],
+      "name": "Because the Internet",
+      "url": "https://open.spotify.com/album/4GNIhgEGXzWGAefgN5qjdU"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732a7db835b912dc5014bd37f4",
+      "artists": [
+        [
+          {
+            "name": "Kanye West",
+            "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x"
+          }
+        ]
+      ],
+      "name": "The Life Of Pablo",
+      "url": "https://open.spotify.com/album/7gsWAHLeT0w7es6FofOXk1"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2739bbd79106e510d13a9a5ec33",
+      "artists": [
+        [
+          {
+            "name": "Kanye West",
+            "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x"
+          }
+        ]
+      ],
+      "name": "Graduation",
+      "url": "https://open.spotify.com/album/5fPglEDz9YEwRgbLRvhCZy"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273dd6e1338493de367e646a01a",
+      "artists": [
+        [
+          {
+            "name": "Logic",
+            "href": "https://api.spotify.com/v1/artists/4xRYI6VqpkE3UwrDrAZL8L"
+          }
+        ]
+      ],
+      "name": "No Pressure",
+      "url": "https://open.spotify.com/album/7zbu593gOe2GxgAmeXKWmw"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a4c35326f6fe6676c10e31ac",
+      "artists": [
+        [
+          {
+            "name": "Logic",
+            "href": "https://api.spotify.com/v1/artists/4xRYI6VqpkE3UwrDrAZL8L"
+          }
+        ]
+      ],
+      "name": "Under Pressure (Deluxe)",
+      "url": "https://open.spotify.com/album/1Mk7Lei0Ra3hawezqmad5V"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732e35d25eb7288830d5540484",
+      "artists": [
+        [
+          {
+            "name": "Kacey Musgraves",
+            "href": "https://api.spotify.com/v1/artists/70kkdajctXSbqSMJbQO424"
+          }
+        ]
+      ],
+      "name": "Golden Hour",
+      "url": "https://open.spotify.com/album/7f6xPqyaolTiziKf5R5Z0c"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27323ed6d11c4dff5ce4c47a7e7",
+      "artists": [
+        [
+          {
+            "name": "James Taylor",
+            "href": "https://api.spotify.com/v1/artists/0vn7UBvSQECKJm2817Yf1P"
+          }
+        ]
+      ],
+      "name": "Greatest Hits",
+      "url": "https://open.spotify.com/album/2L4U4JjEADYaVltkvDrkCC"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f7a8ca334bcb8fb831958ed1",
+      "artists": [
+        [
+          {
+            "name": "Louis Armstrong",
+            "href": "https://api.spotify.com/v1/artists/19eLuQmk9aCobbVDHc6eek"
+          },
+          {
+            "name": "Oscar Peterson",
+            "href": "https://api.spotify.com/v1/artists/6zkX5fhrSD4tdVOmimR9wB"
+          }
+        ]
+      ],
+      "name": "Louis Armstrong Meets Oscar Peterson (Expanded Edition)",
+      "url": "https://open.spotify.com/album/6P8XQuvUsn5L1xiGJUXLJ0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273947b5cc535d76394a2d98e37",
+      "artists": [
+        [
+          {
+            "name": "Oscar Peterson Trio",
+            "href": "https://api.spotify.com/v1/artists/0ldU0QJm31y0d6f57R1G2A"
+          }
+        ]
+      ],
+      "name": "Night Train (Expanded Edition)",
+      "url": "https://open.spotify.com/album/3gPOWmWT0q7Ygp95Xiuw1v"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27365c29c4a590e9e9b03467c5a",
+      "artists": [
+        [
+          {
+            "name": "Hiatus Kaiyote",
+            "href": "https://api.spotify.com/v1/artists/43JlwunhXm1oqdKyOa2Z9Y"
+          }
+        ]
+      ],
+      "name": "Choose Your Weapon",
+      "url": "https://open.spotify.com/album/3qzmmmRmVBiOuMvrerfW4z"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "artists": [
+        [
+          {
+            "name": "Tame Impala",
+            "href": "https://api.spotify.com/v1/artists/5INjqkS1o8h1imAzPqGZBb"
+          }
+        ]
+      ],
+      "name": "The Slow Rush",
+      "url": "https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273178df9e236187d6f1e710f5f",
+      "artists": [
+        [
+          {
+            "name": "Still Woozy",
+            "href": "https://api.spotify.com/v1/artists/4iMO20EPodreIaEl8qW66y"
+          }
+        ]
+      ],
+      "name": "If This Isn’t Nice, I Don’t Know What Is",
+      "url": "https://open.spotify.com/album/0QnWm07An8WyO3eupjBDoP"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732faa2453cab6a8d75afa9042",
+      "artists": [
+        [
+          {
+            "name": "Big K.R.I.T.",
+            "href": "https://api.spotify.com/v1/artists/0CKa42Jqrc9fSFbDjePaXP"
+          }
+        ]
+      ],
+      "name": "Return of 4Eva",
+      "url": "https://open.spotify.com/album/2GeLyxVyq4FiITerQoT1IY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27319ed71aa39d8e1d791aa9af6",
+      "artists": [
+        [
+          {
+            "name": "Mt. Joy",
+            "href": "https://api.spotify.com/v1/artists/69tiO1fG8VWduDl3ji2qhI"
+          }
+        ]
+      ],
+      "name": "Mt. Joy",
+      "url": "https://open.spotify.com/album/5h9FO7QRZMcrcnSYvihQ01"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2739e0452cccce7ed15721b3372",
+      "artists": [
+        [
+          {
+            "name": "Goodie Mob",
+            "href": "https://api.spotify.com/v1/artists/3F2Y683ovlWT53WKCeq0oj"
+          }
+        ]
+      ],
+      "name": "Soul Food",
+      "url": "https://open.spotify.com/album/6cKgDS8oVcCNw9EjQf66er"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27398e416f8092b14e4910856f9",
+      "artists": [
+        [
+          {
+            "name": "Maverick City Music",
+            "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV"
+          }
+        ]
+      ],
+      "name": "Maverick City, Vol. 1",
+      "url": "https://open.spotify.com/album/02rSTsnEzWJOg6yA3cVijt"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27323350feac07f56d8b96f33d5",
+      "artists": [
+        [
+          {
+            "name": "Carole King",
+            "href": "https://api.spotify.com/v1/artists/319yZVtYM9MBGqmSQnMyY6"
+          }
+        ]
+      ],
+      "name": "Tapestry",
+      "url": "https://open.spotify.com/album/12n11cgnpjXKLeqrnIERoS"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d28a5d8df1b8e7c93cf75301",
+      "artists": [
+        [
+          {
+            "name": "We The Kingdom",
+            "href": "https://api.spotify.com/v1/artists/5Ye2QWN2Wl9zTn947eaest"
+          }
+        ]
+      ],
+      "name": "Holy Water (Deluxe)",
+      "url": "https://open.spotify.com/album/4t6ZuKxUPVRUf31j4cv8Uv"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738327c31bacbfa2ba31691eda",
+      "artists": [
+        [
+          {
+            "name": "NEEDTOBREATHE",
+            "href": "https://api.spotify.com/v1/artists/610EjgFatGvVPtib97jQ8G"
+          }
+        ]
+      ],
+      "name": "Into The Mystery",
+      "url": "https://open.spotify.com/album/2vDmR7Be0zQwcxDnHAqe5X"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273696b4e67423edd64784bfbb4",
+      "artists": [
+        [
+          {
+            "name": "Tyler, The Creator",
+            "href": "https://api.spotify.com/v1/artists/4V8LLVI7PbaPR0K2TGSxFF"
+          }
+        ]
+      ],
+      "name": "CALL ME IF YOU GET LOST",
+      "url": "https://open.spotify.com/album/45ba6QAtNrdv6Ke4MFOKk9"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2734c79d5ec52a6d0302f3add25",
+      "artists": [
+        [
+          {
+            "name": "SZA",
+            "href": "https://api.spotify.com/v1/artists/7tYKF4w9nC0nq9CsPZTHyP"
+          }
+        ]
+      ],
+      "name": "Ctrl",
+      "url": "https://open.spotify.com/album/76290XdXVF9rPzGdNRWdCh"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ac895ae149e004dcbb6367be",
+      "artists": [
+        [
+          {
+            "name": "Isaiah Rashad",
+            "href": "https://api.spotify.com/v1/artists/6aaMZ3fcfLv4tEbmY7bjRM"
+          }
+        ]
+      ],
+      "name": "The House Is Burning",
+      "url": "https://open.spotify.com/album/6TQ8nqw43uUOWu7Yqp58ko"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738be32b380765207f19d56435",
+      "artists": [
+        [
+          {
+            "name": "Smino",
+            "href": "https://api.spotify.com/v1/artists/1ybINI1qPiFbwDXamRtwxD"
+          }
+        ]
+      ],
+      "name": "blkswn",
+      "url": "https://open.spotify.com/album/3bTjPEgPzm1XwXsNlMVHhs"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e9f77be85457110ebf304da7",
+      "artists": [
+        [
+          {
+            "name": "Joni Mitchell",
+            "href": "https://api.spotify.com/v1/artists/5hW4L92KnC6dX9t7tYM4Ve"
+          }
+        ]
+      ],
+      "name": "Blue",
+      "url": "https://open.spotify.com/album/1vz94WpXDVYIEGja8cjFNa"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27398174a97206614a1e1cf8631",
+      "artists": [
+        [
+          {
+            "name": "J. Cole",
+            "href": "https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5"
+          }
+        ]
+      ],
+      "name": "The Off-Season",
+      "url": "https://open.spotify.com/album/7amgMBFiedsknMot03NgQ4"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737d15fb20303a589acc1ab98b",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "SATURATION II",
+      "url": "https://open.spotify.com/album/0XnqQzdSFAml08XZoRt1St"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27346f07fa4f28bf824840ddacb",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "GINGER",
+      "url": "https://open.spotify.com/album/1jToVugwBEzcak8gJNZG2f"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273bcfe3442f0a375df1d21efcf",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "ROADRUNNER: NEW LIGHT, NEW MACHINE",
+      "url": "https://open.spotify.com/album/6sPcgDto5EI6EBPc2jhDC7"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27336098c7191064c502af1339a",
+      "artists": [
+        [
+          {
+            "name": "Steve Martin",
+            "href": "https://api.spotify.com/v1/artists/1Bd4UVlqlaKEXYRG3wgrCK"
+          }
+        ]
+      ],
+      "name": "The Crow: New Songs For the Five-String Banjo",
+      "url": "https://open.spotify.com/album/3R61oxnuAC6eHzbdNeLCTr"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27318576a9f01da7191b2455955",
+      "artists": [
+        [
+          {
+            "name": "Wilder Woods",
+            "href": "https://api.spotify.com/v1/artists/26DytDdxKgr9N0tdrBSLs2"
+          }
+        ]
+      ],
+      "name": "Wilder Woods",
+      "url": "https://open.spotify.com/album/35rWm0QieUmTizxsC7dXnG"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f8e77075414234fd77fce32b",
+      "artists": [
+        [
+          {
+            "name": "Anderson .Paak",
+            "href": "https://api.spotify.com/v1/artists/3jK9MiCrA42lLAdMGUZpwa"
+          }
+        ]
+      ],
+      "name": "Malibu",
+      "url": "https://open.spotify.com/album/4VFG1DOuTeDMBjBLZT7hCK"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273849699b0c0236f1331a79bc1",
+      "artists": [
+        [
+          {
+            "name": "Himesh Patel",
+            "href": "https://api.spotify.com/v1/artists/7mFiLle487vR83fsFmcKgt"
+          }
+        ]
+      ],
+      "name": "Yesterday (Original Motion Picture Soundtrack)",
+      "url": "https://open.spotify.com/album/0wjBkRWQies7OK7pS5BnsL"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737d6813fd233f3bc4977cceca",
+      "artists": [
+        [
+          {
+            "name": "Morgan Wallen",
+            "href": "https://api.spotify.com/v1/artists/4oUHIQIBe0LHzYfvXNW4QM"
+          }
+        ]
+      ],
+      "name": "Dangerous: The Double Album",
+      "url": "https://open.spotify.com/album/6JlCkqkqobGirPsaleJpFr"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ffe1a4788385a4835ae14df8",
+      "artists": [
+        [
+          {
+            "name": "The Beach Boys",
+            "href": "https://api.spotify.com/v1/artists/3oDbviiivRWhXwIE8hxkVV"
+          }
+        ]
+      ],
+      "name": "Summer Days (And Summer Nights) [Remastered]",
+      "url": "https://open.spotify.com/album/13f845bYjx8MUVF2bl1uJ0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2730ae99092a4cd95708b1cde9e",
+      "artists": [
+        [
+          {
+            "name": "The Beach Boys",
+            "href": "https://api.spotify.com/v1/artists/3oDbviiivRWhXwIE8hxkVV"
+          }
+        ]
+      ],
+      "name": "Beach Boys Party! (Remastered)",
+      "url": "https://open.spotify.com/album/0TfICuUVNoaytFJ7oahGO2"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273bde8dfd1922129f3d9e3732f",
+      "artists": [
+        [
+          {
+            "name": "The Beach Boys",
+            "href": "https://api.spotify.com/v1/artists/3oDbviiivRWhXwIE8hxkVV"
+          }
+        ]
+      ],
+      "name": "Pet Sounds (Original Mono & Stereo Mix Versions)",
+      "url": "https://open.spotify.com/album/6GphKx2QAPRoVGWE9D7ou8"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a",
+      "artists": [
+        [
+          {
+            "name": "The Beatles",
+            "href": "https://api.spotify.com/v1/artists/3WrFJ7ztbogyGnTHbHJFl2"
+          }
+        ]
+      ],
+      "name": "Sgt. Pepper's Lonely Hearts Club Band (Remastered)",
+      "url": "https://open.spotify.com/album/6QaVfG1pHYl1z15ZxkvVDW"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27308c3459da0ec44b7e790555d",
+      "artists": [
+        [
+          {
+            "name": "Midland",
+            "href": "https://api.spotify.com/v1/artists/1DTZRmlVZBxx2wRQBtx6yi"
+          }
+        ]
+      ],
+      "name": "On The Rocks",
+      "url": "https://open.spotify.com/album/5p5lKDY6Ag62f8HWfIFzQ0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737f000ff14efe7868198f24cc",
+      "artists": [
+        [
+          {
+            "name": "Natalie Green",
+            "href": "https://api.spotify.com/v1/artists/0fxQXo3PV20WmVzJaYPC8T"
+          }
+        ]
+      ],
+      "name": "So Far, So Good",
+      "url": "https://open.spotify.com/album/3PY0pKbleUj9YhoozzTXpn"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732176cda6fb0f4db7dbb6f1fb",
+      "artists": [
+        [
+          {
+            "name": "Maverick City Music",
+            "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV"
+          }
+        ]
+      ],
+      "name": "Maverick City Vol. 3 Part 1",
+      "url": "https://open.spotify.com/album/0prxUuXzlIyjSJU9ej003n"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2733418dfa308288c1b17e8393a",
+      "artists": [
+        [
+          {
+            "name": "Chris Renzema",
+            "href": "https://api.spotify.com/v1/artists/2hIvOHaLTl9XCyCbNPwYzT"
+          }
+        ]
+      ],
+      "name": "Let The Ground Rest",
+      "url": "https://open.spotify.com/album/0HqdkOBWLtdPRUxfdVxL9c"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2737f3bf4d6147a123925c896dc",
+      "artists": [
+        [
+          {
+            "name": "John Prine",
+            "href": "https://api.spotify.com/v1/artists/0nJUwPwC9Ti4vvuJ0q3MfT"
+          }
+        ]
+      ],
+      "name": "Fair and Square",
+      "url": "https://open.spotify.com/album/44sOCUUf8kp3Oj1yBYAKiZ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273634cd88519250f076b534b03",
+      "artists": [
+        [
+          {
+            "name": "Maverick City Music",
+            "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV"
+          }
+        ]
+      ],
+      "name": "Maverick City Vol. 2",
+      "url": "https://open.spotify.com/album/0BNefSTndWBl2P1iAc6lYu"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2731bb797bbfe2480650b6c2964",
+      "artists": [
+        [
+          {
+            "name": "Kanye West",
+            "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x"
+          }
+        ]
+      ],
+      "name": "JESUS IS KING",
+      "url": "https://open.spotify.com/album/0FgZKfoU2Br5sHOfvZKTI9"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27386651047812aa7be93b21926",
+      "artists": [
+        [
+          {
+            "name": "Little Chief",
+            "href": "https://api.spotify.com/v1/artists/5oYrefc0gr24yRUMCDBZkB"
+          }
+        ]
+      ],
+      "name": "Running Wild",
+      "url": "https://open.spotify.com/album/4ZkUq8igwQt7CTwkCPLaeA"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2730472ac48a2202c6b04e24b46",
+      "artists": [
+        [
+          {
+            "name": "The Lumineers",
+            "href": "https://api.spotify.com/v1/artists/16oZKvXb6WkQlVAjwo2Wbg"
+          }
+        ]
+      ],
+      "name": "Gloria Sparks",
+      "url": "https://open.spotify.com/album/7lAIwaENWl7UTDcxRRqdOR"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738b8409d0889bbba6090792de",
+      "artists": [
+        [
+          {
+            "name": "Chris Renzema",
+            "href": "https://api.spotify.com/v1/artists/2hIvOHaLTl9XCyCbNPwYzT"
+          }
+        ]
+      ],
+      "name": "I'll Be the Branches",
+      "url": "https://open.spotify.com/album/2TpssTmOUzilci8Bb7zNu3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273c3b58251db5c43b9f4c7d35e",
+      "artists": [
+        [
+          {
+            "name": "Zac Brown Band",
+            "href": "https://api.spotify.com/v1/artists/6yJCxee7QumYr820xdIsjo"
+          }
+        ]
+      ],
+      "name": "You Get What You Give (Deluxe)",
+      "url": "https://open.spotify.com/album/0AXoQGOZDaYSaOo0qCTiCr"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2733f6f4ab78c05dfdfcc37a205",
+      "artists": [
+        [
+          {
+            "name": "Zac Brown Band",
+            "href": "https://api.spotify.com/v1/artists/6yJCxee7QumYr820xdIsjo"
+          }
+        ]
+      ],
+      "name": "The Foundation",
+      "url": "https://open.spotify.com/album/0Im5nUhAuNDSYVjfPh7RyS"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2734dfbe36486a0e8655b119660",
+      "artists": [
+        [
+          {
+            "name": "Sufjan Stevens",
+            "href": "https://api.spotify.com/v1/artists/4MXUO7sVCaFgFjoTI5ox5c"
+          }
+        ]
+      ],
+      "name": "Carrie & Lowell",
+      "url": "https://open.spotify.com/album/0U8DeqqKDgIhIiWOdqiQXE"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273df1fe3ded9cbd39fa81136f2",
+      "artists": [
+        [
+          {
+            "name": "Eric Church",
+            "href": "https://api.spotify.com/v1/artists/2IvkS5MXK0vPGnwyJsrEyV"
+          }
+        ]
+      ],
+      "name": "Desperate Man",
+      "url": "https://open.spotify.com/album/5TjDN2hfsgNWVtP8Ew56Xx"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27382c6a08699bfd0e4bbe95001",
+      "artists": [
+        [
+          {
+            "name": "Hippo Campus",
+            "href": "https://api.spotify.com/v1/artists/1btWGBz4Uu1HozTwb2Lm8A"
+          }
+        ]
+      ],
+      "name": "Bambi",
+      "url": "https://open.spotify.com/album/6tGEWfRhonWuuQikgOnYhN"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27390228ca3b95c6e42a6e649b3",
+      "artists": [
+        [
+          {
+            "name": "Logic",
+            "href": "https://api.spotify.com/v1/artists/4xRYI6VqpkE3UwrDrAZL8L"
+          }
+        ]
+      ],
+      "name": "YSIV",
+      "url": "https://open.spotify.com/album/1lyjkFTJ6yxUyNYysWVBo9"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273de91214392394303e66d1cb6",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "iridescence",
+      "url": "https://open.spotify.com/album/3Mj4A4nNJzIdxOyS4yzOhj"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273529afa9683b5f6823fa45dec",
+      "artists": [
+        [
+          {
+            "name": "João Gilberto",
+            "href": "https://api.spotify.com/v1/artists/77ZUbcdoU5KCPHNUl8bgQy"
+          }
+        ]
+      ],
+      "name": "Brasil (feat. Gilberto Gil, Maria Bethânia, Caetano Veloso)",
+      "url": "https://open.spotify.com/album/1Vrn6r4pnvzdvcev41t04T"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273021120cd904ce1fbd5f1d554",
+      "artists": [
+        [
+          {
+            "name": "Punch Brothers",
+            "href": "https://api.spotify.com/v1/artists/4gFssfOmWNY3LfIZ3zyoy4"
+          }
+        ]
+      ],
+      "name": "All Ashore",
+      "url": "https://open.spotify.com/album/2Jx5MfwDujgz2rFFDVocYl"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ed9531fd3add18804cd6d7c1",
+      "artists": [
+        [
+          {
+            "name": "Lynyrd Skynyrd",
+            "href": "https://api.spotify.com/v1/artists/4MVyzYMgTwdP7Z49wAZHx0"
+          }
+        ]
+      ],
+      "name": "Pronounced 'Leh-'Nérd 'Skin-'Nérd (Expanded Edition)",
+      "url": "https://open.spotify.com/album/3THuBNp86ScbTXwpTmAbdw"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273175c577a61aa13d4fb4b6534",
+      "artists": [
+        [
+          {
+            "name": "Mac Miller",
+            "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U"
+          }
+        ]
+      ],
+      "name": "Swimming",
+      "url": "https://open.spotify.com/album/5wtE5aLX5r7jOosmPhJhhk"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3",
+      "artists": [
+        [
+          {
+            "name": "Travis Scott",
+            "href": "https://api.spotify.com/v1/artists/0Y5tJX1MQlPlqiwlOH1tJY"
+          }
+        ]
+      ],
+      "name": "ASTROWORLD",
+      "url": "https://open.spotify.com/album/41GuZcammIkupMPKH2OJ6I"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27390ef9760e57fafd8f966d17a",
+      "artists": [
+        [
+          {
+            "name": "Boston",
+            "href": "https://api.spotify.com/v1/artists/29kkCKKGXheHuoO829FxWK"
+          }
+        ]
+      ],
+      "name": "Boston",
+      "url": "https://open.spotify.com/album/2QLp07RO6anZHmtcKTEvSC"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18",
+      "artists": [
+        [
+          {
+            "name": "Kanye West",
+            "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x"
+          }
+        ]
+      ],
+      "name": "808s & Heartbreak",
+      "url": "https://open.spotify.com/album/3WFTGIO6E3Xh4paEOBY9OU"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732350e31bc346a6c20e9de166",
+      "artists": [
+        [
+          {
+            "name": "Outkast",
+            "href": "https://api.spotify.com/v1/artists/1G9G7WwrXka3Z1r7aIDjI7"
+          }
+        ]
+      ],
+      "name": "Stankonia",
+      "url": "https://open.spotify.com/album/2tm3Ht61kqqRZtIYsBjxEj"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+      "artists": [
+        [
+          {
+            "name": "Kendrick Lamar",
+            "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg"
+          }
+        ]
+      ],
+      "name": "good kid, m.A.A.d city (Deluxe)",
+      "url": "https://open.spotify.com/album/3DGQ1iZ9XKUQxAUWjfC34w"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273011bea9a2b6b25b84a1f611c",
+      "artists": [
+        [
+          {
+            "name": "Bon Iver",
+            "href": "https://api.spotify.com/v1/artists/4LEiUm1SRbFMgfqnQTwUbQ"
+          }
+        ]
+      ],
+      "name": "22, A Million",
+      "url": "https://open.spotify.com/album/1PgfRdl3lPyACfUGH4pquG"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2735b7865be7f7fcc05faec6137",
+      "artists": [
+        [
+          {
+            "name": "Fugees",
+            "href": "https://api.spotify.com/v1/artists/2WKdxPFRD7IqZvlIAvhMgY"
+          },
+          {
+            "name": "Ms. Lauryn Hill",
+            "href": "https://api.spotify.com/v1/artists/2Mu5NfyYm8n5iTomuKAEHl"
+          },
+          {
+            "name": "Wyclef Jean",
+            "href": "https://api.spotify.com/v1/artists/7aBzpmFXB4WWpPl2F7RjBe"
+          }
+        ]
+      ],
+      "name": "The Score (Expanded Edition)",
+      "url": "https://open.spotify.com/album/18XFe4CPBgVezXkxZP6rTb"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27390b5036a09ba1508e5edd19f",
+      "artists": [
+        [
+          {
+            "name": "Stan Getz",
+            "href": "https://api.spotify.com/v1/artists/0FMucZsEnCxs5pqBjHjIc8"
+          },
+          {
+            "name": "João Gilberto",
+            "href": "https://api.spotify.com/v1/artists/77ZUbcdoU5KCPHNUl8bgQy"
+          }
+        ]
+      ],
+      "name": "Getz/Gilberto",
+      "url": "https://open.spotify.com/album/08HyQbnGbDvcZmEM5hPRrr"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273eaa1ace5a36e15f160c6258b",
+      "artists": [
+        [
+          {
+            "name": "Ms. Lauryn Hill",
+            "href": "https://api.spotify.com/v1/artists/2Mu5NfyYm8n5iTomuKAEHl"
+          }
+        ]
+      ],
+      "name": "MTV Unplugged No. 2.0",
+      "url": "https://open.spotify.com/album/22tn8fUpD1lurSga9yuqhM"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27394c6cd33b8be451c2372c6fa",
+      "artists": [
+        [
+          {
+            "name": "Rex Orange County",
+            "href": "https://api.spotify.com/v1/artists/7pbDxGE6nQSZVfiFdq9lOL"
+          }
+        ]
+      ],
+      "name": "Apricot Princess",
+      "url": "https://open.spotify.com/album/2NBVxjZcbH5H1N1Ab2ExDH"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273dbf3c10406ac999c39bf4a97",
+      "artists": [
+        [
+          {
+            "name": "Rex Orange County",
+            "href": "https://api.spotify.com/v1/artists/7pbDxGE6nQSZVfiFdq9lOL"
+          }
+        ]
+      ],
+      "name": "Bcos U Will Never B Free",
+      "url": "https://open.spotify.com/album/32wYrmt3fg2c8maA80Ioc2"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ef51817e6a6563b6f7ce5872",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "SATURATION III",
+      "url": "https://open.spotify.com/album/5c2AzoNyr46fCQM5d8mxE0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f5da2c149c9b9d25ed41a87d",
+      "artists": [
+        [
+          {
+            "name": "Big K.R.I.T.",
+            "href": "https://api.spotify.com/v1/artists/0CKa42Jqrc9fSFbDjePaXP"
+          }
+        ]
+      ],
+      "name": "4eva Is A Mighty Long Time",
+      "url": "https://open.spotify.com/album/6vGEX2ejVVsHTIsqI1teZg"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738b0b886523877779fc36a2ba",
+      "artists": [
+        [
+          {
+            "name": "Various Artists",
+            "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of"
+          }
+        ]
+      ],
+      "name": "O Brother, Where Art Thou? (Soundtrack)",
+      "url": "https://open.spotify.com/album/09zqiWQP8dXBySneyk1Qqc"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273acbc70f0e96c1a54d057b2b1",
+      "artists": [
+        [
+          {
+            "name": "Joakim Karud",
+            "href": "https://api.spotify.com/v1/artists/0iAOXvEDIMaAWPP5Ur0fYF"
+          }
+        ]
+      ],
+      "name": "Mondays",
+      "url": "https://open.spotify.com/album/2yPLsrf6guz9o93YgNGCPH"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273416f18056ac5d7281d8a5878",
+      "artists": [
+        [
+          {
+            "name": "Faces",
+            "href": "https://api.spotify.com/v1/artists/3v4feUQnU3VEUqFrjmtekL"
+          }
+        ]
+      ],
+      "name": "Ooh La La",
+      "url": "https://open.spotify.com/album/4eTVgxB6wm5eGvesA4cUN5"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2733138f891f3075c9c5d944037",
+      "artists": [
+        [
+          {
+            "name": "Daniel Caesar",
+            "href": "https://api.spotify.com/v1/artists/20wkVLutqVOYrc0kxFs7rA"
+          }
+        ]
+      ],
+      "name": "Freudian",
+      "url": "https://open.spotify.com/album/3xybjP7r2VsWzwvDQipdM0"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2739196fafd1d6160480d3df68a",
+      "artists": [
+        [
+          {
+            "name": "Ms. Lauryn Hill",
+            "href": "https://api.spotify.com/v1/artists/2Mu5NfyYm8n5iTomuKAEHl"
+          }
+        ]
+      ],
+      "name": "The Miseducation of Lauryn Hill",
+      "url": "https://open.spotify.com/album/2Uc0HAF0Cj0LAgyzYZX5e3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273c6bfaf942ed981d5c4c922e4",
+      "artists": [
+        [
+          {
+            "name": "John Mayer",
+            "href": "https://api.spotify.com/v1/artists/0hEurMDQu99nJRq8pTxO14"
+          }
+        ]
+      ],
+      "name": "The Search for Everything",
+      "url": "https://open.spotify.com/album/0jZFu2tihRJ65iYAo0oOtP"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "artists": [
+        [
+          {
+            "name": "The Beatles",
+            "href": "https://api.spotify.com/v1/artists/3WrFJ7ztbogyGnTHbHJFl2"
+          }
+        ]
+      ],
+      "name": "Abbey Road (Remastered)",
+      "url": "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2734ba1fe238a517021ebcc2ace",
+      "artists": [
+        [
+          {
+            "name": "A Tribe Called Quest",
+            "href": "https://api.spotify.com/v1/artists/09hVIj6vWgoCDtT03h8ZCa"
+          }
+        ]
+      ],
+      "name": "People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition)",
+      "url": "https://open.spotify.com/album/3kV0i1qqudjf0PGawJ4jck"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a0c4a585a7d73b4943b9bf13",
+      "artists": [
+        [
+          {
+            "name": "BROCKHAMPTON",
+            "href": "https://api.spotify.com/v1/artists/1Bl6wpkWCQ4KVgnASpvzzA"
+          }
+        ]
+      ],
+      "name": "SATURATION",
+      "url": "https://open.spotify.com/album/67smHJOf5YlFwad6dAlppm"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27381db9bf27bf2a04a1298eadb",
+      "artists": [
+        [
+          {
+            "name": "A Tribe Called Quest",
+            "href": "https://api.spotify.com/v1/artists/09hVIj6vWgoCDtT03h8ZCa"
+          }
+        ]
+      ],
+      "name": "Midnight Marauders",
+      "url": "https://open.spotify.com/album/4v5x3Oo3UjQ9YmF3hRAip5"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2730001af4f80be77069fc8fd41",
+      "artists": [
+        [
+          {
+            "name": "Fleetwood Mac",
+            "href": "https://api.spotify.com/v1/artists/08GQAI4eElDnROBrJRGE0X"
+          }
+        ]
+      ],
+      "name": "Rumours",
+      "url": "https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2735cf37428147fa4cbb5ec8cc5",
+      "artists": [
+        [
+          {
+            "name": "Nujabes",
+            "href": "https://api.spotify.com/v1/artists/3Rq3YOF9YG9YfCWD4D56RZ"
+          }
+        ]
+      ],
+      "name": "Spiritual State",
+      "url": "https://open.spotify.com/album/59KeYlpCSVnMQChP35edci"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2736a3c1e51a7d2a2a7fbe172a1",
+      "artists": [
+        [
+          {
+            "name": "Joey Bada$$",
+            "href": "https://api.spotify.com/v1/artists/2P5sC9cVZDToPxyomzF1UH"
+          }
+        ]
+      ],
+      "name": "ALL-AMERIKKKAN BADA$$",
+      "url": "https://open.spotify.com/album/6swV0WUnPygRIMgEKn6Ige"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+      "artists": [
+        [
+          {
+            "name": "Kendrick Lamar",
+            "href": "https://api.spotify.com/v1/artists/2YZyLoL8N0Wb9xBt1NhZWg"
+          }
+        ]
+      ],
+      "name": "DAMN.",
+      "url": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27367ffd8d6bbf399430ba9c044",
+      "artists": [
+        [
+          {
+            "name": "Drake",
+            "href": "https://api.spotify.com/v1/artists/3TVXtAsR1Inumwj472S9r4"
+          }
+        ]
+      ],
+      "name": "Nothing Was The Same (Deluxe)",
+      "url": "https://open.spotify.com/album/2gXTTQ713nCELgPOS0qWyt"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273a8b83e7d164d59824a2acdfa",
+      "artists": [
+        [
+          {
+            "name": "Joey Pecoraro",
+            "href": "https://api.spotify.com/v1/artists/44insiIQApkRaCMIbuaISJ"
+          }
+        ]
+      ],
+      "name": "Tired Boy",
+      "url": "https://open.spotify.com/album/1ciwJFdYoPJSWn1G2IzDGm"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273e7cdd0cb1c3e6419c637549d",
+      "artists": [
+        [
+          {
+            "name": "The Avalanches",
+            "href": "https://api.spotify.com/v1/artists/3C8RpaI3Go0yFF9whvKoED"
+          }
+        ]
+      ],
+      "name": "Since I Left You",
+      "url": "https://open.spotify.com/album/3GBnNRYsxBfEeMSMmTpJ25"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273584608cf669525dbdc2c8981",
+      "artists": [
+        [
+          {
+            "name": "J. Cole",
+            "href": "https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5"
+          }
+        ]
+      ],
+      "name": "everybody dies",
+      "url": "https://open.spotify.com/album/3yKUGrz2tsHP31gqPBhLXx"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f38c6b37a21334e22005b1f7",
+      "artists": [
+        [
+          {
+            "name": "A Tribe Called Quest",
+            "href": "https://api.spotify.com/v1/artists/09hVIj6vWgoCDtT03h8ZCa"
+          }
+        ]
+      ],
+      "name": "The Low End Theory",
+      "url": "https://open.spotify.com/album/1p12OAWwudgMqfMzjMvl2a"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b27389450c8e877bf04203b86819",
+      "artists": [
+        [
+          {
+            "name": "A Tribe Called Quest",
+            "href": "https://api.spotify.com/v1/artists/09hVIj6vWgoCDtT03h8ZCa"
+          }
+        ]
+      ],
+      "name": "We got it from Here... Thank You 4 Your service",
+      "url": "https://open.spotify.com/album/3WvQpufOsPzkZvcSuynCf3"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273071c3640a33d9fde94148503",
+      "artists": [
+        [
+          {
+            "name": "NxWorries",
+            "href": "https://api.spotify.com/v1/artists/6PEMFpe3PTOksdV4ZXUpbE"
+          }
+        ]
+      ],
+      "name": "Yes Lawd!",
+      "url": "https://open.spotify.com/album/7v4ntSy3suhIs5Vy96GXVZ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273eec9bfc96c9e0495b35e2257",
+      "artists": [
+        [
+          {
+            "name": "Saba",
+            "href": "https://api.spotify.com/v1/artists/7Hjbimq43OgxaBRpFXic4x"
+          }
+        ]
+      ],
+      "name": "Bucket List Project",
+      "url": "https://open.spotify.com/album/10UscF31tC7Sz8S2a1mGbM"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd",
+      "artists": [
+        [
+          {
+            "name": "Mac Miller",
+            "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U"
+          }
+        ]
+      ],
+      "name": "The Divine Feminine",
+      "url": "https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273f0f7649257d4b99460929ced",
+      "artists": [
+        [
+          {
+            "name": "Logic",
+            "href": "https://api.spotify.com/v1/artists/4xRYI6VqpkE3UwrDrAZL8L"
+          }
+        ]
+      ],
+      "name": "The Incredible True Story",
+      "url": "https://open.spotify.com/album/5dOpbgAmJeyoakKQ0QLWkR"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4",
+      "artists": [
+        [
+          {
+            "name": "Mac Miller",
+            "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U"
+          }
+        ]
+      ],
+      "name": "GO:OD AM",
+      "url": "https://open.spotify.com/album/2Tyx5dLhHYkx6zeAdVaTzN"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273cc5c6f9f9d6ca3353dbb6c75",
+      "artists": [
+        [
+          {
+            "name": "Lupe Fiasco",
+            "href": "https://api.spotify.com/v1/artists/01QTIT5P1pFP3QnnFSdsJf"
+          }
+        ]
+      ],
+      "name": "Tetsuo & Youth",
+      "url": "https://open.spotify.com/album/7F58zK8t8whSFjX5X09d28"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b273bfb8819d6552d9b229c66e68",
+      "artists": [
+        [
+          {
+            "name": "Bas",
+            "href": "https://api.spotify.com/v1/artists/70gP6Ry4Uo0Yx6uzPIdaiJ"
+          }
+        ]
+      ],
+      "name": "Last Winter",
+      "url": "https://open.spotify.com/album/1YIaRjeZ3mKQ54tjxXCWr8"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2739510ea130a19b0566021942c",
+      "artists": [
+        [
+          {
+            "name": "Wale",
+            "href": "https://api.spotify.com/v1/artists/67nwj3Y5sZQLl72VNUHEYE"
+          }
+        ]
+      ],
+      "name": "The Album About Nothing",
+      "url": "https://open.spotify.com/album/6aCr3UaB8lM9g6TtFB3qwd"
+    },
+    {
+      "art": "https://i.scdn.co/image/ab67616d0000b2733a52d68cd424e1d965c7da4d",
+      "artists": [
+        [
+          {
+            "name": "Chris Young",
+            "href": "https://api.spotify.com/v1/artists/4BYxqVkZyFjtik7crYLg5Q"
+          }
+        ]
+      ],
+      "name": "Neon",
+      "url": "https://open.spotify.com/album/4yYep1aU3lXRaONTWu2X23"
+    }
+  ]
+}
