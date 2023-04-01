@@ -1,7 +1,7 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/material/styles';
 import './index.scss';
-import { Button, LinearProgress } from "@material-ui/core";
+import { Button, LinearProgress } from '@mui/material';
 
 import FadeIn from 'react-fade-in';
 

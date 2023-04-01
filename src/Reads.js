@@ -1,14 +1,14 @@
 import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
-import { withStyles } from '@material-ui/core/styles';
+import { withStyles } from '@mui/material/styles';
 import {
   Button,
   Card,
   CardContent,
   makeStyles,
   Grid,
-} from '@material-ui/core';
+} from '@mui/material';
 import {
   reads
 } from './Data'

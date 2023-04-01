@@ -1,8 +1,6 @@
 import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
-import {
-} from '@material-ui/core';
 
 const data = require('./notes.json')
 

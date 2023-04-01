@@ -3,12 +3,10 @@ import './index.scss';
 import { FaGithub } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
 import { Card,
-  CardActions,
-  Button,
   CardContent,
   makeStyles,
   Grid,
-} from '@material-ui/core';
+} from '@mui/material';
 import {
   projects
 } from './Data'

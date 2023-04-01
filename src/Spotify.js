@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 import FadeIn from 'react-fade-in';
 import $ from "jquery";
 import claySpotifyAlbumsJSON from './Spotify.json';
@@ -94,12 +94,12 @@ class Spotify extends React.Component {
     return (
       <FadeIn>
         <div>
-          <h2 style={{ marginTop: '3rem' }}>my collection.</h2>
+          <h2 style={{ marginTop: '3rem' }}>records.</h2>
           <Grid className='p-5' container spacing={1}>
             {this.state.clayAlbums.map(album => (
               <Grid className='album' item sm={2} md={2}>
                 <a href={album.url} target="_blank">
-                  <img src={album.art} className='album-art' />
+                  <img src={album.cover} className='album-art' />
                 </a>
               </Grid>
             ))}

@@ -7,13 +7,15 @@ import FadeIn from 'react-fade-in';
 import Catalog from './Catalog'
 import Spotify from './Spotify'
 import Notes from './Notes'
+import Letterbox from './Letterbox'
 
 /* fa icons */
 import { 
   FaGithub, 
   FaSpotify, 
-  FaRegFolder, 
-  FaAngleDoubleLeft
+  FaFolderOpen, 
+  FaAngleDoubleLeft,
+  FaFilm,
 } from 'react-icons/fa';
 
 import {
@@ -58,12 +60,19 @@ class App extends React.Component {
               >
                 <FaSpotify />
               </Link>
-              <Link
+              {/* <Link
                 className="fa-link"
                 to="/notes"
                 onClick={() => this.setState({ atHome: true })}
               >
-                <FaRegFolder />
+                <FaFolderOpen />
+              </Link> */}
+              <Link
+                className="fa-link"
+                to="/letterbox"
+                onClick={() => this.setState({ atHome: true })}
+              >
+                <FaFilm />
               </Link>
             </div>
           </FadeIn>
@@ -78,12 +87,11 @@ class App extends React.Component {
         }
         <div className="revision">www.claybeabout.com | revision: 5b3b08a</div>
         <Routes>
-          <Route path="/">
-            
-          </Route>
+          <Route path="/"></Route>
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/discography" element={<Spotify />} />
           <Route path="/notes" element={<Notes />} />
+          <Route path="/letterbox" element={<Letterbox />} />
         </Routes>
       </BrowserRouter>
     );

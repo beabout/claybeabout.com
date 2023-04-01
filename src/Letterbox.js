@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
 import claysLetterboxReviews from "./Reviews.json"
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import $ from 'jquery';
 
@@ -11,6 +11,13 @@ function compareDate(a, b) {
 }
 
 class Letterbox extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      reviews: claysLetterboxReviews.reviews.sort(compareDate),
+    }
+  }
+
   starsHTML(r) {
     // some ratings are 2.5 or 3.5. It's easier to deal with whole numbers. So multiplying (3.5 -> 7)
     let rating = r * 2
@@ -31,15 +38,11 @@ class Letterbox extends React.Component {
   convertStringToHTML(htmlString) {
     const parser = new DOMParser();
     const html = parser.parseFromString(htmlString, 'text/html');
+    console.log('html');
+    console.log(html);
     return html;
   }
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      reviews: claysLetterboxReviews.reviews.sort(compareDate),
-    }
-  }
 
   render() {
     return(
@@ -50,7 +53,7 @@ class Letterbox extends React.Component {
         </hint>
         <Grid className='p-5' container spacing={1}>
           {this.state.reviews.map(review => (
-            <Grid item sm={12} md={6}>
+            <Grid item sm={12} md={12}>
               <div className='review'>
                 <h3 style={{ marginBottom: '1rem' }}>
                   <span class='ul-title'>{review.Name}</span>

@@ -28,4 +28,4 @@ yarn-error.log*
 *.cache
 
 firebase-debug.log
-hosting*
+.firebase/hosting.*

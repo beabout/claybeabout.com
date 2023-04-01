@@ -5,7 +5,7 @@ import {
   makeStyles,
   Grid,
   Card,
-} from '@material-ui/core';
+} from '@mui/material';
 
 const classes = makeStyles((theme) => ({
   root: {
