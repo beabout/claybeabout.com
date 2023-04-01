@@ -71,7 +71,7 @@ hint {
 
 .container {
   text-align: center;
-  padding: 20% 0% 30% 0%;
+  padding: 30% 0% 30% 0%;
 }
 
 .fa-link {
@@ -276,7 +276,6 @@ hr {
   padding: 1rem;
   border-radius: 0.5rem;
   .reviewText {
-    transition: opacity 200ms, display 200ms;
     display: none;
     opacity: 0;
   }
@@ -300,5 +299,13 @@ hr {
 
 .mdate {
   font-size: 18px;
+  color: white;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px white solid;
+  margin: 2rem 1rem 2rem 1rem;
+  padding-left: 2rem;
   color: white;
 }

@@ -25,10 +25,6 @@ import {
   Link
 } from "react-router-dom";
 
-const links = [
-  { "subUrl": "projects" },
-  { "subUrl": "discography" }
-]
 
 function atHomepage(){
   if (window.location.pathname === "/") {

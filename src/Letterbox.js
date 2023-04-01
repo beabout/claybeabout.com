@@ -62,8 +62,7 @@ class Letterbox extends React.Component {
                 { this.starsHTML(review.Rating) }
                 <div id={ review['Letterboxd URI'] } className='reviewText'>
                   <br/>
-                  { review.Review }
-                  <br/>
+                  <div dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>")}}></div>
                   <br />
                   <span class='mdate'>{review['Watched Date']}</span>
                 </div>
