@@ -4,9 +4,10 @@ import FadeIn from 'react-fade-in';
 import claysLetterboxReviews from "./Reviews.json"
 import { Grid } from '@material-ui/core';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
+import $ from 'jquery';
 
 function compareDate(a, b) {
-  return a['Watched Date'] < b['Watched Date'];
+  return a['Year'] < b['Year'];
 }
 
 class Letterbox extends React.Component {
@@ -23,7 +24,6 @@ class Letterbox extends React.Component {
         rating = rating - 1;
       } else {
       }
-      console.log(stars)
     }
     return stars;
   }
@@ -31,14 +31,13 @@ class Letterbox extends React.Component {
   convertStringToHTML(htmlString) {
     const parser = new DOMParser();
     const html = parser.parseFromString(htmlString, 'text/html');
-
     return html;
   }
 
   constructor(props) {
     super(props)
     this.state = {
-      reviews: claysLetterboxReviews.reviews,
+      reviews: claysLetterboxReviews.reviews.sort(compareDate),
     }
   }
 
@@ -46,17 +45,25 @@ class Letterbox extends React.Component {
     return(
       <FadeIn>
         <h2 style={{ marginTop: '3rem' }}>reviews.</h2>
-        <hint>reviews are ranked 0-5 stars.</hint>
+        <hint>
+          reviews rank from <FaStarHalfAlt /> to <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+        </hint>
         <Grid className='p-5' container spacing={1}>
           {this.state.reviews.map(review => (
             <Grid item sm={12} md={6}>
               <div className='review'>
-                <h3>
-                  {review.Name}
+                <h3 style={{ marginBottom: '1rem' }}>
+                  <span class='ul-title'>{review.Name}</span>
+                  <span class='mdate'> {review.Year}</span>
                 </h3>
                 { this.starsHTML(review.Rating) }
-                <p>{convertStringToHTML(review.Review)}</p>
-                <p>{review['Watched Date']}</p>
+                <div id={ review['Letterboxd URI'] } className='reviewText'>
+                  <br/>
+                  { review.Review }
+                  <br/>
+                  <br />
+                  <span class='mdate'>{review['Watched Date']}</span>
+                </div>
               </div>
             </Grid>
           ))}

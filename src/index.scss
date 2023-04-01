@@ -269,10 +269,35 @@ hr {
 }
 
 /* LETTERBOX page */
-
 .review {
   border: 2px white solid;
   margin: 1rem;
   padding: 1rem;
   border-radius: 0.5rem;
+  .reviewText {
+    transition: opacity 200ms, display 200ms;
+    display: none;
+    opacity: 0;
+  }
+}
+
+.review:hover {
+  border-color: $yellow;
+  .reviewText {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.ul-title {
+  color: $yellow;
+  text-decoration: underline white;
+  text-decoration-thickness: 3px;
+  font-style: italic;
+  margin-right: 0.5rem;
+}
+
+.mdate {
+  font-size: 18px;
+  color: white;
 }
