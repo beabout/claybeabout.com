@@ -70,15 +70,16 @@ hint {
 }
 
 .container {
-  display: flex;
-  
-  // justify-content: space-between;
+  text-align: center;
+  padding: 20% 0% 30% 0%;
 }
 
 .fa-link {
   color: $primary-color;
   text-decoration: 'none';
+  padding-left: 10px;
   padding-right: 10px;
+  font-size: 36px;
 }
 
 .fa-link:hover {
