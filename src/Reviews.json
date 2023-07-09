@@ -1,642 +1,793 @@
-{ 
-"reviews":[
-  {
-    "Date": "2021-08-01",
-    "Name": "Luca",
-    "Year": 2021,
-    "Letterboxd URI": "https://boxd.it/22cwJb",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "Decent film. I loved the friendship aspect of this film. The two boys having a mutual situation but different perspectives provided a unique coming of age film. \n\nWith that, this film certainly had a Miyazaki-feel to it. The story seemed to stumble into the next scene as the characters happened to be subject to their immediate situation much like you see in Castle In the Sky or Spirited Away. I found this film endearing but has higher expectations regarding the lengths at which the story would go geographically and literally.",
-    "Tags": "",
-    "Watched Date": "2021-06-01"
-  },
-  {
-    "Date": "2021-08-01",
-    "Name": "Black Widow",
-    "Year": 2021,
-    "Letterboxd URI": "https://boxd.it/22czrT",
-    "Rating": 1,
-    "Rewatch": "",
-    "Review": "If you expect to see a marvel movie, this delivers in a subpar manner. \n\nBlack Widow as a character has so much mystery built up around her upbringing and it felt as though that was not addressed fully. The trauma we were told she experienced was different from what we saw. The story felt concocted as if Black Widow hit the scene as a character only in the last year. \n\nI did enjoy the introduction of Yelena as a character into the MCU. \n\nI hope that the Red Guardian returns as a villain in a Captain America film or featurette fighting off against either Steve Rogers or Isaiah Bradley (TFAWS). \n\nNot my favorite MCU film and would have preferred as a short series as the MCU has gained a lot of traction and respect for their ability to pursue TV.",
-    "Tags": "",
-    "Watched Date": "2021-07-31"
-  },
-  {
-    "Date": "2021-08-12",
-    "Name": "Mystic River",
-    "Year": 2003,
-    "Letterboxd URI": "https://boxd.it/23TcYP",
-    "Rating": 4,
-    "Rewatch": "Yes",
-    "Review": "Sean Penn murders this film. Exceptional performance on his part. The film kicked off with a gripping and disturbing scene which pulled me in. The plot began from their with a gradual growth of intensity followed by the eventual murder of Dave and detainment of Ray Jr. \n\n\nThe stylistic choice of using fade in/out cuts throughout the film were calming and only added to the consistent somber feel. \n\nThe overall grim tone of the was recognized in the music, darker color and madness that overcame Dave and Jimmy. \n\n\nI enjoyed the subtle symmetry between Dave’s survival instinct submission during his capture to his survival instinct compliance when Jimmy convinces him he will let Dave go if he says he killed Katie. Dave only reacts to survive. \n\n<b>Criticism</b>\n\nI don’t understand why Eastwood chose to continue the film past the confrontation after the murder between Dave and Jimmy.\n\nThe whole Sean (Kevin Bacon) love story was weak. I wish that portion of the film had been extrapolated on or removed from the film altogether. Jimmy and Sean have an emotional scene at the end of the film and Sean ends it by answering a call with his wife who recently left him in a happy tone, ignoring the fact that he was just told by Jimmy (Sean Penn) that he killed Dave (Tim Robbins).",
-    "Tags": "",
-    "Watched Date": "2021-08-11"
-  },
-  {
-    "Date": "2021-08-14",
-    "Name": "The Suicide Squad",
-    "Year": 2021,
-    "Letterboxd URI": "https://boxd.it/24af5x",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "This is the redemption movie DC needed. After the flop that was the 2016 film of the same name, this Suicide Squad came thru with blunt comedy, just-the-right-amount of R-rated magic and the magnificent Peacemaker. \n\nOff the bat, Peacemaker (John Cena) embodied the frat-boy-esc super hero you’d escape walking around in whitey tighties. His comedy was on point and the eventual plot twist he brought on near the end of the film was an enjoyable turn in the final third of the film. \n\nJames Gunn wasted no time diving straight into the film and expressing his love of music with Johnny Cash and his willingness to go R-rated with the initial killing off of half the Suicide Squad. \n\nThe scene at the bar about halfway thru the film was the only real time I felt the film diverted from what it embodied. The Suicide Squad is a group of villains imprisoned by the US government to fight or be killed by explosives in their spines. You wouldn’t expect them to enjoy a night out on the town drinking and laughing with one another with the irritation they have towards the situation and each other. This scene is especially odd when taking into account that the Squad just beforehand took out an entire town of freedom fighters by accident. This of course though is the way of James Gunn and he seemed to pull it off. \n\nMy rating is partly due to the redemptive nature of this film in light of its 2016 predecessor but also as a recognition to the way James Gunn was able to create a funny, emotionally-attaching, gory masterpiece out of a rag-tag group of super humans.",
-    "Tags": "",
-    "Watched Date": "2021-08-13"
-  },
-  {
-    "Date": "2022-08-29",
-    "Name": "The Batman",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3aV3QR",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Great cinematography. Leaned more into the goth, emo side of Bats.",
-    "Tags": "",
-    "Watched Date": "2022-08-28"
-  },
-  {
-    "Date": "2022-08-30",
-    "Name": "Pulp Fiction",
-    "Year": 1994,
-    "Letterboxd URI": "https://boxd.it/3bchbd",
-    "Rating": 5,
-    "Rewatch": "",
-    "Review": "The simple, mindless conversations. That’s what makes this film and so many of Quentin Tarantino’s films so unique. Much like Aaron Sorkin, Tarantino’s writing is focused on intriguing social interactions that reflect more about the emotions, character and values of the character than the actual plot at hand.",
-    "Tags": "",
-    "Watched Date": "2022-08-29"
-  },
-  {
-    "Date": "2022-09-07",
-    "Name": "Girl, Interrupted",
-    "Year": 1999,
-    "Letterboxd URI": "https://boxd.it/3cGR4V",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "Angelina Jolie stands out as a brilliant, demented patient.\n\n\nI expected Whoopi Goldberg’s character to play more of a Sean Maguire role (Robin Williams in Good Will Hunting) which tampered my view of the character as I didn’t feel she was as impactful as Robin. Maybe unfair comparison but regardless, wished for more from the strong individual Whoopie’s character was supposed to be",
-    "Tags": "",
-    "Watched Date": "2022-09-06"
-  },
-  {
-    "Date": "2022-09-12",
-    "Name": "Class Action Park",
-    "Year": 2020,
-    "Letterboxd URI": "https://boxd.it/3dDyeF",
-    "Rating": 1.5,
-    "Rewatch": "",
-    "Review": "Just bad. As far as documentaries go this one sits at the bottom of the totem pole. The interviews were very planar; “yeah the park was crazy dangerous but we had fun”. \n\nEqually confusing was the way the park’s creator, Gene, was villain-ized and then swiftly treated as an anti-disestablishment hero. The man’s ideas killed several people with no remorse. \n\nThe interviewees were off-pitch, strangely dramatic at times and unrewarding. \n\nQuote: “when you talk to other people that went there, there’s a shared level of… sort of survivor’s respect.”",
-    "Tags": "",
-    "Watched Date": "2022-09-11"
-  },
-  {
-    "Date": "2022-09-17",
-    "Name": "The Shining",
-    "Year": 1980,
-    "Letterboxd URI": "https://boxd.it/3epwsh",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "This film categorizes the slow, agonizing demise into chaos far too well. \n\nDanny, Nicholson and Duvall all put up top tier performances each in their own, different ways. \n\nLove the sound design. Particularly when Danny is riding around his tricycle on the soft, silky carpet compared to the rough, punchy sound of the hardwood.\n\nThe music makes the film. Builds a tense, heart-pounding atmosphere with wonder and terror.\n\nMost modern horror films aren’t as drawn out and patient as The Shining. In many ways, the patience and cadence of the film puts weight behind the tension that builds to a climax.\n\nI don’t think I’ll watch this film often, but when I do, my attention will be kept.",
-    "Tags": "",
-    "Watched Date": "2022-09-16"
-  },
-  {
-    "Date": "2022-09-17",
-    "Name": "The Harder They Fall",
-    "Year": 2021,
-    "Letterboxd URI": "https://boxd.it/3epJLL",
-    "Rating": 2.5,
-    "Rewatch": "",
-    "Review": "Straight Outta Compton meets Tombstone.",
-    "Tags": "",
-    "Watched Date": "2022-09-16"
-  },
-  {
-    "Date": "2022-09-28",
-    "Name": "Do Revenge",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3gDTJh",
-    "Rating": 1.5,
-    "Rewatch": "",
-    "Review": "SPOILERS: Maya Hawke was the villain for 1.5 seconds. The weight of the twist and her betrayal was minuscule when it was meant to be a heavy moment of the film. \n\nVery woke film",
-    "Tags": "",
-    "Watched Date": "2022-09-27"
-  },
-  {
-    "Date": "2022-09-28",
-    "Name": "Pleasantville",
-    "Year": 1998,
-    "Letterboxd URI": "https://boxd.it/3gDVYD",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "Lighthearted and fun. \n\nThe similarities between this film and the civil rights movements of the ‘60s was right on the nose. It put into perspective the need for change and self-expression. \n\nLoved Tobey Maguire and Reese Witherspoon throughout especially how their journeys were swapped in some ways.",
-    "Tags": "",
-    "Watched Date": "2022-09-27"
-  },
-  {
-    "Date": "2022-11-24",
-    "Name": "Falling for Christmas",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3sIQah",
-    "Rating": 0.5,
-    "Rewatch": "",
-    "Review": "Don’t ask why I watched this… thing. I feel ashamed already",
-    "Tags": "",
-    "Watched Date": "2022-11-23"
-  },
-  {
-    "Date": "2022-11-24",
-    "Name": "Don't Worry Darling",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3sJW3N",
-    "Rating": 2.5,
-    "Rewatch": "",
-    "Review": "Basically Black Mirror. \n\nI found the final act 10x as compelling as the rest of the film. The first two acts take a while to take shape and the film doesn’t feel as grounded. I didn’t feel attached to Alice (Florence Pugh) as Olivia Wilde would have intended. The film felt weak and purposeless for a significant portion of time. Upon a second watch, I could see how the constant cuts to abnormal imagery would make it more intriguing for the first two acts. \n\n<b>SPOILERS! </b>\nThat being said, this film is made in the final act. I did not expect the simulation twist and it quelled my fears of a unfulfilled ending. I thought Jack’s (Harry Styles) character arc and persona was made whole in the final 20min of the film. \n\nAll around, could’ve been an hour long Black Mirror episode and would’ve ranked in the mid/high tier of quality in the lineup. \n\nI found the film puzzling, the characters distrusting and the truth of Victory Project disturbing.",
-    "Tags": "",
-    "Watched Date": "2022-11-23"
-  },
-  {
-    "Date": "2022-11-27",
-    "Name": "Barbarian",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3tntsp",
-    "Rating": 2,
-    "Rewatch": "",
-    "Review": "First off, Justin Long’s story arc - famous actor exposed by female costar for sexual assault - did not contribute to the film. The 5+ min it took to introduce him into the film felt unnecessary for an already short film. I get into AJ’s evil nature later on which makes sense in the context of his expressed situation. \n\n\nThe only true surprise was Bill Skarsgard <b>wasn’t </b>the baddie, although I did assume he was cast to throw off the audience; I was partly right. \n\nThe cinematography was a bonus. Field of view increased as the character’s distress and fear increased. Shots were not jumpy either, average shot time <i>seemed </i>longer than normal (which is often a bonus in my book). \n\nThe use of light (and lack thereof) added fear and provoked curiosity in me. Red, pink and yellow lighting were used throughout strategically. <b>Yellow lighting </b>dominated the first night in the house with Tess (G Campbell) and Keith (B Skarsgard). I had the sense that this color represented safety with caution. We didn’t know who Keith was or what his intentions might be - untrustworthy! The flashlight and light in the basement light were yellow as well. The basement was a step closer to safety (in comparison to the dark, ominous hallway and below). The basement light was a beacon of hope when Tess and AJ escape from the caverns below. The flashlight represented the last sense of hope Tess or AJ had while navigating the caverns below. It literally led them to their escape and provided a path to safety. This hope was not without its own amount of caution though as darkness crept in from all non-lit areas. <b>Red lighting </b>is only used in scenes involving AJ (Justin Long). (1) When he is at a bar with his friend in Detroit telling the truth about “that encounter” with his (rightfully) convicting co-star and (2) When he and Tess are on top of the water tower escaping the Creature. In both scenes, AJ exposes his evilness. (1) brags about his “persistent” sexual nature and defends his innocence and (2) throws Tess off the tower in order to escape. <b>Pink lighting </b>was only used in the room where the Creature appeared to breast feed and seemingly sleep. Not even gonna try to guess what pink could represent. \n\nAs the monster arose from the darkness, fear slowly swelled in the character. I found this, as opposed to the jump scare, much more disturbing. \n\nWas I scared, partly. Was I disturbed, I’ve been more disturbed from films of the same genre. This film did not hit my expectations. I had heard great reviews for this indie film from more than 5 people, including online rave reviews, and it underwhelmed any expectations I had.",
-    "Tags": "",
-    "Watched Date": "2022-11-26"
-  },
-  {
-    "Date": "2022-11-27",
-    "Name": "The Florida Project",
-    "Year": 2017,
-    "Letterboxd URI": "https://boxd.it/3tnIhV",
-    "Rating": 5,
-    "Rewatch": "",
-    "Review": "Honest, raw, real, colorful and heartbreaking. I thought I’d see more Mickey Mouse though.",
-    "Tags": "",
-    "Watched Date": "2021-09-20"
-  },
-  {
-    "Date": "2022-12-22",
-    "Name": "Four Christmases",
-    "Year": 2008,
-    "Letterboxd URI": "https://boxd.it/3yUYTH",
-    "Rating": 2.5,
-    "Rewatch": "",
-    "Review": "As far as romantic Christmas comedies go.. this is top tier. It fits in with the rest of American comedy trash but if you’re looking for a cheap Christmas comedy, you have it.",
-    "Tags": "",
-    "Watched Date": "2022-12-20"
-  },
-  {
-    "Date": "2022-12-30",
-    "Name": "Bullet Train",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3BJf1F",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "Ladybug (Brad Pitt) says what the audience is thinking. Refreshing. \n\nThere were several small surprises and twists which made this film. \n\nThe constant Thomas the Tank Engine references, goofy backstories and Ladybug psychologically diagnosing himself/others made the film consistently funny throughout. \n\nA goofy samurai movie that adds as a nice collection to David Leitch’s filmography",
-    "Tags": "",
-    "Watched Date": "2022-12-29"
-  },
-  {
-    "Date": "2022-12-30",
-    "Name": "Glass Onion",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3BJgQ5",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Rian Johnson’s creativity and personality were clear in the cuts he chose\n\nLoved the color in this film. \n\nDaniel Craig is a stand out \n\nHad no clue Edward Norton was the baddie til the end",
-    "Tags": "",
-    "Watched Date": "2022-12-23"
-  },
-  {
-    "Date": "2023-01-02",
-    "Name": "King Kong",
-    "Year": 2005,
-    "Letterboxd URI": "https://boxd.it/3CQHxR",
-    "Rating": 4.5,
-    "Rewatch": "Yes",
-    "Review": "A landmark cinematic experience. The whole story flows throughout. Love the performances by Jack Black, Naomi Watts, Adrien Brody and Harambe. Each performance felt complex, nuanced and self-conflicted.\n\nMost of the CGI still holds up better than some modern Marvel films.",
-    "Tags": "",
-    "Watched Date": "2023-01-01"
-  },
-  {
-    "Date": "2023-01-02",
-    "Name": "If Beale Street Could Talk",
-    "Year": 2018,
-    "Letterboxd URI": "https://boxd.it/3CUxWF",
-    "Rating": 4.5,
-    "Rewatch": "",
-    "Review": "The soundtrack elevates the emotion and composition of the film. Beautiful telling of a treacherous and segregation-heavy piece of America's past.",
-    "Tags": "",
-    "Watched Date": "2020-05-01"
-  },
-  {
-    "Date": "2023-01-02",
-    "Name": "Amsterdam",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3CZKWD",
-    "Rating": 2,
-    "Rewatch": "",
-    "Review": "Very dry, slow and emotionless. Lacks a consistent, continuous narrative arc. Lacks emotional investment: no danger felt by audience for the leading suspects of a murder. \n\nI did enjoy the <i>Committee of the 5</i> being a US arm of the early Nazi party. This was the only interesting story piece to me. \n\nGreat cast, but the film doesn’t carry the punch it’s lineup and marketing campaign anticipated.",
-    "Tags": "",
-    "Watched Date": "2023-01-01"
-  },
-  {
-    "Date": "2023-01-03",
-    "Name": "The French Dispatch",
-    "Year": 2021,
-    "Letterboxd URI": "https://boxd.it/3DfR1V",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Wes Anderson’s take on the feature length short story model (similar to <i>The Ballad of Buster Scruggs</i>). \n\nI very much enjoyed it. This Anderson film felt the most sophisticated, posh and arrogant. I didn’t mind that as much as it still held up in wittiness, humor and against-the-grain form. \n\nI welcomed the technique of speaking directly to the audience via newspaper article narration. It provided comfort like my hand was being held through the journey.",
-    "Tags": "",
-    "Watched Date": "2023-01-02"
-  },
-  {
-    "Date": "2023-01-03",
-    "Name": "White Noise",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3DlxrL",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "It is nothing like the trailer. Descends into something I didn’t expect. \n\nColorful, sophisticated and haunting satire. Baumbach has delivered something different and delightful in comparison to his critically acclaimed <i>A Marriage Story.</i>\n<i>\n</i>\nI haven’t read the book, but hope the film did it justice.",
-    "Tags": "",
-    "Watched Date": "2023-01-02"
-  },
-  {
-    "Date": "2023-01-03",
-    "Name": "Avatar: The Way of Water",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3DpPTh",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "The army storyline was very underdeveloped and took too many shortcuts. The story felt slightly Disney-ified/American-ized. Less so compared to the Marvel films. \n\nCGI was 5/5. \nScenes involving humans were 2/5. \nWater scenes 5/5. \nThe Weeknd as the end credits song 0/5. \nEmotional draw 6/5. Lauren and I cried a lot. \n\nAs a launching point for several more sequels, I thought James Cameron did swell.",
-    "Tags": "",
-    "Watched Date": "2023-01-02"
-  },
-  {
-    "Date": "2023-01-04",
-    "Name": "The Redeem Team",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3DDDJx",
-    "Rating": 1,
-    "Rewatch": "",
-    "Review": "My one star is for Kobe. Wasn’t well constructed or impactful. Cool BTS footage though",
-    "Tags": "",
-    "Watched Date": "2022-12-03"
-  },
-  {
-    "Date": "2023-01-07",
-    "Name": "Brokeback Mountain",
-    "Year": 2005,
-    "Letterboxd URI": "https://boxd.it/3EXNDN",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "A story of regret, prejudice, desire and rejection which leaves the audience heartbroken and broadened. Slow paced and soft-toned in it's telling, Lee tackles a combination of place and agenda that few have engaged with. The audience walks away with a more nuanced perspective of the rancher archetype: A rugged individual whose desire, duty and conformity are all at odds. This ain't your John Wayne cowboy.\n\nRegarding cinematography, Lee utilizes camera and production technics from last 19th century westerns throughout. The style leans towards fade cuts and far moving shots; reminiscent of rhinestone cowboy era films. I like to think this choice of technique was a nod to those older westerns; none of which took on the contentious subject of homosexuality. <i>The Power of the Dog (2021) </i>being the only other film of the same genre tackling this subject as far as I’m aware. \n\nThe conflict style is unique as it reflects <i>Man v. Man v. Society </i>while simultaneously <i>Man and Man v. Society</i>. Ennis and Jake are constantly split between conforming to social norms and confronting their desires. The familial tension leaves all parties confused and lost. The attitudes towards Ennis and Jake are brutal and aggressive. \n\nThis film is gentle and paced-well in it's telling while also being a brutal, heartbreaking tale.",
-    "Tags": "",
-    "Watched Date": "2023-01-06"
-  },
-  {
-    "Date": "2023-01-08",
-    "Name": "The Neighbors' Window",
-    "Year": 2019,
-    "Letterboxd URI": "https://boxd.it/3Fv8tF",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Exactly what I’d expect out of a short film. Simple message, simple delivery. Beautiful glimpse of middle class family life in the Big Apple. \n\nTakeaway: Grass is always greener on the other side\nOnly real downside: The dad sounded a lot like fake celeb Scott Dissick.",
-    "Tags": "",
-    "Watched Date": "2023-01-07"
-  },
-  {
-    "Date": "2023-01-09",
-    "Name": "The Greatest Showman",
-    "Year": 2017,
-    "Letterboxd URI": "https://boxd.it/3FM5WX",
-    "Rating": 2,
-    "Rewatch": "",
-    "Review": "I found the first 15 minutes delightful and grand. I’ll admit I walked away a bit inspired and empowered. This film is whimsical. Michael Gracey tackles interpersonal and societal shortcomings including racial discrimination and the power of greed; and yet, these are addressed at the most surface level, with only cliches left for the audience. \n\nNone of this is what people really come for though. The audience comes for the music and choreography. Personal preference: I am not a fan of the pop-centric (sometimes electric and auto-tuned) musical styles in this soundtrack. It has <i>a few </i>gems in <i>a few</i> songs. I acknowledge the popularity with the younger crowd; just wasn’t for me.",
-    "Tags": "",
-    "Watched Date": "2023-01-08"
-  },
-  {
-    "Date": "2023-01-12",
-    "Name": "The Florida Project",
-    "Year": 2017,
-    "Letterboxd URI": "https://boxd.it/3GOQz5",
-    "Rating": 5,
-    "Rewatch": "Yes",
-    "Review": "The colors shine bright but not as much as the poverty, innocence and brutality expressed throughout",
-    "Tags": "",
-    "Watched Date": "2023-01-11"
-  },
-  {
-    "Date": "2023-01-13",
-    "Name": "The Lobster",
-    "Year": 2015,
-    "Letterboxd URI": "https://boxd.it/3HcgOh",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "Black comedy is not a genre for everyone. I found the humor extremely dry, slow-paced and subtle... it was hilariously dreary. \n\nThe music is punchy, tense and aggressive. The string ensembles, throughout the film's soundtrack, build on anxiety and chaos to propel the film into a gradual downfall adventure.\n\nThis dystopian depiction cuts against the grain of the genre-average as it excludes any lords, flies and lords of flies. It has no terminators. No explosions or laser guns. David (Colin Farrell) attempts to live like a romantic vigilante; but in reality he's just a lump surrounded by a bunch of socially-inept lumps trying to escape the forced-companionship social impositions. It's a quaint story about loneliness and the most \"office space appropriate\" approach to breaking the law. \n\nRachel Weisz and Colin Farrell are comedic gold. Both with their timing and bleakness. When Short Sighted Woman (Rachel Weisz) describes the secret sign language she and David created to say \"I love you\" (and much more).. I about fell off my seat. \"Would you like to play another game of 'touch-guess-think-win'\" after Rachel's character tells David she's blind.. I about croaked. The  \"Arrive to the city\" scene is just the best. The wild interest each of the characters have for common grocery store items fits so well into the paling world Yorgos Lanthimos manifests. And my lord these shots. The depth of focus and environment in each shot is incredible. The camera never settles to splash in unconventional angles to remind the audience of the cinematographer's ego :)\n\nThis wasn't just a comedy, romance or dystopian film. And it doesn't fit into the mainstream sense of any of those genres. The comedy is dry and bleak; less direct or slap stick. The romance is dry and bleak; less charming, predictable or pleasant. The dystopian aspects are subtle and work appropriate; less cataclysmic and action-packed. My wife put it best, \"It's not a story you can relate to.",
-    "Tags": "",
-    "Watched Date": "2023-01-12"
-  },
-  {
-    "Date": "2023-01-15",
-    "Name": "Big Fish",
-    "Year": 2003,
-    "Letterboxd URI": "https://boxd.it/3HHcaJ",
-    "Rating": 4.5,
-    "Rewatch": "",
-    "Review": "Can’t watch without cry… absolutely sobbing. What a wild, turbulent, wholesome dream of a story.",
-    "Tags": "",
-    "Watched Date": "2022-04-14"
-  },
-  {
-    "Date": "2023-01-16",
-    "Name": "Dog",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3IiczN",
-    "Rating": 1.5,
-    "Rewatch": "",
-    "Review": "A theater-grade Hallmark film. Tatum is back in his type-cast role. Some scenes started promising and ended so poorly. It lacks any depth. And still, the cinematography holds up.",
-    "Tags": "",
-    "Watched Date": "2023-01-15"
-  },
-  {
-    "Date": "2023-01-16",
-    "Name": "August: Osage County",
-    "Year": 2013,
-    "Letterboxd URI": "https://boxd.it/3IlWu1",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "Surreal performances by Julia Roberts and Meryl Streep. What a stand out film about loss, grief and deep-seeded familial turmoil. This is a family reunion where everyone leaves with more than a few emotional scars. The whole cast delivers a beautiful portrayal of heartache and bitterness. \n\n<blockquote>\n\"Thank god we can't tell the future. We'd never get out of bed.”</blockquote><blockquote>“She might share some of the responsibility. It’s not cut and dried. It lives where everything lives. Somewhere in the middle, where the rest of us live. “</blockquote>",
-    "Tags": "",
-    "Watched Date": "2023-01-15"
-  },
-  {
-    "Date": "2023-01-17",
-    "Name": "What's Eating Gilbert Grape",
-    "Year": 1993,
-    "Letterboxd URI": "https://boxd.it/3ItNAl",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "Sorry Johnny, Leo is the stand out in this one. While Gilbert's story is clearly the central, and strongest, of this film, I found Arnie (Leonardo DiCaprio) so intriguing. This film follows a young man with a heavy burden (no pun intended) he can’t handle, but he acts like a grown up Casanova.",
-    "Tags": "",
-    "Watched Date": "2023-01-16"
-  },
-  {
-    "Date": "2023-01-17",
-    "Name": "Surf's Up",
-    "Year": 2007,
-    "Letterboxd URI": "https://boxd.it/3IE8KB",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Cody Maverick is Plat tier on all levels. Most quotable lines in a movie, hands down.",
-    "Tags": "",
-    "Watched Date": "2011-11-12"
-  },
-  {
-    "Date": "2023-01-17",
-    "Name": "Jurassic World Dominion",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3IEIdN",
-    "Rating": 1,
-    "Rewatch": "",
-    "Review": "Dinosaurs everywhere. Another studio cash grab with absolutely no sensible plot. It tried soo hard to be an Indiana Jones movie and, just like the two predecessors, failed to capture the magic of <i>Jurassic Park (1993)</i>. Cool seeing velociraptors hunt bunnies though.",
-    "Tags": "",
-    "Watched Date": "2023-01-16"
-  },
-  {
-    "Date": "2023-01-18",
-    "Name": "Spider-Man: No Way Home",
-    "Year": 2021,
-    "Letterboxd URI": "https://boxd.it/3IW1zR",
-    "Rating": 2.5,
-    "Rewatch": "",
-    "Review": "Loved when Peter asks Dr. Strange “you can do that?” after suggesting Peter should plead his case to MIT. Seems relatable.\n\nWatching this again makes you realize just how childish Peter is. It also makes you really want to watch it again, for the first time, with a ton of people. After the second watch I noticed the plot issues. The comedy and triumphs are cheap. Holds up for most times breaking the fourth wall for the sake of nostalgia and relatability. Cool to see Tobey and Andrew again. Won’t have a crazy crossover event at this scale ever again. Most of my stars go to that.",
-    "Tags": "",
-    "Watched Date": "2022-12-28"
-  },
-  {
-    "Date": "2023-01-21",
-    "Name": "About Time",
-    "Year": 2013,
-    "Letterboxd URI": "https://boxd.it/3JNptf",
-    "Rating": 4.5,
-    "Rewatch": "",
-    "Review": "Just absolutely heartwarming and soul-touching. Strong cadence; the whole film flowed rhythmically. Subtly hilarious and beautifully written. I was consistently encouraged by each and every story point. The arc of Tim's courtship of Charlotte, the journey of Mary and Tim and the bittersweet death of a beloved patriarch. Each so wonderfully and genuinely done. The premise could easily have been executed in a cheap and dry manner; Yet the exact opposite is delivered. A delightful execution of one man’s unique, temporally revised destiny. \n\nThe cast was incredible. Gleeson and McAdams stand out in this stunning rom com. Very cool seeing Tom Hollander (<i>White Lotus Season 2</i>), Vanessa Kirby (<i>The Crown</i>) and Richard Griffiths (<i>Harry Potter</i>) play small yet memorable roles.\n\nAnd the soundtrack! Felt right with the film.. stands above a cheesy rom com soundtrack with flare and impact. \n\nBig on the quotes this time:\n\n<blockquote>“You have to use it for things you really think will make your life the way you want it to be.”</blockquote><blockquote>\"I am so... disinterested in a life without your father.\"</blockquote><blockquote>“No one can ever prepare you for what happens when you have a child... When you see the baby in your arms and you know that's your job now. No one can prepare you for the love and the fear. There are other things, of course - no one can prepare you for the bad nappies... No one can prepare you for the love people you love can feel for them... And nothing can prepare you for the indifference of friends who don't have babies...\"</blockquote>",
-    "Tags": "",
-    "Watched Date": "2023-01-20"
-  },
-  {
-    "Date": "2023-01-21",
-    "Name": "The Dirt",
-    "Year": 2019,
-    "Letterboxd URI": "https://boxd.it/3JPRhZ",
-    "Rating": 1.5,
-    "Rewatch": "",
-    "Review": "I couldn’t have cared less about the early roots of Motley Crue after watching the first half of this film. A poorly acted and poorly written piece of cheap cinema.",
-    "Tags": "",
-    "Watched Date": "2022-03-25"
-  },
-  {
-    "Date": "2023-01-22",
-    "Name": "Thor: Love and Thunder",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3JZLXb",
-    "Rating": 2,
-    "Rewatch": "",
-    "Review": "Fell below expectations. Romance wasn’t real enough for me to care. Christian Bale can’t bloom under these conditions.",
-    "Tags": "",
-    "Watched Date": "2022-07-14"
-  },
-  {
-    "Date": "2023-01-23",
-    "Name": "The Banshees of Inisherin",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3Kmraz",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "What should be done about a relationship grown dull? What is the value of aimlessness? And when should one disengage with aimless small talk? Banshees poses theses thoughts without a clear conclusion. \n\nPadraic’s (Collin Farrell) hopeless attempts at winning back his friend are just plain depressing. Padraic is stuck between Colm’s (Brendan Gleeson) rejection and Dominic’s (Barry Keoghan) pathetic antics. Colm, the more intellectual of the pair, is tired of wasting away in the pub aimlessly with Padraic. We’re left hoping for Padraic to find peace throughout but he fails to conquer the rejection. I empathize with both Colm and Padraic. We’ve all dealt with rejection as the giver or receiver and this tale brings to mind those occasions in my life. A simple premise beautifully executed. \n\n<blockquote>“I’ve changed, I just don’t have a place for dullness in me life anymore”</blockquote>",
-    "Tags": "",
-    "Watched Date": "2023-01-22"
-  },
-  {
-    "Date": "2023-01-27",
-    "Name": "Dances with Wolves",
-    "Year": 1990,
-    "Letterboxd URI": "https://boxd.it/3LK32t",
-    "Rating": 4.5,
-    "Rewatch": "",
-    "Review": "Perfectly paced",
-    "Tags": "",
-    "Watched Date": "2021-09-26"
-  },
-  {
-    "Date": "2023-01-27",
-    "Name": "The Usual Suspects",
-    "Year": 1995,
-    "Letterboxd URI": "https://boxd.it/3LK4hp",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Excellent twist",
-    "Tags": "",
-    "Watched Date": "2015-06-26"
-  },
-  {
-    "Date": "2023-01-29",
-    "Name": "Parenthood",
-    "Year": 1989,
-    "Letterboxd URI": "https://boxd.it/3Mq8TL",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "Call me cliche, but I liked it. Poignant film for a parent-to-be. It makes parenting seem hopelessly exhausting. Attempts of comfort and compassion are met with apathy and agitation. Parenthood is presented as an afflicted journey marked by daily headaches and the fear of trying to do best by your children. It follows three men’s family journeys. Jason Robards, the apathetic, resentful savior. He’s least interested in his children but continues to save and invest in his youngest against better judgement. Rick Moranis, the ‘Einstein prodigy’ cultivator. He’s more focused on his child’s calculus practice than her own creativity. And Steve Martin, the dedicated, loving comforter who encourages his kids more than anything. \nJoaquin Phoenix steps up in this as one of his earlier films. Kid got chips. The whole comedic mass shooting scene (did I stutter?) did not age well and the sound mixing was what you’d expect of a low budget film. \nCan’t believe it was set in Kirkwood (filmed in Orlando). Makes me want some Spencer’s Grill. Really enjoyed, especially for an 80s family film. \n\n<blockquote>“You know, when I was nineteen, Grandpa took me on a roller coaster. Up, down, up, down. Oh, what a ride! I always wanted to go again. You know, it was just so interesting to me that a ride could make me so frightened, so scared, so sick, so excited, and so thrilled all together! Some didn't like it. They went on the merry-go-round. That just goes around. Nothing. I like the roller coaster. You get more out of it.”</blockquote>",
-    "Tags": "",
-    "Watched Date": "2023-01-28"
-  },
-  {
-    "Date": "2023-02-01",
-    "Name": "The Royal Tenenbaums",
-    "Year": 2001,
-    "Letterboxd URI": "https://boxd.it/3N9Cqp",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "Anderson is as consistent to form as anyone. The story is both delightful and melancholic. Witty and dry. The cast is just wonderful too. Each character highlighting their own off-putting, apathetic personality traits. \n\nGene Hackman stands out as the neglectful, charismatic patriarch. Angelica Huston is amazing as the unaware, concerned and logistical mother. Haven't laughed much harder than when Royal convinces, unconvinces and then re-convinces Etheline he's dying. Then Royal proceeds to intervene himself back into his family’s lives. \n\nVery colorful and playful film.",
-    "Tags": "",
-    "Watched Date": "2023-01-31"
-  },
-  {
-    "Date": "2023-02-14",
-    "Name": "Black Panther: Wakanda Forever",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3QW9En",
-    "Rating": 2.5,
-    "Rewatch": "",
-    "Review": "I miss Chadwick Boseman",
-    "Tags": "",
-    "Watched Date": "2023-02-13"
-  },
-  {
-    "Date": "2023-02-15",
-    "Name": "Your Place or Mine",
-    "Year": 2023,
-    "Letterboxd URI": "https://boxd.it/3RiR93",
-    "Rating": 1,
-    "Rewatch": "",
-    "Review": "A cheesier version of <i>The Holiday</i>",
-    "Tags": "",
-    "Watched Date": "2023-02-14"
-  },
-  {
-    "Date": "2023-02-16",
-    "Name": "Black Mirror: San Junipero",
-    "Year": 2016,
-    "Letterboxd URI": "https://boxd.it/3RwyGP",
-    "Rating": 4,
-    "Rewatch": "Yes",
-    "Review": "A Soul touching tale of facing regrets in a era of simulation.",
-    "Tags": "",
-    "Watched Date": "2023-02-15"
-  },
-  {
-    "Date": "2023-02-20",
-    "Name": "Ant-Man and the Wasp: Quantumania",
-    "Year": 2023,
-    "Letterboxd URI": "https://boxd.it/3SKMNx",
-    "Rating": 2,
-    "Rewatch": "",
-    "Review": "Got better as the film progressed but still just bad. Marvel continues to push cheesy, anti-climactic shiz. \n\nThe introduction of Kang was strong initially and ended weak. \n\nLo found it very predictable.",
-    "Tags": "",
-    "Watched Date": "2023-02-19"
-  },
-  {
-    "Date": "2023-03-06",
-    "Name": "Notting Hill",
-    "Year": 1999,
-    "Letterboxd URI": "https://boxd.it/3WH88J",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "It's 500 Days of Summer but subtler and takes less creative leaps. Classic '90s drama scene in the bookstore near the end of the film. Best part of the film was Max & Bella's relationship.",
-    "Tags": "",
-    "Watched Date": "2023-03-05"
-  },
-  {
-    "Date": "2023-03-09",
-    "Name": "Nocturnal Animals",
-    "Year": 2016,
-    "Letterboxd URI": "https://boxd.it/3Xrd3L",
-    "Rating": 5,
-    "Rewatch": "Yes",
-    "Review": "While a very dark film, Nocturnal Animals is a masterpiece reflecting how one can abstract their torment into an equally dark evil.",
-    "Tags": "",
-    "Watched Date": "2023-03-08"
-  },
-  {
-    "Date": "2023-03-10",
-    "Name": "Prisoners",
-    "Year": 2013,
-    "Letterboxd URI": "https://boxd.it/3XHbcj",
-    "Rating": 5,
-    "Rewatch": "",
-    "Review": "The tone, as supported by the score, is menacing and predatory. The suspense and longing sinks you into a pool of fearful hope. Perfect pace and rhythm. \n\nHoly moly these characters were played soo well. So raw and sinister. Every single one hiding something. The story unravels in an unending recursive spiral of tense madness. There are no plot holes or stranded storylines. Every sequence builds upon the others into a beautiful web of suspicions. \n\nMy god 100% recommend to anyone, but prepare for overwhelming evil.",
-    "Tags": "",
-    "Watched Date": "2023-03-09"
-  },
-  {
-    "Date": "2023-03-16",
-    "Name": "Everything Everywhere All at Once",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/3ZrtfB",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "What a trip. Gripping, witty and radical. Michelle Yeoh is an all star. The supporting cast decorates this film with wonder and a belief in the absurd. So many parallel paths to keep up with. The mother-daughter connection drives the emotional vein of this film. \n\nMore of this please. \n\n\"When I choose to see the good side of things, it is not naive. It is strategic and necessary. It is how I've learned to survive through everything",
-    "Tags": "",
-    "Watched Date": "2023-03-15"
-  },
-  {
-    "Date": "2023-03-24",
-    "Name": "Final Destination",
-    "Year": 2000,
-    "Letterboxd URI": "https://boxd.it/41v7Rp",
-    "Rating": 1.5,
-    "Rewatch": "",
-    "Review": "Uncanny valley meets Jack Ass",
-    "Tags": "",
-    "Watched Date": "2023-03-23"
-  },
-  {
-    "Date": "2023-03-26",
-    "Name": "The Matrix",
-    "Year": 1999,
-    "Letterboxd URI": "https://boxd.it/423U29",
-    "Rating": 3,
-    "Rewatch": "",
-    "Review": "Permeates 90s grunge energy. Feels like Inception, Akira and Fight Club made love with Rage against the Machine and Jiu-Jitsu. Cleary they were low on budget since they reused the Men in Black wardrobe. Not huge on the green filter throughout the film. For today, as in 1999, this is one of the coolest dystopian films besides the abundance of hopeful energy.",
-    "Tags": "",
-    "Watched Date": "2023-03-25"
-  },
-  {
-    "Date": "2023-03-31",
-    "Name": "RRR",
-    "Year": 2022,
-    "Letterboxd URI": "https://boxd.it/43m3kL",
-    "Rating": 4,
-    "Rewatch": "",
-    "Review": "I'm considering Bollywood after seeing this. It is rebellious and charismatic. Unlike anything I've ever seen. \n\nThe story is fast-paced and constant. Every moment builds on the last with wonder and intensity. Both Rheem and Ram have a deep purpose which drives all their decisions letting nothing get in the way. The action sequences are untouchable; each one more ridiculous than the last. It is cheesy, has better song/dance than all High School Musicals and includes a flogging scene that rivals The Passion of the Christ.\n\n!!SPOILERS!!: IMO, no way that Palace was laced entirely in TNT near the end.",
-    "Tags": "",
-    "Watched Date": "2023-03-30"
-  },
-  {
-    "Date": "2023-04-01",
-    "Name": "The Triplets of Belleville",
-    "Year": 2003,
-    "Letterboxd URI": "https://boxd.it/43uuTp",
-    "Rating": 3.5,
-    "Rewatch": "",
-    "Review": "I prefer there be more dialogue but the story carries strong without it.\n\nThe animation style is an escape from that of Disney or Ghibli; Unique in its own character and sharpness.",
-    "Tags": "",
-    "Watched Date": "2011-07-31"
-  }
-]
+{ "reviews": [
+{
+	"Date": "2021-08-01", 
+	"Name": "Luca", 
+	"Year": "2021", 
+	"Rating": "3", 
+	"Review": "Decent film. I loved the friendship aspect of this film. The two boys having a mutual situation but different perspectives provided a unique coming of age film.<br/><br/>With that, this film certainly had a Miyazaki-feel to it. The story seemed to stumble into the next scene as the characters happened to be subject to their immediate situation much like you see in Castle In the Sky or Spirited Away. I found this film endearing but has higher expectations regarding the lengths at which the story would go geographically and literally."
+},
+{
+	"Date": "2021-08-01", 
+	"Name": "Black Widow", 
+	"Year": "2021", 
+	"Rating": "1", 
+	"Review": "Subpar marvel movie, and that says a lot.<br/><br/>Black Widow as a character has so much mystery built up around her upbringing and it felt as though that was not addressed fully. The trauma we were told she experienced was different from what we saw. The story felt concocted as if Black Widow hit the scene as a character only in the last year.<br/><br/>I did enjoy the introduction of Yelena as a character into the MCU.<br/><br/>I hope that the Red Guardian returns as a villain in a Captain America film or featurette fighting off against either Steve Rogers or Isaiah Bradley (TFAWS).<br/><br/>Not my favorite MCU film and would have preferred as a short series as the MCU has gained a lot of traction and respect for their ability to pursue TV."
+},
+{
+	"Date": "2021-08-12", 
+	"Name": "Mystic River", 
+	"Year": "2003", 
+	"Rating": "4", 
+	"Review": "Sean Penn murders this film. Exceptional performance on his part. The film kicked off with a gripping and disturbing scene which pulled me in. The plot began from their with a gradual growth of intensity followed by the eventual murder of Dave and detainment of Ray Jr.<br/><br/><br/>The stylistic choice of using fade in/out cuts throughout the film were calming and only added to the consistent somber feel.<br/><br/>The overall grim tone of the was recognized in the music, darker color and madness that overcame Dave and Jimmy.<br/><br/><br/>I enjoyed the subtle symmetry between Dave’s survival instinct submission during his capture to his survival instinct compliance when Jimmy convinces him he will let Dave go if he says he killed Katie. Dave only reacts to survive.<br/><br/><b>Criticism</b><br/><br/>I don’t understand why Eastwood chose to continue the film past the confrontation after the murder between Dave and Jimmy.<br/><br/>The whole Sean (Kevin Bacon) love story was weak. I wish that portion of the film had been extrapolated on or removed from the film altogether. Jimmy and Sean have an emotional scene at the end of the film and Sean ends it by answering a call with his wife who recently left him in a happy tone, ignoring the fact that he was just told by Jimmy (Sean Penn) that he killed Dave (Tim Robbins)."
+},
+{
+	"Date": "2021-08-14", 
+	"Name": "The Suicide Squad", 
+	"Year": "2021", 
+	"Rating": "3.5", 
+	"Review": "This is the redemption movie DC needed. After the flop that was the 2016 film of the same name, this Suicide Squad came thru with blunt comedy, just-the-right-amount of R-rated magic and the magnificent Peacemaker.<br/><br/>Off the bat, Peacemaker (John Cena) embodied the frat-boy-esc super hero you’d escape walking around in whitey tighties. His comedy was on point and the eventual plot twist he brought on near the end of the film was an enjoyable turn in the final third of the film.<br/><br/>James Gunn wasted no time diving straight into the film and expressing his love of music with Johnny Cash and his willingness to go R-rated with the initial killing off of half the Suicide Squad.<br/><br/>The scene at the bar about halfway thru the film was the only real time I felt the film diverted from what it embodied. The Suicide Squad is a group of villains imprisoned by the US government to fight or be killed by explosives in their spines. You wouldn’t expect them to enjoy a night out on the town drinking and laughing with one another with the irritation they have towards the situation and each other. This scene is especially odd when taking into account that the Squad just beforehand took out an entire town of freedom fighters by accident. This of course though is the way of James Gunn and he seemed to pull it off.<br/><br/>My rating is partly due to the redemptive nature of this film in light of its 2016 predecessor but also as a recognition to the way James Gunn was able to create a funny, emotionally-attaching, gory masterpiece out of a rag-tag group of super humans."
+},
+{
+	"Date": "2022-08-29", 
+	"Name": "The Batman", 
+	"Year": "2022", 
+	"Rating": "3.5", 
+	"Review": "Great cinematography. Leaned more into the goth, emo side of Bats."
+},
+{
+	"Date": "2022-08-30", 
+	"Name": "Pulp Fiction", 
+	"Year": "1994", 
+	"Rating": "4.5", 
+	"Review": "The simple, mindless conversations. That’s what makes this film and so many of Quentin Tarantino’s films so unique. Much like Aaron Sorkin, Tarantino’s writing is focused on intriguing social interactions that reflect more about the emotions and values of the character than the actual plot at hand."
+},
+{
+	"Date": "2022-09-07", 
+	"Name": "Girl, Interrupted", 
+	"Year": "1999", 
+	"Rating": "3", 
+	"Review": "Angelina Jolie stands out as a brilliant, demented patient.<br/><br/><br/>I expected Whoopi Goldberg’s character to play more of a Sean Maguire role (Robin Williams in Good Will Hunting) which tampered my view of the character as I didn’t feel she was as impactful as Robin. Maybe unfair comparison but regardless, wished for more from the strong individual Whoopie’s character was supposed to be"
+},
+{
+	"Date": "2022-09-12", 
+	"Name": "Class Action Park", 
+	"Year": "2020", 
+	"Rating": "1.5", 
+	"Review": "Just bad. As far as documentaries go this one sits at the bottom of the totem pole. The interviews were very planar; “yeah the park was crazy dangerous but we had fun”.<br/><br/>Equally confusing was the way the park’s creator, Gene, was villain-ized and then swiftly treated as an anti-disestablishment hero. The man’s ideas killed several people with no remorse.<br/><br/>The interviewees were off-pitch, strangely dramatic at times and unrewarding.<br/><br/>Quote: “when you talk to other people that went there, there’s a shared level of… sort of survivor’s respect.”"
+},
+{
+	"Date": "2022-09-17", 
+	"Name": "The Shining", 
+	"Year": "1980", 
+	"Rating": "3.5", 
+	"Review": "This film categorizes the slow, agonizing demise into chaos far too well.<br/><br/>Danny, Nicholson and Duvall all put up top tier performances each in their own, different ways.<br/><br/>Love the sound design. Particularly when Danny is riding around his tricycle on the soft, silky carpet compared to the rough, punchy sound of the hardwood.<br/><br/>The music makes the film. Builds a tense, heart-pounding atmosphere with wonder and terror.<br/><br/>Most modern horror films aren’t as drawn out and patient as The Shining. In many ways, the patience and cadence of the film puts weight behind the tension that builds to a climax.<br/><br/>I don’t think I’ll watch this film often, but when I do, my attention will be kept."
+},
+{
+	"Date": "2022-09-17", 
+	"Name": "The Harder They Fall", 
+	"Year": "2021", 
+	"Rating": "2.5", 
+	"Review": "Straight Outta Compton meets Tombstone."
+},
+{
+	"Date": "2022-09-28", 
+	"Name": "Do Revenge", 
+	"Year": "2022", 
+	"Rating": "1.5", 
+	"Review": "SPOILERS: Maya Hawke was the villain for 1.5 seconds. The weight of the twist and her betrayal was minuscule when it was meant to be a heavy moment of the film.<br/><br/>Very woke film"
+},
+{
+	"Date": "2022-09-28", 
+	"Name": "Pleasantville", 
+	"Year": "1998", 
+	"Rating": "3", 
+	"Review": "Lighthearted and fun.<br/><br/>The similarities between this film and the civil rights movements of the ‘60s was right on the nose. It put into perspective the need for change and self-expression.<br/><br/>Loved Tobey Maguire and Reese Witherspoon throughout especially how their journeys were swapped in some ways."
+},
+{
+	"Date": "2022-11-24", 
+	"Name": "Falling for Christmas", 
+	"Year": "2022", 
+	"Rating": "0.5", 
+	"Review": "Don’t ask why I watched this… thing. I feel ashamed already"
+},
+{
+	"Date": "2022-11-24", 
+	"Name": "Don't Worry Darling", 
+	"Year": "2022", 
+	"Rating": "2.5", 
+	"Review": "Basically Black Mirror.<br/><br/>I found the final act 10x as compelling as the rest of the film. The first two acts take a while to take shape and the film doesn’t feel as grounded. I didn’t feel attached to Alice (Florence Pugh) as Olivia Wilde would have intended. The film felt weak and purposeless for a significant portion of time. Upon a second watch, I could see how the constant cuts to abnormal imagery would make it more intriguing for the first two acts.<br/><br/><b>SPOILERS!</b><br/>That being said, this film is made in the final act. I did not expect the simulation twist and it quelled my fears of a unfulfilled ending. I thought Jack’s (Harry Styles) character arc and persona was made whole in the final 20min of the film.<br/><br/>All around, could’ve been an hour long Black Mirror episode and would’ve ranked in the mid/high tier of quality in the lineup. <br/><br/>I found the film puzzling, the characters distrusting and the truth of Victory Project disturbing."
+},
+{
+	"Date": "2022-11-27", 
+	"Name": "Barbarian", 
+	"Year": "2022", 
+	"Rating": "2", 
+	"Review": "First off, Justin Long’s story arc - famous actor exposed by female costar for sexual assault - did not contribute to the film. The 5+ min it took to introduce him into the film felt unnecessary for an already short film. I get into AJ’s evil nature later on which makes sense in the context of his expressed situation.<br/><br/><br/>The only true surprise was Bill Skarsgard <b>wasn’t </b>the baddie, although I did assume he was cast to throw off the audience; I was partly right.<br/><br/>The cinematography was a bonus. Field of view increased as the character’s distress and fear increased. Shots were not jumpy either, average shot time <i>seemed </i>longer than normal (which is often a bonus in my book).<br/><br/>The use of light (and lack thereof) added fear and provoked curiosity in me. Red, pink and yellow lighting were used throughout strategically. <b>Yellow lighting </b>dominated the first night in the house with Tess (G Campbell) and Keith (B Skarsgard). I had the sense that this color represented safety with caution. We didn’t know who Keith was or what his intentions might be - untrustworthy! The flashlight and light in the basement light were yellow as well. The basement was a step closer to safety (in comparison to the dark, ominous hallway and below). The basement light was a beacon of hope when Tess and AJ escape from the caverns below. The flashlight represented the last sense of hope Tess or AJ had while navigating the caverns below. It literally led them to their escape and provided a path to safety. This hope was not without its own amount of caution though as darkness crept in from all non-lit areas.<b>Red lighting </b>is only used in scenes involving AJ (Justin Long). (1)When he is at a bar with his friend in Detroit telling the truth about “that encounter” with his (rightfully) convicting co-star and (2) When he and Tess are on top of the water tower escaping the Creature. In both scenes, AJ exposes his evilness. (1) brags about his “persistent” sexual nature and defends his innocence and (2) throws Tess off the tower in order to escape. <b>Pink lighting </b>was only used in the room where the Creature appeared to breast feed and seemingly sleep. Not even gonna try to guess what pink could represent.<br/><br/>As the monster arose from the darkness, fear slowly swelled in the character. I found this, as opposed to the jump scare, much more disturbing.<br/><br/>Was I scared, partly. Was I disturbed, I’ve been more disturbed from films of the same genre. This film did not hit my expectations. I had heard great reviews for this indie film from more than 5 people, including online rave reviews, and it underwhelmed any expectations I had."
+},
+{
+	"Date": "2022-11-27", 
+	"Name": "The Florida Project", 
+	"Year": "2017", 
+	"Rating": "5", 
+	"Review": "Honest, raw, real, colorful and heartbreaking. I thought I’d see more Mickey Mouse though."
+},
+{
+	"Date": "2022-12-22", 
+	"Name": "Four Christmases", 
+	"Year": "2008", 
+	"Rating": "2.5", 
+	"Review": "As far as romantic Christmas comedies go.. this is top tier. It fits in with the rest of American comedy trash but if you’re looking for a cheap Christmas comedy, you have it."
+},
+{
+	"Date": "2022-12-30", 
+	"Name": "Bullet Train", 
+	"Year": "2022", 
+	"Rating": "3", 
+	"Review": "Ladybug (Brad Pitt) says what the audience is thinking. Refreshing.<br/><br/>There were several small surprises and twists which made this film.<br/><br/>The constant Thomas the Tank Engine references, goofy backstories and Ladybug psychologically diagnosing himself/others made the film consistently funny throughout.<br/><br/>A goofy samurai movie that adds as a nice collection to David Leitch’s filmography"
+},
+{
+	"Date": "2022-12-30", 
+	"Name": "Glass Onion", 
+	"Year": "2022", 
+	"Rating": "3.5", 
+	"Review": "Rian Johnson’s creativity and personality were clear in the cuts he chose<br/><br/>Loved the color in this film.<br/><br/>Daniel Craig is a stand out<br/><br/>Had no clue Edward Norton was the baddie til the end"
+},
+{
+	"Date": "2023-01-02", 
+	"Name": "King Kong", 
+	"Year": "2005", 
+	"Rating": "4.5", 
+	"Review": "A landmark cinematic experience. The whole story flows throughout. Love the performances by Jack Black, Naomi Watts, Adrien Brody and Harambe. Each performance felt complex, nuanced and self-conflicted.<br/><br/>Most of the CGI still holds up better than some modern Marvel films."
+},
+{
+	"Date": "2023-01-02", 
+	"Name": "If Beale Street Could Talk", 
+	"Year": "2018", 
+	"Rating": "4.5", 
+	"Review": "The soundtrack elevates the emotion and composition of the film. Beautiful telling of a treacherous and segregation-heavy piece of America's past."
+},
+{
+	"Date": "2023-01-02", 
+	"Name": "Amsterdam", 
+	"Year": "2022", 
+	"Rating": "2", 
+	"Review": "Very dry, slow and emotionless. Lacks a consistent, continuous narrative arc. Lacks emotional investment: no danger felt by audience for the leading suspects of a murder.<br/><br/>I did enjoy the<i>Committee of the 5</i>being a US arm of the early Nazi party. This was the only interesting story piece to me.<br/><br/>Great cast, but the film doesn’t carry the punch it’s lineup and marketing campaign anticipated."
+},
+{
+	"Date": "2023-01-03", 
+	"Name": "The French Dispatch", 
+	"Year": "2021", 
+	"Rating": "3.5", 
+	"Review": "Wes Anderson’s take on the feature length short story model (similar to <i>The Ballad of Buster Scruggs</i>).<br/><br/>I very much enjoyed it. This Anderson film felt the most sophisticated, posh and arrogant. I didn’t mind that as much as it still held up in wittiness, humor and against-the-grain form.<br/><br/>I welcomed the technique of speaking directly to the audience via newspaper article narration. It provided comfort like my hand was being held through the journey."
+},
+{
+	"Date": "2023-01-03", 
+	"Name": "White Noise", 
+	"Year": "2022", 
+	"Rating": "3", 
+	"Review": "It is nothing like the trailer. Descends into something I didn’t expect.<br/><br/>Colorful, sophisticated and haunting satire. Baumbach has delivered something different and delightful in comparison to his critically acclaimed <i>A Marriage Story.</i><br/><i><br/></i><br/>I haven’t read the book, but hope the film did it justice."
+},
+{
+	"Date": "2023-01-03", 
+	"Name": "Avatar: The Way of Water", 
+	"Year": "2022", 
+	"Rating": "4", 
+	"Review": "The army storyline was very underdeveloped and took too many shortcuts. The story felt slightly Disney-ified/American-ized. Less so compared to the Marvel films.<br/><br/>CGI was 5/5.<br/>Scenes involving humans were 2/5.<br/>Water scenes 5/5.<br/>The Weeknd as the end credits song 0/5.<br/>Emotional draw 6/5. Lauren and I cried a lot.<br/><br/>As a launching point for several more sequels, I thought James Cameron did swell."
+},
+{
+	"Date": "2023-01-04", 
+	"Name": "The Redeem Team", 
+	"Year": "2022", 
+	"Rating": "1", 
+	"Review": "My one star is for Kobe. Wasn’t well constructed or impactful. Cool BTS footage though"
+},
+{
+	"Date": "2023-01-07", 
+	"Name": "Brokeback Mountain", 
+	"Year": "2005", 
+	"Rating": "4", 
+	"Review": "A story of regret, prejudice, desire and rejection which leaves the audience heartbroken and broadened. Slow paced and soft-toned in it's telling, Lee tackles a combination of place and agenda that few have engaged with. The audience walks away with a more nuanced perspective of the rancher archetype: A rugged individual whose desire, duty and conformity are all at odds. This ain't your John Wayne cowboy.<br/><br/>Regarding cinematography, Lee utilizes camera and production technics from last 19th century westerns throughout. The style leans towards fade cuts and far moving shots; reminiscent of rhinestone cowboy era films. I like to think this choice of technique was a nod to those older westerns; none of which took on the contentious subject of homosexuality. <i>The Power of the Dog (2021)</i>being the only other film of the same genre tackling this subject as far as I’m aware.<br/><br/>The conflict style is unique as it reflects<i>Man v. Man v. Society </i>while simultaneously <i>Man and Man v. Society</i>. Ennis and Jake are constantly split between conforming to social norms and confronting their desires. The familial tension leaves all parties confused and lost. The attitudes towards Ennis and Jake are brutal and aggressive.<br/><br/>This film is gentle and paced-well in it's telling while also being a brutal, heartbreaking tale."
+},
+{
+	"Date": "2023-01-08", 
+	"Name": "The Neighbors' Window", 
+	"Year": "2019", 
+	"Rating": "3.5", 
+	"Review": "Exactly what I’d expect out of a short film. Simple message, simple delivery. Beautiful glimpse of middle class family life in the Big Apple.<br/><br/>Takeaway: Grass is always greener on the other side<br/>Only real downside: The dad sounded a lot like fake celeb Scott Dissick."
+},
+{
+	"Date": "2023-01-09", 
+	"Name": "The Greatest Showman", 
+	"Year": "2017", 
+	"Rating": "2", 
+	"Review": "I found the first 15 minutes delightful and grand. I’ll admit I walked away a bit inspired and empowered. This film is whimsical. Michael Gracey tackles interpersonal and societal shortcomings including racial discrimination and the power of greed; and yet, these are addressed at the most surface level, with only cliches left for the audience.<br/><br/>None of this is what people really come for though. The audience comes for the music and choreography. Personal preference: I am not a fan of the pop-centric (sometimes electric and auto-tuned) musical styles in this soundtrack. It has <i>a few </i>gems in <i>a few</i>songs. I acknowledge the popularity with the younger crowd; just wasn’t for me."
+},
+{
+	"Date": "2023-01-12", 
+	"Name": "The Florida Project", 
+	"Year": "2017", 
+	"Rating": "5", 
+	"Review": "The colors shine bright but not as much as the poverty, innocence and brutality expressed throughout"
+},
+{
+	"Date": "2023-01-13", 
+	"Name": "The Lobster", 
+	"Year": "2015", 
+	"Rating": "4", 
+	"Review": "Black comedy is not a genre for everyone. I found the humor extremely dry, slow-paced and subtle... it was hilariously dreary.<br/><br/>The music is punchy, tense and aggressive. The string ensembles, throughout the film's soundtrack, build on anxiety and chaos to propel the film into a gradual downfall adventure.<br/><br/>This dystopian depiction cuts against the grain of the genre-average as it excludes any lords, flies and lords of flies. It has no terminators. No explosions or laser guns. David (Colin Farrell) attempts to live like a romantic vigilante; but in reality he's just a lump surrounded by a bunch of socially-inept lumps trying to escape the forced-companionship social impositions. It's a quaint story about loneliness and the most \"office space appropriate\" approach to breaking the law. <br/><br/>Rachel Weisz and Colin Farrell are comedic gold. Both with their timing and bleakness. When Short Sighted Woman (Rachel Weisz) describes the secret sign language she and David created to say \"I love you\" (and much more).. I about fell off my seat. \"Would you like to play another game of 'touch-guess-think-win'\" after Rachel's character tells David she's blind.. I about croaked. The  \"Arrive to the city\" scene is just the best. The wild interest each of the characters have for common grocery store items fits so well into the paling world Yorgos Lanthimos manifests. And my lord these shots. The depth of focus and environment in each shot is incredible. The camera never settles to splash in unconventional angles to remind the audience of the cinematographer's ego :)<br/><br/>This wasn't just a comedy, romance or dystopian film. And it doesn't fit into the mainstream sense of any of those genres. The comedy is dry and bleak; less direct or slap stick. The romance is dry and bleak; less charming, predictable or pleasant. The dystopian aspects are subtle and work appropriate; less cataclysmic and action-packed. My wife put it best, \"It's not a story you can relate to.\""
+},
+{
+	"Date": "2023-01-15", 
+	"Name": "Big Fish", 
+	"Year": "2003", 
+	"Rating": "4.5", 
+	"Review": "Can’t watch without cry… absolutely sobbing. What a wild, turbulent, wholesome dream of a story."
+},
+{
+	"Date": "2023-01-16", 
+	"Name": "Dog", 
+	"Year": "2022", 
+	"Rating": "1.5", 
+	"Review": "A theater-grade Hallmark film. Tatum is back in his type-cast role. Some scenes started promising and ended so poorly. It lacks any depth. And still, the cinematography holds up."
+},
+{
+	"Date": "2023-01-16", 
+	"Name": "August: Osage County", 
+	"Year": "2013", 
+	"Rating": "4", 
+	"Review": "Surreal performances by Julia Roberts and Meryl Streep. What a stand out film about loss, grief and deep-seeded familial turmoil. This is a family reunion where everyone leaves with more than a few emotional scars. The whole cast delivers a beautiful portrayal of heartache and bitterness.<br/><br/><blockquote><br/>\"Thank god we can't tell the future. We'd never get out of bed.”</blockquote><blockquote>“She might share some of the responsibility. It’s not cut and dried. It lives where everything lives. Somewhere in the middle, where the rest of us live. “</blockquote>"
+},
+{
+	"Date": "2023-01-17", 
+	"Name": "What's Eating Gilbert Grape", 
+	"Year": "1993", 
+	"Rating": "3", 
+	"Review": "Sorry Johnny, Leo is the stand out in this one. While Gilbert's story is clearly the central, and strongest, of this film, I found Arnie (Leonardo DiCaprio) so intriguing. This film follows a young man with a heavy burden (no pun intended) he can’t handle, but he acts like a grown up Casanova."
+},
+{
+	"Date": "2023-01-17", 
+	"Name": "Surf's Up", 
+	"Year": "2007", 
+	"Rating": "3.5", 
+	"Review": "Cody Maverick is Plat tier on all levels. Most quotable lines in a movie, hands down."
+},
+{
+	"Date": "2023-01-17", 
+	"Name": "Jurassic World Dominion", 
+	"Year": "2022", 
+	"Rating": "1", 
+	"Review": "Dinosaurs everywhere. Another studio cash grab with absolutely no sensible plot. It tried soo hard to be an Indiana Jones movie and, just like the two predecessors, failed to capture the magic of <i>Jurassic Park (1993)</i>. Cool seeing velociraptors hunt bunnies though."
+},
+{
+	"Date": "2023-01-18", 
+	"Name": "Spider-Man: No Way Home", 
+	"Year": "2021", 
+	"Rating": "2.5", 
+	"Review": "Loved when Peter asks Dr. Strange “you can do that?” after suggesting Peter should plead his case to MIT. Seems relatable.<br/><br/>Watching this again makes you realize just how childish Peter is. It also makes you really want to watch it again, for the first time, with a ton of people. After the second watch I noticed the plot issues. The comedy and triumphs are cheap. Holds up for most times breaking the fourth wall for the sake of nostalgia and relatability. Cool to see Tobey and Andrew again. Won’t have a crazy crossover event at this scale ever again. Most of my stars go to that."
+},
+{
+	"Date": "2023-01-21", 
+	"Name": "Moneyball", 
+	"Year": "2011", 
+	"Rating": "4.5", 
+	"Review": "Very cathartic for me. One of Sorkin’s landmark creations."
+},
+{
+	"Date": "2023-01-21", 
+	"Name": "About Time", 
+	"Year": "2013", 
+	"Rating": "4.5", 
+	"Review": "Just absolutely heartwarming and soul-touching. Strong cadence; the whole film flowed rhythmically. Subtly hilarious and beautifully written. I was consistently encouraged by each and every story point. The arc of Tim's courtship of Charlotte, the journey of Mary and Tim and the bittersweet death of a beloved patriarch. Each so wonderfully and genuinely done. The premise could easily have been executed in a cheap and dry manner; Yet the exact opposite is delivered. A delightful execution of one man’s unique, temporally revised destiny.<br/><br/>The cast was incredible. Gleeson and McAdams stand out in this stunning rom com. Very cool seeing Tom Hollander (<i>White Lotus Season 2</i>), Vanessa Kirby (<i>The Crown</i>) and Richard Griffiths (<i>Harry Potter</i>) play small yet memorable roles.<br/><br/>And the soundtrack! Felt right with the film.. stands above a cheesy rom com soundtrack with flare and impact.<br/><br/>Big on the quotes this time:<br/><br/><blockquote>“You have to use it for things you really think will make your life the way you want it to be.”</blockquote><blockquote>\"I am so... disinterested in a life without your father.\"</blockquote><blockquote>“No one can ever prepare you for what happens when you have a child... When you see the baby in your arms and you know that's your job now. No one can prepare you for the love and the fear. There are other things, of course - no one can prepare you for the bad nappies... No one can prepare you for the love people you love can feel for them... And nothing can prepare you for the indifference of friends who don't have babies...\"</blockquote>"
+},
+{
+	"Date": "2023-01-21", 
+	"Name": "The Dirt", 
+	"Year": "2019", 
+	"Rating": "1.5", 
+	"Review": "I couldn’t have cared less about the early roots of Motley Crue after watching the first half of this film. A poorly acted and poorly written piece of cheap cinema."
+},
+{
+	"Date": "2023-01-22", 
+	"Name": "Thor: Love and Thunder", 
+	"Year": "2022", 
+	"Rating": "2", 
+	"Review": "Fell below expectations. Romance wasn’t real enough for me to care. Christian Bale can’t bloom under these conditions."
+},
+{
+	"Date": "2023-01-23", 
+	"Name": "The Banshees of Inisherin", 
+	"Year": "2022", 
+	"Rating": "4", 
+	"Review": "What should be done about a relationship grown dull? What is the value of aimlessness? And when should one disengage with aimless small talk? Banshees poses theses thoughts without a clear conclusion.<br/><br/>Padraic’s (Collin Farrell) hopeless attempts at winning back his friend are just plain depressing. Padraic is stuck between Colm’s (Brendan Gleeson) rejection and Dominic’s (Barry Keoghan) pathetic antics. Colm, the more intellectual of the pair, is tired of wasting away in the pub aimlessly with Padraic. We’re left hoping for Padraic to find peace throughout but he fails to conquer the rejection. I empathize with both Colm and Padraic. We’ve all dealt with rejection as the giver or receiver and this tale brings to mind those occasions in my life. A simple premise beautifully executed.<br/><br/><blockquote>“I’ve changed, I just don’t have a place for dullness in me life anymore”</blockquote>"
+},
+{
+	"Date": "2023-01-27", 
+	"Name": "Dances with Wolves", 
+	"Year": "1990", 
+	"Rating": "4.5", 
+	"Review": "Perfectly paced"
+},
+{
+	"Date": "2023-01-27", 
+	"Name": "The Usual Suspects", 
+	"Year": "1995", 
+	"Rating": "3.5", 
+	"Review": "Excellent twist"
+},
+{
+	"Date": "2023-01-29", 
+	"Name": "Parenthood", 
+	"Year": "1989", 
+	"Rating": "3.5", 
+	"Review": "Call me cliche, but I liked it. Poignant film for a parent-to-be. It makes parenting seem hopelessly exhausting. Attempts of comfort and compassion are met with apathy and agitation. Parenthood is presented as an afflicted journey marked by daily headaches and the fear of trying to do best by your children. It follows three men’s family journeys. Jason Robards, the apathetic, resentful savior. He’s least interested in his children but continues to save and invest in his youngest against better judgement. Rick Moranis, the ‘Einstein prodigy’ cultivator. He’s more focused on his child’s calculus practice than her own creativity. And Steve Martin, the dedicated, loving comforter who encourages his kids more than anything.<br/>Joaquin Phoenix steps up in this earlier film of his. Kid got chops. The whole comedic mass shooting scene (did I stutter?) did not age well and the sound mixing was what you’d expect of a low budget film.<br/>Can’t believe it was set in Kirkwood (filmed in Orlando). Makes me want some Spencer’s Grill. Really enjoyed, especially for an 80s family film.<br/><br/><blockquote>“You know, when I was nineteen, Grandpa took me on a roller coaster. Up, down, up, down. Oh, what a ride! I always wanted to go again. You know, it was just so interesting to me that a ride could make me so frightened, so scared, so sick, so excited, and so thrilled all together! Some didn't like it. They went on the merry-go-round. That just goes around. Nothing. I like the roller coaster. You get more out of it.”</blockquote>"
+},
+{
+	"Date": "2023-02-01", 
+	"Name": "The Royal Tenenbaums", 
+	"Year": "2001", 
+	"Rating": "4", 
+	"Review": "Anderson is as consistent to form as anyone. The story is both delightful and melancholic. Witty and dry. The cast is just wonderful too. Each character highlighting their own off-putting, apathetic personality traits.<br/><br/>Gene Hackman stands out as the neglectful, charismatic patriarch. Angelica Huston is amazing as the unaware, concerned and logistical mother. Haven't laughed much harder than when Royal convinces, unconvinces and then re-convinces Etheline he's dying. Then Royal proceeds to intervene himself back into his family’s lives.<br/><br/>Very colorful and playful film."
+},
+{
+	"Date": "2023-02-14", 
+	"Name": "Black Panther: Wakanda Forever", 
+	"Year": "2022", 
+	"Rating": "2.5", 
+	"Review": "I miss Chadwick Boseman"
+},
+{
+	"Date": "2023-02-15", 
+	"Name": "Your Place or Mine", 
+	"Year": "2023", 
+	"Rating": "1", 
+	"Review": "A cheesier version of<i>The Holiday</i>"
+},
+{
+	"Date": "2023-02-16", 
+	"Name": "Black Mirror: San Junipero", 
+	"Year": "2016", 
+	"Rating": "4", 
+	"Review": "A Soul touching tale of facing regrets in a era of simulation."
+},
+{
+	"Date": "2023-02-20", 
+	"Name": "Ant-Man and the Wasp: Quantumania", 
+	"Year": "2023", 
+	"Rating": "2", 
+	"Review": "Got better as the film progressed but still just bad. Marvel continues to push cheesy, anti-climactic shiz.<br/><br/>The introduction of Kang was strong initially and ended weak.<br/><br/>Lo found it very predictable."
+},
+{
+	"Date": "2023-03-06", 
+	"Name": "Notting Hill", 
+	"Year": "1999", 
+	"Rating": "3", 
+	"Review": "It's 500 Days of Summer but subtler and takes less creative leaps. Classic '90s drama scene in the bookstore near the end of the film. Best part of the film was Max & Bella's relationship."
+},
+{
+	"Date": "2023-03-09", 
+	"Name": "Nocturnal Animals", 
+	"Year": "2016", 
+	"Rating": "5", 
+	"Review": "While a very dark film, Nocturnal Animals is a masterpiece reflecting how one can abstract their torment into an equally dark evil."
+},
+{
+	"Date": "2023-03-10", 
+	"Name": "Prisoners", 
+	"Year": "2013", 
+	"Rating": "5", 
+	"Review": "The tone, as supported by the score, is menacing and predatory.The suspense and longing sinks you into a pool of fearful hope.Perfect pace and rhythm.<br/><br/>Holy moly these characters were played soo well. So raw and sinister. Every single one hiding something. The story unravels in an unending recursive spiral of tense madness. There are no plot holes or stranded storylines. Every sequence builds upon the others into a beautiful web of suspicions.<br/><br/>My god 100% recommend to anyone, but prepare for overwhelming evil."
+},
+{
+	"Date": "2023-03-16", 
+	"Name": "Everything Everywhere All at Once", 
+	"Year": "2022", 
+	"Rating": "4", 
+	"Review": "What a trip. Gripping, witty and radical. Michelle Yeoh is an all star. The supporting cast decorates this film with wonder and a belief in the absurd. So many parallel paths to keep up with. The mother-daughter connection drives the emotional vein of this film.<br/><br/>More of this please.<br/><br/>\"When I choose to see the good side of things, it is not naive. It is strategic and necessary. It is how I've learned to survive through everything\""
+},
+{
+	"Date": "2023-03-24", 
+	"Name": "Final Destination", 
+	"Year": "2000", 
+	"Rating": "1.5", 
+	"Review": "Uncanny valley meets Jack Ass"
+},
+{
+	"Date": "2023-03-26", 
+	"Name": "The Matrix", 
+	"Year": "1999", 
+	"Rating": "3", 
+	"Review": "Permeates 90s grunge energy. Feels like Inception, Akira and Fight Club made love with Rage against the Machine and Jiu-Jitsu. Cleary they were low on budget since they reused the Men in Black wardrobe. Not huge on the green filter throughout the film. For today, as in 1999, this is one of the coolest dystopian films besides the abundance of hopeful energy."
+},
+{
+	"Date": "2023-03-31", 
+	"Name": "RRR", 
+	"Year": "2022", 
+	"Rating": "4", 
+	"Review": "I'm considering Bollywood after seeing this. It is rebellious and charismatic. Unlike anything I've ever seen. <br/><br/>The story is fast-paced and constant. Every moment builds on the last with wonder and intensity. Both Rheem and Ram have a deep purpose which drives all their decisions letting nothing get in the way. The action sequences are untouchable; each one more ridiculous than the last. It is cheesy, has better song/dance than all High School Musicals and includes a flogging scene that rivals The Passion of the Christ.<br/><br/>!!SPOILERS!!: IMO, no way that Palace was laced entirely in TNT near the end."
+},
+{
+	"Date": "2023-04-01", 
+	"Name": "The Triplets of Belleville", 
+	"Year": "2003", 
+	"Rating": "3.5", 
+	"Review": "I prefer there be more dialogue but the story carries strong without it.<br/><br/>The animation style is an escape from that of Disney or Ghibli; Unique in its own character and sharpness."
+},
+{
+	"Date": "2023-04-01", 
+	"Name": "Kicking & Screaming", 
+	"Year": "2005", 
+	"Rating": "5", 
+	"Review": "All time most quotable film "
+},
+{
+	"Date": "2023-04-01", 
+	"Name": "A Knight's Tale", 
+	"Year": "2001", 
+	"Rating": "3", 
+	"Review": "Rock 'n' roll Robin Hood"
+},
+{
+	"Date": "2023-04-01", 
+	"Name": "Uncut Gems", 
+	"Year": "2019", 
+	"Rating": "3.5", 
+	"Review": "Adam Sandler transforms for this role. His performance, the grainy camera and the crystallized soundtrack provoke anxiety and uneasiness."
+},
+{
+	"Date": "2023-04-01", 
+	"Name": "Pride & Prejudice", 
+	"Year": "2005", 
+	"Rating": "4", 
+	"Review": "It’s like Beauty and the Beast but the Beauty is feistier and the Beast is kind of a bitch<br/><br/>Stacked female cast. Bravo Matthew Macfadyen, I intend to quote his final mystifying monologue daily to my wife; maybe then she’ll kiss me back. I cried when Donald Sutherland cried. The zoom cuts were unexpected but welcome. My spirits were lifted with joy."
+},
+{
+	"Date": "2023-04-03", 
+	"Name": "When Harry Met Sally...", 
+	"Year": "1989", 
+	"Rating": "4", 
+	"Review": "Great chemistry between Billy and Meg. Their conversations seemed real. I relate to the “wagon wheel coffee table” conflict, but Lauren and I will never split over it... hopefully. Rip Princess Leia and Ms. Ryan.<br/><br/>Guys and girls can’t be friends. They’ll eventually do it or reduce to acquaintances. Unless one of them is gay, then yeah, I guess guys and girls can be friends."
+},
+{
+	"Date": "2023-04-07", 
+	"Name": "Daisy Jones & the Six", 
+	"Year": "2023", 
+	"Rating": "3.5", 
+	"Review": "Don’t do drugs kids, they make you a selfish prick. Glad there was a happy ending."
+},
+{
+	"Date": "2023-04-08", 
+	"Name": "Inglourious Basterds", 
+	"Year": "2009", 
+	"Rating": "5", 
+	"Review": "Best opening to a film. Incredible writing."
+},
+{
+	"Date": "2023-04-08", 
+	"Name": "Dazed and Confused", 
+	"Year": "1993", 
+	"Rating": "3", 
+	"Review": "Coolest opening to a film: <i>Sweet Emotion </i>takes off while aPontiac GTO Judge pulls up with Milla Jovovich in passenger rolling up a joint.Great cast and youthful energy. Great on first watch, very nostalgic."
+},
+{
+	"Date": "2023-04-09", 
+	"Name": "The Super Mario Bros. Movie", 
+	"Year": "2023", 
+	"Rating": "3", 
+	"Review": "Toad is the perfect wingman. The peach origin story is cute; Lauren thought it similar to Star-Lord’s. The blue star in Bowser’s prison was by far the funniest character in the film. Very cool the way they integrated the original music and sounds of the Mario world. The platformer cinematics gave the game-to-film adaptation a unique feel.<br/><br/>The worst part of the film was Bowser’s love towards Peach. The wedding, the song, the everything. I thought it was horrid. “I’ll marry you just don’t hurt my toads” Lauren thought was funny. I learned from a guy at GameStop that the Mario world is pretty “lore-less”; In the games, Bowser’s mission was never to marry Peach, with the only exception being Super Mario Odyssey (2017).<br/><br/>It started strong but slowly lost its creative strength over time. The supporting characters who were built up early on became forgettable by the end. Story was pretty meh."
+},
+{
+	"Date": "2023-04-09", 
+	"Name": "Licorice Pizza", 
+	"Year": "2021", 
+	"Rating": "4", 
+	"Review": "Similar to Tarantino’s “Once Upon a Time”, this is PTA’s homage to classic Holllywood. Gorgeous cinema. Gorgeous sound.<br/><br/>Gary Valentine is a daaawwwg who is hatching plans all the time. Alana Kane eager to make something of her self with backwards driving skills that rival Toe Mater.<br/><br/>The side characters were great. Lance: a decorated child actor with a confidence that upstages Gary’s. Jack Holden (Sean Penn): an aged, but revered, actor speaking to others through the lines of his famed characters. Jon Peters (Bradley Cooper): the open-book film producer with an act for being sus.<br/><br/>The camera moves freely with a mind of its own, pivoting its focus with its own priorities. The comedy was subtle yet punchy. I like that PTA chose more vibrant colors than in his previous films; fits the 70s more. John Michael Higgins’ pseudo-Japanese is funny but in guilty way; feels like PTA is one of the few left that even attempts toeing that line.<br/><br/>A lot of my review goes towards the dialogue-heavy sequences between Gary and Alana. The final chase sequence where Alana and Gary run towards each other with subtle nods to previous moments in their relationship was beautifully done."
+},
+{
+	"Date": "2023-04-10", 
+	"Name": "The French Dispatch", 
+	"Year": "2021", 
+	"Rating": "3.5", 
+	"Review": "Very pretentious"
+},
+{
+	"Date": "2023-04-10", 
+	"Name": "The Northman", 
+	"Year": "2022", 
+	"Rating": "4", 
+	"Review": "A Nordic mushroom trip revenge tale that is equally barbaric, desperate and savage. Dove deep and stayed true to Nordic mythology in both form and telling.<br/><br/>The DP favored long shots, enhancing the raw nature of the story. “Nine shots contained over 2000 frames with the longest at 3m30s”. I’ll always favor long shots over quick jump cuts commonly found in american action sequences. Long shots help drive the emotion and realness of the action. Complimenting the shot selection was the natural lighting which dominated the film. The ripe green fields covered the day time while warm flames engulfed the colorless night.<br/><br/>Similar demonic, disturbing, gory atmosphere as Midsommar.<br/><br/><blockquote>“A life of death. Yet I swore to survive until this moment. Tomorrow, I shall finish my deeds in honor. Only then will I discover whether living is to my liking.”</blockquote>"
+},
+{
+	"Date": "2023-04-11", 
+	"Name": "Phantom Thread", 
+	"Year": "2017", 
+	"Rating": "4", 
+	"Review": "Slow, gentle and cold.<br/><br/>Daniel Day Lewis steps up again. Both leads are cold and cunning in their antics. This film moves like a melancholy game of chess between Reynolds and Alma; each move throwing the the next player into critical thought. Reynolds and Alma's age difference shows through their personalities."
+},
+{
+	"Date": "2023-04-11", 
+	"Name": "Deep Blue Breath", 
+	"Year": "2011", 
+	"Rating": "5", 
+	"Review": "Kid got chops."
+},
+{
+	"Date": "2023-04-12", 
+	"Name": "The Truman Show", 
+	"Year": "1998", 
+	"Rating": "5", 
+	"Review": "Jim Carrey like we’ve never seen him before."
+},
+{
+	"Date": "2023-04-13", 
+	"Name": "Flushed Away", 
+	"Year": "2006", 
+	"Rating": "2.5", 
+	"Review": "Solid story. Stacked cast. Funnier than I remember. Bill Nighy, what an actor. Lots of literal ball busting humor. This was Aardman Animations’ (famous for Chicken Run and Wallace & Gromit) first full CGI flick. Cool to see how the animation style mimicked that of their popular claymation character design.<br/><br/>It was out of touch with reality though, slugs can’t actually sing."
+},
+{
+	"Date": "2023-04-14", 
+	"Name": "White Chicks", 
+	"Year": "2004", 
+	"Rating": "1.5", 
+	"Review": "Very funny but pretty racist. Definitely didn’t age well. Iconic dance scene. Terry Crews stays supreme though.<br/><br/>The early 2000s film-meta is probably my least favorite. Lotta movies like this came out with mediocre writing, lighting, and a ditsy symphonic soundtrack."
+},
+{
+	"Date": "2023-04-16", 
+	"Name": "Shark Tale", 
+	"Year": "2004", 
+	"Rating": "2", 
+	"Review": "Finding Nemo destroys this film. De Niro and Scorsese were a great duo in this :)"
+},
+{
+	"Date": "2023-04-16", 
+	"Name": "Nope", 
+	"Year": "2022", 
+	"Rating": "4", 
+	"Review": "The least scariest horror film I’ve seen. The sound design and score was astounding. You can’t keep your eye off the screen out of fear of missing something.<br/><br/>I love when films include an A-B storyline where B is set in the past and informs key elements of A. In this case, the Gordy story (B) influencing how we perceive Jupe in the present (A). The Gordy story shows how Jupe believes he can tame any predator (and that balloon pops are dangerous). Balloon pop make Gordy go crazy (B) and balloon blew up the UFO (A).<br/><br/>All in all, it was definitely missing <i>something,</i>just not sure what."
+},
+{
+	"Date": "2023-04-17", 
+	"Name": "Jurassic Park", 
+	"Year": "1993", 
+	"Rating": "5", 
+	"Review": "They saved all the good lines for Dr. Malcolm (Jeff Goldblum).<br/><br/>Beautiful combination of horror and adventure. Spielberg melds storytelling and popular horror tropes beautifully.<br/><br/>Lex promotes UNIX, take notes Windows shills."
+},
+{
+	"Date": "2023-04-17", 
+	"Name": "John Wick", 
+	"Year": "2014", 
+	"Rating": "3", 
+	"Review": "Not a big fan of the blue and yellow filters throughout.<br/><br/>The contemporary rock soundtrack made it feel like a 90s action flick.<br/><br/>Solid action."
+},
+{
+	"Date": "2023-04-22", 
+	"Name": "Dungeons & Dragons: Honor Among Thieves", 
+	"Year": "2023", 
+	"Rating": "3.5", 
+	"Review": "That was a fat ass dragon.<br/><br/>Better than I expected. They were able to fit a whole campaign in a little over two hours. Glad this includes animatronics for a lot of the animal-based race characters. Seems like there is a resurgence in animatronics recently. CGI was meh. Tame Impala for the outro tho? Cmon wit it.<br/><br/>“i will not become compliacent in the taking of ill-gotten booty.” Preach."
+},
+{
+	"Date": "2023-04-25", 
+	"Name": "Kiki's Delivery Service", 
+	"Year": "1989", 
+	"Rating": "3.5", 
+	"Review": "Studio Ghibli remains A+ when it comes to female leads. Kiki is inquisitive, independent and focused. <br/><br/>Small details throughout were relatable: When the grandma baked the pie for her granddaughter and then the granddaughter was ungrateful upon delivery. Appreciate your grandparents people! Otherwise, everyone was unreasonably nice - which kinda warmed my heart. <br/><br/>Similar to My Friend Totoro (1988), this is a Ghibli film catered to children; It was a bit boring for my taste due to that. Yet again, few animated films can match Miyazaki-tier style and story."
+},
+{
+	"Date": "2023-04-26", 
+	"Name": "Beau Is Afraid", 
+	"Year": "2023", 
+	"Rating": "3", 
+	"Review": "Inventive, sure, it has unique character and feel to it. But wtf did I just watch? I mean… a giant testicle monster?!?? Wtf Ari. A trippy downward spiral of anxiety that confuses reality with the surreal. The border between truth and fiction can’t be less clear. Such a strange ride.<br/><br/>Beau is afraid of his neighborhood, of dying during intercourse and of upsetting his mother.<br/><br/>Beau has deep mommy issues. He is a victim of his mother’s trauma. Accused of crimes he did not commit by a mother who seeks to manipulate and control him.<br/><br/>The opening birth sequence from baby’s POV is terrifying."
+},
+{
+	"Date": "2023-04-29", 
+	"Name": "Along Came Polly", 
+	"Year": "2004", 
+	"Rating": "3.5", 
+	"Review": "A punchy, slap-stick comedy where a bubble-wrapped snowflake collides with a free-spirited nomad. P.S. Hoffman was effing hilarious. The comedic timing throughout was perfecto."
+},
+{
+	"Date": "2023-04-30", 
+	"Name": "American Hustle", 
+	"Year": "2013", 
+	"Rating": "3.5", 
+	"Review": "The warm colors made the 80s setting come alive. Great soundtrack too; kicking off with some America and Steely Dan. Bale, Adams, Cooper and Lawrence are stand outs for sure. Story was solid; Great twist. Richie (Cooper) is too trigger-happy; easy target for conning.<br/><br/>Carmine’s party was one of my favorite sequences. Complex relationships and conflicting motives intertwine in a tense cacophony of chaos.<br/><br/><blockquote>“She was the Picasso of passive-aggressive karate. She was better than any con artist I ever met including myself. And she had me like nobody had me”</blockquote>"
+},
+{
+	"Date": "2023-05-01", 
+	"Name": "The Lego Movie", 
+	"Year": "2014", 
+	"Rating": "4.5", 
+	"Review": "Very rare to see such a solid adaptation with a beautiful story and message. Well done."
+},
+{
+	"Date": "2023-05-01", 
+	"Name": "Honey, I Shrunk the Kids", 
+	"Year": "1989", 
+	"Rating": "2.5", 
+	"Review": "Super creative practical set pieces. Ants must be terrified of all the mowing, sprinklers and scorpions in the yard. Love the 90s energy. Rick Moranis has a special place in my heart."
+},
+{
+	"Date": "2023-05-05", 
+	"Name": "Dune", 
+	"Year": "2021", 
+	"Rating": "4.5", 
+	"Review": "This is a confident, cinematic, risk-taking blockbuster. I hope the Hollywood meta moves in this direction. Simple, yet layered story with beautiful color, articulate sound design and gentle cinematography. Most blockbuster films today move MUCH faster, yet I’m more akin to this quiet-tempered pacing.<br/><br/>With regards to story: I can’t believe how weak Atreides defenses were in the wake of a known impending Harkonnen attack. They knew it was coming and yet act like they had more time!?!?! Idk, Letos lacks some serious awareness. The still-suits looked kinda cheap to me also. It also felt kinda pretentious but was so gorgeous.<br/><br/>This film left me wanting more. Eager for part two this summer."
+},
+{
+	"Date": "2023-05-05", 
+	"Name": "Chernobyl", 
+	"Year": "2019", 
+	"Rating": "4.5", 
+	"Review": "So that’s how radiation works."
+},
+{
+	"Date": "2023-05-10", 
+	"Name": "Guardians of the Galaxy Vol. 3", 
+	"Year": "2023", 
+	"Rating": "4", 
+	"Review": "This is the best delivery from Marvel since End Game. Action-packed from front to back. Very colorful. Very trauma. Very animal abuse. Felt like a scooby doo episode every time the group splits up into their entertaining subgroups.<br/><br/>The ensemble action long shot in the hallway near the end was exactly what this film needed; each character getting to showcase their strengths against several foes while the Beastie Boys blare.<br/><br/>Gotta admit though, pretty fed up with the whole “omg he’s gonna die.. *1 minute later* ..omg he was saved from certain death!”. This happened more than once..<br/><br/><blockquote>“I love you guys” -Groot</blockquote>"
+},
+{
+	"Date": "2023-05-11", 
+	"Name": "Guardians of the Galaxy Vol. 2", 
+	"Year": "2017", 
+	"Rating": "4", 
+	"Review": "James Gunn melds color, music and story so well while keeping a fast tempo. This is a cinematic film with multiple rich plots. Yondu’s story and sacrifice brought emotion. I enjoyed him and Rocket’s relationship. Rocket’s complexity, intellect and brashness make him a staple of the MCU. Mantis and Drax’s chemistry is on point. Baby Groot is the best Groot. Loved the subtle Michelle Yeoh and Ving Rhames appearances near the end.<br/><br/>On first watch, I didn’t like how short, in film time, the story was. It’s basically a day or two. Though after second watch, I didn’t care.<br/><br/><blockquote>“I’m Mary Poppins, y’all!”</blockquote>"
+},
+{
+	"Date": "2023-05-11", 
+	"Name": "Avengers: Infinity War", 
+	"Year": "2018", 
+	"Rating": "4.5", 
+	"Review": "Every hero entrance and sequence was pivotal to the story. Stakes were high and heroes actually died. What else could you want?"
+},
+{
+	"Date": "2023-05-15", 
+	"Name": "Spider-Man: Homecoming", 
+	"Year": "2017", 
+	"Rating": "3", 
+	"Review": "Call me cliche but I would’ve been fine with another basic origin story; spider bite and stuff. The kid definitely earned his stripes fair and square. Love Tony and Peter’s relationship<br/><br/>Michael Keaton was awesome. Love Donald Glover. Great appearances from Hannibal Burress and Martin Starr."
+},
+{
+	"Date": "2023-05-21", 
+	"Name": "GoodFellas", 
+	"Year": "1990", 
+	"Rating": "4.5", 
+	"Review": "The shot when Henry and Karen walk into the club through the back doors on their first date is probably my favorite shot of all time."
+},
+{
+	"Date": "2023-05-24", 
+	"Name": "Air", 
+	"Year": "2023", 
+	"Rating": "4", 
+	"Review": "The writing was filled with fun facts and foreshadowing one-liners. The soundtrack was great but it was used only for scene transitions. The comedy was fresh and proportioned well. Lil cheesy at times but overwhelmed my expectations."
+},
+{
+	"Date": "2023-05-30", 
+	"Name": "Invitation to a Murder", 
+	"Year": "2023", 
+	"Rating": "1.5", 
+	"Review": "A cheaper, cheesier British version of Clue. Rolfe from The Office is the butler.. glad he still gets work.  Can’t stand the British daytime TV style lighting."
+},
+{
+	"Date": "2023-06-04", 
+	"Name": "Field of Dreams", 
+	"Year": "1989", 
+	"Rating": "4", 
+	"Review": "There is nothing like enjoying a hot dog and soda on the first baseline at Busch Stadium. The smell of peanuts, the crack of the bat and the ambience of the crowd bring peace to mind. This movie reminds us those memories we’ve all had. It is a spiritual journey honoring the history of America’s game. A simple tale executed beautifully; can’t get better than that. My only qualm is that it was shot like a made-for-TV movie.<br/><br/><blockquote>“This field, this game. It’s a part of our past Ray. It reminds us of all that once once good, and it could be again. Oh, people will come Ray. People will most definitely come.”</blockquote>"
+},
+{
+	"Date": "2023-06-15", 
+	"Name": "Spider-Man: Across the Spider-Verse", 
+	"Year": "2023", 
+	"Rating": "4.5", 
+	"Review": "Artistry at its peak. Boundary pushing. Different art forms coexist beautifully. It feels more like an art gallery than a superhero flick. Spot was by far my favorite character design; as the film progresses, Spot becomes more power-hungry and mad. In parallel with his arc, his visual portrayal becomes less realistic, more scattered and abstract.<br/><br/>The story is the collision of all things Spider-Man. Executes the multiverse concept way more effectively than its live action counterparts, like Spider-Man: No Way Home. Andy Samberg as Scarlet Spider and Daniel Kaluuya as Spider-Punk brought the comedic vibes this film needed."
+},
+{
+	"Date": "2023-06-16", 
+	"Name": "Twilight", 
+	"Year": "2008", 
+	"Rating": "0.5", 
+	"Review": "Trash"
+},
+{
+	"Date": "2023-06-16", 
+	"Name": "The Twilight Saga: New Moon", 
+	"Year": "2009", 
+	"Rating": "0.5", 
+	"Review": "🗑️"
+},
+{
+	"Date": "2023-06-16", 
+	"Name": "The Twilight Saga: Eclipse", 
+	"Year": "2010", 
+	"Rating": "0.5", 
+	"Review": "Actual trash"
+},
+{
+	"Date": "2023-06-16", 
+	"Name": "The Twilight Saga: Breaking Dawn - Part 1", 
+	"Year": "2011", 
+	"Rating": "0.5", 
+	"Review": "Dumpster doo doo"
+},
+{
+	"Date": "2023-06-16", 
+	"Name": "The Twilight Saga: Breaking Dawn - Part 2", 
+	"Year": "2012", 
+	"Rating": "0.5", 
+	"Review": "Honest opinions only: trash"
+},
+{
+	"Date": "2023-06-16", 
+	"Name": "10 Things I Hate About You", 
+	"Year": "1999", 
+	"Rating": "3.5", 
+	"Review": "I love Seattle. JGL is spectacular"
+},
+{
+	"Date": "2023-06-17", 
+	"Name": "Knock at the Cabin", 
+	"Year": "2023", 
+	"Rating": "2.5", 
+	"Review": "Apocalypse (is) now. Subpar dialogue. Didn’t like the frequent use of off-kilter shots. I doubted until the end."
+},
+{
+	"Date": "2023-06-20", 
+	"Name": "Black Mirror: Joan Is Awful", 
+	"Year": "2023", 
+	"Rating": "3", 
+	"Review": "Nice twist"
+},
+{
+	"Date": "2023-06-20", 
+	"Name": "Black Mirror: Loch Henry", 
+	"Year": "2023", 
+	"Rating": "4", 
+	"Review": "That boy ain’t recovering anytime soon."
+},
+{
+	"Date": "2023-06-21", 
+	"Name": "Black Mirror: Beyond the Sea", 
+	"Year": "2023", 
+	"Rating": "3", 
+	"Review": "Gently menacing but felt like something was missing"
+},
+{
+	"Date": "2023-06-22", 
+	"Name": "Booksmart", 
+	"Year": "2019", 
+	"Rating": "3.5", 
+	"Review": "Very funny and very woke. Loved the energy and chemistry between all characters, especially Molly and Amy."
+},
+{
+	"Date": "2023-06-23", 
+	"Name": "Charlie's Angels", 
+	"Year": "2019", 
+	"Rating": "1.5", 
+	"Review": "A cheap reboot"
+},
+{
+	"Date": "2023-06-28", 
+	"Name": "The Departed", 
+	"Year": "2006", 
+	"Rating": "5", 
+	"Review": "The narrative plays out like a symphony; doesn’t miss a beat and is constantly barreling forward. A movie’s quality is in it’s re-watchability and The Departed is always enjoyable on return. The final shot is *french kiss*, so poetic.<br/><br/><blockquote>How’s your mother?<br/><i><b>Ahh she’s on her way out</b></i><br/>we all are. Act accordingly.</blockquote>"
+},
+{
+	"Date": "2023-07-01", 
+	"Name": "Run Rabbit Run", 
+	"Year": "2023", 
+	"Rating": "3", 
+	"Review": "It’s Birdemic but with bunnies. When childhood trauma parallels with adult life, a spiral of terror is formed."
+},
+{
+	"Date": "2023-07-07", 
+	"Name": "Asteroid City", 
+	"Year": "2023", 
+	"Rating": "4.5", 
+	"Review": "\"You can't wake up if you don't fall asleep\" - When did this turn into A Clockwork Orange?<br/><br/>As always - the colors, set design and cinematography meld into a beautiful painting. The soundtrack is delightful, endearing and inquisitive. The three Steenbeck girls are an outstanding ensemble as with the other child actors; I could watch Woodrow Steenbeck in his own mini-series ten times over.<br/><br/>Most of Wes Anderson's films favor style over substance. Here, however, he makes a meta, wall-bending commentary on acting which (sort of) states: play on, even when the purpose is lost. This vibe is felt throughout. The story is meh in \"Asteroid City\" but multi-dimensional in the \"execution of the play of Asteroid City\".<br/><br/>Anderson held my attention (and my heart) most in one of the final sequences: In his search for purpose, Jones Hall (Augie / Jason Schwartzman) runs into Margot Robbie's character, who then narrates the most heart-wrenching scene from the play's script (although it was cut from the play); something about mamas talking from the dead just gets me.<br/>"
 }
+] }

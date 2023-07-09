@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
-import claysLetterboxReviews from "./Reviews.json"
+import claysLetterboxReviews from "./reviews.json"
 import { Grid } from '@mui/material';
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 import $ from 'jquery';
 
 function compareDate(a, b) {
-  return a['Year'] < b['Year'];
+  return a["Date"] < b["Date"];
 }
 
 class Letterbox extends React.Component {
@@ -19,7 +19,7 @@ class Letterbox extends React.Component {
   }
 
   starsHTML(r) {
-    // some ratings are 2.5 or 3.5. It's easier to deal with whole numbers. So multiplying (3.5 -> 7)
+    // some ratings are 2.5 or 3.5. It's easier to deal with whole numbers. So ex. 3.5 -> 7
     let rating = r * 2
     const stars = []
     while (rating > 0) {
@@ -60,11 +60,11 @@ class Letterbox extends React.Component {
                   <span class='mdate'> {review.Year}</span>
                 </h3>
                 { this.starsHTML(review.Rating) }
-                <div id={ review['Letterboxd URI'] } className='reviewText'>
+                <div id={ review["Letterboxd URI"] } className='reviewText'>
                   <br/>
                   <div dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>")}}></div>
                   <br />
-                  <span class='mdate'>{review['Watched Date']}</span>
+                  <span class='mdate'>{review["Watched Date"]}</span>
                 </div>
               </div>
             </Grid>
