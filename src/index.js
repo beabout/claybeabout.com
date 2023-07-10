@@ -56,16 +56,9 @@ class App extends React.Component {
               >
                 <FaSpotify />
               </Link>
-              {/* <Link
-                className="fa-link"
-                to="/notes"
-                onClick={() => this.setState({ atHome: true })}
-              >
-                <FaFolderOpen />
-              </Link> */}
               <Link
                 className="fa-link"
-                to="/letterbox"
+                to="/films"
                 onClick={() => this.setState({ atHome: true })}
               >
                 <FaFilm />
@@ -86,8 +79,7 @@ class App extends React.Component {
           <Route path="/"></Route>
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/discography" element={<Spotify />} />
-          <Route path="/notes" element={<Notes />} />
-          <Route path="/letterbox" element={<Letterbox />} />
+          <Route path="/films" element={<Letterbox />} />
         </Routes>
       </BrowserRouter>
     );
