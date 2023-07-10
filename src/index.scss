@@ -309,3 +309,15 @@ blockquote {
   padding-left: 2rem;
   color: white;
 }
+
+select {
+  font-family: $barlow;
+  font-size: inherit;
+  text-decoration: underline $alternative 0.2rem;
+  // text-decoration-color: $alternative;
+  margin-left: 0.25rem;
+  background-color: inherit;
+  border-radius: 0.5rem;
+  color: $yellow;
+  border: $alternative 0.0rem solid;
+}
