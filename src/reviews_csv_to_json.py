@@ -34,6 +34,7 @@ def write_line(outfile, row):
   
   outfile.write("{")
   outfile.write("\n\t\"Date\": \"%s\", "   % row['Date'])
+  outfile.write("\n\t\"Watched Date\": \"%s\", "   % row['Watched Date'])
   outfile.write("\n\t\"Name\": \"%s\", "   % row['Name'])
   outfile.write("\n\t\"Year\": \"%s\", "   % row['Year'])
   outfile.write("\n\t\"Rating\": \"%s\", " % row['Rating'])
