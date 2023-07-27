@@ -16,6 +16,7 @@ import {
   FaFolderOpen, 
   FaAngleDoubleLeft,
   FaFilm,
+  FaRegLemon,
 } from 'react-icons/fa';
 
 import {
@@ -43,9 +44,10 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
+        <FaRegLemon className="theme-icon" />
         { atHomepage() ?
           <FadeIn>
-            <div className="container">
+            <div className="icons">
               <a className="fa-link" href="https://github.com/beabout" target="_blank">
                 <FaGithub />
               </a>
@@ -74,7 +76,7 @@ class App extends React.Component {
             <FaAngleDoubleLeft />
           </Link>
         }
-        <div className="revision">www.claybeabout.com | revision: 5b3b08a</div>
+        <div className="revision">claybeabout.com</div>
         <Routes>
           <Route path="/"></Route>
           <Route path="/catalog" element={<Catalog />} />
