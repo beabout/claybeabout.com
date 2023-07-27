@@ -95,6 +95,7 @@ class Spotify extends React.Component {
       <FadeIn>
         <div>
           <h2 style={{ marginTop: '3rem' }}>records.</h2>
+          <hint>imported from spotify</hint>
           <Grid className='p-5' container spacing={1}>
             {this.state.clayAlbums.map(album => (
               <Grid className='album' item sm={2} md={2}>
