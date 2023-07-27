@@ -2,8 +2,7 @@ import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
 import claysLetterboxReviews from "./reviews.json"
-import { Grid } from '@mui/material';
-import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
+import { FaStar, FaStarHalfAlt, FaRegCommentAlt } from 'react-icons/fa';
 
 function compareWatchedDate(a, b) {
   return a["Watched Date"] < b["Watched Date"];
@@ -25,6 +24,7 @@ class Letterbox extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      clickedReview: null,
       reviews: claysLetterboxReviews.reviews.sort(compareWatchedDate),
     }
   }
@@ -37,7 +37,7 @@ class Letterbox extends React.Component {
       if (rating >= 2) {
         stars.push(<FaStar />);
         rating = rating - 2;
-      } else if (rating == 1) {
+      } else if (rating === 1) {
         stars.push(<FaStarHalfAlt />);
         rating = rating - 1;
       } else {
@@ -61,25 +61,60 @@ class Letterbox extends React.Component {
     }
   }
 
+  handleClick(e) {
+    let reviews = document.getElementById("reviews");
+    let detailedReview = document.getElementById("detailedReview");
+    let reviewText = null;
+    let detailedReviewText = null;
+
+    if (this.state.clickedReview != null) {
+      this.state.clickedReview = e.currentTarget;
+    }
+    // if the review's x was clicked
+    if (e.currentTarget.className === "close") {
+      detailedReview.style.display = "none";
+      reviews.style.display = "flex";
+    } else {
+      for ( let i = 0; i < e.currentTarget.children.length; i++ ) {
+        if (e.currentTarget.children[i].className === 'reviewText') {
+          console.log("found <div class=\"reviewText\"")
+          reviewText = e.currentTarget.children[i];
+          break;
+        }
+      }
+      if(reviewText) {
+        for ( let i = 0; i < detailedReview.children.length; i++ ) {
+          if (detailedReview.children[i].className === "reviewText" ) {
+            detailedReviewText = detailedReview.children[i];
+            detailedReviewText.innerHTML = reviewText.innerHTML;
+
+            reviews.style.display = "none";
+            detailedReview.style.display = "block";
+            break;
+          }
+        }
+      }
+    }
+  }
+
   render() {
     return(
       <FadeIn>
         <h2 style={{ marginTop: '3rem' }}>reviews.</h2>
         <hint>
-          reviews rank from <FaStarHalfAlt /> to <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+          imported from letterboxd
         </hint>
-        <Grid className='p-5' container spacing={1}>
           <p style={{ padding: '1rem' }}>
             Sort by
             <select defaultValue="watched_date" onChange={(e) => {
               console.log(e.target.value);
-              if(e.target.value == "Name") {
+              if(e.target.value === "Name") {
                 console.log("in Name");
                 this.setState({ reviews: claysLetterboxReviews.reviews.sort(compareName) });
-              } else if (e.target.value == "Year") {
+              } else if (e.target.value === "Year") {
                 console.log("in Year");
                 this.setState({ reviews: claysLetterboxReviews.reviews.sort(compareYear) });
-              } else if (e.target.value == "Rating") {
+              } else if (e.target.value === "Rating") {
                 console.log("in Rating");
                 this.setState({ reviews: claysLetterboxReviews.reviews.sort(compareRating) });
               } else {
@@ -93,24 +128,27 @@ class Letterbox extends React.Component {
               <option value="Rating">Rating</option>
             </select>
           </p>
-          {this.state.reviews.map(review => (
-            <Grid item sm={12} md={12}>
-              <div className='review'>
-                <h3 style={{ marginBottom: '1rem' }}>
-                  <span class='ul-title'>{review.Name}</span>
-                  <span class='mdate'> {review.Year}</span>
-                </h3>
-                { this.starsHTML(review.Rating) }
-                <div id={ review["Letterboxd URI"] } className='reviewText'>
-                  <br/>
-                  <div dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>")}}></div>
+          <div id="detailedReview" className="review-detailed">
+            <span className="close" onClick={(e) => {
+              this.handleClick(e)
+            }}>&times;</span>
+            <br />
+            <br />
+            <div className="reviewText" />
+          </div>
+          <div id="reviews" className="reviews">
+            { this.state.reviews.map(review => (
+                <div className='review' onClick={(e) => {
+                  this.handleClick(e);
+                }}>
+                  <img className='poster' src={ review['PosterURL'] }/>
                   <br />
-                  <span class='mdate'>{review["Watched Date"]}</span>
+                  { this.starsHTML(review.Rating) }
+                  <FaRegCommentAlt className='commentIcon' />
+                  <div className='reviewText' dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>") }}></div>
                 </div>
-              </div>
-            </Grid>
-          ))}
-        </Grid>
+            ))}
+          </div>
       </FadeIn>
     );
   }
