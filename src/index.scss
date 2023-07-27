@@ -205,6 +205,10 @@ h2 {
   margin: 1rem;
   padding: 2rem;
   border-radius: 0.5rem;
+
+  @media screen and (max-width: 605px) {
+    font-size: 18px;
+  }
   .close {
     margin-bottom: 1rem;
     color: $primary-color;
