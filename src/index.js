@@ -17,6 +17,7 @@ import {
   FaAngleDoubleLeft,
   FaFilm,
   FaRegLemon,
+  FaRegKissWinkHeart
 } from 'react-icons/fa';
 
 import {
@@ -65,6 +66,9 @@ class App extends React.Component {
               >
                 <FaFilm />
               </Link>
+              <a className="fa-link" href="https://www.laurenbeabout.com/" target="_blank">
+                <FaRegKissWinkHeart />
+              </a>
             </div>
           </FadeIn>
           :
