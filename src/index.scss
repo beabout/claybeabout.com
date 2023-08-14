@@ -1,58 +1,16 @@
-// @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* FONTS */
-// $martel: 'Martel', serif;
 $barlow: 'Barlow', sans-serif;
-// $mono: 'PT Mono', monospace;
 $font: $barlow;
 
-/* COLOR THEMES */
-
-/* ROYAL THEME */
-$white: #e0e0e0;
-$yellow: #ffdb00;
-$royal: #0058a3;
-
-// $primary-color: $yellow;
-// $secondary-color: $royal;
-// $alternative: $white;
-
-/* DANNY PHANTOM THEME */
-$charcoal: #0f1f2e;
-$green: #a3f7b5;
-$off-white: #ebfbff;
-
-// $primary-color: $green;
-// $secondary-color: $charcoal;
-// $alternative: $off-white;
-
-/* BARBIE THEME */
-$hot-pink: #E55381;
 $light-pink: #EFA9AE;
+$hot-pink: #E55381;
+$white: #e0e0e0;
 
 $primary-color: $light-pink;
 $secondary-color: $hot-pink;
 $alternative: $white;
-
-/* DOLPHINS THEME */
-$aqua: #008E97;
-$orange: #FC4C02;
-
-// $primary-color: $white;
-// $secondary-color: $aqua;
-// $alternative: $orange;
-
-/* EMMA THEME */
-$dark-purple: #2702A2;
-$light-purple: #9670FF;
-$tea-green: #C5EFCB;
-
-// $primary-color: $dark-purple;
-// $secondary-color: $tea-green;
-// $alternative: $light-purple;
 
 .revision {
   bottom:0;
@@ -104,7 +62,6 @@ hint {
 }
 
 .fa-link {
-  color: $primary-color;
   text-decoration: 'none';
   padding-left: 10px;
   padding-right: 10px;
@@ -161,7 +118,7 @@ h2 {
 }
 
 .album:hover {
-  background-color:$primary-color;
+  background-color: $primary-color;
   .album-art {
     width: 95%;
   }

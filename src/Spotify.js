@@ -4,6 +4,7 @@ import { Grid } from '@mui/material';
 import FadeIn from 'react-fade-in';
 import $ from "jquery";
 import claySpotifyAlbumsJSON from './Spotify.json';
+import themes from "./themes.json"
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 const redirectUri = "https://claybeabout.com/discography";
@@ -39,6 +40,7 @@ class Spotify extends React.Component {
       token: null,
       clayAlbums: claySpotifyAlbumsJSON.albums,
       albums: [],
+      theme: props.theme
     }
     this.getUserAlbums = this.getUserAlbums.bind(this);
   }
@@ -94,8 +96,8 @@ class Spotify extends React.Component {
     return (
       <FadeIn>
         <div>
-          <h2 style={{ marginTop: '3rem' }}>records.</h2>
-          <hint>imported from spotify</hint>
+          <h2 style={{ marginTop: '3rem', color: themes[this.state.theme]["alternative"] }}>records.</h2>
+          <hint style={{ color: themes[this.state.theme]["primary"] }}>imported from spotify</hint>
           <Grid className='p-5' container spacing={1}>
             {this.state.clayAlbums.map(album => (
               <Grid className='album' item sm={2} md={2}>

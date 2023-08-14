@@ -2,6 +2,7 @@ import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
 import claysLetterboxReviews from "./reviews.json"
+import themes from "./themes.json"
 import { FaStar, FaStarHalfAlt, FaRegCommentAlt } from 'react-icons/fa';
 
 function compareWatchedDate(a, b) {
@@ -26,6 +27,7 @@ class Letterbox extends React.Component {
     this.state = {
       clickedReview: null,
       reviews: claysLetterboxReviews.reviews.sort(compareWatchedDate),
+      theme: props.theme
     }
   }
 
@@ -35,13 +37,12 @@ class Letterbox extends React.Component {
     const stars = []
     while (rating > 0) {
       if (rating >= 2) {
-        stars.push(<FaStar />);
+        stars.push(<FaStar style={{ color: themes[this.state.theme]["primary"] }} />);
         rating = rating - 2;
       } else if (rating === 1) {
-        stars.push(<FaStarHalfAlt />);
+        stars.push(<FaStarHalfAlt style={{ color: themes[this.state.theme]["primary"] }} />);
         rating = rating - 1;
-      } else {
-      }
+      } else { }
     }
     return stars;
   }
@@ -56,9 +57,7 @@ class Letterbox extends React.Component {
 
   handleChange(e) {
     console.log(e.target.value);
-    this.state = {
-      reviews: claysLetterboxReviews.reviews.sort(compareWatchedDate)
-    }
+    this.state.reviews = claysLetterboxReviews.reviews.sort(compareWatchedDate);
   }
 
   handleClick(e) {
@@ -100,13 +99,13 @@ class Letterbox extends React.Component {
   render() {
     return(
       <FadeIn>
-        <h2 style={{ marginTop: '3rem' }}>reviews.</h2>
-        <hint>
+        <h2 style={{ marginTop: '3rem', color: themes[this.state.theme]["alternative"] }}>reviews.</h2>
+        <hint style={{ color: themes[this.state.theme]["primary"] }}>
           imported from letterboxd
         </hint>
-          <p style={{ padding: '1rem' }}>
+          <p style={{ padding: '1rem', color: themes[this.state.theme]["primary"] }}>
             Sort by
-            <select defaultValue="watched_date" onChange={(e) => {
+            <select style={{ color: themes[this.state.theme]["primary"] }} defaultValue="watched_date" onChange={(e) => {
               console.log(e.target.value);
               if(e.target.value === "Name") {
                 console.log("in Name");
@@ -138,13 +137,13 @@ class Letterbox extends React.Component {
           </div>
           <div id="reviews" className="reviews">
             { this.state.reviews.map(review => (
-                <div className='review' onClick={(e) => {
+                <div className='review' style={{ borderColor: themes[this.state.theme]["alternative"] }} onClick={(e) => {
                   this.handleClick(e);
                 }}>
                   <img className='poster' src={ review['PosterURL'] }/>
                   <br />
                   { this.starsHTML(review.Rating) }
-                  <FaRegCommentAlt className='commentIcon' />
+                  <FaRegCommentAlt style={{ color: themes[this.state.theme]["primary"] }} className='commentIcon' />
                   <div className='reviewText' dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>") }}></div>
                 </div>
             ))}
