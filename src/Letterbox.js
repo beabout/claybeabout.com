@@ -115,7 +115,7 @@ class Letterbox extends React.Component {
         </hint>
           <p style={{ padding: '1rem', color: themes[this.state.theme]["primary"] }}>
             Sort by
-            <select style={{ color: themes[this.state.theme]["primary"] }} defaultValue="watched_date" onChange={(e) => {
+          <select style={{ color: themes[this.state.theme]["primary"], textDecorationColor: themes[this.state.theme]["alternative"] }} defaultValue="watched_date" onChange={(e) => {
               console.log(e.target.value);
               if(e.target.value === "Name") {
                 console.log("in Name");

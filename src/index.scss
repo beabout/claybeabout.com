@@ -199,10 +199,11 @@ h2 {
 
 blockquote {
   font-style: italic;
-  border-left: 4px $alternative solid;
+  border-left-width: 4px;
+  border-left-style: solid;
   margin: 2rem 1rem 2rem 1rem;
   padding-left: 2rem;
-  color: $alternative;
+  color: inherit;
 }
 
 select {
@@ -217,7 +218,7 @@ select {
 }
 
 .theme-icon {
-  transition: transform .15s ease-in-out;
+  transition: transform .75s ease-in-out;
   position: absolute;
   right: 0;
   top: 0;
@@ -226,6 +227,6 @@ select {
 }
 
 .theme-icon:hover {
-  transform: rotate(180deg);
+  transform: rotate(720deg);
   color: $alternative;
 }
