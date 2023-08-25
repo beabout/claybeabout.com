@@ -42,6 +42,10 @@ Array.prototype.sample = function () {
   return this[Math.floor(Math.random() * this.length)];
 }
 
+function setHover(e, color) {
+  e.target.style.color = color;
+}
+
 class App extends React.Component { 
   constructor(props) {
     super(props)
@@ -64,21 +68,34 @@ class App extends React.Component {
   
   updateStyles() {
     var theme = this.randomizeTheme();
-    // update child components
-    console.log("theme")
   }
 
   render() {
     return (
       <BrowserRouter>
+        <p style={{ display: "none" }} id="currentTheme">{this.state.theme}</p>
         <FaRegLemon id="themeBtn" className="theme-icon" style={{ color: themes[this.state.theme]["primary"] }} onClick={this.updateStyles} />
         { atHomepage() ?
           <FadeIn>
             <div className="icons">
-              <a className="fa-link" style={{ color: themes[this.state.theme]["primary"] }} href="https://github.com/beabout" target="_blank">
+              <a 
+                className="fa-link" 
+                style={{ color: themes[this.state.theme]["primary"] }} 
+                href="https://github.com/beabout" 
+                target="_blank"
+                onMouseEnter={(event) => setHover(event, themes[this.state.theme]["alternative"])}
+                onMouseLeave={(event) => setHover(event, themes[this.state.theme]["primary"])}
+              >
                 <FaGithub />
               </a>
-              <a className="fa-link" style={{ color: themes[this.state.theme]["primary"] }} href="https://www.linkedin.com/in/clayton-beabout/" target="_blank">
+              <a 
+                className="fa-link" 
+                style={{ color: themes[this.state.theme]["primary"] }} 
+                href="https://www.linkedin.com/in/clayton-beabout/" 
+                target="_blank"
+                onMouseEnter={(event) => setHover(event, themes[this.state.theme]["alternative"])}
+                onMouseLeave={(event) => setHover(event, themes[this.state.theme]["primary"])}
+              >
                 <FaLinkedin />
               </a>
               <Link
@@ -86,6 +103,8 @@ class App extends React.Component {
                 style={{ color: themes[this.state.theme]["primary"] }}
                 to="/discography"
                 onClick={() => this.setState({ atHome: true })}
+                onMouseEnter={(event) => setHover(event, themes[this.state.theme]["alternative"])}
+                onMouseLeave={(event) => setHover(event, themes[this.state.theme]["primary"])}
               >
                 <FaSpotify />
               </Link>
@@ -94,10 +113,19 @@ class App extends React.Component {
                 style={{ color: themes[this.state.theme]["primary"] }}
                 to="/films"
                 onClick={() => this.setState({ atHome: true })}
+                onMouseEnter={(event) => setHover(event, themes[this.state.theme]["alternative"])}
+                onMouseLeave={(event) => setHover(event, themes[this.state.theme]["primary"])}
               >
                 <FaFilm />
               </Link>
-              <a className="fa-link" style={{ color: themes[this.state.theme]["primary"] }} href="https://www.laurenbeabout.com/" target="_blank">
+              <a 
+                className="fa-link" 
+                style={{ color: themes[this.state.theme]["primary"] }} 
+                href="https://www.laurenbeabout.com/" 
+                target="_blank"
+                onMouseEnter={(event) => setHover(event, themes[this.state.theme]["alternative"])}
+                onMouseLeave={(event) => setHover(event, themes[this.state.theme]["primary"])}
+              >
                 <FaRegKissWinkHeart />
               </a>
             </div>

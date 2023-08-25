@@ -42,8 +42,20 @@ class Spotify extends React.Component {
       albums: [],
       theme: props.theme
     }
+
+    var btn = document.getElementById("themeBtn")
+    if (btn != null) {
+      btn.addEventListener("click", () => {
+        setTimeout(() => {
+          var theme = document.getElementById("currentTheme")
+          this.setState({ theme: theme.outerText })
+        }, 10);
+      });
+    }
+
     this.getUserAlbums = this.getUserAlbums.bind(this);
   }
+  
 
   updateAlbums = (res) => {
     res.items.forEach(elem => {
@@ -96,13 +108,33 @@ class Spotify extends React.Component {
     return (
       <FadeIn>
         <div>
-          <h2 style={{ marginTop: '3rem', color: themes[this.state.theme]["alternative"] }}>records.</h2>
-          <hint style={{ color: themes[this.state.theme]["primary"] }}>imported from spotify</hint>
-          <Grid className='p-5' container spacing={1}>
-            {this.state.clayAlbums.map(album => (
-              <Grid className='album' item sm={2} md={2}>
-                <a href={album.url} target="_blank">
-                  <img src={album.cover} className='album-art' />
+          <h2 
+            style={{ marginTop: '3rem', color: themes[this.state.theme]["alternative"] }}>
+            records.
+          </h2>
+          <hint 
+            style={{ color: themes[this.state.theme]["primary"] }}
+          >
+            imported from spotify
+          </hint>
+          <Grid 
+            className='p-5' 
+            container 
+            spacing={1}
+          >
+            {this.state.clayAlbums.map(
+                album => (
+              <Grid 
+                item
+                className='album'
+                sm={2} 
+                md={2}>
+                <a 
+                  href={album.url} 
+                  target="_blank">
+                  <img 
+                    src={album.cover} 
+                    className='album-art' />
                 </a>
               </Grid>
             ))}

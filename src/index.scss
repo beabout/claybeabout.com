@@ -118,9 +118,8 @@ h2 {
 }
 
 .album:hover {
-  background-color: $primary-color;
   .album-art {
-    width: 95%;
+    opacity: 0.5;
   }
 }
 

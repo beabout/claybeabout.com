@@ -29,6 +29,16 @@ class Letterbox extends React.Component {
       reviews: claysLetterboxReviews.reviews.sort(compareWatchedDate),
       theme: props.theme
     }
+
+    var btn = document.getElementById("themeBtn")
+    if (btn != null) {
+      btn.addEventListener("click", () => {
+        setTimeout(() => {
+          var theme = document.getElementById("currentTheme")
+          this.setState({ theme: theme.outerText })
+        }, 10);
+      });
+    }
   }
 
   starsHTML(r) {
@@ -127,27 +137,31 @@ class Letterbox extends React.Component {
               <option value="Rating">Rating</option>
             </select>
           </p>
-          <div id="detailedReview" className="review-detailed">
-            <span className="close" onClick={(e) => {
-              this.handleClick(e)
-            }}>&times;</span>
-            <br />
-            <br />
-            <div className="reviewText" />
-          </div>
-          <div id="reviews" className="reviews">
-            { this.state.reviews.map(review => (
-                <div className='review' style={{ borderColor: themes[this.state.theme]["alternative"] }} onClick={(e) => {
-                  this.handleClick(e);
-                }}>
-                  <img className='poster' src={ review['PosterURL'] }/>
-                  <br />
-                  { this.starsHTML(review.Rating) }
-                  <FaRegCommentAlt style={{ color: themes[this.state.theme]["primary"] }} className='commentIcon' />
-                  <div className='reviewText' dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>") }}></div>
-                </div>
-            ))}
-          </div>
+        <div id="detailedReview" style={{ border: `2px ${themes[this.state.theme]["alternative"]} solid` }} className="review-detailed">
+          <span className="close" style={{ color: themes[this.state.theme]["primary"] }} onClick={(e) => {
+            this.handleClick(e)
+          }}>&times;</span>
+          <br />
+          <br />
+          <div className="reviewText" style={{ color: themes[this.state.theme]["primary"] }} />
+        </div>
+        <div id="reviews" className="reviews">
+          { this.state.reviews.map(review => (
+            <div 
+              className='review' 
+              style={{ borderColor: themes[this.state.theme]["alternative"] }} 
+              onClick={(e) => {
+                this.handleClick(e);
+              }}
+            >
+              <img className='poster' src={ review.PosterURL }/>
+              <br />
+              { this.starsHTML(review.Rating) }
+              <FaRegCommentAlt style={{ color: themes[this.state.theme]["primary"] }} className='commentIcon' />
+              <div className='reviewText' dangerouslySetInnerHTML={{ __html: review.Review.replace("\n", "<br/><br/>") }}></div>
+            </div>
+          ))}
+        </div>
       </FadeIn>
     );
   }
