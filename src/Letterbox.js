@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 import FadeIn from 'react-fade-in';
-import claysLetterboxReviews from "./reviews.json"
+import claysLetterboxReviews from "./Reviews.json"
 import themes from "./themes.json"
 import { FaStar, FaStarHalfAlt, FaRegCommentAlt } from 'react-icons/fa';
 
@@ -39,6 +39,7 @@ class Letterbox extends React.Component {
         }, 10);
       });
     }
+    this.revealPoster = this.revealPoster.bind(this);
   }
 
   starsHTML(r) {
@@ -106,6 +107,11 @@ class Letterbox extends React.Component {
     }
   }
 
+  revealPoster(e) {
+    let review = e.currentTarget;
+    review.style.opacity = 1;
+  }
+
   render() {
     return(
       <FadeIn>
@@ -154,7 +160,7 @@ class Letterbox extends React.Component {
                 this.handleClick(e);
               }}
             >
-              <img className='poster' src={ review.PosterURL }/>
+              <img className='poster' style={{ transition: "opacity 2.0s", opacity: 0 }} src={review.PosterURL} onLoad={ (e) => { this.revealPoster(e) } }/>
               <br />
               { this.starsHTML(review.Rating) }
               <FaRegCommentAlt style={{ color: themes[this.state.theme]["primary"] }} className='commentIcon' />

@@ -47,7 +47,7 @@ class App extends React.Component {
     super(props)
     this.state = { 
       atHome: atHomepage(),
-      theme: "barbie"
+      theme: "dannyphantom"
     }
 
     this.randomizeTheme = this.randomizeTheme.bind(this);

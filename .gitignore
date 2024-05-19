@@ -36,6 +36,8 @@ FIREBASE_LOGIN_OUTPUT
 src/FIREBASE_LOGIN_OUTPUT
 
 # scripts
+scripts/[0-9]*
+scripts/files/*
 scripts/secrets.py
 scripts/__pycache__/*
 scripts/Spotify.json

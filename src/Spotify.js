@@ -54,6 +54,7 @@ class Spotify extends React.Component {
     }
 
     this.getUserAlbums = this.getUserAlbums.bind(this);
+    this.revealCover = this.revealCover.bind(this);
   }
   
 
@@ -104,6 +105,12 @@ class Spotify extends React.Component {
     }
   }
 
+  revealCover(e) {
+    let review = e.currentTarget;
+    review.style.opacity = 1;
+  }
+
+
   render() {
     return (
       <FadeIn>
@@ -134,6 +141,8 @@ class Spotify extends React.Component {
                   target="_blank">
                   <img 
                     src={album.cover} 
+                    style={{ transition: "opacity 2.0s", opacity: 0 }}
+                    onLoad={this.revealCover}
                     className='album-art' />
                 </a>
               </Grid>

@@ -1,4 +1,19 @@
 {
+  "seahawks": {
+    "secondary": "#069D54",
+    "primary": "#0047CC",
+    "alternative": "#B2B4B2"
+  },
+  "spurs": {
+    "primary": "black",
+    "secondary": "#c4ced4",
+    "alternative": "white"
+  },
+  "fiesta": {
+    "primary": "#FF8200",
+    "secondary": "#EF426F",
+    "alternative": "#00B2A9"
+  },
   "royal": {
     "primary": "#ffdb00",
     "secondary": "#0058a3",
