@@ -160,7 +160,9 @@ class Letterbox extends React.Component {
                 this.handleClick(e);
               }}
             >
-              <img className='poster' style={{ transition: "opacity 2.0s", opacity: 0 }} src={review.PosterURL} onLoad={ (e) => { this.revealPoster(e) } }/>
+              <div className='poster-wrapper'>
+                <img className='poster' style={{ transition: "opacity 2.0s", opacity: 0 }} src={review.PosterURL} onLoad={ (e) => { this.revealPoster(e) } }/>
+              </div>
               <br />
               { this.starsHTML(review.Rating) }
               <FaRegCommentAlt style={{ color: themes[this.state.theme]["primary"] }} className='commentIcon' />
