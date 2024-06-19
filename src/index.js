@@ -19,7 +19,8 @@ import {
   FaFilm,
   FaRegLemon,
   FaRegKissWinkHeart,
-  FaLinkedin
+  FaLinkedin,
+  FaFileDownload
 } from 'react-icons/fa';
 
 import {
@@ -109,6 +110,14 @@ class App extends React.Component {
               >
                 <FaRegKissWinkHeart />
               </a>
+              <a
+                className="fa-link"
+                style={{ color: themes[this.state.theme]["primary"] }}
+                href="./claybeabout.pdf"
+                target="_blank"
+              >
+                <FaFileDownload />
+              </a>
             </div>
           </FadeIn>
           :
@@ -127,6 +136,7 @@ class App extends React.Component {
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/discography" element={<Spotify theme={this.state.theme} />} />
           <Route path="/films" element={<Letterbox theme={this.state.theme} />} />
+          <Route path="/pdf" element={<Letterbox theme={this.state.theme} />} />
         </Routes>
       </BrowserRouter>
     );
