@@ -41,3 +41,6 @@ scripts/files/*
 scripts/secrets.py
 scripts/__pycache__/*
 scripts/Spotify.json
+
+# Env data
+env_data

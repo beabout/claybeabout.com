@@ -7,8 +7,8 @@ import os
 from spotipy.oauth2 import SpotifyOAuth
 
 
-CLIENT_ID=""
-APP_CLIENT_SECRET=""
+CLIENT_ID="fed1c759d0d140f591fddf0ba2689b1b"
+APP_CLIENT_SECRET="f6f6949144314e42922272839a6370fb"
 APP_REDIRECT_URI="http://localhost:3000/discography"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
@@ -66,4 +66,4 @@ with open("Spotify.json", "w") as of:
 
 print(f'{len(albums)} albums found.')
 
-os.system("cp Spotify.json /Users/clay/Desktop/develop/claybeabout.com/src/")
+os.system("cp Spotify.json ../src/")

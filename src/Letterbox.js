@@ -68,7 +68,7 @@ class Letterbox extends React.Component {
 
   handleChange(e) {
     console.log(e.target.value);
-    this.state.reviews = claysLetterboxReviews.reviews.sort(compareWatchedDate);
+    this.setState({ reviews: claysLetterboxReviews.reviews.sort(compareWatchedDate) });
   }
 
   handleClick(e) {
@@ -78,7 +78,7 @@ class Letterbox extends React.Component {
     let detailedReviewText = null;
 
     if (this.state.clickedReview != null) {
-      this.state.clickedReview = e.currentTarget;
+      this.setState({ clickedReview: e.currentTarget });
     }
     // if the review's x was clicked
     if (e.currentTarget.className === "close") {
@@ -150,6 +150,7 @@ class Letterbox extends React.Component {
           <br />
           <br />
           <div className="reviewText" style={{ color: themes[this.state.theme]["primary"] }} />
+          <div style={{ marginTop: '2rem' }}>review</div>
         </div>
         <div id="reviews" className="reviews">
           { this.state.reviews.map(review => (
