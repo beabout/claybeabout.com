@@ -78,7 +78,7 @@ def write_line(outfile, row):
 
 def generate_json():
   read_reviews()
-  read_ratings()
+  #read_ratings()
   sorted_arr = sorted(arr, key=lambda d: d['Watched Date'])
   write_out(sorted_arr)
 
