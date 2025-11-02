@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap);
+.revision{bottom:0;font-size:14px;padding-bottom:10px;position:fixed}
+h2{color:#a3f7b5;font-weight:800}
+h3{color:#a3f7b5;margin:0}
+h3,h4{font-size:1.5rem;font-weight:600}
+p{font-size:1.25rem}
+.bold{font-weight:800}
+body{background-color:#0f1f2e;color:#ebfbff;font-family:Barlow,sans-serif!important;font:24px Century Gothic,Futura,sans-serif;margin:25px}
+hint{opacity:.8}
+.icons{margin-top:40vh;text-align:center}
+.fa-link{font-size:36px;padding-left:10px;padding-right:10px;-webkit-text-decoration:"none";text-decoration:"none"}
+.fa-link:hover{color:#a3f7b5}
+h1{font-size:5rem;margin:0;padding:0}
+h2{margin-bottom:0;padding-bottom:0}
+.fadeOut{height:0;opacity:0;transition:width .5s .5s,height .5s .5s,opacity .5s;width:0}
+.fadeIn{height:100px;opacity:1;transition:width .5s,height .5s,opacity .5s .5s;width:100px}
+.homepage{min-height:100vh}
+.p-5{padding:5%}
+.album-art{width:100%}
+.album,.album-art{transition:.75s}
+@media screen and (max-width:725px){.album{width:33%}}
+.album:hover .album-art{opacity:.5}
+.reviews{display:flex;flex-wrap:wrap;justify-content:center}
+.review{border:2px solid #a3f7b5;border-radius:.5rem;cursor:pointer;margin:1rem;padding:.5rem}
+@media screen and (max-width:710px){.review{margin:.5rem;padding:.5rem}.review svg{font-size:16px}}
+.review .reviewText{display:none}
+.review:hover{border-color:#ebfbff}
+.review-detailed{border:2px solid #a3f7b5;border-radius:.5rem;display:none;margin:1rem;padding:2rem}
+@media screen and (max-width:605px){.review-detailed{font-size:18px}}
+.review-detailed .close{color:#ebfbff;float:right;font-size:36px;margin-bottom:1rem}
+.review-detailed .close:focus,.review-detailed .close:hover{color:#a3f7b5;cursor:pointer;text-decoration:none}
+.commentIcon{float:right}
+.poster-wrapper{height:23rem;width:16rem}
+@media screen and (max-width:710px){.poster-wrapper{height:9rem;width:7rem}}
+.poster{border-radius:.5rem;width:16rem}
+@media screen and (max-width:710px){.poster{width:7rem}}
+.ul-title{color:#ebfbff;font-style:italic;margin-right:.5rem;-webkit-text-decoration:underline #a3f7b5;text-decoration:underline #a3f7b5;text-decoration-thickness:3px}
+blockquote{border-left-style:solid;border-left-width:4px;color:inherit;font-style:italic;margin:2rem 1rem;padding-left:2rem}
+select{background-color:inherit;border:0 solid #a3f7b5;border-radius:.5rem;color:#ebfbff;font-family:Barlow,sans-serif;font-size:inherit;margin-left:.25rem;-webkit-text-decoration:underline #a3f7b5 .2rem;text-decoration:underline #a3f7b5 .2rem}
+.theme-icon{cursor:pointer;margin:2rem;position:absolute;right:0;top:0;transition:-webkit-transform .75s ease-in-out;transition:transform .75s ease-in-out;transition:transform .75s ease-in-out,-webkit-transform .75s ease-in-out}
+.theme-icon:hover{color:#a3f7b5;-webkit-transform:rotate(2turn);transform:rotate(2turn)}
+
+/* Additional layout for albums in Svelte (replaces MUI Grid) */
+.albums-grid { display:flex; flex-wrap:wrap; gap:12px; }
+.album { width:16rem; }
+
+
