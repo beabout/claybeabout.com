@@ -102,14 +102,6 @@ class App extends React.Component {
               >
                 <FaFilm />
               </Link>
-              <a 
-                className="fa-link" 
-                style={{ color: themes[this.state.theme]["primary"] }} 
-                href="https://www.laurenbeabout.com/" 
-                target="_blank"
-              >
-                <FaRegKissWinkHeart />
-              </a>
               <a
                 className="fa-link"
                 style={{ color: themes[this.state.theme]["primary"] }}
