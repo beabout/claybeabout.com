@@ -1,5 +1,8 @@
-#!/usr/local/bin/python3
-# install: `pip3 install spotipy`
+# /// script
+# dependencies = [
+#   "spotipy",
+# ]
+# ///
 
 import spotipy
 import json
@@ -9,7 +12,7 @@ from spotipy.oauth2 import SpotifyOAuth
 
 CLIENT_ID=""
 APP_CLIENT_SECRET=""
-APP_REDIRECT_URI="http://localhost:3000/discography"
+APP_REDIRECT_URI="http://127.0.0.1:3000/discography"
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=APP_CLIENT_SECRET,
