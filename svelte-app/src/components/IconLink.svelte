@@ -24,7 +24,7 @@
   aria-label={ariaLabel}
   download={download}
   on:click={handleClick}
-  style="color: inherit"
+  style="color: inherit; padding-left: 10px; padding-right: 10px;"
 >
   <slot />
 </a>

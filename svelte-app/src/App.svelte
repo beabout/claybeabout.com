@@ -9,7 +9,7 @@
   import { 
     Disc3,
     Download,
-    FileScan,
+    Film,
     FolderGit2,
     Linkedin,
     SquareArrowLeft,
@@ -22,7 +22,10 @@
   function setTheme(name) {
     themeName = name;
     theme = themes[themeName];
-    document.body.style.backgroundColor = theme.secondary;
+    const root = document.documentElement;
+    root.style.setProperty('--color-primary', theme.primary);
+    root.style.setProperty('--color-secondary', theme.secondary);
+    root.style.setProperty('--color-alternative', theme.alternative);
   }
 
   function randomizeTheme() {
@@ -50,12 +53,6 @@
       ariaLabel: 'GitHub'
     },
     {
-      href: 'https://www.linkedin.com/in/clayton-beabout/',
-      icon: Linkedin,
-      newTab: true,
-      ariaLabel: 'LinkedIn'
-    },
-    {
       href: '/discography',
       icon: Disc3,
       preventDefault: true,
@@ -64,7 +61,7 @@
     },
     {
       href: '/films',
-      icon: FileScan,
+      icon: Film,
       preventDefault: true,
       onClick: () => navigate('/films'),
       ariaLabel: 'Films'
@@ -74,11 +71,17 @@
       icon: Download,
       download: 'claybeabout.pdf',
       ariaLabel: 'Resume PDF'
+    },
+    {
+      href: 'https://www.linkedin.com/in/clayton-beabout/',
+      icon: Linkedin,
+      newTab: true,
+      ariaLabel: 'LinkedIn'
     }
   ];
 
   onMount(() => {
-    document.body.style.backgroundColor = theme.secondary;
+    setTheme(themeName);
   });
 </script>
 
@@ -86,7 +89,7 @@
 <button
   id="themeBtn"
   class="theme-icon"
-  style="color: {theme.primary}; background: transparent; border: none"
+  style="background: transparent; border: none"
   on:click={randomizeTheme}
 >
   <Wheat class="icon" size={36} />
@@ -113,16 +116,16 @@
   </IconLink>
 {/if}
 
-<div class="revision" style="color: {theme.primary}">claybeabout.com</div>
+<div class="revision">claybeabout.com</div>
 
 {#if path === '/'}
   <!-- Home icons only -->
 {:else if path === '/catalog'}
-  <Catalog {theme} />
+  <Catalog />
 {:else if path === '/discography'}
-  <Spotify {theme} />
+  <Spotify />
 {:else if path === '/films' || path === '/pdf'}
-  <Letterbox {theme} />
+  <Letterbox />
 {/if}
 
 

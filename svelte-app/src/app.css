@@ -1,8 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap);
 
+:root {
+  --color-primary: #a3f7b5;
+  --color-secondary: #0f1f2e;
+  --color-alternative: #ebfbff;
+}
+
 body {
-  background-color: #0f1f2e;
-  color: #ebfbff;
+  background-color: var(--color-secondary);
+  color: var(--color-alternative);
   font-family: Barlow, sans-serif !important;
   font: 24px Century Gothic, Futura, sans-serif;
   margin: 25px;
@@ -15,14 +21,14 @@ h1 {
 }
 
 h2 {
-  color: #a3f7b5;
+  color: var(--color-primary);
   font-weight: 800;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 h3 {
-  color: #a3f7b5;
+  color: var(--color-primary);
   margin: 0;
 }
 
@@ -42,6 +48,7 @@ hint {
 
 .revision {
   bottom: 0;
+  color: var(--color-primary);
   font-size: 14px;
   padding-bottom: 10px;
   position: fixed;
@@ -58,12 +65,12 @@ hint {
 
 .icon {
   font-size: 36px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .icon:hover {
-  color: #a3f7b5;
+  color: var(--color-primary);
 }
 
 .icon:visited {
@@ -111,8 +118,12 @@ hint {
   justify-content: center;
 }
 
+.reviews-controls {
+  padding: 1rem;
+}
+
 .review {
-  border: 2px solid #a3f7b5;
+  border: 2px solid var(--color-primary);
   border-radius: 0.5rem;
   cursor: pointer;
   margin: 1rem;
@@ -124,11 +135,11 @@ hint {
 }
 
 .review:hover {
-  border-color: #ebfbff;
+  border-color: var(--color-alternative);
 }
 
 .review-detailed {
-  border: 2px solid #a3f7b5;
+  border: 2px solid var(--color-primary);
   border-radius: 0.5rem;
   display: none;
   margin: 1rem;
@@ -136,7 +147,7 @@ hint {
 }
 
 .review-detailed .close {
-  color: #ebfbff;
+  color: var(--color-alternative);
   float: right;
   font-size: 36px;
   margin-bottom: 1rem;
@@ -144,7 +155,7 @@ hint {
 
 .review-detailed .close:focus,
 .review-detailed .close:hover {
-  color: #a3f7b5;
+  color: var(--color-primary);
   cursor: pointer;
   text-decoration: none;
 }
@@ -164,11 +175,11 @@ hint {
 }
 
 .ul-title {
-  color: #ebfbff;
+  color: var(--color-alternative);
   font-style: italic;
   margin-right: 0.5rem;
-  -webkit-text-decoration: underline #a3f7b5;
-  text-decoration: underline #a3f7b5;
+  -webkit-text-decoration: underline var(--color-primary);
+  text-decoration: underline var(--color-primary);
   text-decoration-thickness: 3px;
 }
 
@@ -183,17 +194,18 @@ blockquote {
 
 select {
   background-color: inherit;
-  border: 0 solid #a3f7b5;
+  border: 0 solid var(--color-primary);
   border-radius: 0.5rem;
-  color: #ebfbff;
+  color: var(--color-alternative);
   font-family: Barlow, sans-serif;
   font-size: inherit;
   margin-left: 0.25rem;
-  -webkit-text-decoration: underline #a3f7b5 0.2rem;
-  text-decoration: underline #a3f7b5 0.2rem;
+  -webkit-text-decoration: underline var(--color-primary) 0.2rem;
+  text-decoration: underline var(--color-primary) 0.2rem;
 }
 
 .theme-icon {
+  color: var(--color-primary);
   cursor: pointer;
   margin: 2rem;
   position: absolute;
@@ -203,8 +215,16 @@ select {
 }
 
 .theme-icon:hover {
-  color: #a3f7b5;
+  color: var(--color-primary);
   transform: rotate(2turn);
+}
+
+.theme-primary {
+  color: var(--color-primary);
+}
+
+.theme-alternative {
+  color: var(--color-alternative);
 }
 
 /* Additional layout for albums in Svelte (replaces MUI Grid) */
