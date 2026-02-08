@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   export let theme;
+  import SectionHeader from '../components/SectionHeader.svelte';
   import sample from '../data/Reviews.sample.json';
   let reviews = sample.reviews.slice();
   const compare = {
@@ -42,8 +43,7 @@
   }
 </script>
 
-<h2 style="margin-top: 3rem; color: {theme.alternative}">reviews.</h2>
-<hint style="color: {theme.primary}">imported from letterboxd</hint>
+<SectionHeader title="reviews." hint="imported from letterboxd" {theme} />
 <p style="padding: 1rem; color: {theme.primary}">
   Sort by
   <select

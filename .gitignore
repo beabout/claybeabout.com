@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# svelte dependencies
+svelte-app/node_modules/*
+
 # dependencies
 /node_modules
 /.pnp

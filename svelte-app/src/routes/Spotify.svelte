@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   export let theme;
+  import SectionHeader from '../components/SectionHeader.svelte';
   import sample from '../data/Spotify.sample.json';
   let albums = sample.albums;
 
@@ -24,8 +25,7 @@
 </script>
 
 <div>
-  <h2 style="margin-top: 3rem; color: {theme.alternative}">records.</h2>
-  <hint style="color: {theme.primary}">imported from spotify</hint>
+  <SectionHeader title="records." hint="imported from spotify" {theme} />
   <div class="p-5 albums-grid">
     {#each albums as album}
       <div class="album">
