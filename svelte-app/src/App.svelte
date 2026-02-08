@@ -6,7 +6,15 @@
   import Letterbox from './routes/Letterbox.svelte';
   import IconLink from './components/IconLink.svelte';
 
-  import { FileScan, FolderGit, SquareArrowLeft, Wheat } from 'lucide-svelte';
+  import { 
+    Disc3,
+    Download,
+    FileScan,
+    FolderGit2,
+    Linkedin,
+    SquareArrowLeft,
+    Wheat
+  } from 'lucide-svelte';
 
   let themeName = 'dannyphantom';
   let theme = themes[themeName];
@@ -37,19 +45,19 @@
   $: homeLinks = [
     {
       href: 'https://github.com/beabout',
-      icon: FolderGit,
+      icon: FolderGit2,
       newTab: true,
       ariaLabel: 'GitHub'
     },
     {
       href: 'https://www.linkedin.com/in/clayton-beabout/',
-      icon: FileScan,
+      icon: Linkedin,
       newTab: true,
       ariaLabel: 'LinkedIn'
     },
     {
       href: '/discography',
-      icon: FileScan,
+      icon: Disc3,
       preventDefault: true,
       onClick: () => navigate('/discography'),
       ariaLabel: 'Discography'
@@ -63,8 +71,8 @@
     },
     {
       href: '/claybeabout.pdf',
-      icon: FileScan,
-      newTab: true,
+      icon: Download,
+      download: 'claybeabout.pdf',
       ariaLabel: 'Resume PDF'
     }
   ];
@@ -92,6 +100,7 @@
         newTab={link.newTab}
         preventDefault={link.preventDefault}
         onClick={link.onClick}
+        download={link.download}
         ariaLabel={link.ariaLabel}
       >
         <svelte:component this={link.icon} class="icon" size={36} />
