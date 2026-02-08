@@ -69,6 +69,26 @@ hint {
   padding-right: 2px;
 }
 
+.back-icon {
+  display: inline-block;
+}
+
+.back-icon:hover {
+  animation: back-icon-bounce 0.6s ease-in-out infinite;
+}
+
+@keyframes back-icon-bounce {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .icon:hover {
   color: var(--color-primary);
 }
@@ -95,27 +115,44 @@ hint {
   min-height: 100vh;
 }
 
+.page {
+  width: 100%;
+}
+
 .p-5 {
   padding: 5%;
 }
 
 .album-art {
+  opacity: 0;
+  transition: transform 1s ease, opacity 1s ease;
   width: 100%;
 }
 
-.album,
-.album-art {
-  transition: 0.75s;
+.album:hover .album-art {
+  opacity: 0.8;
+  transform: scale(1.04);
 }
 
-.album:hover .album-art {
-  opacity: 0.5;
+.album-art {
+  display: block;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.album-art.is-visible {
+  opacity: 1;
 }
 
 .reviews {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.reviews-blurred {
+  filter: blur(6px);
+  pointer-events: none;
 }
 
 .reviews-controls {
@@ -141,16 +178,40 @@ hint {
 .review-detailed {
   border: 2px solid var(--color-primary);
   border-radius: 0.5rem;
-  display: none;
-  margin: 1rem;
+  max-width: min(900px, 90vw);
   padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  position: relative;
+  z-index: 10;
+  max-height: 85vh;
+  overflow: auto;
+}
+
+.review-detailed-backdrop {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 9;
 }
 
 .review-detailed .close {
+  align-items: center;
+  background: transparent;
+  border: none;
   color: var(--color-alternative);
-  float: right;
+  cursor: pointer;
+  display: inline-flex;
   font-size: 36px;
+  justify-content: center;
   margin-bottom: 1rem;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 .review-detailed .close:focus,
@@ -158,6 +219,46 @@ hint {
   color: var(--color-primary);
   cursor: pointer;
   text-decoration: none;
+}
+
+.review-detailed-grid {
+  align-items: start;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(140px, 220px) minmax(0, 1fr);
+}
+
+.review-detailed-media {
+  display: flex;
+  justify-content: center;
+}
+
+.review-detailed-poster {
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  max-width: 100%;
+}
+
+.review-detailed-body h3 {
+  margin-top: 0;
+}
+
+.review-detailed-meta {
+  display: grid;
+  gap: 0.25rem 0.75rem;
+  grid-template-columns: repeat(2, max-content);
+  margin: 0.75rem 0 1.5rem;
+}
+
+@media screen and (max-width: 710px) {
+  .review-detailed-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-detailed .close {
+    right: 1rem;
+    top: 1rem;
+  }
 }
 
 .commentIcon {
@@ -211,12 +312,28 @@ select {
   position: absolute;
   right: 0;
   top: 0;
-  transition: transform 0.75s ease-in-out;
 }
 
 .theme-icon:hover {
-  color: var(--color-primary);
-  transform: rotate(2turn);
+  color: var(--color-alternative);
+  animation: theme-icon-pulse 0.9s ease-in-out infinite;
+}
+
+.theme-icon .icon:hover,
+.theme-icon:hover .icon {
+  color: var(--color-alternative);
+}
+
+@keyframes theme-icon-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .theme-primary {
@@ -232,6 +349,7 @@ select {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  justify-content: center;
 }
 
 .album {

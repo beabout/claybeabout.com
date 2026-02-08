@@ -1,14 +1,14 @@
 <script>
-  import { onMount } from 'svelte';
   import SectionHeader from '../components/SectionHeader.svelte';
   import jsonData from '../data/Reviews.json';
+  import RatingStars from '../components/RatingStars.svelte';
+  export let reviewsData = null;
+  let sortKey = 'Date';
   let data = jsonData;
   let reviews = data.reviews.slice();
 
   import { 
-    MessageSquareText,
-    Star,
-    StarHalf
+    MessageSquareText
   } from 'lucide-svelte';
 
   const compare = {
@@ -18,36 +18,36 @@
     Rating: (a, b) => (parseFloat(a['Rating']) < parseFloat(b['Rating']) ? 1 : -1)
   };
   function sortBy(key) {
-    reviews = data.reviews.slice().sort(compare[key] || compare.Date);
+    sortKey = key;
   }
-  sortBy('Date');
 
-  onMount(async () => {
-    try {
-      const res = await fetch('/Reviews.json', { cache: 'no-store' });
-      if (res.ok) {
-        const fetched = await res.json();
-        if (fetched && Array.isArray(fetched.reviews)) {
-          data = fetched;
-          sortBy('Date');
-        }
-      }
-    } catch (_) {
-      // fall back to sample
-    }
-  });
+  $: data = reviewsData && Array.isArray(reviewsData.reviews) ? reviewsData : jsonData;
+  $: reviews = data.reviews.slice().sort(compare[sortKey] || compare.Date);
 
   let detailedHTML = '';
+  let selectedReview = null;
   let showDetail = false;
-  function selectReview(html) {
-    detailedHTML = html;
+  function selectReview(review) {
+    selectedReview = review;
+    detailedHTML = review.Review.replace('\n', '<br/><br/>');
     showDetail = true;
   }
   function closeDetail() {
     showDetail = false;
+    selectedReview = null;
   }
   function revealPoster(e) {
     e.currentTarget.style.opacity = 1;
+  }
+  function formatWatchedDate(value) {
+    if (!value) return '';
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return value;
+    return new Intl.DateTimeFormat('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric'
+    }).format(date);
   }
 </script>
 
@@ -64,18 +64,41 @@
   </select>
   </p>
 
-<div class="review-detailed" style="display: {showDetail ? 'block' : 'none'}">
-  <span class="close" on:click={closeDetail}>&times;</span>
-  <br />
-  <br />
-  <div class="reviewText theme-primary">{@html detailedHTML}</div>
+{#if showDetail}
+  <div class="review-detailed-backdrop" on:click={closeDetail}>
+    <div class="review-detailed" on:click|stopPropagation>
+      <button class="close" type="button" on:click={closeDetail} aria-label="Close review">&times;</button>
+      {#if selectedReview}
+        <div class="review-detailed-grid">
+          <div class="review-detailed-media">
+            <img
+              class="review-detailed-poster"
+              src={selectedReview.PosterURL}
+              alt={`${selectedReview.Name} poster`}
+            />
+          </div>
+          <div class="review-detailed-body">
+            <h2 class="theme-primary">{selectedReview.Name} ({selectedReview.Year})</h2>
+            <div class="review-detailed-rating">
+              <RatingStars rating={selectedReview.Rating} size={24} />
+            </div>
+            <br />
+            <div class="reviewText theme-primary">{@html detailedHTML}</div>
+            <div class="review-detailed-meta">
+              <span class="theme-primary">Logged {formatWatchedDate(selectedReview['Watched Date'])}</span>
+            </div>
+          </div>
+        </div>
+      {/if}
+    </div>
   </div>
+{/if}
 
-<div id="reviews" class="reviews" style="display: {showDetail ? 'none' : 'flex'}">
+<div id="reviews" class="reviews {showDetail ? 'reviews-blurred' : ''}">
   {#each reviews as review}
     <div
       class="review"
-      on:click={() => selectReview(review.Review.replace('\n', '<br/><br/>'))}
+      on:click={() => selectReview(review)}
     >
       <div class="poster-wrapper">
         <img
@@ -87,12 +110,7 @@
         />
       </div>
       <br />
-      {#each Array(Math.floor(parseFloat(review.Rating))) as _, i}
-        <span class="theme-primary"><Star class="icon" size={24} /></span>
-      {/each}
-      {#if parseFloat(review.Rating) % 1 >= 0.5}
-        <span class="theme-primary"><StarHalf class="icon" size={24} /></span>
-      {/if}
+      <RatingStars rating={review.Rating} size={24} />
       <span class="commentIcon theme-primary">
         <MessageSquareText class="icon" size={24} />
       </span>

@@ -1,25 +1,11 @@
 <script>
-  import { onMount } from 'svelte';
   import SectionHeader from '../components/SectionHeader.svelte';
   import sample from '../data/Spotify.json';
-  let albums = sample.albums;
-
-  onMount(async () => {
-    try {
-      const res = await fetch('/Spotify.json', { cache: 'no-store' });
-      if (res.ok) {
-        const data = await res.json();
-        if (data && Array.isArray(data.albums)) {
-          albums = data.albums;
-        }
-      }
-    } catch (_) {
-      // fall back to sample
-    }
-  });
+  export let spotifyData = null;
+  $: albums = spotifyData && Array.isArray(spotifyData.albums) ? spotifyData.albums : sample.albums;
 
   function revealCover(event) {
-    event.currentTarget.style.opacity = 1;
+    event.currentTarget.classList.add('is-visible');
   }
 </script>
 
@@ -31,13 +17,12 @@
         <a href={album.url} target="_blank" rel="noreferrer">
           <img
             src={album.cover}
-            style="transition: opacity 2.0s; opacity: 0"
             on:load={revealCover}
             class="album-art" />
         </a>
       </div>
     {/each}
   </div>
-  </div>
+</div>
 
 
