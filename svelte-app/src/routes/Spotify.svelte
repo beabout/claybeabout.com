@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   export let theme;
   import SectionHeader from '../components/SectionHeader.svelte';
-  import sample from '../data/Spotify.sample.json';
+  import sample from '../data/Spotify.json';
   let albums = sample.albums;
 
   onMount(async () => {
