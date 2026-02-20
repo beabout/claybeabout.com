@@ -1,5 +1,59 @@
 { "reviews": [
 {
+	"Date": "2023-04-01", 
+	"Watched Date": "2008-03-06", 
+	"Name": "Kicking & Screaming", 
+	"Year": "2005", 
+	"Rating": "5", 
+	"Review": "All time most quotable film ", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/6/5/9/46659-kicking-screaming-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-04-01", 
+	"Watched Date": "2011-07-31", 
+	"Name": "The Triplets of Belleville", 
+	"Year": "2003", 
+	"Rating": "3.5", 
+	"Review": "I prefer there be more dialogue but the story carries strong without it.<br/><br/>The animation style is an escape from that of Disney or Ghibli; Unique in its own character and sharpness.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/9/4/0/46940-the-triplets-of-belleville-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-17", 
+	"Watched Date": "2011-11-12", 
+	"Name": "Surf's Up", 
+	"Year": "2007", 
+	"Rating": "3.5", 
+	"Review": "Cody Maverick is Plat tier on all levels. Most quotable lines in a movie, hands down.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/8/8/47188-surf-s-up-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-27", 
+	"Watched Date": "2015-06-26", 
+	"Name": "The Usual Suspects", 
+	"Year": "1995", 
+	"Rating": "3.5", 
+	"Review": "Excellent twist", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/5/51495-the-usual-suspects-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-02", 
+	"Watched Date": "2020-05-01", 
+	"Name": "If Beale Street Could Talk", 
+	"Year": "2018", 
+	"Rating": "4.5", 
+	"Review": "The soundtrack elevates the emotion and composition of the film. Beautiful telling of a treacherous and segregation-heavy piece of America's past.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/9/7/5/7/8/397578-if-beale-street-could-talk-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-08-08", 
+	"Watched Date": "2020-06-07", 
+	"Name": "Detroit", 
+	"Year": "2017", 
+	"Rating": "2.5", 
+	"Review": "Brutal. Hard to watch", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/4/1/7/5/4/341754-detroit-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2021-08-01", 
 	"Watched Date": "2021-06-01", 
 	"Name": "Luca", 
@@ -34,6 +88,114 @@
 	"Rating": "3.5", 
 	"Review": "This is the redemption movie DC needed. After the flop that was the 2016 film of the same name, this Suicide Squad came thru with blunt comedy, just-the-right-amount of R-rated magic and the magnificent Peacemaker.<br/><br/>Off the bat, Peacemaker (John Cena) embodied the frat-boy-esc super hero you’d expect walking around in whitey tighties. His comedy was on point and his eventual plot twist was an enjoyable turn in the final act of the film.<br/><br/>James Gunn wasted no time diving straight into the film and expressing his love of music with Johnny Cash and his willingness to go R-rated with the initial killing off of half the Suicide Squad.<br/><br/>The scene at the bar about halfway thru the film was the only real time I felt the film diverted from what it embodied. The Suicide Squad is a group of villains imprisoned by the US government to fight or be killed by explosives in their spines. You wouldn’t expect them to enjoy a night out on the town drinking and laughing with one another with the irritation they have towards the situation and each other. This scene is especially odd when taking into account that the Squad just beforehand took out an entire town of freedom fighters by accident. This of course though is the way of James Gunn and he seemed to pull it off.<br/><br/>My rating is partly due to the redemptive nature of this film in light of its 2016 predecessor but also as a recognition to the way James Gunn was able to create a funny, emotionally-attaching, gory masterpiece out of a rag-tag group of super humans.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/6/9/8/3/5/369835-the-suicide-squad-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-21", 
+	"Watched Date": "2021-09-17", 
+	"Name": "Moneyball", 
+	"Year": "2011", 
+	"Rating": "4.5", 
+	"Review": "Very cathartic. One of Sorkin’s landmark creations.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/h1/fd/pz/pi/3oAa8mJJ97CH9AeGEY6vjAxqcvZ-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2022-11-27", 
+	"Watched Date": "2021-09-20", 
+	"Name": "The Florida Project", 
+	"Year": "2017", 
+	"Rating": "5", 
+	"Review": "Honest, raw, real, colorful and heartbreaking. I thought I’d see more Mickey Mouse though.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/2/8/5/3/8/328538-the-florida-project-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-27", 
+	"Watched Date": "2021-09-26", 
+	"Name": "Dances with Wolves", 
+	"Year": "1990", 
+	"Rating": "4.5", 
+	"Review": "Perfectly paced", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/5/3/9/51539-dances-with-wolves-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-04-08", 
+	"Watched Date": "2021-10-07", 
+	"Name": "Dazed and Confused", 
+	"Year": "1993", 
+	"Rating": "3", 
+	"Review": "Coolest opening to a film: <i>Sweet Emotion </i>takes off while aPontiac GTO Judge pulls up with Milla Jovovich in passenger rolling up a joint.Great cast and youthful energy. Great on first watch, very nostalgic.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/0/2/9/47029-dazed-and-confused-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-04-01", 
+	"Watched Date": "2021-11-29", 
+	"Name": "Uncut Gems", 
+	"Year": "2019", 
+	"Rating": "3.5", 
+	"Review": "Adam Sandler transforms for this role. His performance, the grainy camera and the crystallized soundtrack provoke anxiety and uneasiness.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/0/4/2/6/6/404266-uncut-gems-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-04-03", 
+	"Watched Date": "2021-12-06", 
+	"Name": "When Harry Met Sally...", 
+	"Year": "1989", 
+	"Rating": "4", 
+	"Review": "Great chemistry between Billy and Meg. Their conversations seemed real. I relate to the “wagon wheel coffee table” conflict, but Lauren and I will never split over it... hopefully. Rip Princess Leia and Ms. Ryan.<br/><br/>Guys and girls can’t be friends. They’ll eventually do it or reduce to acquaintances. Unless one of them is gay, then yeah, I guess guys and girls can be friends.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/5/51485-when-harry-met-sally--0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-11-19", 
+	"Watched Date": "2021-12-18", 
+	"Name": "West Side Story", 
+	"Year": "2021", 
+	"Rating": "4", 
+	"Review": "A beautiful homage with it’s own personality.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/yd/j5/tz/up/xW3t04p24jH7aQyq1J63ApAP9gG-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-21", 
+	"Watched Date": "2022-03-25", 
+	"Name": "The Dirt", 
+	"Year": "2019", 
+	"Rating": "1.5", 
+	"Review": "I couldn’t have cared less about the early roots of Motley Crue after watching the first half of this film. A poorly acted and poorly written piece of cheap cinema.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/pw/n8/es/nz/xGY5rr8441ib0lT9mtHZn7e8Aay-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-15", 
+	"Watched Date": "2022-04-14", 
+	"Name": "Big Fish", 
+	"Year": "2003", 
+	"Rating": "4.5", 
+	"Review": "Can’t watch without cry… absolutely sobbing. What a wild, turbulent, wholesome dream of a story.<br/><blockquote>Sandra Templeton, I love you and I WILL marry you.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/w2/v9/2v/lv/6DRFdlNZpAaEt7eejsbAlJGgaM7-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-08-01", 
+	"Watched Date": "2022-06-04", 
+	"Name": "The One I Love", 
+	"Year": "2014", 
+	"Rating": "3", 
+	"Review": "A solid Black Mirror episode", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/br/3b/1o/fe/uXOZsGmyPgNGsru9QwLVXmYJ9Pg-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-04-01", 
+	"Watched Date": "2022-06-17", 
+	"Name": "A Knight's Tale", 
+	"Year": "2001", 
+	"Rating": "3", 
+	"Review": "Rock 'n' roll Robin Hood", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/2/2/47122-a-knight-s-tale-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-22", 
+	"Watched Date": "2022-07-14", 
+	"Name": "Thor: Love and Thunder", 
+	"Year": "2022", 
+	"Rating": "2", 
+	"Review": "Fell below expectations. Romance wasn’t real enough for me to care. Christian Bale can’t bloom under these conditions.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/4/3/0/0/2/543002-thor-love-and-thunder-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2022-08-29", 
@@ -108,6 +270,15 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/0/1/6/4/50164-pleasantville-0-230-0-345-crop.jpg"
 },
 {
+	"Date": "2023-07-30", 
+	"Watched Date": "2022-09-29", 
+	"Name": "The Mummy", 
+	"Year": "1999", 
+	"Rating": "3.5", 
+	"Review": "The revamped Indiana Jones adventure I crave", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/5i/du/2g/s8/6CweTLmngcPrsEH4G6RKvdwmQdC-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2022-11-24", 
 	"Watched Date": "2022-11-23", 
 	"Name": "Falling for Christmas", 
@@ -126,6 +297,15 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/4/6/3/4/7/546347-don-t-worry-darling-0-230-0-345-crop.jpg"
 },
 {
+	"Date": "2023-07-27", 
+	"Watched Date": "2022-11-25", 
+	"Name": "Hell or High Water", 
+	"Year": "2016", 
+	"Rating": "4", 
+	"Review": "Very funny. Ben Foster is fantastic.<br/><blockquote>Boy, You'd think there were ten of me.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/os/sk/tr/0a/6YOrNBdoXvT8aC5VPLkkN6t5z0V-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2022-11-27", 
 	"Watched Date": "2022-11-26", 
 	"Name": "Barbarian", 
@@ -135,13 +315,13 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-230-0-345-crop.jpg"
 },
 {
-	"Date": "2022-11-27", 
-	"Watched Date": "2021-09-20", 
-	"Name": "The Florida Project", 
-	"Year": "2017", 
-	"Rating": "5", 
-	"Review": "Honest, raw, real, colorful and heartbreaking. I thought I’d see more Mickey Mouse though.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/2/8/5/3/8/328538-the-florida-project-0-230-0-345-crop.jpg"
+	"Date": "2023-01-04", 
+	"Watched Date": "2022-12-03", 
+	"Name": "The Redeem Team", 
+	"Year": "2022", 
+	"Rating": "1", 
+	"Review": "My one star is for Kobe. Wasn’t well constructed or impactful. Cool BTS footage though", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/1/7/7/8/0/917780-the-redeem-team-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2022-12-22", 
@@ -154,21 +334,30 @@
 },
 {
 	"Date": "2022-12-30", 
+	"Watched Date": "2022-12-23", 
+	"Name": "Glass Onion", 
+	"Year": "2022", 
+	"Rating": "3.5", 
+	"Review": "Rian Johnson’s creativity and personality were clear in the cuts he chose<br/><br/>Loved the color in this film.<br/><br/>Daniel Craig is a stand out<br/><br/>Had no clue Edward Norton was the baddie til the end", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-01-18", 
+	"Watched Date": "2022-12-28", 
+	"Name": "Spider-Man: No Way Home", 
+	"Year": "2021", 
+	"Rating": "2.5", 
+	"Review": "Loved when Peter asks Dr. Strange “you can do that?” after suggesting Peter should plead his case to MIT. Seems relatable.<br/><br/>Watching this again makes you realize just how childish Peter is. It also makes you really want to watch it again, for the first time, with a ton of people. After the second watch I noticed the plot issues. The comedy and triumphs are cheap. Holds up for most times breaking the fourth wall for the sake of nostalgia and relatability. Cool to see Tobey and Andrew again. Won’t have a crazy crossover event at this scale ever again. Most of my stars go to that.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/6/0/7/8/7/560787-spider-man-no-way-home-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2022-12-30", 
 	"Watched Date": "2022-12-29", 
 	"Name": "Bullet Train", 
 	"Year": "2022", 
 	"Rating": "3", 
 	"Review": "Ladybug (Brad Pitt) says what the audience is thinking. Refreshing.<br/><br/>There were several small surprises and twists which made this film.<br/><br/>The constant Thomas the Tank Engine references, goofy backstories and Ladybug psychologically diagnosing himself/others made the film consistently funny throughout.<br/><br/>A goofy samurai movie that adds as a nice collection to David Leitch’s filmography", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/6/4/1/9/6/1/641961-bullet-train-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2022-12-30", 
-	"Watched Date": "2022-12-23", 
-	"Name": "Glass Onion", 
-	"Year": "2022", 
-	"Rating": "3.5", 
-	"Review": "Rian Johnson’s creativity and personality were clear in the cuts he chose<br/><br/>Loved the color in this film.<br/><br/>Daniel Craig is a stand out<br/><br/>Had no clue Edward Norton was the baddie til the end", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/8/6/7/2/3/586723-glass-onion-a-knives-out-mystery-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-02", 
@@ -181,30 +370,21 @@
 },
 {
 	"Date": "2023-01-02", 
-	"Watched Date": "2020-05-01", 
-	"Name": "If Beale Street Could Talk", 
-	"Year": "2018", 
-	"Rating": "4.5", 
-	"Review": "The soundtrack elevates the emotion and composition of the film. Beautiful telling of a treacherous and segregation-heavy piece of America's past.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/9/7/5/7/8/397578-if-beale-street-could-talk-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-02", 
 	"Watched Date": "2023-01-01", 
 	"Name": "Amsterdam", 
 	"Year": "2022", 
 	"Rating": "2", 
 	"Review": "Very dry, slow and emotionless. Lacks a consistent, continuous narrative arc. Lacks emotional investment: no danger felt by audience for the leading suspects of a murder.<br/><br/>I did enjoy the<i>Committee of the 5</i>being a US arm of the early Nazi party. This was the only interesting story piece to me.<br/><br/>Great cast, but the film doesn’t carry the punch it’s lineup and marketing campaign anticipated.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/8/9/3/1/7/589317-amsterdam-0-230-0-345-crop.jpg"
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/8/9/3/1/7/589317-amsterdam-2022-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-03", 
 	"Watched Date": "2023-01-02", 
-	"Name": "The French Dispatch", 
+	"Name": "The French Dispatch of the Liberty, Kansas Evening Sun", 
 	"Year": "2021", 
 	"Rating": "3.5", 
 	"Review": "Wes Anderson’s take on the feature length short story model (similar to <i>The Ballad of Buster Scruggs</i>).<br/><br/>I very much enjoyed it. This Anderson film felt the most sophisticated, posh and arrogant. I didn’t mind that as much as it still held up in wittiness, humor and against-the-grain form.<br/><br/>I welcomed the technique of speaking directly to the audience via newspaper article narration. It provided comfort like my hand was being held through the journey.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/2/0/7/471207-the-french-dispatch-0-230-0-345-crop.jpg"
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/2/0/7/471207-the-french-dispatch-of-the-liberty-kansas-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-03", 
@@ -223,15 +403,6 @@
 	"Rating": "4", 
 	"Review": "The army storyline was very underdeveloped and took too many shortcuts. The story felt slightly Disney-ified/American-ized. Less so compared to the Marvel films.<br/><br/>CGI was 5/5.<br/>Scenes involving humans were 2/5.<br/>Water scenes 5/5.<br/>The Weeknd as the end credits song 0/5.<br/>Emotional draw 6/5. Lauren and I cried a lot.<br/><br/>As a launching point for several more sequels, I thought James Cameron did swell.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/6/3/0/5/8/63058-avatar-the-way-of-water-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-04", 
-	"Watched Date": "2022-12-03", 
-	"Name": "The Redeem Team", 
-	"Year": "2022", 
-	"Rating": "1", 
-	"Review": "My one star is for Kobe. Wasn’t well constructed or impactful. Cool BTS footage though", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/1/7/7/8/0/917780-the-redeem-team-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-07", 
@@ -267,7 +438,7 @@
 	"Year": "2017", 
 	"Rating": "5", 
 	"Review": "The colors shine bright but not as much as the poverty, innocence and brutality expressed throughout", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/2/8/5/3/8/328538-the-florida-project-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-01-13", 
@@ -277,15 +448,6 @@
 	"Rating": "4", 
 	"Review": "Black comedy is not a genre for everyone. I found the humor extremely dry, slow-paced and subtle... it was hilariously dreary.<br/><br/>The music is punchy, tense and aggressive. The string ensembles, throughout the film's soundtrack, build on anxiety and chaos to propel the film into a gradual downfall adventure.<br/><br/>This dystopian depiction cuts against the grain of the genre-average as it excludes any lords, flies and lords of flies. It has no terminators. No explosions or laser guns. David (Colin Farrell) attempts to live like a romantic vigilante; but in reality he's just a lump surrounded by a bunch of socially-inept lumps trying to escape the forced-companionship social impositions. It's a quaint story about loneliness and the most \"office space appropriate\" approach to breaking the law. <br/><br/>Rachel Weisz and Colin Farrell are comedic gold. Both with their timing and bleakness. When Short Sighted Woman (Rachel Weisz) describes the secret sign language she and David created to say \"I love you\" (and much more).. I about fell off my seat. \"Would you like to play another game of 'touch-guess-think-win'\" after Rachel's character tells David she's blind.. I about croaked. The  \"Arrive to the city\" scene is just the best. The wild interest each of the characters have for common grocery store items fits so well into the paling world Yorgos Lanthimos manifests. And my lord these shots. The depth of focus and environment in each shot is incredible. The camera never settles to splash in unconventional angles to remind the audience of the cinematographer's ego :)<br/><br/>This wasn't just a comedy, romance or dystopian film. And it doesn't fit into the mainstream sense of any of those genres. The comedy is dry and bleak; less direct or slap stick. The romance is dry and bleak; less charming, predictable or pleasant. The dystopian aspects are subtle and work appropriate; less cataclysmic and action-packed. My wife put it best, \"It's not a story you can relate to.\"", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/7/8/1/2/3/178123-the-lobster-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-15", 
-	"Watched Date": "2022-04-14", 
-	"Name": "Big Fish", 
-	"Year": "2003", 
-	"Rating": "4.5", 
-	"Review": "Can’t watch without cry… absolutely sobbing. What a wild, turbulent, wholesome dream of a story.<br/><blockquote>Sandra Templeton, I love you and I WILL marry you.</blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/w2/v9/2v/lv/6DRFdlNZpAaEt7eejsbAlJGgaM7-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-16", 
@@ -316,15 +478,6 @@
 },
 {
 	"Date": "2023-01-17", 
-	"Watched Date": "2011-11-12", 
-	"Name": "Surf's Up", 
-	"Year": "2007", 
-	"Rating": "3.5", 
-	"Review": "Cody Maverick is Plat tier on all levels. Most quotable lines in a movie, hands down.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/8/8/47188-surf-s-up-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-17", 
 	"Watched Date": "2023-01-16", 
 	"Name": "Jurassic World Dominion", 
 	"Year": "2022", 
@@ -333,22 +486,13 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/3/7/0/5/0/437050-jurassic-world-dominion-0-230-0-345-crop.jpg"
 },
 {
-	"Date": "2023-01-18", 
-	"Watched Date": "2022-12-28", 
-	"Name": "Spider-Man: No Way Home", 
-	"Year": "2021", 
-	"Rating": "2.5", 
-	"Review": "Loved when Peter asks Dr. Strange “you can do that?” after suggesting Peter should plead his case to MIT. Seems relatable.<br/><br/>Watching this again makes you realize just how childish Peter is. It also makes you really want to watch it again, for the first time, with a ton of people. After the second watch I noticed the plot issues. The comedy and triumphs are cheap. Holds up for most times breaking the fourth wall for the sake of nostalgia and relatability. Cool to see Tobey and Andrew again. Won’t have a crazy crossover event at this scale ever again. Most of my stars go to that.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/6/0/7/8/7/560787-spider-man-no-way-home-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-21", 
-	"Watched Date": "2021-09-17", 
-	"Name": "Moneyball", 
-	"Year": "2011", 
+	"Date": "2023-07-31", 
+	"Watched Date": "2023-01-19", 
+	"Name": "Zero Dark Thirty", 
+	"Year": "2012", 
 	"Rating": "4.5", 
-	"Review": "Very cathartic. One of Sorkin’s landmark creations.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/h1/fd/pz/pi/3oAa8mJJ97CH9AeGEY6vjAxqcvZ-0-230-0-345-crop.jpg"
+	"Review": "Calm, menacing and calculated in a chaotic, abusive and unapologetic environment. Chastain and Bigelow are a perfect quarterback/coach duo.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/0/3/4/9/80349-zero-dark-thirty-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-21", 
@@ -360,24 +504,6 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/uo/th/yf/uz/zSuh8dGwqpsWR7ccvYbfxbSZ37o-0-230-0-345-crop.jpg"
 },
 {
-	"Date": "2023-01-21", 
-	"Watched Date": "2022-03-25", 
-	"Name": "The Dirt", 
-	"Year": "2019", 
-	"Rating": "1.5", 
-	"Review": "I couldn’t have cared less about the early roots of Motley Crue after watching the first half of this film. A poorly acted and poorly written piece of cheap cinema.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/pw/n8/es/nz/xGY5rr8441ib0lT9mtHZn7e8Aay-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-22", 
-	"Watched Date": "2022-07-14", 
-	"Name": "Thor: Love and Thunder", 
-	"Year": "2022", 
-	"Rating": "2", 
-	"Review": "Fell below expectations. Romance wasn’t real enough for me to care. Christian Bale can’t bloom under these conditions.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/4/3/0/0/2/543002-thor-love-and-thunder-0-230-0-345-crop.jpg"
-},
-{
 	"Date": "2023-01-23", 
 	"Watched Date": "2023-01-22", 
 	"Name": "The Banshees of Inisherin", 
@@ -385,24 +511,6 @@
 	"Rating": "4", 
 	"Review": "What should be done about a relationship grown dull? What is the value of aimlessness? And when should one disengage with aimless small talk? Banshees poses theses thoughts without a clear conclusion.<br/><br/>Padraic’s (Collin Farrell) hopeless attempts at winning back his friend are just plain depressing. Padraic is stuck between Colm’s (Brendan Gleeson) rejection and Dominic’s (Barry Keoghan) pathetic antics. Colm, the more intellectual of the pair, is tired of wasting away in the pub aimlessly with Padraic. We’re left hoping for Padraic to find peace throughout but he fails to conquer the rejection. I empathize with both Colm and Padraic. We’ve all dealt with rejection as the giver or receiver and this tale brings to mind those occasions in my life. A simple premise beautifully executed.<br/><br/><blockquote>“I’ve changed, I just don’t have a place for dullness in me life anymore”</blockquote>", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/9/8/8/8/2/598882-the-banshees-of-inisherin-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-27", 
-	"Watched Date": "2021-09-26", 
-	"Name": "Dances with Wolves", 
-	"Year": "1990", 
-	"Rating": "4.5", 
-	"Review": "Perfectly paced", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/5/3/9/51539-dances-with-wolves-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-01-27", 
-	"Watched Date": "2015-06-26", 
-	"Name": "The Usual Suspects", 
-	"Year": "1995", 
-	"Rating": "3.5", 
-	"Review": "Excellent twist", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/5/51495-the-usual-suspects-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-01-29", 
@@ -450,6 +558,51 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/8/2/6/1/478261-black-mirror-san-junipero-0-230-0-345-crop.jpg"
 },
 {
+	"Date": "2023-06-16", 
+	"Watched Date": "2023-02-15", 
+	"Name": "Twilight", 
+	"Year": "2008", 
+	"Rating": "0.5", 
+	"Review": "Trash", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/4/6/9/47469-twilight-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-06-16", 
+	"Watched Date": "2023-02-15", 
+	"Name": "The Twilight Saga: New Moon", 
+	"Year": "2009", 
+	"Rating": "0.5", 
+	"Review": "🗑️", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/0/4/8/0/40480-the-twilight-saga-new-moon-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-06-16", 
+	"Watched Date": "2023-02-15", 
+	"Name": "The Twilight Saga: Eclipse", 
+	"Year": "2010", 
+	"Rating": "0.5", 
+	"Review": "Actual trash", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/7/0/8/8/37088-the-twilight-saga-eclipse-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-06-16", 
+	"Watched Date": "2023-02-15", 
+	"Name": "The Twilight Saga: Breaking Dawn – Part 1", 
+	"Year": "2011", 
+	"Rating": "0.5", 
+	"Review": "Dumpster doo doo", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/5/0/7/7/15077-the-twilight-saga-breaking-dawn-part-1-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-06-16", 
+	"Watched Date": "2023-02-15", 
+	"Name": "The Twilight Saga: Breaking Dawn – Part 2", 
+	"Year": "2012", 
+	"Rating": "0.5", 
+	"Review": "Honest opinions only: trash", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/5/0/7/6/15076-the-twilight-saga-breaking-dawn-part-2-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2023-02-20", 
 	"Watched Date": "2023-02-19", 
 	"Name": "Ant-Man and the Wasp: Quantumania", 
@@ -457,6 +610,15 @@
 	"Rating": "2", 
 	"Review": "Got better as the film progressed but still just bad. Marvel continues to push cheesy, anti-climactic shiz.<br/><br/>The introduction of Kang was strong initially and ended weak.<br/><br/>Lo found it very predictable.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/6/6/2/3/7/566237-ant-man-and-the-wasp-quantumania-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2023-05-05", 
+	"Watched Date": "2023-03-04", 
+	"Name": "Chernobyl", 
+	"Year": "2019", 
+	"Rating": "4.5", 
+	"Review": "So that’s how radiation works.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/3/2/0/8/2/532082-chernobyl-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-03-06", 
@@ -513,6 +675,15 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/5/1/8/51518-the-matrix-0-230-0-345-crop.jpg"
 },
 {
+	"Date": "2023-07-30", 
+	"Watched Date": "2023-03-29", 
+	"Name": "The Shawshank Redemption", 
+	"Year": "1994", 
+	"Rating": "4", 
+	"Review": "Patient, self-avenging and emotionally moving", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/7l/hn/46/uz/zGINvGjdlO6TJRu9wESQvWlOKVT-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2023-03-31", 
 	"Watched Date": "2023-03-30", 
 	"Name": "RRR", 
@@ -523,57 +694,12 @@
 },
 {
 	"Date": "2023-04-01", 
-	"Watched Date": "2011-07-31", 
-	"Name": "The Triplets of Belleville", 
-	"Year": "2003", 
-	"Rating": "3.5", 
-	"Review": "I prefer there be more dialogue but the story carries strong without it.<br/><br/>The animation style is an escape from that of Disney or Ghibli; Unique in its own character and sharpness.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/9/4/0/46940-the-triplets-of-belleville-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-04-01", 
-	"Watched Date": "2008-03-06", 
-	"Name": "Kicking & Screaming", 
-	"Year": "2005", 
-	"Rating": "5", 
-	"Review": "All time most quotable film ", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/6/5/9/46659-kicking-screaming-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-04-01", 
-	"Watched Date": "2022-06-17", 
-	"Name": "A Knight's Tale", 
-	"Year": "2001", 
-	"Rating": "3", 
-	"Review": "Rock 'n' roll Robin Hood", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/2/2/47122-a-knight-s-tale-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-04-01", 
-	"Watched Date": "2021-11-29", 
-	"Name": "Uncut Gems", 
-	"Year": "2019", 
-	"Rating": "3.5", 
-	"Review": "Adam Sandler transforms for this role. His performance, the grainy camera and the crystallized soundtrack provoke anxiety and uneasiness.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/0/4/2/6/6/404266-uncut-gems-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-04-01", 
 	"Watched Date": "2023-03-31", 
 	"Name": "Pride & Prejudice", 
 	"Year": "2005", 
 	"Rating": "4", 
 	"Review": "It’s like Beauty and the Beast but the Beauty is feistier and the Beast is kind of a bitch<br/><br/>Stacked female cast. Bravo Matthew Macfadyen, I intend to quote his final mystifying monologue daily to my wife; maybe then she’ll kiss me back. I cried when Donald Sutherland cried. The zoom cuts were unexpected but welcome. My spirits were lifted with joy.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/nq/jo/26/tn/dAC0hkYmz5ZOCHURZCyj9isPMPd-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-04-03", 
-	"Watched Date": "2021-12-06", 
-	"Name": "When Harry Met Sally...", 
-	"Year": "1989", 
-	"Rating": "4", 
-	"Review": "Great chemistry between Billy and Meg. Their conversations seemed real. I relate to the “wagon wheel coffee table” conflict, but Lauren and I will never split over it... hopefully. Rip Princess Leia and Ms. Ryan.<br/><br/>Guys and girls can’t be friends. They’ll eventually do it or reduce to acquaintances. Unless one of them is gay, then yeah, I guess guys and girls can be friends.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/4/8/5/51485-when-harry-met-sally--0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-04-07", 
@@ -592,15 +718,6 @@
 	"Rating": "5", 
 	"Review": "Best opening to a film. Incredible writing.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/1/3/5/2/41352-inglourious-basterds-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-04-08", 
-	"Watched Date": "2021-10-07", 
-	"Name": "Dazed and Confused", 
-	"Year": "1993", 
-	"Rating": "3", 
-	"Review": "Coolest opening to a film: <i>Sweet Emotion </i>takes off while aPontiac GTO Judge pulls up with Milla Jovovich in passenger rolling up a joint.Great cast and youthful energy. Great on first watch, very nostalgic.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/7h/zn/l9/ps/2lHRRgoof25kJsLgocf3go2Ccp1-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-04-09", 
@@ -623,11 +740,11 @@
 {
 	"Date": "2023-04-10", 
 	"Watched Date": "2023-04-09", 
-	"Name": "The French Dispatch", 
+	"Name": "The French Dispatch of the Liberty, Kansas Evening Sun", 
 	"Year": "2021", 
 	"Rating": "3.5", 
 	"Review": "Very pretentious", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/2/0/7/471207-the-french-dispatch-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-04-10", 
@@ -771,7 +888,7 @@
 	"Year": "2014", 
 	"Rating": "4.5", 
 	"Review": "Very rare to see such a solid adaptation with a beautiful story and message. Well done.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/az/2g/rn/wz/7HdNvpAMnU9rjKDJSFzAjnsz0eh-0-230-0-345-crop.jpg"
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/0/5/1/8/8/105188-the-lego-movie-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-05-01", 
@@ -790,15 +907,6 @@
 	"Rating": "4.5", 
 	"Review": "This is a confident, cinematic, risk-taking blockbuster. I hope the Hollywood meta moves in this direction. Simple, yet layered story with beautiful color, articulate sound design and gentle cinematography. Most blockbuster films today move MUCH faster, yet I’m more akin to this quiet-tempered pacing.<br/><br/>With regards to story: I can’t believe how weak Atreides defenses were in the wake of a known impending Harkonnen attack. They knew it was coming and yet act like they had more time!?!?! Idk, Letos lacks some serious awareness. The still-suits looked kinda cheap to me also. It also felt kinda pretentious but was so gorgeous.<br/><br/>This film left me wanting more. Eager for part two this summer.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/nx/8b/vs/gc/cDbNAY0KM84cxXhmj8f0dLWza3t-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-05-05", 
-	"Watched Date": "2023-03-04", 
-	"Name": "Chernobyl", 
-	"Year": "2019", 
-	"Rating": "4.5", 
-	"Review": "So that’s how radiation works.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/3/2/0/8/2/532082-chernobyl-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-05-10", 
@@ -873,6 +981,15 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/sk/d9/0x/hm/uYpaC4TFH7sDtvfK8ANlWMKhmHv-0-230-0-345-crop.jpg"
 },
 {
+	"Date": "2023-08-07", 
+	"Watched Date": "2023-06-06", 
+	"Name": "Ocean's Eleven", 
+	"Year": "2001", 
+	"Rating": "4", 
+	"Review": "The zooms! Cinematography gold", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/8/9/0/51890-oceans-eleven-2001-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2023-06-15", 
 	"Watched Date": "2023-06-14", 
 	"Name": "Spider-Man: Across the Spider-Verse", 
@@ -883,57 +1000,12 @@
 },
 {
 	"Date": "2023-06-16", 
-	"Watched Date": "2023-02-15", 
-	"Name": "Twilight", 
-	"Year": "2008", 
-	"Rating": "0.5", 
-	"Review": "Trash", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/4/6/9/47469-twilight-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-06-16", 
-	"Watched Date": "2023-02-15", 
-	"Name": "The Twilight Saga: New Moon", 
-	"Year": "2009", 
-	"Rating": "0.5", 
-	"Review": "🗑️", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/0/4/8/0/40480-the-twilight-saga-new-moon-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-06-16", 
-	"Watched Date": "2023-02-15", 
-	"Name": "The Twilight Saga: Eclipse", 
-	"Year": "2010", 
-	"Rating": "0.5", 
-	"Review": "Actual trash", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/7/0/8/8/37088-the-twilight-saga-eclipse-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-06-16", 
-	"Watched Date": "2023-02-15", 
-	"Name": "The Twilight Saga: Breaking Dawn – Part 1", 
-	"Year": "2011", 
-	"Rating": "0.5", 
-	"Review": "Dumpster doo doo", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/5/0/7/7/15077-the-twilight-saga-breaking-dawn-part-1-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-06-16", 
-	"Watched Date": "2023-02-15", 
-	"Name": "The Twilight Saga: Breaking Dawn – Part 2", 
-	"Year": "2012", 
-	"Rating": "0.5", 
-	"Review": "Honest opinions only: trash", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/5/0/7/6/15076-the-twilight-saga-breaking-dawn-part-2-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-06-16", 
 	"Watched Date": "2023-06-15", 
 	"Name": "10 Things I Hate About You", 
 	"Year": "1999", 
 	"Rating": "3.5", 
 	"Review": "I love Seattle. JGL is spectacular", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/hl/jj/br/9g/Kd5OkBc6GyUa1tIpxYUHLpyE2t-0-230-0-345-crop.jpg"
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/9/0/4/7/49047-10-things-i-hate-about-you-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-06-17", 
@@ -1046,7 +1118,7 @@
 {
 	"Date": "2023-07-11", 
 	"Watched Date": "2023-07-10", 
-	"Name": "Once Upon a Time… in Hollywood", 
+	"Name": "Once Upon a Time... in Hollywood", 
 	"Year": "2019", 
 	"Rating": "3.5", 
 	"Review": "Moves like a classic from the Golden age of Hollywood. Great cast. Brad Pitt murders.. metaphorically and literally. We should all strive to be more like Cliff.", 
@@ -1095,7 +1167,7 @@
 	"Year": "2009", 
 	"Rating": "4.5", 
 	"Review": "A master class in dialogue. Similar to OUATIH, Tarantino rewrites history with a knack for retribution.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/1/3/5/2/41352-inglourious-basterds-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-07-21", 
@@ -1105,15 +1177,6 @@
 	"Rating": "4", 
 	"Review": "Feminism and Patriarchy clash in a comical but dramatic mix. It’s The LEGO Movie meets The Matrix meets Grease meets Legally Blonde. The soundtrack takes the film to another level.<br/><br/>Barbie loses her innocence and rewrites her destiny. Ken becomes corrupted and is subsequently rescued by Barbie from patriarchical turmoil. Man needs woman.<br/><br/>The only lackluster sequences were those in the real world; they gave off a cheaper, studio-pumped blockbuster feel compared to the Dreamland sequences (gd product placement!). The wardrobe, set design and color filtering was awesome and absurd; GG continues to dazzle.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/7/7/0/6/4/277064-barbie-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-07-27", 
-	"Watched Date": "2022-11-25", 
-	"Name": "Hell or High Water", 
-	"Year": "2016", 
-	"Rating": "4", 
-	"Review": "Very funny. Ben Foster is fantastic.<br/><blockquote>Boy, You'd think there were ten of me.</blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/os/sk/tr/0a/6YOrNBdoXvT8aC5VPLkkN6t5z0V-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-07-29", 
@@ -1126,24 +1189,6 @@
 },
 {
 	"Date": "2023-07-30", 
-	"Watched Date": "2023-03-29", 
-	"Name": "The Shawshank Redemption", 
-	"Year": "1994", 
-	"Rating": "4", 
-	"Review": "Patient, self-avenging and emotionally moving", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/7l/hn/46/uz/zGINvGjdlO6TJRu9wESQvWlOKVT-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-07-30", 
-	"Watched Date": "2022-09-29", 
-	"Name": "The Mummy", 
-	"Year": "1999", 
-	"Rating": "3.5", 
-	"Review": "The revamped Indiana Jones adventure I crave", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/5i/du/2g/s8/6CweTLmngcPrsEH4G6RKvdwmQdC-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-07-30", 
 	"Watched Date": "2023-07-29", 
 	"Name": "The Prestige", 
 	"Year": "2006", 
@@ -1153,30 +1198,12 @@
 },
 {
 	"Date": "2023-07-31", 
-	"Watched Date": "2023-01-19", 
-	"Name": "Zero Dark Thirty", 
-	"Year": "2012", 
-	"Rating": "4.5", 
-	"Review": "Calm, menacing and calculated in a chaotic, abusive and unapologetic environment. Chastain and Bigelow are a perfect quarterback/coach duo.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/0/3/4/9/80349-zero-dark-thirty-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-07-31", 
 	"Watched Date": "2023-07-30", 
 	"Name": "Interstellar", 
 	"Year": "2014", 
 	"Rating": "5", 
-	"Review": "This has all the landmarks of a classic western: The gravitas lines, the seasoned cowboy and a call to adventure. <br/><br/>The conflict between continuity and displacement propels the film's inquisitive edge; someone placed the wormhole, someone pushed the book and someone created the apparatus by which Cooper communicated with Murphy. The search for 'how' forces the audience to ponder on humanity’s next evolution. The cadence is patient and momentous, fueled by the powerhouse score which echoes courage and hope. Beyond the score, the sound design articulates the empty yet terrifying nature of space.<br/><br/>The documentary interviews from survivors of the 1930s dust bowl is a great touch. The planet design is incredible too: Dr. Miller’s planet having 130% more gravity than earth as justified by the mountain-like waves. Dr. Mann's is isolated and barren as personified by the cold atmosphere and distanced location.<br/><br/>Nolan's cinematography and practical effects make for a timeless classic in the final frontier. McConaughey kills it as the brave cowboy alongside several other moving performances.<br/><br/><blockquote>After you kids came along, your mother said something I didn't really understand - she said, \"I look at the babies and I see myself as they'll remember me.' she said, \"It's as if we don't exist anymore, like we're ghosts, like now we're just there to be memories for our kids.' Now I realize - once we're parents, we're just the ghosts of our childrens' futures. I can’t be your ghost right now.</blockquote><blockquote><i>Cooper, there’s no point using our fuel to -</i><br/><b>Just analyze the Endurance’s spin -</b><br/><i>What’re you doing?!</i><br/><b>Docking. Get ready to match it on the retro-thrusters -</b><br/><i>It’s not possible -</i><br/><b>No. It’s necessary.</b></blockquote>", 
+	"Review": "This has all the landmarks of a classic western: The gravitas lines, the seasoned cowboy and a call to adventure. <br/><br/>The conflict between continuity and displacement propels the film's inquisitive edge; someone placed the wormhole, someone pushed the book and someone created the apparatus by which Cooper communicated with Murphy. The search for 'how' forces the audience to ponder humanity’s next evolution. The cadence is patient and momentous, fueled by the powerhouse score which echoes courage and hope. Beyond the score, the sound design articulates the empty yet terrifying nature of space.<br/><br/>The documentary interviews from survivors of the 1930s dust bowl is a great touch. The planet design is incredible too: Dr. Miller’s planet having 130% more gravity than earth as justified by the mountain-like waves. Dr. Mann's is isolated and barren as realized by the cold atmosphere and distant location.<br/><br/>Nolan's cinematography and practical effects make for a timeless classic in the final frontier. McConaughey kills it as the brave cowboy alongside several other moving performances.<br/><br/><blockquote>After you kids came along, your mother said something I didn't really understand - she said, \"I look at the babies and I see myself as they'll remember me.' she said, \"It's as if we don't exist anymore, like we're ghosts, like now we're just there to be memories for our kids.' Now I realize - once we're parents, we're just the ghosts of our childrens' futures. I can’t be your ghost right now.</blockquote><blockquote><i>Cooper, there’s no point using our fuel to -</i><br/><b>Just analyze the Endurance’s spin -</b><br/><i>What’re you doing?!</i><br/><b>Docking. Get ready to match it on the retro-thrusters -</b><br/><i>It’s not possible -</i><br/><b>No. It’s necessary.</b></blockquote>", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-08-01", 
-	"Watched Date": "2022-06-04", 
-	"Name": "The One I Love", 
-	"Year": "2014", 
-	"Rating": "3", 
-	"Review": "A solid Black Mirror episode", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/br/3b/1o/fe/uXOZsGmyPgNGsru9QwLVXmYJ9Pg-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2023-08-02", 
@@ -1188,22 +1215,22 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/4/2/7/7/3/542773-babylon-0-230-0-345-crop.jpg"
 },
 {
+	"Date": "2023-08-07", 
+	"Watched Date": "2023-08-04", 
+	"Name": "W.", 
+	"Year": "2008", 
+	"Rating": "2.5", 
+	"Review": "Stone's strategic mix of timelines enhances the storytelling, allowing us to witness W's journey and unyielding personality more vividly.<br/><br/>Stone’s commentary on Bush is clear in several sequences paired with a soundtrack. The war room shot with Bush in center frame and a halo-like light above his head, gives the feeling that his execution of the war is somehow destined by a higher power. The following shots are footage of Iraq being blown to bits while the <i>Yellow Rose of Texas</i> plays. Another war room scene features an acoustic version of <i>Battle Hymn of the Republic</i> during a discussion on going to war with Iran for freedom, which cleverly highlights the underlying motivations of oil interests. In another sequence, circus music plays while Bush faces reporters, adding a touch of satire to his policy struggles.<br/><br/>Thandie Newton's portrayal of Condoleezza Rice is impeccable, adding depth to the character. The film also captures the essence of Bush's personality through well-crafted Bushisms, providing a glimpse into his unwavering and anointed narcissism.<br/><br/>Though the baseball field sequences were somewhat forgettable, the final scene stands out. As a pop fly never lands, it symbolizes Bush's pursuit of personal victory but his ultimate failure to achieve it. This poignant moment encapsulates the film's exploration of Bush's complexities and the challenges he faced during his presidency.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/pe/er/fj/m0/upFQuRzN23kLvzO1brSFClLqZvV-0-230-0-345-crop.jpg"
+},
+{
 	"Date": "2023-08-05", 
 	"Watched Date": "2023-08-05", 
 	"Name": "Oppenheimer", 
 	"Year": "2023", 
 	"Rating": "5", 
 	"Review": "This is the most cohesive, fast paced 3h film I’ve seen; which is complimented by the hurried score. The film churns forward at full speed like a locomotive without brakes. Nolan barely gives the viewer a moment to breathe. He exquisitely paints Oppenheimer’s various conflicting states of mind. Pre-war Oppy was confident, witty and inquisitive. Post-war Oppy was burdened by guilt and fear, making him an easy target for those preying on his downfall.This time around I was rocked by the emotional pull of the film and the constant shaking of the theater.<br/><br/>The Only real flaw for me was some cheesy quips, executed primarily by Damon. These lines were meant to relieve tension or be momentous but ended up leaving a sour taste in their sequences.<br/><br/>1. Fission (polychrome). Atoms split. Ends with both Oppenheimer’s clearance denial and his nuclear chain reaction nightmare. Chaos grows, order splits apart and the future is unpredictable.<br/><br/>2. Fusion (monochrome). Atoms combine. Ends with the fall of Strauss at the hands of Hill’s enlightening testimony. Truth comes together, a resolution is found.<br/><br/><blockquote>Nobody knows what you believe. Do you?</blockquote><blockquote>Can you hear the music, Robert?</blockquote><blockquote>You can’t lift the stone without being ready for the snake that’s revealed.</blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/7/8/4/3/2/8/784328-oppenheimer-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-08-07", 
-	"Watched Date": "2023-06-06", 
-	"Name": "Ocean's Eleven", 
-	"Year": "2001", 
-	"Rating": "4", 
-	"Review": "The zooms! Cinematography gold", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/cq/zv/tn/d6/5ZfdSZeP4ZDJwA3Q17SpxV6wBjF-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-08-07", 
@@ -1215,31 +1242,13 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/5/51345-se7en-0-230-0-345-crop.jpg"
 },
 {
-	"Date": "2023-08-07", 
-	"Watched Date": "2023-08-04", 
-	"Name": "W.", 
-	"Year": "2008", 
-	"Rating": "2.5", 
-	"Review": "Stone's strategic mix of timelines enhances the storytelling, allowing us to witness W's journey and unyielding personality more vividly.<br/><br/>Stone’s commentary on Bush is clear in several sequences paired with a soundtrack. The war room shot with Bush in center frame and a halo-like light above his head, gives the feeling that his execution of the war is somehow destined by a higher power. The following shots are footage of Iraq being blown to bits while the <i>Yellow Rose of Texas</i> plays. Another war room scene features an acoustic version of <i>Battle Hymn of the Republic</i> during a discussion on going to war with Iran for freedom, which cleverly highlights the underlying motivations of oil interests. In another sequence, circus music plays while Bush faces reporters, adding a touch of satire to his policy struggles.<br/><br/>Thandie Newton's portrayal of Condoleezza Rice is impeccable, adding depth to the character. The film also captures the essence of Bush's personality through well-crafted Bushisms, providing a glimpse into his unwavering and anointed narcissism.<br/><br/>Though the baseball field sequences were somewhat forgettable, the final scene stands out. As a pop fly never lands, it symbolizes Bush's pursuit of personal victory but his ultimate failure to achieve it. This poignant moment encapsulates the film's exploration of Bush's complexities and the challenges he faced during his presidency.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/pe/er/fj/m0/upFQuRzN23kLvzO1brSFClLqZvV-0-230-0-345-crop.jpg"
-},
-{
-	"Date": "2023-08-08", 
-	"Watched Date": "2020-06-07", 
-	"Name": "Detroit", 
-	"Year": "2017", 
-	"Rating": "2.5", 
-	"Review": "Brutal. Hard to watch", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/4/1/7/5/4/341754-detroit-0-230-0-345-crop.jpg"
-},
-{
 	"Date": "2023-08-12", 
 	"Watched Date": "2023-08-11", 
 	"Name": "Asteroid City", 
 	"Year": "2023", 
 	"Rating": "3", 
 	"Review": "Margot Robbie’s scene is the best scene. Woodrow is my spirit animal; I hope to have a son just like him some day. Seldom does a director create a film solely to comment on his own style. Meta.<br/><br/><blockquote>I don’t understand the play. Am I doing it right?<br/><b>It doesn’t matter just keep telling the story.</b></blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/6/6/8/5/5/5/668555-asteroid-city-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-08-16", 
@@ -1383,7 +1392,7 @@
 	"Year": "2013", 
 	"Rating": "5", 
 	"Review": "This makes your stomach drop and your heart beat in the most cinematically gorgeous way.<blockquote>Make sure they cremate me; I don't want to be buried in some box.</blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/iw/eg/4g/nm/3w79tTsv6tmlT8Jww6snyPrgVok-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-10-25", 
@@ -1467,15 +1476,6 @@
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/2/0/4/51204-mission-impossible-iii-0-230-0-345-crop.jpg"
 },
 {
-	"Date": "2023-11-19", 
-	"Watched Date": "2021-12-18", 
-	"Name": "West Side Story", 
-	"Year": "2021", 
-	"Rating": "4", 
-	"Review": "A beautiful homage with it’s own personality.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/yd/j5/tz/up/xW3t04p24jH7aQyq1J63ApAP9gG-0-230-0-345-crop.jpg"
-},
-{
 	"Date": "2023-11-25", 
 	"Watched Date": "2023-11-24", 
 	"Name": "The Killer", 
@@ -1491,7 +1491,7 @@
 	"Year": "1999", 
 	"Rating": "3", 
 	"Review": "The era of atrocious CGI. Discount Indiana Jones thru and thru… still love it though", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/5i/du/2g/s8/6CweTLmngcPrsEH4G6RKvdwmQdC-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-12-18", 
@@ -1509,7 +1509,7 @@
 	"Year": "2023", 
 	"Rating": "5", 
 	"Review": "Helluva way to end a film; charging towards the finish line in a hurried yet somber manner.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/7/8/4/3/2/8/784328-oppenheimer-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-12-24", 
@@ -1527,7 +1527,7 @@
 	"Year": "2022", 
 	"Rating": "3.5", 
 	"Review": "The narrative stays as tight as a crime drama can and should. The whole “dirty cops and state officials” plot is overdone; but the writers seem to breathe life into it with the Wayne and Falcone family drama. It lost it’s luster near the end. The narration was too melodramatic. Outstanding soundtrack. Gorgeous cinematography. We’ve been waiting for this angry Batman.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/4/8/9/1/4/348914-the-batman-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2023-12-29", 
@@ -1554,7 +1554,7 @@
 	"Year": "2023", 
 	"Rating": "4", 
 	"Review": "Hyperbolic Satire at its best. Ryan Gosling deserves an Oscar.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/7/7/0/6/4/277064-barbie-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2024-01-07", 
@@ -1588,9 +1588,9 @@
 	"Watched Date": "2024-01-17", 
 	"Name": "Spider-Man: Across the Spider-Verse", 
 	"Year": "2023", 
-	"Rating": "5", 
+	"Rating": "4.5", 
 	"Review": "Animation in it’s most exquisite and elaborate form.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/9/7/6/3/1/497631-spider-man-across-the-spider-verse-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2024-01-20", 
@@ -1617,7 +1617,7 @@
 	"Year": "2017", 
 	"Rating": "5", 
 	"Review": "<blockquote>I can always tell when adults are about to cry</blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/2/8/5/3/8/328538-the-florida-project-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2024-01-27", 
@@ -1625,7 +1625,7 @@
 	"Name": "Poor Things", 
 	"Year": "2023", 
 	"Rating": "4.5", 
-	"Review": "So well written. The dialogue is so Shakespearean and aloof and diabolically funny. Bella says the truest things to the moment. Mark Ruffalo murders this role.<br/><br/><br/>The sets were straight out of a Tim Burton-infused Emerald City Whoville. Regarding cinematics, way too much fish eye and extra wide angles; it wasn’t working for me.<br/><br/>Willem Defoe acting in a movie where a sequence includes several moorish idol fish, the same species of fish that Willem played in Finding Nemo, is NOT a coincidence.<br/><br/>Would not recommend to the average moviegoer.. very uncomfortable.", 
+	"Review": "So well written. The dialogue is so Shakespearean and aloof and diabolically funny. Bella says the truest things to the moment. Mark Ruffalo murders this role.<br/><br/>The sets were straight out of a Tim Burton-infused Emerald City Whoville. Regarding cinematics, way too much fish eye and extra wide angles; it wasn’t working for me.<br/><br/>Willem Defoe acting in a movie with several moorish idol fish (the species of fish he played in Finding Nemo) is NOT a coincidence.<br/><br/>Would not recommend to the average moviegoer.. very uncomfortable.", 
 	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/7/1/0/3/5/2/710352-poor-things-0-230-0-345-crop.jpg"
 },
 {
@@ -1689,7 +1689,7 @@
 	"Year": "2000", 
 	"Rating": "4", 
 	"Review": "A heroic tall tale of one man’s reluctant and vengeful journey through the Revolutionary War. This is a love letter to the ordinary men who fought for liberty. You can’t help getting swept up in the grandeur of it, as I clearly did. One of my favorites as a child.<br/><br/>Some of the relationships were cliche, only included as an excuse for romance or a societal metaphor. The post production was poor; too much slow motion.<br/><br/><blockquote>I’m a parent. I haven’t got the luxury of principles.</blockquote>", 
-	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/0d/33/fj/4k/xuckWVcUGg7ZGU9b5U8CQDUr1RO-0-230-0-345-crop.jpg"
+	"PosterURL": ""
 },
 {
 	"Date": "2024-04-27", 
@@ -1707,7 +1707,7 @@
 	"Year": "2007", 
 	"Rating": "4", 
 	"Review": "I’m convinced this is where Disney mastered the ‘trilogy’ concept; triumphant, avenging and sacrificial.", 
-	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/3/51773-pirates-of-the-caribbean-at-world-s-end-0-230-0-345-crop.jpg"
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/3/51773-pirates-of-the-caribbean-at-worlds-end-0-230-0-345-crop.jpg"
 },
 {
 	"Date": "2024-05-18", 
@@ -1744,5 +1744,599 @@
 	"Rating": "4.5", 
 	"Review": "High quality animatronics and practical effects. Flawless storytelling.<br/><br/><blockquote><i><b>How long will we make it?</b></i><br/>Maybe we shouldn’t</blockquote>", 
 	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/t3/qn/vs/p5/s5fH3GqFcHbi2F0NSBSh4KRNTc0-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-06", 
+	"Watched Date": "2024-07-05", 
+	"Name": "Tales from Earthsea", 
+	"Year": "2006", 
+	"Rating": "1.5", 
+	"Review": "The story hits the ground running but it didn’t serve the film. Little to no exposition for a complex world. They spent a couple minutes at the beginning explaining the dragons and the darkness that’s coming but then never use that in the story effectively. Sloppy. Terrible writing; the dialogue was so matter-of-fact and explanatory, like it was written for toddlers. The music was often too grand; didn’t fit.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/6/5/8/7/26587-tales-from-earthsea-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-11", 
+	"Watched Date": "2024-07-10", 
+	"Name": "All Good Things", 
+	"Year": "2010", 
+	"Rating": "3", 
+	"Review": "Ryan Gosling does well as a spiraling, absent and motherless heir. They definitely took creative liberties by embellishing important story points, relying on the true story’s lack of popularity before the film.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/8/8/4/7/18847-all-good-things-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-16", 
+	"Watched Date": "2024-07-15", 
+	"Name": "Inside Job", 
+	"Year": "2010", 
+	"Rating": "3", 
+	"Review": "The facts are wild; what’s even wilder is how it’s still happening. The telling was decent.Only wish they would’ve waited longer before making this.<br/><br/><blockquote>Why should a financial engineer be paid 4 to 100 times more than a real engineer? A real engineer builds bridges. A financial engineer builds dreams; and when those dreams turn out to be nightmares, other people pay for it.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/0/5/5/0/20550-inside-job-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-18", 
+	"Watched Date": "2024-07-17", 
+	"Name": "The Secret World of Arrietty", 
+	"Year": "2010", 
+	"Rating": "3.5", 
+	"Review": "A Wizards of Waverly Place reunion this world needs", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/ba/5u/k5/he/arietty-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-22", 
+	"Watched Date": "2024-07-21", 
+	"Name": "The Boy and the Heron", 
+	"Year": "2023", 
+	"Rating": "4", 
+	"Review": "The attention to detail is unmatched.The story was beautifully intertwined with itself. While somber at times, the world within the tower is something out of a childhood dreamscape; with all the Miyazaki imagination to seem reminiscent. Some plot points felt incomplete but maybe I’m just not understanding the direction or it needs another watch.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/3/8/6/9/2/438692-the-boy-and-the-heron-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-30", 
+	"Watched Date": "2024-07-29", 
+	"Name": "The Lord of the Rings: The Fellowship of the Ring", 
+	"Year": "2001", 
+	"Rating": "4.5", 
+	"Review": "Many cannot bear the corrosive temptation of the ring. The wisest, strongest and bravest of them spurned the responsibility; yet the weakest of them. It’s the weakest who carries the burden of the ring alone. The lore, the diversity of character, the prophetic significance; every place, person and creature contributed to my immersion into Middle Earth.Boromir is an outstanding character; Conflicted, tormented, greedy and loyal. The music was consuming but the CGI was lackluster. Some sequences stood out this time:<br/><br/>2:32:05-2:32:34 - Frodo is afraid of who he’s becoming and each member of the fellowship sees it too; each one staring him down, afraid.<br/><br/>03:07:26-03:07:44 - Bird’s eye view. Boromir blows his horn as Aragorn races to help fend off the hoards of Orcs.<br/><br/><blockquote>Needless were none of the deeds of Gandalf in life. We do not yet know his full purpose.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/3t/vq/0u/m6/1tX9ZlgVvWjAQhMs1vAfsYpi7VK-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-07-30", 
+	"Watched Date": "2024-07-29", 
+	"Name": "The Lord of the Rings: The Two Towers", 
+	"Year": "2002", 
+	"Rating": "4.5", 
+	"Review": "The story is split into progressing the journey and thickening the plot with backstories, callbacks. The whole tale is reeking of prophetic promises and hopeful strength; the darkness shall not win.<br/><br/>36:21-38:13 Awesome sequencing. Aragorn (somehow) traces Merry and Pippin’s escape from the night before; shots of Aragorn recounting their actions is interlaced with shots of Merry and Pippin’s escape.<br/><br/><blockquote>Be silent. Keep your forked tongue behind your teeth. I have not passed through fire and death to bandy crooked words with a witless worm.</blockquote><blockquote>You have no idea what it did to him, what it’s still doing to him… I want to help him Sam. Because I have to believe he can come back.</blockquote><blockquote><b>So much death. What can men do against such reckless hate?<br/></b><i>Ride out with me. Ride out and meet them.<br/></i><b>For death and glory.<br/></b><i>For Rohan.</i></blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/9/51929-the-lord-of-the-rings-the-two-towers-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-08-05", 
+	"Watched Date": "2024-08-04", 
+	"Name": "Deadpool & Wolverine", 
+	"Year": "2024", 
+	"Rating": "3", 
+	"Review": "Straight from an ADHD, self-absorbed, inquisitive, vulgar high school kid’s journal.Whimsical, cultural and grotesque. Fourth-wall breaking; genre-bending. Taps into the topical, cultural zeitgeist in the most on-the-nose way.I like how they integrated the sacred timeline and TVA too.<br/><br/>The dichotomy and similarities between Deadpool and Wolverine are evident. Deadpool being the gimmicky, grotesque and whimsical type whilst Wolverine plays the demented, apathetic, loner cowboy. Amidst their differences, both are searching for purpose, for meaning. I thought both represented their archetype well and melded together decently. Wolverine was amazing.<br/><br/>All in all it was overtly gimmicky; too far tilted in nonsense-land; some monologues dragged out longer than needed.<br/><br/><blockquote>Whats your superpower? Parallel parking?</blockquote><blockquote>I got a promotion. It’s mind numbing mid-management but I get paid.</blockquote><blockquote>Welcome to the MCU by the way, you’re joining at a bit of a low bit.</blockquote><blockquote>Friends don’t let friends walk out of the house looking like they’re going to fight for the Los Angeles rams.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/2/8/7/0/462870-deadpool-wolverine-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-08-10", 
+	"Watched Date": "2024-08-09", 
+	"Name": "Ponyo", 
+	"Year": "2008", 
+	"Rating": "4", 
+	"Review": "Are we supposed to ignore the fact that Ponyo created the largest tsunami in history?", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/4/5/9/4/44594-ponyo-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-08-18", 
+	"Watched Date": "2024-08-17", 
+	"Name": "Mission: Impossible – Dead Reckoning", 
+	"Year": "2023", 
+	"Rating": "2", 
+	"Review": "Cheesy", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/0/3/4/0/2/503402-mission-impossible-dead-reckoning-part-one-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-09-16", 
+	"Watched Date": "2024-09-15", 
+	"Name": "Harry Potter and the Half-Blood Prince", 
+	"Year": "2009", 
+	"Rating": "5", 
+	"Review": "All characters get a well-progressed narrative arc. Great shots, great new characters and great addition to the depth of the story. Absolutely the best of the series.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/3/8/5/51385-harry-potter-and-the-half-blood-prince-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-09-18", 
+	"Watched Date": "2024-09-17", 
+	"Name": "Harry Potter and the Deathly Hallows: Part 1", 
+	"Year": "2010", 
+	"Rating": "4.5", 
+	"Review": "Excellent story; continued propagation of Dumbledore’s myth and ideology post-mortem. Our beliefs and ideas of Hogwarts and the Wizarding World are much more matured and well-defined this deep into the series.<br/><br/>It’s much more haunting, disturbing and suspenseful than the prior films; makes for a maturity jump parallel to its coming-of-age audience. So many significant moments too. Harry clones broomstick chase. Ron’s apparition splinching. Hermoine’s ‘mudblood’ scar. Dobby’s death. Hedwig’s death. Voldemort prying the Elder Wand literally out of Dumbledore’s cold dead hands. Punchy momentum the whole way through.<br/><br/>The deathly hallows animation tale: holy heck; Should’ve won animated short film. Helena Bonham Carter is s-tier. Wish we had more Alan Rickman.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/u8/tj/88/3v/harry-potter-and-the-deathly-hallows-part-i-original-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-09-22", 
+	"Watched Date": "2024-09-21", 
+	"Name": "Harry Potter and the Deathly Hallows: Part 2", 
+	"Year": "2011", 
+	"Rating": "4.5", 
+	"Review": "What a momentous end to one of the most iconic film series ever. Severus has one of the most nuanced, fulfilled story arcs of all time ever. Some finale cheesy moments but overall certifiably good.<br/><br/><blockquote>You’ve been so brave, sweetheart.</blockquote><blockquote>The Boy who Lived. Come to die.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/4/5/8/0/44580-harry-potter-and-the-deathly-hallows-part-2-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-09-29", 
+	"Watched Date": "2024-09-28", 
+	"Name": "What Is a Woman?", 
+	"Year": "2022", 
+	"Rating": "3.5", 
+	"Review": "<blockquote><br/>How do I know if I’m a woman? I love scented candles. And I’ve watched sex and the city.</blockquote><blockquote>I don’t give a shit what they think. Im old.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/6/1/4/0/8/861408-what-is-a-woman--0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-10-02", 
+	"Watched Date": "2024-10-01", 
+	"Name": "I Saw the TV Glow", 
+	"Year": "2024", 
+	"Rating": "1", 
+	"Review": "Huh? Composition was all over the place. Very odd: the tired monologues, impromptu musical performances and Smith’s nauseating voice inflection. Is this supposed to be a lesson on the effects of TV overexposure? It’s lost on me.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/7/7/2/2/3/0/772230-i-saw-the-tv-glow-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-10-02", 
+	"Watched Date": "2024-10-01", 
+	"Name": "Fantastic Beasts and Where to Find Them", 
+	"Year": "2016", 
+	"Rating": "2", 
+	"Review": "Is 1920s New York City a good setting for a Wizarding World film? Of course, but this story stinks and so does its cast.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/8/2/9/1/0/182910-fantastic-beasts-and-where-to-find-them-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-10-10", 
+	"Watched Date": "2024-10-09", 
+	"Name": "Inside Out 2", 
+	"Year": "2024", 
+	"Rating": "3.5", 
+	"Review": "Meta, inventive and insightful; a good continuation of an introspective journey", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/2/1/5/7/8/921578-inside-out-2-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-10-18", 
+	"Watched Date": "2024-10-17", 
+	"Name": "We Live in Time", 
+	"Year": "2024", 
+	"Rating": "3.5", 
+	"Review": "She doesn’t want kids but he wants kids. They fall in love. She gets ovarian cancer and is told a hysterectomy would remove it. She doesn’t get the hysterectomy because she knows he wants kids. They have a kid. She dies because she didn’t get the hysterectomy and the chemo isn’t working. Sacrificial love on display.<br/><br/>The best of the best moments and the best of the worst moments. Great leading performances.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/9/1/7/8/6/991786-we-live-in-time-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-10-24", 
+	"Watched Date": "2024-10-23", 
+	"Name": "Nosferatu", 
+	"Year": "1922", 
+	"Rating": "2.5", 
+	"Review": "An archaic, haunting tragedy made hilarious by modern standards", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/4/7/1/51471-nosferatu-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-10-29", 
+	"Watched Date": "2024-10-28", 
+	"Name": "Mulholland Drive", 
+	"Year": "2001", 
+	"Rating": "3", 
+	"Review": "The sound mixing is wild, disturbing. The camera style is akin to that 90s made-for-tv style feel; very Twin Peaks -esc.<br/><br/>Count on David Lynch to f you up in a mind-melting and intriguing manner. Didn’t know what to expect; didn’t expect this.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/kv/7n/p8/tv/fMC8JBWx2VjsJ53JopAcFjqmlYv-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-11-14", 
+	"Watched Date": "2024-11-13", 
+	"Name": "Blink Twice", 
+	"Year": "2024", 
+	"Rating": "4", 
+	"Review": "oh my god. what. Would recommend but tread carefully.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/7/5/6/0/4/2/756042-blink-twice-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-11-16", 
+	"Watched Date": "2024-11-15", 
+	"Name": "Collateral", 
+	"Year": "2004", 
+	"Rating": "3.5", 
+	"Review": "Annie and Max’s cab conversation was delightful", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/0/9/9/5/50995-collateral-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-11-16", 
+	"Watched Date": "2024-11-15", 
+	"Name": "Stand by Me", 
+	"Year": "1986", 
+	"Rating": "4", 
+	"Review": "<blockquote>I never had any friends later on like the ones I had when I was twelve. Jesus, does anyone?</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/1/8/2/1/51821-stand-by-me-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-11-21", 
+	"Watched Date": "2024-11-20", 
+	"Name": "Finding Dory", 
+	"Year": "2016", 
+	"Rating": "3", 
+	"Review": "A symphony of emotions. Dory’s dad is a perfect middle-aged dad fish.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/9/4/0/2/99402-finding-dory-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-12-01", 
+	"Watched Date": "2024-11-30", 
+	"Name": "Wicked", 
+	"Year": "2024", 
+	"Rating": "4.5", 
+	"Review": "The grandeur. Overwhelmed by the performances. The inconsistencies and shortcomings pale in comparison to the wonder and whimsy.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/3/3/7/0/3/6/337036-wicked-2024-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-12-07", 
+	"Watched Date": "2024-12-07", 
+	"Name": "Interstellar", 
+	"Year": "2014", 
+	"Rating": "5", 
+	"Review": "No detail is wasted. Hell of a ride.", 
+	"PosterURL": ""
+},
+{
+	"Date": "2024-12-21", 
+	"Watched Date": "2024-12-21", 
+	"Name": "Sicario", 
+	"Year": "2015", 
+	"Rating": "4", 
+	"Review": "Brolin and del Toro murder in their performance and in the way they actually murdered people. If you like Training Day you might like this.<br/><br/>Were you confused by this movie? <a href=\"https://www.reddit.com/r/movies/comments/tedwa9/comment/i0pww2f/?utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button\" rel=\"nofollow\">Click here for clarity</a>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/9/7/6/2/8/197628-sicario-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2024-12-24", 
+	"Watched Date": "2024-12-23", 
+	"Name": "Grave of the Fireflies", 
+	"Year": "1988", 
+	"Rating": "4", 
+	"Review": "This entire film is just heartbreak after heartbreak and it continuously more tragic. I sobbed.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/4/5/5/8/44558-grave-of-the-fireflies-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-01-07", 
+	"Watched Date": "2025-01-06", 
+	"Name": "Aftersun", 
+	"Year": "2022", 
+	"Rating": "4.5", 
+	"Review": "An honest glimpse of a fractured soul. I resonated with his inner-battle between the soul-wandering carelessness and the duty of a father.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/6/8/5/5/8/868558-aftersun-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-02-02", 
+	"Watched Date": "2025-01-31", 
+	"Name": "Harry Potter and the Philosopher's Stone", 
+	"Year": "2001", 
+	"Rating": "4", 
+	"Review": "All about friendship", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/5t/cj/6w/6e/harrypotter2-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-02-04", 
+	"Watched Date": "2025-02-03", 
+	"Name": "You're Cordially Invited", 
+	"Year": "2025", 
+	"Rating": "2", 
+	"Review": "I like Will Ferrell’s comedy", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/9/7/8/6/5/897865-youre-cordially-invited-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-02-15", 
+	"Watched Date": "2025-02-14", 
+	"Name": "Anora", 
+	"Year": "2024", 
+	"Rating": "4", 
+	"Review": "Sex worker Cinderella never learned how to love. She’s then betrayed by a Soviet nepo baby; eventually finding some redemption. Could’ve been just as good with a 90m runtime.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/5/9/5/4/0/959540-anora-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-02-20", 
+	"Watched Date": "2025-02-19", 
+	"Name": "A Bug's Life", 
+	"Year": "1998", 
+	"Rating": "4", 
+	"Review": "Klutzy inventor jeopardizes the colony. Motorcycle gang gives colony an ultimatum. Inventor saves the colony with the help of a transgender, a twig, a German glutton, a psychic and some luchador roly polies.<br/><br/><blockquote>Who ordered the poopoo platter?</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/7/1/1/1/47111-a-bug-s-life-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-03-08", 
+	"Watched Date": "2025-03-07", 
+	"Name": "Mickey 17", 
+	"Year": "2025", 
+	"Rating": "4", 
+	"Review": "It’s like being a janitor at a WeWork commune run by a washed up televangelist and the commune is surrounded by a cute but endangered species.<br/><br/>Slow story progression; kept me curious but also yearning for more. Made me ponder the value of human life. Had a bit too much focus on animal rights activism. The set and costume designs wereoutstanding. Mark and Toni are stellar. Rob P is convincing as a squeaky pushover.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/6/2/0/2/8/1/620281-mickey-17-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-04-16", 
+	"Watched Date": "2025-04-15", 
+	"Name": "Black Mirror: Common People", 
+	"Year": "2025", 
+	"Rating": "3", 
+	"Review": "Rough. Like watching your best friend slowly disappear.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/50/ta/ci/83/BM_CommonPeople-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-04-19", 
+	"Watched Date": "2025-04-19", 
+	"Name": "Sinners", 
+	"Year": "2025", 
+	"Rating": "3.5", 
+	"Review": "A solid spin on horror infusing the Blues, racial inequities and sin. Excellent sound design, melds soulful hurt and impending doom. Loved the gore. Loved the music. Still trying to unpack all of Coogler’s allegories.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-04-21", 
+	"Watched Date": "2025-04-20", 
+	"Name": "Black Mirror: Bête Noire", 
+	"Year": "2025", 
+	"Rating": "4", 
+	"Review": "Revenge of the nerds. The popular kid gets Uno reversed… and then plays her own Uno reverse!<br/><blockquote>There is no such thing as a nut allergy.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/dk/ec/4o/lu/BM_BetteNoire-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-04-21", 
+	"Watched Date": "2025-04-20", 
+	"Name": "Black Mirror: Hotel Reverie", 
+	"Year": "2025", 
+	"Rating": "4", 
+	"Review": "The romance of your dreams.<br/><blockquote>A bit fruitier than the original.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/xs/yu/jf/vt/BM_HotelReverie-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-04-29", 
+	"Watched Date": "2025-04-28", 
+	"Name": "Black Mirror: Eulogy", 
+	"Year": "2025", 
+	"Rating": "4.5", 
+	"Review": "A one-sided perspective on how the old flame became the old flame. The story unfolds well with each moment holding immense bitterness or fondness.Giamatti gets angry and sad and then angry again; wonderful.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/cj/ym/et/wn/BM_Eulogy-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-02", 
+	"Watched Date": "2025-05-02", 
+	"Name": "Burnt", 
+	"Year": "2015", 
+	"Rating": "4", 
+	"Review": "Calm, stoic and confident performance from Bradley Cooper; one of his best. Reveals the anxiety and pride that is the foundation of a prestigious restaurant kitchen. Excellent pacing and tempo. Some cheesy moments throughout. Some poor acting from the younger ensemble.<br/><blockquote>Apologize to the turbot because it died in vain.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/2/3/3/0/7/223307-burnt-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-02", 
+	"Watched Date": "2025-05-02", 
+	"Name": "Koyaanisqatsi", 
+	"Year": "1982", 
+	"Rating": "4.5", 
+	"Review": "Mesmerizingly morbid. Hans Zimmer definitely drew inspiration from this soundtrack for Interstellar.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/5/4/1/9/45419-koyaanisqatsi-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-04", 
+	"Watched Date": "2025-05-03", 
+	"Name": "Conclave", 
+	"Year": "2024", 
+	"Rating": "4.5", 
+	"Review": "Unbelievably entertaining. A political rollercoaster of treachery and consequence.<br/><blockquote>We are mortal men. We serve an ideal. We cannot always be ideal.</blockquote><blockquote>Judas. Traditor.</blockquote><blockquote>Ambition, the moth of holiness.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/7/7/2/5/3/877253-conclave-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-04", 
+	"Watched Date": "2025-05-04", 
+	"Name": "Thunderbolts*", 
+	"Year": "2025", 
+	"Rating": "2.5", 
+	"Review": "The self-help avengers save the day by group hugging a guy.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/8/8/7/6/5/3/887653-thunderbolts-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-05", 
+	"Watched Date": "2025-05-05", 
+	"Name": "Spotlight", 
+	"Year": "2015", 
+	"Rating": "4", 
+	"Review": "Great performances and strong writing", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/k6/pu/xx/cp/ngKxbvsn9Si5TYVJfi1EGAGwThU-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-26", 
+	"Watched Date": "2025-05-25", 
+	"Name": "The Lego Movie", 
+	"Year": "2014", 
+	"Rating": "4", 
+	"Review": "Story stays moving, funny, delivers a strong message.<br/><blockquote>You don’t have to be the bad guy. You are the most talented, most interesting, and most extraordinary person in the universe. And you are capable of the most amazing things because you are the special.. and so am I.. and so is everyone.</blockquote>", 
+	"PosterURL": ""
+},
+{
+	"Date": "2025-05-27", 
+	"Watched Date": "2025-05-26", 
+	"Name": "Rogue One: A Star Wars Story", 
+	"Year": "2016", 
+	"Rating": "4", 
+	"Review": "More of this please", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/5/8/1/2/8/258128-rogue-one-a-star-wars-story-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-27", 
+	"Watched Date": "2025-05-26", 
+	"Name": "Star Wars: The Force Awakens", 
+	"Year": "2015", 
+	"Rating": "2.5", 
+	"Review": "The new generation space battles and planets are incredible. The special effects were fantastic. The writing, story and acting? Yuck. Terrible. I remember walking out of the theater after seeing this excited for the increased investment in future Star Wars projects. I’m still stoked for more Star Wars ahead.. I just can’t take more doodoo storylines and acting.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/t1/n6/d1/k6/g2mqdMU3jaz6uEosF5aqJgbw7e9-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-05-29", 
+	"Watched Date": "2025-05-28", 
+	"Name": "Star Wars: The Last Jedi", 
+	"Year": "2017", 
+	"Rating": "2.5", 
+	"Review": "Defies convention in many ways; but the acting and writing is as lackluster as the Force Awakens. Still a gorgeous film, great use of color. Rian Johnson defies the status quo by refusing to answer the questions resting on fans minds. He uses Luke to convey the film’s direction and purpose to the audience; breaking the fourth wall. Lines like: “This is not going to go the way you think.” and “I'm ending all of this. The tree, the texts, the Jedi. I'm going to burn it all down.”", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/21/h4/fo/18/47zTsc9gkruDmDssiCqyZTxdOla-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-06-02", 
+	"Watched Date": "2025-05-28", 
+	"Name": "The Empire Strikes Back", 
+	"Year": "1980", 
+	"Rating": "4.5", 
+	"Review": "<blockquote>YODA: Size matters not. Look at me. Judge me by my size, do you? Hm? Mmmm.<br/>(LUKE shakes his head)<br/>YODA: And well you should not. For my ally is the Force. And a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we...<br/>(YODA pinches Luke's shoulder)<br/>YODA: ... not this crude matter. You must feel the Force around you. Here, between you... me... the tree... the rock... everywhere! Yes, even between this land and that ship!<br/>LUKE: You want the impossible.<br/>(Quietly Yoda turns toward the X-wing fighter. With his eyes closed and his head bowed, he raises his arm and points at the ship. Soon, the fighter rises above the water and moves forward as Artoo beeps in terror and scoots away. The entire X-wing moves majestically, surely, toward the shore. Yoda stands on a tree root and guides the fighter carefully down toward the beach)<br/>LUKE: I don't... I don't believe it.<br/>YODA: That is why you fail.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/mp/pz/lf/2i/7BuH8itoSrLExs2YZSsM01Qk2no-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-06-02", 
+	"Watched Date": "2025-06-01", 
+	"Name": "August Rush", 
+	"Year": "2007", 
+	"Rating": "4", 
+	"Review": "It’s a long-winded poem backed by a repeated 8-count harmony played on every instrument. Robin Williams is excellent as the chaotic conman. Keri Russell is fantastic as the longing mother. This movie left a mark on my childhood.<br/><br/><blockquote>My daddy is a drunk and my mama, she took off with this crackhead named Lil Jesus. But you know he wasn’t no lil Jesus, naw what I’m saying?</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/so/f1/xc/vm/vJiMDeDhqMxArc0nDWtrJPlrPsr-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-06-04", 
+	"Watched Date": "2025-06-03", 
+	"Name": "Star Wars: Episode II – Attack of the Clones", 
+	"Year": "2002", 
+	"Rating": "3", 
+	"Review": "This is probably the worst love story ever displayed on camera; Anakin is so odd, the script isn’t doing him any favors either. I enjoyed the rest of the arcs and stories: The Jedi can’t sense the Emporer’s plot, Obi-Wan continues to treat Anakin like a child, the search for Padme’s attempted assassinator ensues, Anakin’s fear and anger fester into hatred. The final act is packed with nonstop action; loved it. While the acting and CGI underperform, the themes and mystery kept my attention for my fifty seventh time watching this film.<br/><br/><blockquote>I killed them. I killed them all. They’re dead. Every single one of them. And not just the men, but the woman and the children too. They’re like animals, and I slaughtered them like animals. I hate them!</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/0/7/1/0/50710-star-wars-episode-ii-attack-of-the-clones-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-06-05", 
+	"Watched Date": "2025-06-04", 
+	"Name": "Star Wars: Episode III – Revenge of the Sith", 
+	"Year": "2005", 
+	"Rating": "4", 
+	"Review": "The overarching story gets my stars. Once again, the CGI blows but the writing improved from the prior prequel films. Luke and Leia are literally CGI super composed into Obi-Wan’s arms.. brrrr.I wish there was less time spent in the Senate chambers and more time in the Jedi Temple. I wish we knew more Jedi intimately; would’ve made Order 66 more impactful. Besides Anakin and Obi-Wan, George Lucas only cared to focus on Yoda and Mace Windu. Besides Mace, Yoda, Anakin and Obi-Wan, the Jedi come off weak: unable to fight and insensitive to the force. The entire Counsel somehow doesn’t see Palpatine’s plot coming. Why? I wish we had more perspective to understand how the Sith overcome the Jedi. Some of those answers are lost in the need to keep this film under a 2.5h runtime. All in all, a poetic ending to the prequel series. Hope is small, but still alive.<br/><br/><blockquote>Only a Sith deals in absolutes. I will do what I must.<br/><i>You will try.</i></blockquote><blockquote>Obi-Wan, there’s good in him. I know, there’s still-</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/0/7/0/9/50709-star-wars-episode-iii-revenge-of-the-sith-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-06-07", 
+	"Watched Date": "2025-06-06", 
+	"Name": "Revolutionary Road", 
+	"Year": "2008", 
+	"Rating": "3.5", 
+	"Review": "In some ways, we’re all broken, lost. Also, Lauren said this is the most relatable film she’d seen; should I be worried?", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/uy/ay/hl/xy/bnOK1lmdlqdy2HX6IgKx9TQD7Ax-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-06-09", 
+	"Watched Date": "2025-06-08", 
+	"Name": "Return of the Jedi", 
+	"Year": "1983", 
+	"Rating": "4", 
+	"Review": "<blockquote><br/>Just for once, let me look on you with my own eyes.</blockquote><blockquote>I am a Jedi, like my father before me.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/88/lu/ak/8v/5wDrNqePjb5SOucrWQwiFu340vv-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-07-11", 
+	"Watched Date": "2025-07-11", 
+	"Name": "Superman", 
+	"Year": "2025", 
+	"Rating": "3.5", 
+	"Review": "Retro futurism is here. Love the spunky, colorful take on Superman; especially in his relationship with Lois. Lois as reporter interviewing Clark as Superman in the first act was phenomenal, expositional. Big fan of the music. Big fan of the dark moments, keeping it DC.<br/><br/><blockquote>I’m gonna find the dog<br/><i><b>.. it’s a dog</b></i><br/>Yeah and he’s not a very good one. But he’s out there alone and he’s scared.</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-07-19", 
+	"Watched Date": "2025-07-18", 
+	"Name": "The Social Network", 
+	"Year": "2010", 
+	"Rating": "4", 
+	"Review": "Sharp, quick beats keep the story rolling. The simple piano theme elevates the regret and melancholia. Jesse and Andrew were made for these roles. Sorkin always hits homers.<br/><br/>Mark running ‘ping localhost’ in his terminal reveals the inaccuracies.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/nw/cm/pa/ai/sGQv3ZMZBDBnl3z42Q0mEQ5uiDe-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-07-25", 
+	"Watched Date": "2025-07-24", 
+	"Name": "The Fantastic 4: First Steps", 
+	"Year": "2025", 
+	"Rating": "3.5", 
+	"Review": "They felt like a family; supporting and pestering each other. The set, costume and visual design were straight out of a Pan Am commercial; outstanding. The heavier, tenser moments either resonated or were muted by poor writing, poor plot decisions. I came in to this viewing already partial to the Fantastic Four, especially Mr. Fantastic. Loved the action. Loved the focus on family. The CGI was poor at times. Loved the space travel. Has its corny bits. Loved the colors. The corny bits were pretty bad.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/5/4/3/9/6/7/543967-the-fantastic-four-first-steps-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-07-27", 
+	"Watched Date": "2025-07-26", 
+	"Name": "Happy Gilmore", 
+	"Year": "1996", 
+	"Rating": "2", 
+	"Review": "Gilmore got game", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/9/8/7/46987-happy-gilmore-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-08-04", 
+	"Watched Date": "2025-08-04", 
+	"Name": "Saving Private Ryan", 
+	"Year": "1998", 
+	"Rating": "3.5", 
+	"Review": "Documents the brutality and nature of warfare well. Carnage followed by “why are we doing this?”; rinse, repeat for 3 hours. Honestly it worked on me a few times, I got emotional. Uninteresting cinematography though. I respect the film’s message and realism.<br/><br/><blockquote>Don’t shoot. Let them burn.</blockquote><blockquote>Tell me about your wife and those rose bushes.<br/><b>No. No that one I save just for me.</b></blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/hz/fu/r7/y7/35CMz4t7PuUiQqt5h4u5nbrXZlF-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-08-08", 
+	"Watched Date": "2025-08-07", 
+	"Name": "Weapons", 
+	"Year": "2025", 
+	"Rating": "4", 
+	"Review": "Made me wanna do an addition on my house; cute looking homes in this town. Solid step up from Barbarian for Cregger. Leaned more into comedy as a means of releasing tension. Fresh storytelling. Very trauma. Very gore. Here for it. Austin Abrams was a stand out.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-08-09", 
+	"Watched Date": "2025-08-09", 
+	"Name": "Colonia", 
+	"Year": "2015", 
+	"Rating": "2.5", 
+	"Review": "Tense but not gripping. Inadequate focus on the cult’s behaviors and rhythms. Lacked creativity and nuance.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/2/4/5/7/6/8/245768-colonia-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-08-11", 
+	"Watched Date": "2025-08-10", 
+	"Name": "Sinners", 
+	"Year": "2025", 
+	"Rating": "3", 
+	"Review": "The 1992 mid-credits scene was so different from the rest of the film; takes away from the experience.<br/><br/><blockquote>The best part of me was him</blockquote>", 
+	"PosterURL": ""
+},
+{
+	"Date": "2025-08-29", 
+	"Watched Date": "2025-08-28", 
+	"Name": "Ratatouille", 
+	"Year": "2007", 
+	"Rating": "3.5", 
+	"Review": "<blockquote>Rat-patootie</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/sm/upload/n8/rl/pc/se/jEiEU8viSb8CIIHcfprVr2V6XDz-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-09-27", 
+	"Watched Date": "2025-09-27", 
+	"Name": "One Battle After Another", 
+	"Year": "2025", 
+	"Rating": "4.5", 
+	"Review": "Choose a side: The entitled Saint Nick worshipping white supremacists or the paranoid brigade of social justice pirates.<br/><br/>One of PTA’s best, flawlessly split into three acts. Hilarious dialogue. Very entertaining, entrancing. Sean Penn was phenomenal.", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-11-11", 
+	"Watched Date": "2025-11-10", 
+	"Name": "Remember the Titans", 
+	"Year": "2000", 
+	"Rating": "4", 
+	"Review": "<blockquote>Gary, if you want to play on this football team, you answer me when I ask you who is your daddy? Who's your daddy, Gary? Who's your daddy?</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/4/6/0/3/7/46037-remember-the-titans-0-230-0-345-crop.jpg"
+},
+{
+	"Date": "2025-12-28", 
+	"Watched Date": "2025-12-27", 
+	"Name": "Marty Supreme", 
+	"Year": "2025", 
+	"Rating": "4.5", 
+	"Review": "<blockquote>If it’s any consolation I’ll be dropping a third atom bomb on them tomorrow</blockquote>", 
+	"PosterURL": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/4/9/9/1197499-marty-supreme-0-230-0-345-crop.jpg"
 }
 ] }
