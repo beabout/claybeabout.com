@@ -16,7 +16,6 @@
 
 {#each Array(fullStars) as _, i}
   <span class="theme-primary"><Star class="icon" size={size} /></span>
-{/each}
-{#if halfStar}
+{/each}{#if halfStar}
   <span class="theme-primary"><StarHalf class="icon" size={size} /></span>
 {/if}
