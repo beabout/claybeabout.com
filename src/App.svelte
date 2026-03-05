@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import themes from './themes.json';
   import Catalog from './routes/Catalog.svelte';
   import Spotify from './routes/Spotify.svelte';
@@ -11,16 +11,9 @@
     ArrowBigLeft,
     FileCode,
     FileVideoCamera,
-    FileTerminal,
-    FileChartColumn,
     FileHeadphone,
     FileQuestionMark,
     FileUser,
-    Download,
-    Film,
-    FolderGit2,
-    Linkedin,
-    SquareArrowLeft,
     Wheat
   } from 'lucide-svelte';
 
@@ -28,6 +21,19 @@
   let theme = themes[themeName];
   let reviewsData = null;
   let spotifyData = null;
+  let cstTime = '';
+  let clockInterval;
+  let grmnPrice = '';
+  let spursRecord = '';
+
+  function updateClock() {
+    cstTime = new Date().toLocaleTimeString('en-US', {
+      timeZone: 'America/Chicago',
+      hour: 'numeric',
+      minute: '2-digit',
+      second: '2-digit',
+    });
+  }
 
   function setTheme(name) {
     themeName = name;
@@ -82,17 +88,42 @@
       newTab: true,
       ariaLabel: 'LinkedIn'
     },
-    {
-      href: '/notes',
-      icon: FileQuestionMark,
-      preventDefault: true,
-      onClick: () => navigate('/notes'),
-      ariaLabel: 'Notes'
-    }
   ];
+
+  onDestroy(() => clearInterval(clockInterval));
 
   onMount(() => {
     setTheme(themeName);
+    updateClock();
+    clockInterval = setInterval(updateClock, 1000);
+    (async () => {
+      try {
+        const res = await fetch(
+          'https://query1.finance.yahoo.com/v8/finance/chart/GRMN?interval=1d&range=1d'
+        );
+        if (res.ok) {
+          const data = await res.json();
+          const meta = data?.chart?.result?.[0]?.meta;
+          if (meta?.regularMarketPrice != null) {
+            grmnPrice = `GRMN $${meta.regularMarketPrice.toFixed(2)}`;
+          }
+        }
+      } catch (_) {}
+    })();
+    (async () => {
+      try {
+        const res = await fetch(
+          'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/24'
+        );
+        if (res.ok) {
+          const data = await res.json();
+          const summary = data?.team?.record?.items?.[0]?.summary;
+          if (summary) {
+            spursRecord = `SAS: ${summary}`;
+          }
+        }
+      } catch (_) {}
+    })();
     (async () => {
       try {
         const res = await fetch('/Reviews.json', { cache: 'no-store' });
@@ -121,6 +152,14 @@
     })();
   });
 </script>
+
+{#if atHome}
+  <div class="top-bar">
+    {#if grmnPrice}<span>{grmnPrice}</span>{/if}
+    <span>{cstTime}</span>
+    {#if spursRecord}<span>{spursRecord}</span>{/if}
+  </div>
+{/if}
 
 <p id="currentTheme" style="display: none">{themeName}</p>
 <button
@@ -163,6 +202,15 @@
 {:else if path === '/notes'}
   <Collage />
 {/if}
+
+<IconLink
+  href="/notes"
+  preventDefault
+  onClick={() => navigate('/notes')}
+  ariaLabel="Notes"
+>
+  <FileQuestionMark class="icon notes-icon" size={36} />
+</IconLink>
 
 <div class="revision">claybeabout.com</div>
 

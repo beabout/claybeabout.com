@@ -12,6 +12,13 @@
     {
       type: 'link',
       span: 2,
+      title: 'Starcraft',
+      url: 'https://youtu.be/T7WEJQfwniQ?si=889YG8JkIJxWfkqD',
+      description: ' Spurs playing Starcraft 2v2 between games of the 1999 NBA finals.'
+    },
+    {
+      type: 'link',
+      span: 2,
       title: 'bel.beabout.cc',
       url: 'https://bel.beabout.cc/',
       description: 'You probably can\'t access this.'

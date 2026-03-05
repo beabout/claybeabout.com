@@ -46,12 +46,40 @@ hint {
   opacity: 0.8;
 }
 
+.top-bar {
+  color: var(--color-primary);
+  display: flex;
+  font-size: 14px;
+  gap: 2rem;
+  justify-content: center;
+  left: 50%;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
 .revision {
   bottom: 0;
   color: var(--color-primary);
   font-size: 14px;
   padding-bottom: 10px;
   position: fixed;
+}
+
+.notes-icon {
+  bottom: 0;
+  color: var(--color-secondary);
+  padding-bottom: 10px;
+  position: fixed;
+  right: 0;
+  margin-right: 25px;
+  transition: color 5s ease;
+}
+
+.notes-icon:hover {
+  color: color-mix(in srgb, var(--color-secondary), white 25%);
 }
 
 .bold {
