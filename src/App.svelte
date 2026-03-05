@@ -4,12 +4,12 @@
   import Catalog from './routes/Catalog.svelte';
   import Spotify from './routes/Spotify.svelte';
   import Letterbox from './routes/Letterbox.svelte';
+  import Collage from './routes/Collage.svelte';
   import IconLink from './components/IconLink.svelte';
 
   import { 
     ArrowBigLeft,
     FileCode,
-    FileDown,
     FileVideoCamera,
     FileTerminal,
     FileChartColumn,
@@ -77,16 +77,17 @@
       ariaLabel: 'Films'
     },
     {
-      href: '/claybeabout.pdf',
-      icon: FileDown,
-      download: 'claybeabout.pdf',
-      ariaLabel: 'Resume PDF'
-    },
-    {
       href: 'https://www.linkedin.com/in/clayton-beabout/',
       icon: FileUser,
       newTab: true,
       ariaLabel: 'LinkedIn'
+    },
+    {
+      href: '/notes',
+      icon: FileQuestionMark,
+      preventDefault: true,
+      onClick: () => navigate('/notes'),
+      ariaLabel: 'Notes'
     }
   ];
 
@@ -159,6 +160,8 @@
   <Spotify {spotifyData} />
 {:else if path === '/films' || path === '/pdf'}
   <Letterbox {reviewsData} />
+{:else if path === '/notes'}
+  <Collage />
 {/if}
 
 <div class="revision">claybeabout.com</div>

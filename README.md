@@ -36,7 +36,7 @@
 # commit code 
 git push
 # add changes to build dir
-npm run build
+bun run build
 # login to firebase
 firebase login:ci
 # copy output token and run firebase deploy again with --token flag
