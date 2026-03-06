@@ -1,5 +1,6 @@
 <script>
   import SectionHeader from '../components/SectionHeader.svelte';
+  import LineChart from '../components/LineChart.svelte';
   import { ExternalLink } from 'lucide-svelte';
 
   const cards = [
@@ -87,6 +88,14 @@
       span: 3,
       quote: 'The effect you have on others is the most valuable currency there is.',
       author: 'Jim Carrey'
+    },
+    {
+      type: 'chart',
+      span: 3,
+      title: '',
+      labels: ['2022-06-09','2022-08-18','2023-06-13','2023-08-23','2024-03-14','2024-05-20','2024-06-21','2024-08-26','2024-10-13','2025-01-14','2025-02-23','2025-03-01','2025-12-04','2025-12-30','2026-02-24'],
+      data: [94.5,98.2,102.6,102.2,95.0,94.6,95.0,94.0,94.2,96.6,95.0,93.1,95.0,89.1,90.2],
+      dataLabel: ''
     }
   ];
 </script>
@@ -112,6 +121,9 @@
           "{card.quote}"
           <cite class="theme-primary">— {card.author}</cite>
         </blockquote>
+      {:else if card.type === 'chart'}
+        <h3 class="theme-primary">{card.title}</h3>
+        <LineChart labels={card.labels} data={card.data} label={card.dataLabel} />
       {:else if card.type === 'color'}
         <div class="collage-swatch" style="background:{card.hex}"></div>
         <span class="collage-swatch-label theme-primary">{card.label}</span>
