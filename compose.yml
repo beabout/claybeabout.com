@@ -1,10 +1,8 @@
-version: "3.9"
-
 services:
   svelte-app:
     build: .
     ports:
-      - "5173:5173"
+      - "5179:5173"
     volumes:
       - .:/app
       - /app/node_modules

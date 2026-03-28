@@ -2,17 +2,12 @@ FROM oven/bun:latest
 
 WORKDIR /app
 
-# Copy package files
-COPY package.json ./
+COPY package.json bun.lock ./
 
-# Install dependencies
-RUN bun install
+RUN bun install --frozen-lockfile
 
-# Copy application files
 COPY . .
 
-# Expose Vite dev server port
 EXPOSE 5173
 
-# Run the dev server
-CMD ["bun", "run", "dev", "--host"]
+CMD ["bun", "run", "dev"]
