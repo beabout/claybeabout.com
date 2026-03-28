@@ -1,0 +1,1454 @@
+*   07ff919 Merge pull request #169 from beabout/main
+|\  
+| * 60dca64 schedule: add toggle and overflow hide
+* | 0cd13e0 Merge pull request #167 from beabout/main
+|\| 
+| *   a3312d7 Merge pull request #166 from beabout/features/add-schedule-and-calendar
+| |\  
+| | * 73aea5f schedule: modify calendar work order item
+| | * 074e3d4 schedule: initial schedule
+| |/  
+* | 442fc2e Merge pull request #164 from beabout/main
+|\| 
+| * 4d868f5 docks: add map to index
+| *   764ed0e Merge pull request #163 from beabout/feature/add_existing_lift_id_to_slips
+| |\  
+| | * 5c0b7ff clients: fix _jumbo reference
+| | * 877bd28 slip: fix current_lift returns
+| | * 02d0109 slips: add form to index
+| | * 72cc532 slips: add existing_lift_id
+| |/  
+| * b211967 views: remove clear btn when no params
+| * 62f4dd4 clients: remove _jumbo
+| * c14a8b8 app: move logo to sidebar
+| * 4973b7f ramps: update index with map
+* | 08ab7e9 config: lint puma.rb
+* | faebc1b config: disable ssl binding, rely on pangolin reverse proxy for ssl
+|/  
+* 4f4ae6e slip: add detail to title
+* 28dd03f clients: update connect dock turbo process
+*   c4b9cf9 Merge pull request #160 from beabout/feature/add_labels_to_solutions
+|\  
+| * 9ece343 spec: work_orders_spec fixes
+| * ef76c7c solutions: remove has_ fields
+|/  
+*   408c01b Merge pull request #159 from beabout/features/remove_waiting_for_fields
+|\  
+| * 4f790b1 app: remove waiting_for_ fields
+|/  
+*   9bae5f1 Merge pull request #158 from beabout/features/add_images_to_model_shows
+|\  
+| * fa4e691 views: clean up images on shows
+| * 7f832b4 spec: some updates
+| * f6225a6 WIP: add images to model shows
+|/  
+*   cac957f Merge pull request #157 from beabout/bug/resolve_dupe_slips
+|\  
+| * a4bc294 slip_select_switch: add warning label
+| * 20a972c slip: adding updating constraints
+| * a066c0d scss: update clients, slips, tickets cards and jumbos
+| * d6fbf63 scss: update boats and docks cards
+| * 664568b solution: codex: add reuse_existing_slip
+|/  
+* b5d93a3 labels: add to status changes and colorize search
+* 8fc1769 work_order_generator: add labels
+* e7290fa boats: add underwater_inches, back_branchet_inches
+* 1f93ba1 dashboard: add labels section
+* 6ac3d9d work_orders_controller: fix :id distinction bug
+* 94e538d work_order_status_change: add all work_order fields
+* 6fb474d work_orders: index: search by labels
+* 0f6cb13 work_order: form: fix select field disable issue
+* 1126e90 work_orders: add labels to form and show
+* 0207c46 controller: add labels_controller and views
+* 700fc64 scss: allow Choices dropdowns to escape their containers
+* 61d69fc models: add labels
+* 4c331e6 sidebar: add sidebar pinning
+* c1c8d04 dashboard: Claudified
+* 57b0fb0 work_order_generator: add images
+* e924f71 docks: fix typo
+* 8df3691 config: docker: add chicago tz
+*   9a2027b Merge pull request #149 from beabout/feature/clients-search-notes
+|\  
+| * 7c4eb24 clients: search by notes on index
+|/  
+*   ce5e4de Merge pull request #148 from beabout/feature/track-status-history
+|\  
+| * d40870d spec: work_order_spec: update queued jobs tests
+| * e58b3e9 work_orders: add status_changes_modal.html.haml
+| * 5f5e09d db: add work_order_status_changes table
+|/  
+*   fdacb24 Merge pull request #147 from beabout/update-turbo-forms
+|\  
+| * 2536d65 spec: update #edit cases for turbo
+| * 83325a8 views: remove show and back links on edit views
+| * fe017fd app: remove unused format.turbo_streams and turbo_frame_tags
+| * 71594e8 boats: fix turbo edit/update partials
+| * 747c921 controllers: remove all format.json
+| * 89b92f0 clients: fix turbo edit/update partials
+| * 6fb1507 WIP: update client form with turbo
+| * a6300c0 app: fix flash notifications
+* |   f58eed1 Merge pull request #146 from beabout/feature/work-order-status-billed
+|\ \  
+| |/  
+|/|   
+| * 97410e4 models: work_order: add billed status
+|/  
+* e9454db importmap: load controllers from importmap
+*   2c90c35 Merge pull request #144 from beabout/136-searchable-select-fields
+|\  
+| * 32e01b3 js: move Choices logic to separate module
+| * 2c10607 config: enable pangolin as reverse proxy
+| * 8881e61 application.js: globally init select fields as Choices
+| * 12adeff slips: form: initialize select fields as Choices
+| * 7ebc392 css: override choices css  to match bootstrap styling
+| * d3b46bf views: slips: _form: add POC choices.js use case
+| * 29da166 assets: load choices.min.css globally
+| * cd1de94 javascript: add vanilla choices.js
+|/  
+* 691e287 slips: _table: fix delete_slip params
+*   736208a Merge pull request #142 from beabout/work-order-form-fixes-again
+|\  
+| * e5fea2b rubocop: set config in workflow and remove rubocop_todo.yml
+| * f79c0a9 spec: views: work_orders_spec: add client form fields specs
+| * 46221b2 work_orders: form: solution: use partial method for slip_fields
+| * 82a12ce work_orders: form: client: clean up javascript
+| * 2a8decb client: form: remove disabled param from locals
+| * bd07b5b work_orders: form: client: pattern form elements to same as boat and slip
+| * 4e0d2e4 work_order_form: dynamic slip and boat form updates
+| * da63dbb rubocop: linting and ignore db files
+| * 9bf66a4 spec: add views/work_orders_spec.rb
+| * 6aca475 test: spec: add capybara and warden support
+| * ab2c149 test: docker: add multi-stage build step
+| * 138f60b boats: add bunk_measure_in_inches to forms, odd it was not there
+| * 953eea4 work_orders_controllers: remove todo on add_client_to_boats
+| * a271f2a work_orders_controller: add logger statements on add_client_to* functions
+| * 4692723 db: migrate: parent_id is optional
+|/  
+* 15afbb4 add .dockerignore and .ruby-version
+*   96a4656 Merge pull request #143 from beabout/git-pre-commit-hooks
+|\  
+| * 4ae5814 add pre-commit via githooks
+|/  
+* ccef94f README: docker: use exec instead of run
+*   ffadabf Merge pull request #139 from beabout/feature-work_order-request_specs
+|\  
+| * 0ec900b spec: work_orders_spec: add work_order form tests
+| * 005e45b work_order_form.js: remove commented out ticket stuff
+| * 43938a7 spec: work_order_spec: set static time
+| * 4cdb368 spec: request: more work_orders_spec tests
+|/  
+*   bf6b887 Merge pull request #140 from beabout/work-order-form-fixes
+|\  
+| * f96c016 work_orders_controller: add safe navigation in set_slips, set_boats
+| * 51b99ce work_orders_controller: remove check_and_replace functions
+| * 78430f4 work_orders: disable turbo for the form entirely
+| * 5e289cc slip: add nullify to solutions association
+| * b30464d work_orders: show: add ID to boat and slip headers
+| * 86b5bbd work_orders: show: remove # from solution numbering
+| * d727064 work_order_form: query for boat, not boat_attributes
+| * 01f6be9 work_order_form: query for slip, not slip_attributes
+| * c86beda work_orders: form: set slips and boats in controller actions
+|/  
+* 627a66f views: "new work order" links should disable turbo
+* bfb3d9f clients: slips: add 'delete slip' feature accessible in clients#show
+* 09a66d9 views: solution_fields: add safeguard client&
+*   2375aad Merge branch 'boat-dynamic-form'
+|\  
+| * de513ec work_orders: update slips and boats select
+| * e6524ed work_orders: Cursor: add dynamic boat form
+* | 97250ae Merge pull request #135 from beabout/slip-dynamic-form
+|\| 
+| * 5e69392 work_orders_controller: check solution_attributes
+| * ad077e4 work_orders_controller: add check_and_replace_solution_slip_attributes
+| * 8c11c19 work_orders: minor styles
+| * bd63c49 work_orders: limit slips if client_id present
+| * b35937b work_orders: Cursor: add dynamic slip form
+| * 773747e slip: add client name to title
+* | 16d2c85 boats: show disconnect link on @client presence
+|/  
+* 28baa87 work_orders: form: update client fields with d-none class
+* dda9649 github: update workflows to 2.7.8
+* 4b149f7 rubocop: minor changes
+* f19c6df Revert "clients: disable 'connect' links"
+* cd66364 docker: prod: do not use cached /app (who knows where that cache lives)
+* a27f570 hotfix: use .png extension on image assets
+* dbdd9cc prod: removing useless tmp files and webpack
+*   a856275 Merge branch 'main' into production
+|\  
+| * e826888 puma: use env vars
+| * ef8b155 docker: improvements (no cache, update image)
+| * 9f26b98 ruby: remove .ruby-version
+* | c331315 Merge branch 'main' into production
+|\| 
+| * b95a819 clients: disable 'connect' links
+| * 0f69555 slips: add ID to table
+| * 0742cbe clients: views: add mb-3 to section headers
+| * 635f1dc spec: lifts_spec: set make on tests
+| *   9358309 Merge pull request #133 from beabout/feature/request_specs
+| |\  
+| | * 9a77b40 spec: add spec/requests
+| | * a85c390 routes: work_orders#clone is a post request
+| | * be6e252 slip: jumbo: prevent nil error
+| |/  
+| *   05aba9a Merge pull request #128 from beabout/feature/download-image-download-all-button-for-images
+| |\  
+| | * 3cd93ad images: use btn-outline-secondary and lint
+| | * 6e72624 slips: add download_all_images
+| | * 85c42fd add download all image button, working
+| |/  
+| *   a421172 Merge pull request #129 from beabout/feature/image-carousel
+| |\  
+| | *   2641d49 Merge branch 'main' into feature/image-carousel
+| | |\  
+| | |/  
+| |/|   
+| * | d7d6b4a client: no special character validation on first_name and last_name
+| * | 172e80a actions: move filters below map and add lift query
+| * | a564819 env: development: use LOCAL_HOSTNAME
+| | * f11ad2c env: lint development.rb
+| | * 1617d22 js: carousel: add eventListener on turbo:load
+| | *   18bd616 Merge branch 'feature/image-carousel' of github.com:beabout/bel-internal into feature/image-carousel
+| | |\  
+| | | * 500bc6e lint
+| | | * 84bdc8d validate that users only upload jpg and pngs
+| | | * fcda3eb use event delegation rather than on click listeners
+| | * | 07c28cd javascript: log when carousel.js is loaded
+| | * | 76ec9eb env: development: use LOCAL_HOSTNAME
+| | |/  
+| | * 4fca46e app: js: carousel: show full resolution image in modal
+| | * 7d5eab4 app: views: use bootstrap's d-none
+| | * 962343c app: js: move imageViewer into carousel.js
+| | * 4823070 remove more comments
+| | * f02f15b comments and refactor / simplify
+| | * 40549fa remove console logs & debugging
+| | * a07d346 working image modal
+| |/  
+| *   9242323 Merge pull request #127 from beabout/feature/add-slip-images
+| |\  
+| | * 5b1e39b app: rubocop updates
+| | * 25de588 app: embedded_map back to 450 height
+| | * 8c9fa3f work_orders: form: add slip images
+| | * 532bba7 app: admin: remove all references to images
+| | * 34719d5 app: views: additional slip and work order view updates
+| | * fa7c0c5 slips_controller: use before_action on delete_image_attachment
+| | * 3420fda app: views: remove aggravating .jumbotrons
+| | * fc8f6b1 app: views: remove unused collapsible_images renders
+| | * ab48aa9 application: embedded_map: remove jumbotron
+| | * aed486e admin: remove images links
+| | * d77d710 solutions: show: add 'edit' back in
+| | * c5ad03c Update app/views/slips/show.html.haml
+| | * 61946a1 remove solution edit button
+| | * dbea25e rubocop linting
+| | * dfb62f3 working slip images
+| |/  
+| *   36f3de1 Merge pull request #121 from beabout/feature/add-solution-images
+| |\  
+| | * 2bf1ae8 work_orders: show images as thumbnails
+| | * 5473f65 docker: install libvips
+| | * 6042147 work_orders: form: turbo and indent fix
+| | * 94b0864 rubocop linting
+| | * 8dfa818 add comments to images code
+| | * e86e33e fix 500 on solution load, remove duplicate image render on solution
+| | * 7b62b78 remove duplicate upload hook
+| | * ec585c7 working add and remove through solutions, WIP trying to get work orders solution image upload to work
+| | * 268135c images: add barebones image upload, need to fix delete and ui still
+| |/  
+| *   e0d0e0a Merge pull request #125 from beabout/bugfix/fix-work_order_edit-again
+| |\  
+| | * 0005c9f styles: add w-100 to fields partials
+| | * f149d3a work_orders: enable client_fields on toggle
+| | * 24907b3 move code into haml file to avoid js importmap
+| * | b36a391 logo: update logo
+| * | b81d2a2 work_orders: add mb-0 to clone modal buttons
+| |/  
+| *   e40f2cb Merge pull request #102 from beabout/dashboard
+| |\  
+| | * 0cd86ce spec: update work_order_spec with scopes
+| | * f10ad09 rubocop: suggested changes
+| | * 3faee77 dashboard: margins around progress-bar
+| | * e0fdf76 dashboard: set small, medium column widths
+| | * e48a21b actions_controller: fix dates and protect against NaNs
+| | * ac6a436 app: add actions_controller
+| | * 0387a07 work_orders_controller: add scope_orders
+| | * 84a6f34 work_order: add projected_ and completed_ scopes
+| | * ff40ef3 css: add side margins to body
+| * |   f836e1e Merge pull request #124 from beabout/bugfix/disable-turbo-for-work_order-edit
+| |\ \  
+| | |/  
+| |/|   
+| | *   92596cd Merge branch 'main' into bugfix/disable-turbo-for-work_order-edit
+| | |\  
+| | |/  
+| |/|   
+| * | ee35cb9 Revert "slip: add unique validation"
+| * |   ec706f2 Merge pull request #114 from beabout/feature/ui-agentic-refactor
+| |\ \  
+| | * | 9d826f9 rubocop: use to_s
+| | * | 6863dfa styles: modify Claude's changes
+| | * | cfd8a7a initial styling sweep
+| |/ /  
+| | * 0f764af remove console logs
+| | * 413cd97 disable turbo for work order edit
+| |/  
+* | a2463b7 actions: move filters below map and add lift query
+* |   e3e8bf7 Merge branch 'main' into production
+|\ \  
+* \ \   2251066 Merge branch 'main' into production
+|\ \ \  
+* \ \ \   ac882e8 Merge branch 'main' into production
+|\ \ \ \  
+* \ \ \ \   e7f42bb Merge branch 'main' into production
+|\ \ \ \ \  
+* \ \ \ \ \   807e67a Merge branch 'main' into production
+|\ \ \ \ \ \  
+* \ \ \ \ \ \   c9d2209 Merge branch 'main' into production
+|\ \ \ \ \ \ \  
+* \ \ \ \ \ \ \   b0d2f3e Merge branch 'main' into production
+|\ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \   819e70a Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \  
+* | | | | | | | | | 296583e lifts: production only recognizes bunk_bracket_type, not bunk_bracket_t
+* | | | | | | | | |   0c52806 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \   91e75d6 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \   228a4b8 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \   da0eb0b Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \   62a623b Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \   56e3968 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   cb29c3a Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   50dfc0f Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   bcf45a1 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   ec2c794 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   8df8866 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   029a1a0 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   b3457db Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   8d1281d Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   236c5a0 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   8036373 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  
+* | | | | | | | | | | | | | | | | | | | | | | | | | e9a3796 app: add .png to logo image_tag
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 100b7b3 Revert "slip: add unique validation"
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | *   165daa4 Merge pull request #120 from beabout/more-tests
+| | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * d7eb412 spec: fix linting issues
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 9732e04 github: workflow: run full rspec suite
+| | | | | | | | | | | | | | | | | | | | | | | | | | * ea87c63 spec: work_order: add tests
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 3aa810f spec: clients_controller: more tests
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 306de56 spec: client_spec: add tests
+| | | | | | | | | | | | | | | | | | | | | | | | | | * a733cc5 client: add validations on email
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | *   7b090a8 Merge pull request #116 from beabout/feature/add-rubocop-ci
+| | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 53094df db: make migrations reversible
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 27c1201 :rotating_light: (lint) add a TODO file to skip currently known violations
+| | | | | | | | | | | | | | | | | | | | | | | | | | * f6924cb 🚨 (lint) Run auto-fixable rubocop (#119)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * d5c6740 Revert "🚨 (lint) Trying make rubocop linting pass (#117)"
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * d65b4d2 🚨 (lint) Trying make rubocop linting pass (#117)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | * 10bda3f :rotating_light: (lint) do some manual linting
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | * 3168e49 :rotating_light: (lint) ran with 'rubocop -A' not safe mode on
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | *   8b9dd72 Merge branch 'feature/add-rubocop-github-action' into chore/fix-rubocop-suggestions
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | |/|   
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | 9f93372 :construction_worker: (ci) add rubocop to ci
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | * 1ed807a :rotating_light: (lint) first pass of 'rubocop -a'
+| | | | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | |/|   
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | 69f3f9a :package: (dep-up) again with the ffi issues
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | bdded8d :package: (dep-up) idk more dep up accorrding to gh
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | 862faed :package: (dep-up) needed to run bundle install ig
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | f33754b :heavy_plus_sign: (dep-add) add rubocop gem
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | 784f46d :construction_worker: (ci) add rubocop to ci
+| | | | | | | | | | | | | | | | | | | | | | | | | |/ /  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * 121080d :package: (dep-up) trying to fix deps??
+| | | | | | | | | | | | | | | | | | | | | | | | | | | *   faa09dd Merge branch 'main' into feature/101_init_rubocop_audit
+| | | | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | |_|/  
+| | | | | | | | | | | | | | | | | | | | | | | | | |/| |   
+| | | | | | | | | | | | | | | | | | | | | | | | | * | | 953097e Merge pull request #94 from beabout/add-test-framework
+| | | | | | | | | | | | | | | | | | | | | | | | | |\| | 
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | 5ec94db i guess we need sudo
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | 45ad6d3 working local github action
+| | | | | | | | | | | | | | | | | | | | | | | | | | * |   33944e5 merge bs
+| | | | | | | | | | | | | | | | | | | | | | | | | | |\ \  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | 66f77a5 config: boot.rb: require 'logger'
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | 6f45508 spec: controllers: add clients_controller_spec.rb
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | 775a854 github: workflow: run tests
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | c4b9782 github: workflow: add basic rubyonrails.yml
+| | | | | | | | | | | | | | | | | | | | | | | | | | |/ /  
+| | | | | | | | | | | | | | | | | | | | | | | | | |/| |   
+| | | | | | | | | | | | | | | | | | | | | | | | | * | |   277cb47 Merge pull request #111 from beabout/feature/104-disconnect-boats-and-clients
+| | | | | | | | | | | | | | | | | | | | | | | | | |\ \ \  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | | 7fbb29c :art: (style) remove pipe
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | | 74a38ef :art: (style) make button red
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | | ebdeb66 :sparkles: (feat) add ability to remove boats from clients
+| | | | | | | | | | | | | | | | | | | | | | | | | * | | |   a8e6244 Merge pull request #112 from beabout/update_slip_client_relationship
+| | | | | | | | | | | | | | | | | | | | | | | | | |\ \ \ \  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | | | 32b8861 clients: update slips and docks representation
+| | | | | | | | | | | | | | | | | | | | | | | | | | * | | | e850e51 slip: add unique validation
+| | | | | | | | | | | | | | | | | | | | | | | | | |/ / / /  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | a624ca8 spec: controllers: add clients_controller_spec.rb
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | a72a9d3 github: workflow: run tests
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * | b9d7ca7 github: workflow: add basic rubyonrails.yml
+| | | | | | | | | | | | | | | | | | | | | | | | | | |/ /  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * 81455e7 :construction_worker: (ci) add rubocop to ci
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * 626cbb3 :rotating_light: (lint) agent lint corrections
+| | | | | | | | | | | | | | | | | | | | | | | | | | | *   2488eae :heavy_plus_sign: (dep-add) add rubocop in gemfile
+| | | | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | * 9df611c first rubocop auto sweep
+| | | | | | | | | | | | | | | | | | | | | | | | | | |_|/  
+| | | | | | | | | | | | | | | | | | | | | | | | | |/| |   
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * a6c80cb :rotating_light: (lint) first sweep of rubocop -A
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * 8540e00 Revert "first rubocop auto sweep"
+| | | | | | | | | | | | | | | | | | | | | | | | | | | * 39c1999 first rubocop auto sweep
+| | | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | |/|   
+| | | | | | | | | | | | | | | | | | | | | | | | | * | 06c0cee :pencil: (docs) add to readme steps about missing db (#105)
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * ed4f77c :pencil: (docs) add to readme steps about missing db
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | * f1a5083 assets: manifest.js: remove vendor/javascript
+| | | | | | | | | | | | | | | | | | | | | | | | | *   bc5fed5 Merge pull request #100 from beabout/remove_vendor
+| | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 919b3c2 vendor: remove all cache, unneeded
+| | | | | | | | | | | | | | | | | | | | | | | | | * | d8de966 config: remove credentials.yml.enc
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | *   a5fb68d Merge pull request #98 from beabout/fix_assets
+| | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * f3d2bdd gemfile: add comment on importmap-rails
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 5b9ba9e work_order_form: FIX client select on load
+| | | | | | | | | | | | | | | | | | | | | | | | | | * d862e12 importmap: load work_order_form.js only in _form
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 2c261ac assets: clean house
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | *   e8d2731 Merge pull request #96 from beabout/docker_updates
+| | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 86339ec README: add extra dev commands
+| | | | | | | | | | | | | | | | | | | | | | | | | | * c646be8 docker: mac: cleanup dockerfile
+| | | | | | | | | | | | | | | | | | | | | | | | | | * ea8a423 Dockerfile: add bundle install and update README
+| | | | | | | | | | | | | | | | | | | | | | | | | | * a8508b1 docker: revert to ruby 2.7.0
+| | | | | | | | | | | | | | | | | | | | | | | | | | * f4269fb make it work for mac
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 0f228d1 docker: initial upgrade
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | *   bf46678 Merge pull request #93 from beabout/fix_seed_files
+| | | | | | | | | | | | | | | | | | | | | | | | | |\  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * e82a1c3 remove faker dupe, remove unecessary extra account creation
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 2af9aa6 :arrow_down: (downgrade) dont include schema vump in this pr
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 85ee2c7 :seedling: (seed) fix seed files to actually work and update readme so u can do it too
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * be06003 fix dockerfile
+| | | | | | | | | | | | | | | | | | | | | | | | | | * ae3d1a8 :arrow_up: (upgrade) keep activerecord in line with rails
+| | | | | | | | | | | | | | | | | | | | | | | | | | * a60686c it fkin works
+| | | | | | | | | | | | | | | | | | | | | | | | | | * f096530 :construction: (wip) trying to upgrade but it doesnt work
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 630110f :lock: (security) fix sec vulns from bundler-audit
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 267b904 :arrow_up: (upgrade) also forgot dockerfile
+| | | | | | | | | | | | | | | | | | | | | | | | | | * b7c971b :arrow_up: (upgrade) change ruby to LTS version
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 96db04f add dpb
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | | * 1625aca :whale: (fix) fix docker compose breaking on up run, remove unused libraries
+| | | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | | * a74ac70 README: organizing
+| | | | | | | | | | | | | | | | | | | | | | | | | * 77cc00a spec: model_helper: make it sexier
+| | | | | | | | | | | | | | | | | | | | | | | | | * d51f209 spec: add client tests
+| | | | | | | | | | | | | | | | | | | | | | | | | * f6233dc spec: model_helper: pass attrs to build
+| | | | | | | | | | | | | | | | | | | | | | | | | * 830c6ba spec: model_helper update attrs usecase and add build_model() functions
+| | | | | | | | | | | | | | | | | | | | | | | | | * 22b2de7 spec: add spec/tests to execute suite
+| | | | | | | | | | | | | | | | | | | | | | | | | * c02e645 spec: models: few more tests using model_helper
+| | | | | | | | | | | | | | | | | | | | | | | | | * f20aefb spec: model_helper: add create! and build funcs
+| | | | | | | | | | | | | | | | | | | | | | | | | * 302d9d3 rails_helper: include faker
+| | | | | | | | | | | | | | | | | | | | | | | | | * 2c74f6c spec: add model_helper
+| | | | | | | | | | | | | | | | | | | | | | | | | * f2387b9 spec: work_order: add first test
+| | | | | | | | | | | | | | | | | | | | | | | | | * 59748cd test: fix test env gems
+| | | | | | | | | | | | | | | | | | | | | | | | | * a73f28d test: fix docker-compose.test.yml issues
+| | | | | | | | | | | | | | | | | | | | | | | | | * 23db6ff test: add push of changes including docker file additions
+| | | | | | | | | | | | | | | | | | | | | | | | | * ba98efe tests: add simple dock test and update readme. Still need to get postgres functionality working
+| | | | | | | | | | | | | | | | | | | | | | | | | * 50ca445 rspec: add rspec files and add test database stuff
+| | | | | | | | | | | | | | | | | | | | | | | | | * 34a313b slips: card: add dock link
+| | | | | | | | | | | | | | | | | | | | | | | | | * 8a3be84 work_order_generator: some updates
+| | | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | | * 5cec45f lifts: add DuraTek to MAKES
+| | | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | | * c488e23 slip: add types to current_lift options
+| | | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | | * 5b3a15c slip: show current_lift instead of existing_lift
+| | | | | | | | | | | | | | | | | | | | | | * 8d34082 boats: add detail to _card view
+| | | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | | * ee8a471 ramps: order lat->long
+| | | | | | | | | | | | | | | | | | | | | * 3353cff gem: add stimulus-rails
+| | | | | | | | | | | | | | | | | | | | | * f6732d7 boats: show fields as inches, not feet inches
+| | | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | | * 7401afd clients: fix: use defined? wrapper
+| | | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | | * 13492b9 clients: fix: add check for slip.dock
+| | | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | | * 35ae2a2 clients: add delete_slip
+| | | | | | | | | | | | | | | | | | * bd78b61 app: remove in-view .card styles
+| | | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | | * 65120a6 db: update to production state
+| | | | | | | | | | | | | | | | | * 1dc62bd lifts: production only recognizes bunk_bracket_type, not bunk_bracket_t
+| | | | | | | | | | | | | | | | | * 453f04f ramps: add search
+| | | | | | | | | | | | | | | | | * fa65fa9 docks: use ramp.shorthand in jumbo
+| | | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | | * 4ff9cad lifts: bunk_bracket_type fix
+| | | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | | * 920f575 dock: add greers ferry lake
+| | | | | | | | | | | | | | | * a827b21 lift: add abbreviation and remove serial_number
+| | | | | | | | | | | | | | | * d354f31 work_order_generator: left align QR Code
+| | | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | | * 9e6d393 work_order: fix: 16bc407
+| | | | | | | | | | | | | | * f250c67 nav: fix: ONLY USE turbo_method
+| | | | | | | | | | | | | |/  
+| | | | | | | | | | | | | * 16bc407 work_order: fix: add editor_id to form
+| | | | | | | | | | | | |/  
+| | | | | | | | | | | | * 4b22328 slip: fix: size -> dimension
+| | | | | | | | | | | |/  
+| | | | | | | | | | | * f2eef54 slip: update card
+| | | | | | | | | | |/  
+| | | | | | | | | | * c82e89c work_orders: add editor_id
+| | | | | | | | | | | * c88710b clients: initial changes. Needs work
+| | | | | | | | | | |/  
+| | | | | | | | | | * 8db3143 work_order_generator: add QR code
+| | | | | | | | | | * fc52ae9 work_order_generator: comment out useless info
+| | | | | | | | | | * 45b19ab dock: add dock_qr_code
+| | | | | | | | | | * c2dfc56 cities: change view format and use :select on state
+| | | | | | | | | | * a989c8a work_orders: show: cloned link should now looks like a link
+| | | | | | | | | |/  
+| | | | | | | | | * 7ac1a27 cities: add integer querying restraints
+| | | | | | | | |/  
+| | | | | | | | * 7dce836 work_order_generator: add dock.name and move delivery_projection
+| | | | | | | |/  
+| | | | | | | * c4179ac work_orders: add parent_id for cloned work orders
+| | | | | | |/  
+| | | | | | * 9bbe5d5 work_orders: add delete
+| | | | | | * 87ed7b9 app: use w-100
+| | | | | |/  
+| | | | | * d7bc915 work_order: add clone feature
+| | | | | * e2aee8b work_order: form: %small > %hint
+| | | | |/  
+| | | | * 91fd1b6 work_order_generator: add check_position_on_page
+| | | | * 603f2a2 solutions: use serial_number
+| | | |/  
+| | | * 067cb5d work_order_generator: fix with .present?
+| | |/  
+| | * 1a998ab work_order_generator: more rows for boat info
+| | * 9a49746 work_order_generator: fix multi_line nil edge case
+| |/  
+| * 6904370 work_order_generator: update multi line item drawing
+|/  
+* 4c3096a db: solutions: add notes
+* bb12530 solutions: show lift as link
+* fcd5e56 lifts: show 'clear' if params[:search] is present
+* 2b81d0f gitignore: package-lock.json
+* fe324ff lifts: create
+* b039bec db: solutions: add notes
+* 4a553d6 app: add company logo to masthead
+* fe89e7f ramps: add lat_long function for e7e313e
+* a936156 client: set default order_by_creation
+* e54ac3c work_orders: check search params on index
+* 6cd7fad env: dev: add LOCAL_URL to config.hosts
+* e7e313e ramps: order as lat long, not long lat
+* 7f2aa4f work_order_generator: cleanse filename
+* 5831bcb testing: add Github Workflow
+*   f6ef8e5 Merge branch 'production'
+|\  
+| * edecc84 docks: pass dock to slips/_table
+| *   ccc28fd Merge branch 'main' into production
+| |\  
+| * | abd91b0 Revert "app: move card styles to app.css"
+* | | 862111e slips: add notes
+* | | 0d91982 app: update dark theme
+| |/  
+|/|   
+* | d398b1f slips: clean up table
+|/  
+* 5b9b077 dock: on docks#show print name as title and fallback to address, id
+* 73f08f5 app: move card styles to app.css
+* fce11e8 work_order_generator: big changes
+* 07c3725 slips: add fields to slips
+* 134a9c2 docks: split punch into two fields
+* 71859d7 docker: add .block.yml
+* ab3947a work_order: form: add check_and_replace_client_attributes
+* 49e995d work_orders: form: remove boat fields and switch temporarily
+| * c7a08ca work_order_form: WIP: updates for dynamic boat form
+| * 49c01fd work_order_form: using getElementsByClassName to accommodate multiple boat forms
+| | * 25e14c5 Add timeout for initial load of work_order_form.js
+| |/  
+|/|   
+* | f03f9a4 solutions: search by serial_number
+* | 797854c Merge branch 'work-order-form'
+|\| 
+| * 5c1ce51 work_order_generator: add dyslexic font
+* | b00fc38 Merge branch 'work-order-form'
+|\| 
+| * 97dd562 ramps: add views, controller and nav link
+| * 1f184e5 ramps: add notes
+| * 07e7d47 routes: add ramps resources
+| *   e7e9ec1 Merge branch 'main' into work-order-form
+| |\  
+| * | d28be49 work-order-form: initial set of modifications
+* | | 407f0c3 work_order: client: update cards
+| |/  
+|/|   
+* | 292e5c5 clients: add notes
+* | 3fd9ff0 clients: remove unused @work_orders
+|/  
+* 414003d work_orders: eager_load additions
+* 37e3221 clients: add eager_load to index
+* e572939 docks: change power 'exempt' -> 'nothing'
+* 2ac40a5 map: form: add colors to statuses, types
+* d76cf7f map: form: convert statuses and work_types to check_boxes
+* 7ad94af map: solutions with same location show as single marker
+* 4ae7562 map: eager_load instead of joins
+* 9a5994c docker: mount development backup dir for postgres service
+* 89c0de7 dock: add scope to street uniqueness validation
+* 0d24de7 README: other minor stuff
+* 061c1d2 README: add postgres commands and minor updates
+* 7fb59eb ramps: add select_form_pairs method
+* f7e8fd9 Gemfile: move faker to development, test group
+*   51d0a60 Merge branch 'main' into production
+|\  
+| * b42dd1d docks: add count to index views
+| * 0c844ec docks: add 'delete' button and functionality
+| * c38783b clients: add 'delete' button and functionality
+| * eb65281 app: js: add @hotwired/turbo-rails
+| * 18b3c36 work_orders: clients: add count to index views
+| * 936d77a db: seed: exit if production and add faker gem
+* | d91b06b Merge branch 'main' into production
+|\| 
+| * cfbd4bf client: add dependent: :destroy on slips so we can delete clients without error
+* | aaed41b Merge branch 'main' into production
+|\| 
+| * 29d7839 dock: add :no to gate_lock_type
+* | 478511f Merge branch 'main' into production
+|\| 
+| * dd26ccf docks: use titleize for dock.lake instead of humanize
+* | 54fd1e6 Merge branch 'main' into production
+|\| 
+| * 7f53548 docks: add lake
+| * b990195 docks: add gate_lock_type and gate_lock_combination
+| * d0f264b solution: add pivot_bolts lift_pull purchase to work_type list
+* | 872f076 Merge branch 'main' into production
+|\| 
+| * 1a7abc4 boats: add ability to add a boat to a client via turbo frames (route, view and controller actions added)
+* | e982d3e Merge branch 'main' into production
+|\| 
+| * 946d98b work_order: remove salex, servicex from STATUS_COLORS
+* | 83e3b2b Merge branch 'main' into production
+|\| 
+| * 2a93224 work_order: remove salex, servicex statuses
+* | fbfd9a3 Merge branch 'main' into production
+|\| 
+| * 9f09860 clients: controller: remove logger.warn line
+| * f9bf25c cities: add search form
+| * 3b125f8 app: cocoon: load js under app/javascript/
+| * 56a6843 work_orders: form: remove placeholder text
+* | da36e72 Merge branch 'main' into production
+|\| 
+| * 9c19123 work_orders: add price_quote_ceiling so we can represent price quote as a range
+| * f86e6ec work_order_generator: solution.slip.dock -> solution.dock
+* | ffaf2d5 Merge branch 'main' into production
+|\| 
+| * 3caec31 app: move custom .js out of webpacker
+* | 0f185bd Merge branch 'main' into production
+|\| 
+| * 5ce765d app: remove webpacker
+* | a121f11 Merge branch 'main' into production
+|\| 
+| * 83640b4 slips: form: always use .keys for select options
+* | a8d870c Merge branch 'main' into production
+|\| 
+| * 745456c app: hopefully fixed bootstrap :) we'll see
+* | 5b52452 Merge branch 'main' into production
+|\| 
+| * 22a9813 work_orders: HOTFIX: temporarily only use boat select field on work_order form
+| * cab50f0 app: Use City::US_STATES across app and order MO, AR first in list
+| * 6cb983b docks: add ability to add a client to a dock via turbo frames (route, view and controller actions added)
+| * ed97868 clients: add ability to add a dock to a client via turbo frames (route, view and controller actions added)
+* | e8da71e Merge branch 'main' into production
+|\| 
+| * a4e5b2d solutions: add move and move_and_conversion to work_types
+* | a6fa7fd Merge branch 'main' into production
+|\| 
+| * ebf2037 solutions: add missing .row divs
+| * 5880dda docks: add notes
+| * df0541f embedded_map: add dock map to docks, slips, work_orders show views
+| * 239e56e docks: jumbo: add 'open' link to jumbo view
+| * 92a20dd readme: add webpacker notes
+| * e5ba368 work_order_form_builders -> work_orders (read summary below)
+| * e253b33 solution: update accepts_nested_attributes_for
+* | 90951e1 Merge branch 'main' into production
+|\| 
+| * aa9bfbe work_orders: add ID to table and search form
+| * 9d82da8 javascript: importmap: add CDN links for bootstrap/popper and fix work_order_form pin
+| * 1bbf5d0 javascript: packs: application.js: remove extra ';'
+| * 7aca5fe app: add back main.scss link in layout
+| * 4017fcf boats: add card_form partial
+| * fd7042a app: assets: add .css.scss to application
+| * 9194918 gem: remove simple_calendar - no more calendar bullshit
+* | 3c467e9 Merge branch 'main' into production
+|\| 
+| * ca11d7b work_orders: show: wrap each solution in jumbotron-alt
+| * 88deda5 views: add target: "_top" to all 'open' links
+* | d9179d7 Merge branch 'main' into production
+|\| 
+| * 676b7e8 work_orders: slips: form: fix post_location field and sort by dock.id
+| * 0d4db9b clients: remove card_form
+| * d56dfe5 work_order_form_builder: controller: add boat_attributes to strong_params
+| * ec25c36 clients: form: use form_fields partial
+| * ba5012a admin: all around updates
+| * f341111 clients: show: remove 'new boat' button
+| * 90e328d work_orders: form: simplify client fields
+| * d8cde90 clients: show: add col-md-6 to work_orders list
+| * 0fa7f51 work_order_form_builders: solutions: remove all solutions/form partials
+* | f456412 slip_fields: sort docks by id
+* | adaf26b Merge branch 'main' into production
+|\| 
+| * caa6f2e boat: add order_by_make_model scope
+* | 71a7d2c Merge branch 'main' into production
+|\| 
+| * f0425d9 work_order_form_builders_controller: added TODO comment
+| * 6b64a7d work_order_form_builders: solution_fields: add boat select
+| * d4b1d78 slips: remove validations for work_order form submission
+| * 22e136d docks: show work orders instead of solutions on show
+| * dc1df00 slips: table: add target: "_top" to links
+| * 14df578 docks: add Slips on Record column header to table
+| * 0ce2101 models: add distinct option to has_many :through relationships
+| * 75981bb dock: form: simplify form and use error_feedback
+| * 722d2b0 dock: add street validations
+| * a9d3a60 clients: form: simplify form and use error_feedback
+| * 136c04f clients: index: remove %br
+| * f9423de boats: form: simplify form and use error_feedback
+| * 6b7ae0a delete work_orders_helper
+| * b7fc23c application_helper: add error_feedback and error initializer
+| * 50f1a3c work_orders: index: clean up
+| * 03836d1 work_orders: remove btn-sm from add work order btn
+* | b471ebd Merge branch 'main' into production
+|\| 
+| * d9aebc8 solutions: form: add slip fields and fix fields_for :slip
+| * ea64b1a solutions: show: use slips/jumbo instead of card
+| * a169d73 solutions: show: add section titles and reorder sections
+| * 148580b work_orders: solution: form: small cleanup to actions and section titles
+| * ca06199 slips: form: only select necessary client fields
+| * d948fef controllers: solutions: work_form_builders: remove load_select_records, unused variables
+| * 3cf7060 work_order_form_builder: remove forms/work_order_form_builder.rb
+| * 95dac8a clients: show: present docks in col-12
+| * 3a051ce slips: clean up the way slips/table is rendered
+| * b4ce568 config: importmap: pull bootstrap and popper from source url
+* | 75b4aba Merge branch 'main' into production
+|\| 
+| * 69150d2 boat: hotfix: remove client validation
+* | feb1851 Merge branch 'main' into production
+|\| 
+| * 73a939e Revert "slip: force dock relationship - might cause problems"
+* | 3f24e05 Merge branch 'main' into production
+|\| 
+| * b1307c0 work_order_form_builder: add ticket fields
+| * d73eea0 work_orders: show: minor touchups, remove create_alert 'client' button
+| * 22ee452 work_orders: card: wrap boolean_badges in %h4
+| * cd4864b work_order_form_builders: add solutions_fields and slip_fields
+| * a9884ea slips: form: add back client form field since this view is only used on slips#new, not on work_order_form_builders#new
+| * cca7b48 work_order: add reject_if: :all_blank to accepts_nested_attributes_for :solutions
+| * cf9ced4 slip: remove accepts_nested_attributes_for work_order, boat.
+| * 9d1ed1d work_order_form_builder: add slip_attributes to strong_params
+| * 0fcd1fd work_order_form_builder: form: remove @client reference in controller and reference :client properly on form
+| * 931fd45 work_order_form: ignore boatSwitch
+| * a91a595 gems: add cocoon
+| * bbe6f8e work_order_form: ignore slipSwitch
+| * 30485fc work_order_form_builder: add @client object so client fields_for are rendered properly
+| * fb4449c work_order_form_builder: add add_client_to_boats, add add_client_to_slips
+| * 29162fe work_orders: form: use WorkOrder object instead of WorkOrderFormBuilder object
+| * 79307f0 app: form_field_with_errors: remove field_prepend for the moment, not working
+| * 5f7c667 work_orders: show: wrap solutions in jumbotron
+| * 6350939 app: views: update relationship column rendering on boats, clients, docks #show
+| * f6076d7 clients: card: move name to header
+* | 2755d47 Merge branch 'main' into production
+|\| 
+| * 1a2c573 clients: update card view and client rendering on docks, boats
+* | f3fb111 Merge branch 'main' into production
+|\| 
+| * 1793dcc clients: docks list: remove duplicate docks
+* | 21b6f82 Merge branch 'main' into production
+|\| 
+| * 285f44a app: badge-primary -> bg-primary
+| * e27a81c clients: add docks list
+| * cfea1b6 slip: force dock relationship - might cause problems
+* | 7b38e8a Merge branch 'main' into production
+|\| 
+| * 8e6a5de app: solutions: remove btn-sm for "New Solution" button
+| * d95c02f app: images view: use application/images convention when referencing images views
+| * eee8be9 app: collapsible_images: reference neighbor _images partial, not the (deleted one) in solutions
+* | 2ab8874 Merge branch 'main' into production
+|\| 
+| * 9e56942 work_order_form_builder: modify client designation
+| * 4ee13b3 work_orders: show: small touch ups
+| * aba7ad2 work_order_form_builder: remove hrs
+* | fef83ee Merge branch 'main' into production
+|\| 
+| * 3b8b4a7 boats: hotfix: remove references to 'client'
+* | a64ec64 Merge branch 'main' into production
+|\| 
+| * f93ab86 boat: remove client reference
+* | 83651cf Merge branch 'main' into production
+|\| 
+| * eeba9e4 work_order: accept_nested_attributes for ticket, solutions
+| * eb93c1e tickets: form: remove disabled references
+| * f89ee25 work_order_form_builder: ignore solutions right now and add ticket back in
+| * 21e62f6 work_order_form_builder: edit: reference @form_builder.work_order object for client on access on bread_crumb
+| * 88a107c work_orders: show: remove add ticket button
+| * b3ae67b work_order_form_builder: remove attr_accessors and set_solutions method
+| * 8261316 work_order_form.js: disregard ticketFormHandling
+| * 84c586b app: form_field_with_errors: add field_prepend option
+| * dcc9646 work_orders: show: don't use badge for status
+| * fd20f30 work_order_form_builder: wrap entire form in work_order fields_for
+| * 58e3f6d app: js: packs: move work_order_form.js into javascript/packs and add to import
+| * 00bb18f app: remove application.css bc running into multiple naming issue
+| * a73a3b1 work_order_form_builder: remove medium.com comment
+| * ce54b13 work_order_form_builders: update solutions on form
+| * d555d9a solutions: form_fields: wrap in jumbotron-alt
+| * 04ccfe9 slips: form: remove errors alerts and add form_fields view
+| * ec2ae07 slips: jumbo: remove table format for simpler view
+| * 60b5ba8 docks: show: add clients list
+| * 54ac51f dock: add clients through (slips) relationship
+| * 558b456 clients: card: make name a link_to
+| * 0bac2dc work_order_form_builder: controller: add :create, :update to load_select_records actions list
+| * 3104673 work_orders: show: add slip (+ dock) and boat partials
+| * 5cba40d app: main.scss: add hint and jumbotron-alt classes
+| * 99230f3 controllers: work_orders: solutions: add 'select_' prepend to select form options
+| * 98b2a8e solutions: form: add `form_fields.html.haml`
+| * b3e3e95 solutions: form: remove errors alerts from form (since shown in form_field_with_errors view)
+| * 175d602 app: forms: add error check for model_name errors
+| * d1afc6e app: forms: wrap select_options stmt in defined?() method
+| * 1f0e471 slips: form: pass local slip when rendering form partial
+| * b66c9e0 work_order: access clients on order_by_name scope
+| * a6e03b8 slips: card: add dock link
+| * 6781417 work_order_form_builder: add solution param fields
+| * 348a8bd solutions: speed up work_orders query
+| * a6d96c2 db: save boat in create_boats_clients migration
+| * 198c07a solution: remove useless comment
+| * df7104a slip: add client relationship and add shortcut to work_orders and remove solutionable
+| * 2360886 clients: jumbo: use passed param, not global @client
+| * 9d41c34 solution: add dock through: :slip relationship shortcut
+| * 169c518 db: add boats_clients join table - proceed with caution
+| * a8a1594 docker: add docker-compose.test.yml
+| * d33740b app: views: capitalize header on new views
+| * 7584e99 app: styles: add styling for hr and nav-link
+| * b9bf303 app: nav: only show if user signed in
+* | a28b98a Merge branch 'main' into production
+|\| 
+| * 31ff75e app: add main.scss and centralize jumbotron styling
+| * fe17e91 gemfile: add sassc-rails in place of sass-rails
+| * a15ab3d app: update flash messages styling
+* | d6866b2 Merge branch 'main' into production
+|\| 
+| * 62f6b84 clients: hotfix: Lake Address shows lake_stree
+| * 807a571 solution: remove extra paginates_per
+| * 2155d2b boat: add work_orders relationship
+| * c61f8bb client: add solutions and slips relationships
+| * 0432505 client: remove docks and slips custom methods
+| * 9bfa1fb solution: use `delegate :client` as opposed to custom client method
+| * 2f0971f docks: `add solutions, through: :slips` relationship
+| * 82cb618 work_order_form_builders: add client_id to initialize method
+| * af03231 docks: jumbo: add underline to fields
+| * e6ab54f work_order_form_builder: controller: add client_id to WorkOrderFormBuilder.new
+| * 61b723d solutions_controller: add work_order_id to Solution.new
+| * 655f8dc app: remove select_fields method
+| * c3af922 slips: reduce dock field
+| * 1202d77 solutions: show: remove hr
+| * 7aa4705 tickets: move jumbotron div from work_orders to jumbo partial
+| * 3cddead work_order_form_builder: remove selected from client_id field
+| * 379a9b8 slips: controller: add dock_id to Slip.new
+| * 76e7be3 work_orders: add "add solution" button
+| * adae7ed clients: form: add blank
+| * ab91948 boats: add client_id to Boat.new
+| * b336bdc solutions: add blank to boat and slip, use text_area for work_description
+* | 31c8ee8 Merge branch 'main' into production
+|\| 
+| * 9a9802c boats: add fuel_capacity and notes fields
+| * cce3d1f work_orders: show: use solution card not jumbo
+| * a245bab solutions: show: move work_order down to bottom
+| * ed68a76 app_helper: modified badge to use badge div not span
+| * 593b2ff work_orders: card: remove table formatting
+| * a09064d docks: add solutions table to show
+| * c648f41 boats: remove year from required boat_info fields
+| * a02aa1c views: remove 'btn' classes on "open" links
+* | 0d57ce6 Merge branch 'main' into production
+|\| 
+| * 4f68d8d clients: hotfix: show lake address, not client.address
+| * f1b4fcd docks: hotfix: add num_of_slips field to form
+| * b587288 blazer: authenticate_user! before accessing
+* | e8150a7 Merge branch 'main' into production
+|\| 
+| * 509ce1e blazer: add initial configuration
+* | 9e53487 Merge branch 'main' into production
+|\| 
+| * 6a8d1b0 app: update flash messages look
+* | 7ba4ac1 Merge branch 'main' into production
+|\| 
+| * 237b7a2 views: add not_found and internal_server_error views, routes and errors_controller
+| * 3128786 application.rb: use 7.0 defaults
+* | b3a1909 Merge branch 'main' into production
+|\| 
+| * b3e295c work_order: work_order_form_builder: update top of form
+| * b88a326 work_orders: remove record not found on work_orders#edit
+| * 156aa6a app: app_helper: pivot back to present?
+* | 8e474e4 Merge branch 'main' into production
+|\| 
+| * 2c288e9 slip: update title method
+| * 790b72a app: app_helper: synchronize method structure
+| * dd4968e boats: add error highlighting on form (use form_field_with_errors)
+| * 56b4f40 app: form: app_helper: add select_fields method
+* | f760400 Merge branch 'main' into production
+|\| 
+| * 5748249 solutions: update form from table format
+| * 4665f44 clients: add error highlighting on form
+| * 55a0f7e app: use form-select for select fields on form_field_with_errors partial
+| * 9ee802d solutions: remove hr
+| * 2110714 views: show: update header for show views
+| * b889eb4 slips: update title method to accommodate size details
+| * ac6c4c3 forms: add form_actions partial to consolidate save, cancel actions
+| * 95d8340 docks: remove name validation
+* | f66901d Merge branch 'main' into production
+|\| 
+| * bac15b9 docks: add error highlighting on form
+* |   15cb0ac Merge branch 'main' into production
+|\ \  
+* \ \   d7e4e8c Merge branch 'main' into production
+|\ \ \  
+* \ \ \   532ac78 Merge branch 'main' into production
+|\ \ \ \  
+* \ \ \ \   327912e Merge branch 'main' into production
+|\ \ \ \ \  
+* \ \ \ \ \   8ae7a15 Merge branch 'main' into production
+|\ \ \ \ \ \  
+* \ \ \ \ \ \   67290c7 Merge branch 'main' into production
+|\ \ \ \ \ \ \  
+| * | | | | | | 414a845 work_order: solutions: remove strict_loading, causing too many issues
+* | | | | | | | ad2b161 Merge branch 'main' into production
+|\| | | | | | | 
+* | | | | | | |   6695600 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \   90af981 Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \   750881b Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \  
+* \ \ \ \ \ \ \ \ \ \   3a583cd Merge branch 'main' into production
+|\ \ \ \ \ \ \ \ \ \ \  
+* | | | | | | | | | | | 324d0ab prod: rails 7 upgrade configs and assets changes
+| | | | | | | | | | | | * 7db60e7 add uscities.reduced.csv and migration to create all cities
+| | | | | | | | | | | |/  
+| | | | | | | | | | | * fbbbf10 app: remove work_orders.scss
+| | | | | | | | | | | * a24ff0e app: (forgive me future clay) view consolidation (issue: View consolidation #28)
+| | | | | | | | | | | * 066ca45 slips: controller: hotfix: dock_params -> slip_params
+| | | | | | | | | | | * 884abf7 boat: unvalidate year - im frustrated
+| | | | | | | | | | | * 1b852a5 boats: add error highlighting on form
+| | | | | | | | | | |/  
+| | | | | | | | | | * 10adb51 slips: hotfix: post_locations don't need mapping
+| | | | | | | | | |/  
+| | | | | | | | | * a974ea3 docks: slips: enums are now select fields (plus minor edits)
+| | | | | | | | |/  
+| | | | | | | | * 62ddbdf docks: power should've been select to begin with
+| | | | | | | | * 50f3cd1 clients: boat_card: add badge for record updating
+| | | | | | | | * 546dbe8 admin: dashboard: remove all junk
+| | | | | | | |/  
+| | | | | | | * 8bcad4f clients: add boats and orders views for show
+| | | | | | | * de0b54b slips: add dock to show
+| | | | | | | * d18484d slips: form: use Dock.order_by_city
+| | | | | | | * 1147573 docks: update form and show - no more table format
+| | | | | | | * 6fec8f6 nav: add solutions link
+| | | | | | | * 60ccd2a dock: add dock_record view
+| | | | | | | * e195414 solutions: add controller and views
+| | | | | | | * 41b69e6 routes: add solution resources
+| | | | | | | * d68b57e dock: remove clients from address_with_permit and add select_form_pairs method
+| | | | | | | * 08e2901 slips: controller: add dock_id to slips_params
+| | | | | | | * 26f4b27 solutions: add order_by_name scope
+| | | | | | | * 45571fb slips: add dock validation, update title and add select_form_pairs method
+| | | | | | | * 9e667ff work_orders: boats: add select_form_pairs
+| | | | | | | * f5d3ef3 boats: add search form to index
+| | | | | | |/  
+| | | | | | * be0a422 work_order: solutions: remove strict_loading
+| | | | | | * 7d96f41 app: add order scoping
+| | | | | |/  
+| | | | | * 0f356cf routes: devise: remove sign_up route - user sign up is handled internally in admin interface
+| | | | |/  
+| | | | * 95c5958 slips: set dock_id param if present and slip isn't persisted
+| | | | * 216bbdd slips: add safe guard on dock.address
+| | | |/  
+| | | * bb15c5e docks: add target _top to slip link - target _top allows us to pop out of turbo_frame
+| | | * bb60a55 slips: update form with dock_id field and add target _top to link
+| | | * ef96a77 slips: add work orders to slip#show
+| | | * c1cac9f slips: controller: add set_work_orders to show, edit
+| | | * a132ccb solutions: modifying references to docks
+| | | * f9293d0 dock: remove Solutionable and add google_map_link?
+| | | * 98bd802 city: add address_fields scope and extra validations
+| | | * 9258370 admin: dashboard: add link to updated interface
+| | | * a62e504 boats: no longer using table view for boats show/form
+| | | * 8c67ee9 boat: update boat_info? and add validations!
+| | | * 56a466a clients: form: add mb-3 to all fields
+| | | * 7eb70aa clients: add other_phone to search form
+| | | * f6efe39 work_order_generator: update record query and dock references
+| | | * ac06dbc work_orders: finish form and use _tags
+| | | * e29e4fd work_order: add strict_loading on solutions rel and index_fields scope
+| | | * 8d0102a config: development: stop surpressing asset logs
+| | |/  
+| | * 9d8a7e6 auth: add root app log in + log out
+| |/  
+| * 51c6722 add application.css
+| *   ef2a196 Merge branch 'root_app_interface'
+| |\  
+| | * 6b9fc7c docks: add delete dock btn
+| | * 80924b0 docks: fix search and add table partial
+| | * de237c6 clients: update form (no more table format)
+| | * f58f47d slips: add table view
+| | * ecc2473 docks: add shortname
+| | * 97855e8 boats: docks: slips: "show" -> "open" for links
+| | * 639f2d1 slip: solution: dock: update relationships from 263ded8
+| | * 263ded8 slip: remove dock from sol and move to slip
+| | * 7f10c25 work_orders: continued form work. FORM STILL NEEDS WORK
+| | * e10cc74 work_orders: clean up show/index
+| | * 4828511 docks: add destroy action and cleanup form/show
+| | * 7f61aa2 city: add US_STATES list
+| | * e22f5a0 routes: remove admin redirect routes
+| | * 84ec1c9 app: nav: bread_crumb: add margin-bottom to nav
+| | * 08723e2 work_order_form.js: move ticketFormHandling into separate function
+| | * a95fdb8 app: remove headings from work_orders, clients views. They are redundant
+| | * 330e920 work_order_form_builder: conditionally expect client/ticket params and save as such
+| | * 8ad9a58 importmap: add work_order_form.js
+| | * 4585c18 work_order: form: disable client form fields for each use case
+| | * 07f182f app: update breadcrumb method
+| | * 2983efe client: update name
+| | * 1f9347b ticket: solutions: update "add" button paths to work_order edit
+| | * 3b3f9dd work_order: form: add ticket functionality
+| | * 653c942 solution: validate work_type presence
+| | * b66c8e3 work_order_form_builders: form: remove commented lines
+| | * ed72d27 work_order_form_builders: add model, controller and form views
+| | * 7a757f6 work_orders: update "add ticket" styling and add temp path
+| | * 0593957 javascript: add work_order_form.js
+| | * 594e46e routes: add work_order_form_builders and work_orders routes
+| | * 996a373 work_orders: add search field to index
+| | * d84586b bread_crumb: add breadcrumbify function
+| | * 27fe51e clients: access work_orders directly in order_cards
+| | * 1797702 work_orders: controller: add filter_search
+| | * 6c8d772 clients: add set_client and strong_params
+| | * 74e587a application: add links for googlemaps api
+| | * 8e601ed nav: remove quick form link and add gear for admin path
+| | * aabf111 boats: front end interface added (controller, views)
+| | * bdf17ba clients: modify form to use form object
+| | * 76fb1ad docks: modify form to use form object
+| | * 5d8dfdf slips: front end interface added (controller, views)
+| | * 07e7506 docks: front end interface added (controller, views)
+| | * 32e8c3b cities: index: order by name
+| | * e365e30 work_orders: update table headers and client link
+| | * d6cfcf1 map: remove notice
+| | * 1f2b5b2 bread_crumb: abstract links
+| | * 7aa8d07 cities: front end interface added (controller, views, routes)
+| | * 5b20ca6 pagination: use bootstrap themes
+| | * 5270e65 work_orders: add header to edit, remove 'back' from new
+| | * 6ffb2d7 nav: remove boats, docks, ramps, cities until implemented
+| | * 0d7a6d1 work_orders: show : add "waiting for" fields to table. Update links and use solutions partial
+| | * 076a2e4 work_orders: solutions: replace shadow with border
+| | * e4b3db2 work_orders: grab client if present in work_orders#new
+| | * c7581b8 clients: show: pass client.id instead of client to work_order#new
+| | * c17f78f forms: add alert formatting to errors
+| | * 82852c6 bread_crumb: remove link on work_order id
+| | * bdfa54e routes: root to clients#index
+| | * 2ccf1ac work_orders: add search form (still need work)
+| | * eba7038 clients: orders: update styling to order cards
+| | * 87ecb26 clients: add white background to jumbotrons
+| | * 337318e importmap: remove extraneous lines
+| | * 4e6b9f0 clients: new: no need for turbo_frame_tag
+| | * 973eb4f app: nav: add padding and add button styling to nav
+| | * 33eb956 tables: add table-responsive
+| | * 76853a4 clients: form: show cancel button unless 'new' action
+| | * 043a3d5 map: make solutions_with_docks declaration to multiline
+| | * d0cfeff gem: add font-awesome & update nav
+| | * 5f84f6c work_orders: update solutions, slip, dock, boat, ticket partials with new styling (adding routes too)
+| | * 2da5cfa application: add cheaky github reference
+| | * 6bbba0e bread_crumb: use order id instead of badge
+| | * 85364ba clients: work_orders: update tables with striped and hover options
+| | * 07e9722 clients: modernizing styling (still need to move styles to sass files)
+| | * 878983b work_orders: use _form partial in edit/new views
+| | * 64943c3 work_orders: update edit and generate_pdf paths and add new, create actions
+| | * f9090e6 clients: apply bootstrap styling to search form
+| | * aca4d1b clients: index: use table partial
+| | * 9eca6a8 nav: add offcanvas-item class to nav links
+| | * 650266b client: update form with bootstrap elements
+| | * 6a6b643 manifest: add scss files (run rake assets:precompile to apply)
+| | * 7ba32c6 app: update nav (and add importmap_tags
+| | * 9a8c85a gemfile: add bootstrap
+| | * 7a94cbc application.css -> application.scss
+| | * bb0cb36 add import-rails and bootstrap
+| | * a92c79e docker: webpacker: add bundle_cache
+| | * 95edefd clients: update form buttons
+| | * ec04591 pagination: use prev/next wording
+| | * 7caaeb7 work_orders: clients: add pagination
+| | * fadcaff clients: turbo_frame_tag "client_info" works!
+| | * 97c92ce yarn.lock: run `yarn install` to include turbo-rails
+| | * beeb0bd HOTFIX: gemfile.lock: add redis back in
+| | * 185617c clients: remove extraneous column header
+| | * 22d44c3 admin: map: add lake form item
+| | * cefa410 front-end: add map controller/views + modify client/work_orders controller/views
+| | * 6e97499 rails: add webpacker and redis docker services and turbo-rails
+| | * 9d935a0 front-end: adding breadcrumb and toolbar
+| | * 3d40fe9 initial creation of clients and work_orders front end interface
+| * | 110d6cb change_requests: initial creation
+| |/  
+| * f9f9cec rails: initial upgrade to Rails 7.0.2
+|/  
+* f3eb127 dev: update README with postgres section
+* 2b79db0 clients: remove slips/docks tables bc of nilclass error
+* a5bc42c boat: add 'Runabout: General' to boat types list
+* 2da5d15 city: add address method
+* 1161394 docker: change images/backups dir
+* 6a9d30f clients: add docks and slips table
+* ebf27f1 hotfix: map: remove workDescription for having quotation issues
+* e2ef9d4 map: modularize map views, style and js. Add more data to order_data object
+* 4fc1f0a work_orders: remove work_type altogether from work_order
+* 1c56f59 solution: move work_type from work_order to solution
+* 6cb72a1 hotfix: maps: yet again, fixing table orientation. Adding links for dock addition and lat, long addition
+* d71dda7 maps: move NO LAT LONG warning to dock position column
+* 5b2123a map: change order link to solution link
+* 2dc0ae1 maps: remove puts statements
+* 6448e39 HOTFIX: map: fix nil lat, long issue
+*   316ed05 Merge branch 'map'
+|\  
+| * 26e807c map: add search form and table to map
+| * 5357a97 work_orders: add include_blank for status, work_types
+| * eb51912 map: initial map with custom "dock + work type" icons
+* | e4c888a db: modify foreign keys with cascade on_delete
+|/  
+* 4d1f649 work_order: HOTFIX add nil check on html_badge_colored and add badge to work orders table
+* 602b075 work_order: add work_type and make status more robust
+| * 92e9f04 strip down to just client
+|/  
+* 61d56cd trestle: add logo in top left
+* 24a242f dock: remove commented validations
+* 835ab4d application_helper: add delimiter on to_usd
+* 3e08e55 work_order_generator: move date over far right
+* 7316cf6 work_order_generator: add written font and making space for work description
+* 0b017c4 boat: add PWC to BOAT_TYPES
+* b9d553a dashboard: hotfix: add sort by so 'this week' tab shows days in order
+* d89c244 solutions: wrap images in a 'variable?' check to prevent error
+* 74e0cbe client: optionally belong to lake_city
+* 73b35b7 dashboard: add reports and "this week" tabs
+* 6fdfc4d config: routes: add redirects for model paths w/out /admin
+* bbeaf12 seeds: updating clients and destructions
+* 6e7f08b admin: add search forms for all trestle tables and clean code of existing
+* 3d992c8 solution: HOTFIX undefined method for nilclass error on work description
+* 22d4bc8 clients: add city relation on client. Update lake_city_id field
+* d7eb977 clients: remove lake fields and replace with City model
+* 02238ef docks: add searchability for docks
+* dbe9599 client: update basic_info to use human_phone
+* a3061d9 city: add city to simplify lake_address on client
+* 0975ce4 clients: remove .all from Client query. Not needed
+* 0446830 work_order: add client validation and update header of show page
+* 2739b12 work_order: use lookup function for cleaner look
+* 63aba6f work_order: update wo status, add dock deck info
+* 26180b4 app_helper: update human_inches method
+* 3b17380 work_order: added target: blank on generate_pdf which opens a new tab with work order form
+* 4f58c5e work_orders: tickets view: do not show waiting badges if false
+* e55a4b3 app_helper: update human_boolean_badge method to add hiding false badges
+* 2f5da52 work_order_generator: add boolean strikethrough(false) and squared(true) formats, add units to several fields
+* 205cf47 solution: update new field to allow blank values
+* 24ede01 dock: add blank on power,
+* cb6a6bc ignore env files
+* 532d6a2 boats: add boat_type dropdown
+* fd6283b dock: update address method
+* 6a77045 app_helper: add NumberHelper to ApplicationHelper
+* 4567a71 boat: remove model, year, make validations and add client/btype
+* 1a794a8 boats: remove length from table
+* e2234fa work_orders: use new name format for client
+* a7b419d solutions: add search form to solutions table and update table with work_order and work_description
+* f4d9e31 slips_admin: add blank for power_location
+* 55e50be tickets: add search (by ticket_number) field
+* 657933b work_order_generator: update client.primary_phone usage in work_order_generator
+* cf5a030 solutions: update table
+* d16b74b docker: add backups dir
+* 6348998 clients: validate primary_phone format and update clients name column as default ordering
+* 2dfed39 boats: remove solutionable since it only includes clients method and boat already belongs_to a single client
+* 2ba27a0 update title method of boat, slip and work_order for clearer reference in dropdowns
+* c90aef7 data_import: HOTFIX. Stupid syntax errors
+* 5071fc8 data_import: add idxs method for ease of access to values
+* e9a341a client: remove primary_phone validation
+* 33ddc0b modules: add solutionable to boat, dock, slip. Includes clients tab on boat#edit, dock#edit, slip#edit
+* 9fddc3e data_import: update column references due to updates to excel spreadsheet
+* 15ccaaa slips: use string array in slip form
+* af44545 db: HOTFIX DO NOT RECOMMEND: using string for power_location now
+* df6f667 slips: move to_water field(s) to slip from dock
+* 3424988 slips: add post_size and post_location
+* cd5bbb7 docks: add frame, deck_material and deck_thickness
+*   31abba9 Merge branch 'production'
+|\  
+| * 91fa6a5 add present? check for dock embedded map
+| * a5a53b0 remove presence validation for dock address fields
+| *   6c1f557 Merge branch 'main' into production
+| |\  
+| * \   211b44b Merge branch 'main' into production
+| |\ \  
+| * \ \   5180043 Merge branch 'main' into production
+| |\ \ \  
+| * \ \ \   4e6542d Merge branch 'main' into production
+| |\ \ \ \  
+| * \ \ \ \   2b42020 Merge branch 'main' into production
+| |\ \ \ \ \  
+| * \ \ \ \ \   4870191 Merge branch 'main' into production
+| |\ \ \ \ \ \  
+| * \ \ \ \ \ \   3445e56 Merge pull request #13 from beabout/main
+| |\ \ \ \ \ \ \  
+| * | | | | | | | 01002a9 prod: storage: mount images directory
+* | | | | | | | | 3f4afba slips: change power_location to enum, change width/length from feet to inches
+| |_|_|_|_|_|_|/  
+|/| | | | | | |   
+* | | | | | | | 0625670 solutions: form: remove slip, dock, boat fields with select fields
+* | | | | | | | 6e14cd9 work_orders: fixing price_quote_expiration fields and adding schema change
+* | | | | | | | fc1ed63 work_orders: add price_quote_expiration date field
+| |_|_|_|_|_|/  
+|/| | | | | |   
+| | | | | | | * c85d11a quickbooks: Adding Intuit quickbooks gem, table, oauth module and initializer
+| |_|_|_|_|_|/  
+|/| | | | | |   
+* | | | | | | 8ad26e7 data_import: fixes to TEMP commits. Adding back in all objects
+| |_|_|_|_|/  
+|/| | | | |   
+* | | | | | ed221a3 TEMPORARY: data_import: more modifications to include work_order in upload
+| |_|_|_|/  
+|/| | | |   
+* | | | | 48e41b2 TEMPORARY: data_import: only add client & ticket data
+* | | | | a8ef062 models: update validations and relationships
+* | | | | 5107923 work_orders: show: update ticket total and date format
+* | | | | c836288 work_orders: show: add badges for ticket statuses
+* | | | | a615224 docks: ramps: update embedded map components
+* | | | | 501dd81 clients: add lake address fields to client
+| |_|_|/  
+|/| | |   
+* | | | f14d9cd ramps: validate presence of name
+* | | | 83a79cc docks: add name
+* | | | 98de3f0 ramps: ramp has_many docks
+* | | | 254faa3 admin: update html_options for select fields
+| |_|/  
+|/| |   
+* | | e3b0390 storage: use docker mounted /bel-images for storage
+* | | ec1ee1b docker-compose: adding temp image storage dir to dev compose file
+* | | 13a5310 work_orders: docks: update dock map partial
+* | | 18217c5 docks: edit google maps frames in work order form
+* | | 266973d admin: ramp: add 'go to dock' button
+* | | 4126260 db: admin: add long, lat to dock
+* | | ed3c626 db: admin: add ramps
+* | | a72144d data_import: update save method
+| |/  
+|/|   
+| | * 77a62b0 calendar: change to table format
+| |/  
+|/|   
+* | 16f6094 solution: defend against nil work_order
+* | 27752fb dock: add dock_with_permit function
+* | 79bc640 client: update validations and helper display functions
+* | 414eba5 work_order: show: update margins for solution sections
+* | e8bdd36 admin: solutions: add delete image button and action
+* | 6c12c4d storage: disable purging of existing images for an object on update
+* | 6f8696f Merge pull request #10 from beabout/production
+|\| 
+| * dd8a724 network: puma: add SSL certification and allow https connection via puma over port 443
+| * f838155 prod: update streaming port to 3000 and add ssl for puma
+| *   f73efa5 Merge branch 'main' into production
+| |\  
+* | | 8ff3c41 admin: solutions: safeguard from nil client
+| |/  
+|/|   
+* | c5dc969 Merge branch 'production' into main
+|\| 
+| * 851a58f docker: db: update web port and ENV variables
+| * 682d22a prod: add dc file, update Dockerfile, database.yml, README
+* | bac1513 admin: clients: work_orders: update search to include full name
+* | 4ad62da admin: work_orders: update with collapsible images div
+* | bfb3468 uploader: removing old uploader
+* | 52d26ff models: admin: add images relationship and form fields to boat, dock, slip & solutions
+* | 3a98246 db: add active_storage tables (blobs & attachments)
+* | 3d25495 models: client: move unique validation to phone and name
+* | 8043de4 .gitignore: remove vscode
+* | 5814ca8 db: hotfix: add ticket_number back
+* |   2bbd1ef Merge branch 'jobs'
+|\ \  
+| * | 461aac1 data_import: update example.xlsx
+| * | af302a2 models: solution: add paginates_per
+| * | 9a77342 admin: dashboard: update if stmt and flashes
+| * | eae597f data_import: modifications to adjust for client.valid? failures
+| * | f2564d4 admin: add helper method set_orders
+| * | 3acdbf3 work_orders: update generator and WorkOrder relation loading to new remapping structure
+| * |   ea7129c Merge branch 'main' into jobs
+| |\ \  
+| * | | 2c740d0 hotfix: remove extra end stmt and >>>>
+| * | |   bec1943 Merge commit 'e6b0e052d034d08d65393968e8024d9d6fa45d62' into jobs
+| |\ \ \  
+| * \ \ \   6a6ab1d Merge branch 'main' into jobs
+| |\ \ \ \  
+| * | | | | bd976b5 dashboard: data_import: add example excel
+| * | | | | 639f77f db: seeds: emma said add mom
+| * | | | | b258194 data_import: client: update attribute assignments
+| * | | | | 96548b7 application: layout: use badges for notices & alert
+| * | | | | 35d05c7 application_helper: update inches method to include feet
+| * | | | | 192a8a7 admin: tickets: wrap ticket_number field in row
+| * | | | | 0386faf dashboard: split views into partials & update controller
+| * | | | | cf90ce9 data_import: large modifications to import
+| * | | | | b835a7c models: loosen up on validations
+| * | | | | c4a1d8e jobs: screw jobs, delete jobs and test files
+| * | | | |   9c1f4dd Merge commit 'fea3bf44f5de3823ef9961e976186607c5cbc97e' into jobs
+| |\ \ \ \ \  
+| * \ \ \ \ \   56d245e Merge commit 'be5aa8200abd9136bf6bfc41d3149cd9488af3fc' into jobs
+| |\ \ \ \ \ \  
+| * | | | | | | 8b4c9e8 data_import: modifying imported_items function
+| * | | | | | | 9eb9fb0 work_order_generator: using application_helper more
+| * | | | | | | 849796c work_order_generator: support multiple solutions
+| * | | | | | |   168764f Merge commit '5e85dec2e69a5669397cf6562c026531c6c1ba72' into jobs
+| |\ \ \ \ \ \ \  
+| | | |_|_|_|_|/  
+| | |/| | | | |   
+| * | | | | | | 22d88e4 work_order_generator: update work_order_id param to id
+| * | | | | | | 1e38761 work_orders: show: updating generate_pdf link
+| * | | | | | |   3891e83 Merge commit '264ea505126bcdda966b740624586471d7199fac' into jobs
+| |\ \ \ \ \ \ \  
+| * \ \ \ \ \ \ \   9eb7374 Merge branch 'main' into jobs
+| |\ \ \ \ \ \ \ \  
+| * | | | | | | | | 9efaca5 jobs: updating jobs and adding data_import model
+| * | | | | | | | | 43917c1 admin: generate_pdf: call work_order_generator directly from controller action instead of calling job
+| * | | | | | | | | 2e209cf admin: update controller actions to include job calls
+| * | | | | | | | | e8e9eb9 admin: dashboard: updating form
+| * | | | | | | | | ab7f4c2 tickets: adding ticket_number field
+| * | | | | | | | | 753a7de jobs: updating dashboard upload xlsx form and removing xlsx_file from work_order model
+| * | | | | | | | | 3497d69 work_order: adding xlsx_file attribute
+| * | | | | | | | | 8a05b99 jobs: migrating excel upload from frontend to trestle
+* | | | | | | | | | 32d4f64 admin: work_orders: add status column
+* | | | | | | | | | 16f3840 calendar: add order status to calendar item
+* | | | | | | | | | 34a1484 helper: remove application_helper reference and preload with require
+| |_|_|_|_|_|_|_|/  
+|/| | | | | | | |   
+* | | | | | | | |   84fb1f0 Merge branch 'calendar'
+|\ \ \ \ \ \ \ \ \  
+| * | | | | | | | | ada4507 calendar: move calendar to dashboard admin
+| * | | | | | | | | 22026a8 gemfile: lock: add simple_calendar
+| * | | | | | | | | d7f1e56 calendar: adding calendar controller/view
+| | |_|_|_|_|_|_|/  
+| |/| | | | | | |   
+* | | | | | | | | ab2d5f0 admin: solutions: automatically assign client to boat in form
+* | | | | | | | | 2210444 db: admin: add waiting_for_boat to work_orders
+* | | | | | | | | 0d4b833 admin: solutions: clean up solution form
+* | | | | | | | | 256f1ba admin: views: updating admin views with solutions remapping. Final solution form
+* | | | | | | | | 9b286d3 models: update relationships for remap of solutions and add accepts_nested_attributes_for
+* | | | | | | | | 7eb956f db: move slip, dock, boat relationship on solution directly
+|/ / / / / / / /  
+* | | | | | | | e6b0e05 views: add partials and update work_orders#show
+* | | | | | | | c3f1f63 models: update validations & add accepted_nested_attributes_for
+* | | | | | | | 78ee47f app_helper: update lbs method with precision and boolean_badge method with prepends
+* | | | | | | | 322caa2 css: remove alert class
+* | | | | | | | 18b7918 admin: large modifications to admin pages and forms
+* | | | | | | | 8707e3c layout: use alerts for notices & alerts
+| |_|_|_|_|_|/  
+|/| | | | | |   
+* | | | | | | 44f8917 application_helper: update inches method to include feet
+| |_|_|_|_|/  
+|/| | | | |   
+* | | | | | fea3bf4 docker: env: load assets properly in development
+* | | | | | 30e5b89 gitignore: do not push schema
+| |_|_|_|/  
+|/| | | |   
+* | | | | be5aa82 models: adding validations
+| |_|_|/  
+|/| | |   
+* | | | 5e85dec admin: work_orders: update date_of_creation to created_at
+* | | | eb5b3be db: seeds: update length_overall to boat lengths in inches
+* | | | d6626ae admin: add boolean as badge helper method
+| |_|/  
+|/| |   
+| | | *   9b58dd3 Merge branch 'main' into nested-form
+| | | |\  
+| |_|_|/  
+|/| | |   
+* | | | 264ea50 db: work_orders: add waiting fields
+| |/ /  
+|/| |   
+| | *   3cb9ecb Merge branch 'main' into nested-form
+| | |\  
+| |_|/  
+|/| |   
+* | | 4f97e38 app_controller: including application_helper in app_controller
+* | | dea1c9a rails: adding logging
+| | *   9040d3a Merge branch 'main' into nested-form
+| | |\  
+| |_|/  
+|/| |   
+* | | 4bebcdd admin: updating solutions select fields
+* | | 58606b0 work_order: dependent: :destroy on relationships
+* | | 8440df4 admin: work_orders: show adding breaks
+* | | 2107503 work_orders: removing front end references
+* | | 6da56f1 db: seeds: changing work_order date_of_creation to created_at
+* | | 7512b66 db: models: adding has_one :boat to slip model
+* | | f7f68db helpers: adding helper methods and application_helper to trestle, app_record
+|/ /  
+| * 110db6b gemfile: adding cocoon
+| * 4c69445 work_orders: initial stuff for nested form including cocoon
+|/  
+*   772fc53 Merge branch 'trestle-work'
+|\  
+| * 2d8c527 admin: add work_orders#show & gemfile.lock
+* | c02347d db: cleaning up work_orders table & updating database config for prod
+* | 403bb9d gems: adding gemfile.lock
+* | 964a0ea Merge branch 'trestle-work'
+|\| 
+| * 57891fd admin: finalizing searching in admins
+* | 7a4cbb7 db: updating schema and seed data
+* |   1bdbbb6 Merge remote-tracking branch 'origin/updating-readme'
+|\ \  
+| * | af101c4 literally just updating readme
+* | |   e8e1a5b Merge branch 'trestle-work'
+|\ \ \  
+| |/ /  
+|/| /   
+| |/    
+| * fed68e5 trestle: modifications to ALL admin views and models
+| * e236e3d admin: trestle: updating trestle tables and forms
+* | 776d6f8 db: seeds: updating seed file with logs
+|/  
+*   2371f5b Merge branch 'db-mapping'
+|\  
+| * 35c28a5 db: relational re-construction complete.
+| * 7330498 db: refactoring database mappings and cleaning up structure.
+* | 6a32cf1 auth: adding devise routes and auth_user action
+|/  
+* 0248f95 .gitignore: don't care about vscode or schema.rb since there is still constant changes
+* 78ae488 db: optimizations to models, table migs and seeding
+*   7926d12 Merge branch 'trestle-devise'
+|\  
+| * cae49bc trestle: devise: adding initial configurations for devise
+|/  
+* 7a48058 gitignore: disregard public/uploads and vscode settings
+* 2894ac8 work_order_generator: adding specified address formatting
+* 050d605 work_orders: moving logic from controller to generator class
+* f3c833e fix potential nil error
+* eabd203 removing file_watcher from development.rb for heroku
+* 1ccc8dd pushing to heroku
+* a0babba env: removing env file. oopsies.
+* 761dbe6 work_order_uploader: adding carrierwave xlsx uploader
+* 1e82e3b erb2haml: changing erb files to haml
+* 366e55d work_orders: building out controller and adding carrierwave for file uploading
+* 8c07811 work_order_gen: Getting fonts and PDF generator in place
+* 6d28b3b application: updating head name
+* a37deaa webpack: webpack is not installed and not being used. Removing pack tag
+* 46270d8 trestle: adding trestle resources and othe dev gems
+* ca71e9d docker: updating docker-compose to copy over gems
+* 5a62265 models: db: adding work_orders, docks, clients, boats, tickets
+* 6cfc95a Initial commit. Postgres, Rails, Docker configurations

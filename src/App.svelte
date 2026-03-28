@@ -5,6 +5,7 @@
   import Spotify from './routes/Spotify.svelte';
   import Letterbox from './routes/Letterbox.svelte';
   import Collage from './routes/Collage.svelte';
+  import GitLog from './routes/GitLog.svelte';
   import IconLink from './components/IconLink.svelte';
 
   import { 
@@ -14,6 +15,7 @@
     FileHeadphone,
     FileQuestionMark,
     FileUser,
+    GitBranch,
     Wheat
   } from 'lucide-svelte';
 
@@ -81,6 +83,13 @@
       preventDefault: true,
       onClick: () => navigate('/films'),
       ariaLabel: 'Films'
+    },
+    {
+      href: '/gitlog',
+      icon: GitBranch,
+      preventDefault: true,
+      onClick: () => navigate('/gitlog'),
+      ariaLabel: 'Git Log'
     },
     {
       href: 'https://www.linkedin.com/in/clayton-beabout/',
@@ -199,6 +208,8 @@
   <Spotify {spotifyData} />
 {:else if path === '/films' || path === '/pdf'}
   <Letterbox {reviewsData} />
+{:else if path === '/gitlog'}
+  <GitLog />
 {:else if path === '/notes'}
   <Collage />
 {/if}
